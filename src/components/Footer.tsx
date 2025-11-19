@@ -1,7 +1,13 @@
-import { Scan, Mail, Shield, FileText } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
+import { Scan, Mail, Shield, FileText, Info } from 'lucide-react';
 
 export default function Footer() {
+  const location = useLocation();
   const scrollToSection = (id: string) => {
+    if (location.pathname !== '/') {
+      window.location.href = `/#${id}`;
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -49,15 +55,16 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <button onClick={() => scrollToSection('about')} className="hover:text-upvote-pink transition-colors text-sm">
-                  About Us
+                <button onClick={() => scrollToSection('about')} className="hover:text-upvote-pink transition-colors text-sm flex items-center space-x-1">
+                  <Info className="w-3 h-3" />
+                  <span>About Us</span>
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('privacy')} className="hover:text-upvote-pink transition-colors text-sm flex items-center space-x-1">
+                <Link to="/privacy" className="hover:text-upvote-pink transition-colors text-sm flex items-center space-x-1">
                   <Shield className="w-3 h-3" />
                   <span>Privacy</span>
-                </button>
+                </Link>
               </li>
               <li>
                 <button onClick={() => scrollToSection('rewards')} className="hover:text-upvote-pink transition-colors text-sm flex items-center space-x-1">
