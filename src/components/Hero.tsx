@@ -117,7 +117,7 @@ export default function Hero() {
 
             <div className="flex flex-row gap-3 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
               <a
-                href="https://testflight.apple.com/join/trcknR2n"
+                href="https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block hover:scale-105 transition-transform flex-shrink-0"
