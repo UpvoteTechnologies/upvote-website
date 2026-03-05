@@ -16,7 +16,7 @@ This is the **Upvote** marketing/landing website — a React SPA built with Vite
 
 ### Frontend (`src/`)
 - **React 18** with **react-router-dom** for routing (BrowserRouter in `main.tsx`)
-- Two routes: `/` (landing page with Hero, Features, About, Contact sections) and `/privacy`
+- Three routes: `/` (landing page with Hero, Features, About, Contact sections), `/privacy`, and `/download` (QR code redirect)
 - All page sections are in `src/components/`; no nested component directories
 - Styling: **Tailwind CSS 3** (PostCSS + autoprefixer)
 - Icons: `lucide-react`

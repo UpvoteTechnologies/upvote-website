@@ -182,7 +182,7 @@ export default function Hero() {
                           <img
                             src={preview}
                             alt={`Upvote App Preview ${index + 1}`}
-                            className="w-[320px] h-auto rounded-3xl shadow-2xl"
+                            className="w-[320px] h-auto rounded-3xl shadow-2xl select-none"
                             style={{
                               animation: isCenter ? 'float 6s ease-in-out infinite' : 'none'
                             }}
@@ -232,7 +232,7 @@ export default function Hero() {
                         <img
                           src={preview}
                           alt={`Upvote App Preview ${index + 1}`}
-                          className="w-[280px] h-auto rounded-2xl shadow-xl hover:shadow-2xl transition-shadow"
+                          className="w-[280px] h-auto rounded-2xl shadow-xl hover:shadow-2xl transition-shadow select-none"
                         />
                       </div>
                     ))}
@@ -271,7 +271,7 @@ export default function Hero() {
           <img
             src={fullscreenImage}
             alt="Fullscreen preview"
-            className="max-w-full max-h-full object-contain cursor-pointer"
+            className="max-w-full max-h-full object-contain cursor-pointer select-none"
             onClick={handleFullscreenImageClick}
           />
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-2">
