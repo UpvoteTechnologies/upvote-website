@@ -1,4 +1,4 @@
-import { Handler, HandlerEvent, HandlerContext } from '@netlify/functions';
+import { Handler, HandlerEvent } from '@netlify/functions';
 
 interface ContactFormData {
   name: string;
@@ -15,8 +15,7 @@ const headers = {
 };
 
 export const handler: Handler = async (
-  event: HandlerEvent,
-  context: HandlerContext
+  event: HandlerEvent
 ) => {
   if (event.httpMethod === 'OPTIONS') {
     return {
