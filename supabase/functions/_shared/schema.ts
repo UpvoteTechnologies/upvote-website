@@ -10,9 +10,9 @@ export interface DownloadEvent {
   id: string; // uuid, PK, default gen_random_uuid()
   created_at: string; // timestamptz, default now()
   device_type: string; // 'ios' | 'android' | 'desktop'
-  user_agent: string;
-  screen_width: number;
-  screen_height: number;
+  user_agent: string | null;
+  screen_width: number | null;
+  screen_height: number | null;
   utm_source: string | null;
   utm_medium: string | null; // 'qr' for QR scans
   utm_campaign: string | null;

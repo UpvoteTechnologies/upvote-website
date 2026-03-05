@@ -39,7 +39,18 @@ export const handler: Handler = async (event: HandlerEvent) => {
       return { statusCode: 200, headers, body: JSON.stringify({ ok: true }) };
     }
 
-    const payload: TrackPayload = JSON.parse(event.body || '{}');
+    const rawPayload: Partial<TrackPayload> = JSON.parse(event.body || '{}');
+    if (
+      !rawPayload ||
+      typeof rawPayload.session_id !== 'string' ||
+      rawPayload.session_id.trim() === '' ||
+      typeof rawPayload.redirect_target !== 'string' ||
+      rawPayload.redirect_target.trim() === ''
+    ) {
+      console.warn('track-download: invalid payload, skipping write');
+      return { statusCode: 200, headers, body: JSON.stringify({ ok: true }) };
+    }
+    const payload = rawPayload as TrackPayload;
 
     // Extract geo from Netlify's x-nf-geo header
     let country: string | null = null;
@@ -62,7 +73,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
       db: { schema: 'gtm' },
     });
 
-    await supabase.from('download_events').upsert(
+    const { error } = await supabase.from('download_events').upsert(
       {
         device_type: payload.device_type,
         user_agent: payload.user_agent,
@@ -80,6 +91,9 @@ export const handler: Handler = async (event: HandlerEvent) => {
       },
       { onConflict: 'session_id' }
     );
+    if (error) {
+      console.error('track-download upsert failed:', { code: error.code, message: error.message });
+    }
 
     return { statusCode: 200, headers, body: JSON.stringify({ ok: true }) };
   } catch (error) {

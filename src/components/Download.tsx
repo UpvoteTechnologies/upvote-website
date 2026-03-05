@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { Apple, Play } from 'lucide-react';
 
 const APP_STORE_URL = 'https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251';
+// TODO: Update with actual Play Store app URL once published
 const PLAY_STORE_URL = 'https://play.google.com/store';
 
 type DeviceType = 'ios' | 'android' | 'desktop';
