@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const APP_STORE_URL = 'https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251';
+const APP_STORE_PROVIDER_TOKEN = '127358169';
 // TODO: Update with actual Play Store app URL once published
 const PLAY_STORE_URL = 'https://play.google.com/store';
 
@@ -25,9 +26,25 @@ function getRedirectTarget(device: DeviceType): RedirectTarget {
   return 'fallback';
 }
 
-function getRedirectUrl(target: RedirectTarget): string | null {
-  if (target === 'app_store') return APP_STORE_URL;
-  if (target === 'play_store') return PLAY_STORE_URL;
+function buildRedirectUrl(target: RedirectTarget, params: URLSearchParams): string | null {
+  if (target === 'app_store') {
+    const url = new URL(APP_STORE_URL);
+    url.searchParams.set('pt', APP_STORE_PROVIDER_TOKEN);
+    url.searchParams.set('ct', params.get('utm_campaign') || 'qr_download');
+    url.searchParams.set('mt', '8');
+    return url.toString();
+  }
+  if (target === 'play_store') {
+    const url = new URL(PLAY_STORE_URL);
+    const referrer = new URLSearchParams({
+      utm_source: params.get('utm_source') || 'qr',
+      utm_medium: params.get('utm_medium') || 'qr',
+      utm_campaign: params.get('utm_campaign') || 'qr_download',
+      utm_content: getSessionId(),
+    });
+    url.searchParams.set('referrer', referrer.toString());
+    return url.toString();
+  }
   return null;
 }
 
@@ -68,7 +85,7 @@ function Download() {
     const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
     navigator.sendBeacon('/.netlify/functions/track-download', blob);
 
-    const url = getRedirectUrl(redirectTarget);
+    const url = buildRedirectUrl(redirectTarget, params);
     if (url) {
       window.location.href = url;
     } else {
