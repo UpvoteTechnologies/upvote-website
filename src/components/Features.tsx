@@ -89,8 +89,6 @@ export default function Features() {
     const handleScroll = () => {
       if (!sectionRef.current) return;
 
-      const sectionRect = sectionRef.current.getBoundingClientRect();
-      const sectionMiddle = sectionRect.top + sectionRect.height / 2;
       const viewportMiddle = window.innerHeight / 2;
 
       let closestCard = null;

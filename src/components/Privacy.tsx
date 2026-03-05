@@ -39,7 +39,7 @@ export default function Privacy() {
           </h1>
 
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
-            <div name="termly-embed" data-id="babeea2f-52c8-4655-b2ec-061c72ff9f91"></div>
+            <div {...{ name: 'termly-embed' } as React.HTMLAttributes<HTMLDivElement>} data-id="babeea2f-52c8-4655-b2ec-061c72ff9f91"></div>
           </div>
         </div>
       </div>
