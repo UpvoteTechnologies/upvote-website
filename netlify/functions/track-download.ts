@@ -58,6 +58,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
     let city: string | null = null;
 
     const geoHeader = event.headers['x-nf-geo'];
+    console.log('track-download headers:', JSON.stringify(event.headers));
     if (geoHeader) {
       try {
         const geo = JSON.parse(geoHeader);
