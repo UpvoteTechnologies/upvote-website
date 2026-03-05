@@ -58,12 +58,12 @@ export const handler: Handler = async (event: HandlerEvent) => {
     let city: string | null = null;
 
     const geoHeader = event.headers['x-nf-geo'];
-    console.log('track-download headers:', JSON.stringify(event.headers));
     if (geoHeader) {
       try {
-        const geo = JSON.parse(geoHeader);
-        country = geo.country || null;
-        region = geo.region || null;
+        const decoded = Buffer.from(geoHeader, 'base64').toString('utf-8');
+        const geo = JSON.parse(decoded);
+        country = geo.country?.code || null;
+        region = geo.subdivision?.name || null;
         city = geo.city || null;
       } catch {
         // Ignore malformed geo header
