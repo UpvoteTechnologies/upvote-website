@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { Apple, Play } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const APP_STORE_URL = 'https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251';
 // TODO: Update with actual Play Store app URL once published
@@ -44,6 +44,7 @@ function Download() {
   const [device] = useState<DeviceType>(detectDevice);
   const redirectTarget = getRedirectTarget(device);
   const tracked = useRef(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (tracked.current) return;
@@ -64,53 +65,16 @@ function Download() {
       session_id: getSessionId(),
     };
 
-    fetch('/.netlify/functions/track-download', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-      keepalive: true,
-    }).catch(() => {
-      // Analytics must never block redirect
-    });
+    const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+    navigator.sendBeacon('/.netlify/functions/track-download', blob);
 
     const url = getRedirectUrl(redirectTarget);
     if (url) {
-      setTimeout(() => {
-        window.location.href = url;
-      }, 1500);
+      window.location.href = url;
+    } else {
+      navigate('/', { replace: true });
     }
-  }, [device, redirectTarget]);
-
-  if (redirectTarget === 'fallback') {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-pink-50/40 to-orange-50/40 flex items-center justify-center p-6">
-        <div className="max-w-md w-full text-center space-y-8">
-          <div className="space-y-3">
-            <h1 className="text-4xl font-bold text-gray-900">Upvote</h1>
-            <p className="text-lg text-gray-600">
-              Open this link on your phone to download the app.
-            </p>
-          </div>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={APP_STORE_URL}
-              className="inline-flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-xl font-medium hover:bg-gray-800 transition-colors"
-            >
-              <Apple className="w-5 h-5" />
-              App Store
-            </a>
-            <a
-              href={PLAY_STORE_URL}
-              className="inline-flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-xl font-medium hover:bg-gray-800 transition-colors"
-            >
-              <Play className="w-5 h-5" />
-              Google Play
-            </a>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  }, [device, redirectTarget, navigate]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-pink-50/40 to-orange-50/40 flex items-center justify-center">
