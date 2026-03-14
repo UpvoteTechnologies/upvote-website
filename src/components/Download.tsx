@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const APP_STORE_URL = 'https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251';
 const APP_STORE_PROVIDER_TOKEN = '127358169';
 // TODO: Update with actual Play Store app URL once published
-const PLAY_STORE_URL = 'https://play.google.com/store';
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.jaques.castello.upvote';
 
 type DeviceType = 'ios' | 'android' | 'desktop';
 type RedirectTarget = 'app_store' | 'play_store' | 'fallback';
