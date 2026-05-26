@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 const APP_STORE_URL = 'https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251';
 const APP_STORE_PROVIDER_TOKEN = '127358169';
-// TODO: Update with actual Play Store app URL once published
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.jaques.castello.upvote';
 
 type DeviceType = 'ios' | 'android' | 'desktop';
@@ -86,11 +85,27 @@ function Download() {
     navigator.sendBeacon('/.netlify/functions/track-download', blob);
 
     const url = buildRedirectUrl(redirectTarget, params);
-    if (url) {
-      window.location.href = url;
-    } else {
+    if (!url) {
       navigate('/', { replace: true });
+      return;
     }
+
+    window.location.href = url;
+
+    // After the OS hands off to the App Store / Play Store, swap this page to
+    // the landing page so a user who returns to the browser sees the site
+    // instead of being stuck on the "Redirecting..." spinner.
+    const goHome = () => navigate('/', { replace: true });
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'visible') goHome();
+    };
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    const fallback = window.setTimeout(goHome, 3000);
+
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+      window.clearTimeout(fallback);
+    };
   }, [device, redirectTarget, navigate]);
 
   return (

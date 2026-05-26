@@ -1,10 +1,11 @@
 import { ArrowDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const steps = [
   {
     number: '01',
     title: 'Download Upvote',
-    description: 'Get started in seconds. Download from the App Store and open the app',
+    description: 'Get started in seconds. Download from the App Store or Google Play and open the app',
   },
   {
     number: '02',
@@ -71,14 +72,12 @@ export default function HowItWorks() {
         </div>
 
         <div className="text-center mt-16">
-          <a
-            href="https://apps.apple.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/download"
             className="inline-block bg-white text-upvote-pink px-10 py-5 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all"
           >
             Start Your Journey
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -128,8 +128,10 @@ export default function Hero() {
                   className="h-12 sm:h-14"
                 />
               </a>
-              <button
-                onClick={() => alert('Coming Soon!')}
+              <a
+                href="https://play.google.com/store/apps/details?id=com.jaques.castello.upvote"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block hover:scale-105 transition-transform flex-shrink-0"
               >
                 <img
@@ -137,7 +139,7 @@ export default function Hero() {
                   alt="Get it on Google Play"
                   className="h-12 sm:h-14"
                 />
-              </button>
+              </a>
             </div>
 
             <div className="grid grid-cols-3 gap-6 pt-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>

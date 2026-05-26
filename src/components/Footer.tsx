@@ -44,9 +44,9 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="hover:text-upvote-pink transition-colors text-sm">
+                <Link to="/download" className="hover:text-upvote-pink transition-colors text-sm">
                   Download App
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
