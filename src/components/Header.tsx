@@ -39,14 +39,20 @@ export default function Header() {
           </button>
 
           <div className="hidden md:flex items-center space-x-8">
+            <button onClick={() => scrollToSection('diets')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
+              Diets
+            </button>
             <button onClick={() => scrollToSection('features')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
               Features
             </button>
-            <button onClick={() => scrollToSection('preview')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
-              Preview
+            <button onClick={() => scrollToSection('how-it-works')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
+              How It Works
             </button>
             <button onClick={() => scrollToSection('about')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
               About
+            </button>
+            <button onClick={() => scrollToSection('team')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
+              Team
             </button>
             <button onClick={() => scrollToSection('contact')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
               Contact
@@ -65,14 +71,20 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 bg-white rounded-b-2xl shadow-xl">
             <div className="flex flex-col space-y-4">
+              <button onClick={() => scrollToSection('diets')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
+                Diets
+              </button>
               <button onClick={() => scrollToSection('features')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
                 Features
               </button>
-              <button onClick={() => scrollToSection('preview')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
-                Preview
+              <button onClick={() => scrollToSection('how-it-works')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
+                How It Works
               </button>
               <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
                 About
+              </button>
+              <button onClick={() => scrollToSection('team')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
+                Team
               </button>
               <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
                 Contact

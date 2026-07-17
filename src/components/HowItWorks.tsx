@@ -9,29 +9,29 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Create Your Profile',
-    description: 'Tell us about your dietary goals, allergies, and lifestyle preferences in under a minute',
+    title: 'Set Your Diet',
+    description: 'Pick your diet, add your allergies and anything you avoid. It takes under a minute',
   },
   {
     number: '03',
-    title: 'Scan Products',
-    description: 'Point your camera at any product label to get instant personalized insights',
+    title: 'Scan Any Product',
+    description: 'Point your camera at the label and Upvote reads the ingredients and nutrition facts',
   },
   {
     number: '04',
     title: 'Get Your Match Score',
-    description: 'See a 0-100 score showing how well each product fits your unique needs',
+    description: 'A 0-100 score showing how well the product fits the diet you set, plus what to watch for',
   },
   {
     number: '05',
-    title: 'Share & Review',
-    description: 'Help the community and earn rewards by sharing your honest product experiences',
+    title: 'Help Others Like You',
+    description: 'Review what you tried, help the next person on your diet, and earn rewards for it',
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="py-24 bg-gradient-to-br from-upvote-blue to-upvote-pink relative overflow-hidden">
+    <section id="how-it-works" className="py-24 bg-gradient-to-br from-upvote-blue to-upvote-pink relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjA1IiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-20"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -40,7 +40,7 @@ export default function HowItWorks() {
             How It Works
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Get started in 5 simple steps and transform how you shop
+            Five steps between you and knowing exactly what fits your diet
           </p>
         </div>
 

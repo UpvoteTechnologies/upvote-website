@@ -26,7 +26,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">Upvote</span>
             </div>
             <p className="text-sm">
-              Product reviews that fit you. Scan, find, and share products that match your lifestyle.
+              Know what fits your diet. Scan any product and see how well it matches the way you eat.
             </p>
           </div>
 

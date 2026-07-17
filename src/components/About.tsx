@@ -1,4 +1,5 @@
 import { Heart, Shield, Sparkles, Award, Lock, Coins } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
@@ -10,13 +11,13 @@ export default function About() {
               About Upvote
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A free and independent app helping you make smarter product choices
+              A free app for everyone whose diet doesn't fit the label
             </p>
           </div>
 
           <div className="mb-20">
             <p className="text-xl text-gray-700 leading-relaxed text-center max-w-4xl mx-auto">
-              Upvote is a free and independent app that helps you scan, find, and share products that fit your life. Build a quick profile with your lifestyle and dietary needs and the things you'd like to avoid. Every product you scan gets a 0–100 match score tailored to you. The more you explore, the better it gets.
+              Nutrition labels are written for an average shopper who doesn't exist. If you're keto, diabetic, gluten-free, or managing an allergy, the label makes you do the work every aisle, every time. Upvote does it for you. Set your diet once, scan any product, and get a 0–100 score for how well it fits you specifically. The more you scan, the sharper it gets.
             </p>
           </div>
 
@@ -25,9 +26,9 @@ export default function About() {
               <div className="bg-gradient-upvote w-20 h-20 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform">
                 <Heart className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Your Needs First</h3>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Built For Your Diet</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Built for shoppers with dietary goals, allergies, and specific lifestyle preferences
+                Keto, diabetic-friendly, gluten-free, low-sodium, or an allergy you can't take chances on
               </p>
             </div>
 
@@ -35,9 +36,9 @@ export default function About() {
               <div className="bg-upvote-blue w-20 h-20 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform">
                 <Shield className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Independent & Free</h3>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Free to Use</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                No hidden fees, no subscriptions. Just honest, helpful product information
+                No hidden fees, no subscriptions, no paywall. The full app, for everyone
               </p>
             </div>
 
@@ -45,9 +46,9 @@ export default function About() {
               <div className="bg-gradient-upvote w-20 h-20 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform">
                 <Sparkles className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Community Driven</h3>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">People Who Eat Like You</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Real reviews from real people helping each other make better choices
+                Reviews from people managing the same diet, not from the average shopper
               </p>
             </div>
           </div>
@@ -59,14 +60,30 @@ export default function About() {
               </div>
               <div>
                 <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-900">
-                  Privacy & Security
+                  Privacy & How Upvote Stays Free
                 </h3>
+                {/*
+                  LEGAL REVIEW REQUIRED before this ships. This copy must match the
+                  Termly policy on /privacy and the B2B data products actually in
+                  production. Targeted advertising and dynamic pricing carry specific
+                  CCPA/CPRA obligations (incl. a "Do Not Sell or Share My Personal
+                  Information" link) that this section does not yet address.
+                */}
                 <div className="space-y-4 text-gray-700 text-base sm:text-lg leading-relaxed">
                   <p>
-                    We take your data seriously. You control your profile and can update or remove it anytime.
+                    You are in control of your profile. Update it or delete it at any time.
                   </p>
                   <p>
-                    Your personal information, dietary preferences, and scan history belong to you. We don't sell your data, and we're committed to keeping your information secure and private.
+                    Upvote is free, with no subscription and no paywall. We fund it by turning what
+                    the community scans and reviews into consumer insights and research that we
+                    license to business partners.
+                  </p>
+                  <p>
+                    Our{' '}
+                    <Link to="/privacy" className="text-upvote-blue font-semibold hover:text-upvote-pink transition-colors">
+                      Privacy Policy
+                    </Link>{' '}
+                    sets out exactly what we collect, how it is used, and the choices you have.
                   </p>
                 </div>
               </div>
@@ -84,7 +101,7 @@ export default function About() {
                 </h3>
                 <div className="space-y-4 text-gray-700 text-base sm:text-lg leading-relaxed">
                   <p>
-                    Earn Upcoins for contributing genuine reviews and redeem them for rewards. Your honest feedback helps the community and gets you closer to great rewards.
+                    Earn Upcoins for contributing genuine reviews and redeem them for rewards. Your honest feedback helps the next person on your diet, and gets you closer to great rewards.
                   </p>
 
                   <div className="bg-white/80 rounded-2xl p-4 sm:p-6 mt-6">

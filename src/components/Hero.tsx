@@ -2,6 +2,14 @@ import { X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 
+// Figures come from the retailer one-pager. Anything left empty is dropped at
+// render time, so the section never ships a placeholder.
+const stats = [
+  { value: '8M+', label: 'Products in catalog' },
+  { value: '< 2s', label: 'Scan to match score' },
+  { value: '0', label: 'Barcodes needed' },
+];
+
 const appPreviews = [
   'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_1.png',
   'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_2.png',
@@ -12,6 +20,7 @@ const appPreviews = [
 ];
 
 export default function Hero() {
+  const visibleStats = stats.filter((stat) => stat.value.trim() !== '');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fullscreenImage, setFullscreenImage] = useState<string | null>(null);
   const [fullscreenIndex, setFullscreenIndex] = useState<number>(0);
@@ -106,13 +115,13 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <div className="flex-1 space-y-8">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in-up text-gray-900">
-              Product Reviews
+              Know What Fits
               <br />
-              <span className="bg-gradient-upvote bg-clip-text text-transparent">That Fit You</span>
+              <span className="bg-gradient-upvote bg-clip-text text-transparent">Your Diet</span>
             </h1>
 
             <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 max-w-2xl leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Scan, find, and share products that match your lifestyle and dietary needs. Get personalized match scores from 0-100 tailored just for you.
+              Keto, diabetic, gluten-free, low-sodium. Set your diet once, then scan any product. Upvote reads the label and scores how well it fits, from 0 to 100.
             </p>
 
             <div className="flex flex-row gap-3 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
@@ -142,20 +151,18 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="grid grid-cols-3 gap-6 pt-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-              <div>
-                <div className="text-4xl font-bold mb-1 bg-gradient-upvote bg-clip-text text-transparent">0-100</div>
-                <div className="text-sm text-gray-600">Match Score</div>
+            {visibleStats.length > 0 && (
+              <div className="grid grid-cols-3 gap-6 pt-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+                {visibleStats.map((stat) => (
+                  <div key={stat.label}>
+                    <div className="text-3xl sm:text-4xl font-bold mb-1 whitespace-nowrap bg-gradient-upvote bg-clip-text text-transparent">
+                      {stat.value}
+                    </div>
+                    <div className="text-sm text-gray-600">{stat.label}</div>
+                  </div>
+                ))}
               </div>
-              <div>
-                <div className="text-4xl font-bold mb-1 bg-gradient-upvote bg-clip-text text-transparent">Free</div>
-                <div className="text-sm text-gray-600">Always</div>
-              </div>
-              <div>
-                <div className="text-4xl font-bold mb-1 bg-gradient-upvote bg-clip-text text-transparent">Smart</div>
-                <div className="text-sm text-gray-600">Personalized</div>
-              </div>
-            </div>
+            )}
           </div>
 
           <div className="flex-1 relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>

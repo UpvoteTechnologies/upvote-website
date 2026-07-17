@@ -3,33 +3,33 @@ import { useState, useEffect, useRef } from 'react';
 
 const features = [
   {
-    icon: Smartphone,
-    title: 'Smart Scanning',
-    description: 'Point your camera at any product label and get instant insights tailored to your needs',
-    color: 'linear-gradient(135deg, #3b82f6, #06b6d4)',
+    icon: Sparkles,
+    title: 'Set Your Diet',
+    description: 'Keto, diabetic-friendly, gluten-free and more, plus your allergies and anything else you steer clear of',
+    color: 'linear-gradient(135deg, #a855f7, #ec4899)',
   },
   {
-    icon: Sparkles,
-    title: 'Personal Profile',
-    description: 'Set your dietary goals, allergies, and lifestyle preferences for truly personalized recommendations',
-    color: 'linear-gradient(135deg, #a855f7, #ec4899)',
+    icon: Smartphone,
+    title: 'No Barcode Needed',
+    description: 'Point your camera at the product itself. It works on produce, meats, and anything with no barcode to find',
+    color: 'linear-gradient(135deg, #3b82f6, #06b6d4)',
   },
   {
     icon: Target,
     title: 'Match Score 0-100',
-    description: 'Every product gets a score based on how well it fits your unique profile',
+    description: 'Every product is scored against your diet, so you know in a second whether it belongs in your cart',
     color: 'linear-gradient(135deg, #f97316, #ef4444)',
   },
   {
     icon: Shield,
-    title: 'Allergen Alerts',
-    description: 'Get instant notifications about ingredients you need to avoid for your safety',
+    title: 'Ingredient Flags',
+    description: 'Upvote highlights the ingredients you asked it to watch for, right when you scan the label',
     color: 'linear-gradient(135deg, #22c55e, #10b981)',
   },
   {
     icon: Share2,
-    title: 'Community Reviews',
-    description: 'Share experiences and discover products loved by people with similar preferences',
+    title: 'Reviews From Your Diet',
+    description: 'See what people eating the way you eat thought of a product, before you buy it',
     color: 'linear-gradient(135deg, #6366f1, #3b82f6)',
   },
   {
@@ -141,10 +141,11 @@ export default function Features() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-20">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
-            Powerful Features
+            How Upvote Helps
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to make informed product choices that align with your lifestyle
+            Reading a label shouldn't take a nutrition degree. Upvote does it for you, against the
+            diet you actually follow.
           </p>
         </div>
 
