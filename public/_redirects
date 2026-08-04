@@ -1,1 +1,12 @@
+# Passkeys / app-domain association (Apple AASA): the file must be reachable EXTENSIONLESS at
+# /.well-known/apple-app-site-association with Content-Type: application/json and no HTTP
+# redirects. Netlify picks Content-Type by file extension, so the real file is stored as .json
+# and this 200! rule rewrites the extensionless path to it INTERNALLY (a rewrite, not a
+# redirect — Apple's requirement holds). assetlinks.json needs no rule: Android requests it
+# by its real .json name.
+/.well-known/apple-app-site-association    /.well-known/apple-app-site-association.json    200!
+
+# When the app ships to production, add the Play App Signing SHA-256 fingerprint (Play Console
+# -> Setup -> App signing) to .well-known/assetlinks.json alongside the debug one.
+
 /*    /index.html   200
