@@ -8,7 +8,8 @@
       "namespace": "android_app",
       "package_name": "com.upvoteTechnologies.upvote",
       "sha256_cert_fingerprints": [
-        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "3E:AC:A6:9D:63:69:70:82:22:E8:FC:D8:F6:83:02:9B:CA:FC:A1:98:51:ED:87:EA:96:4D:57:EE:E5:78:43:22"
       ]
     }
   }
