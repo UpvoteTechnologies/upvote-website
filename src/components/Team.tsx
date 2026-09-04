@@ -47,7 +47,6 @@ const leadership: Leader[] = [
 const engineers = [
   { name: 'Gustavo M.', background: 'ITA / Teora', photo: '/team/gustavo-m.jpg' },
   { name: 'Caio M.', background: 'ITA / FoodAtlas', photo: '/team/caio-m.png' },
-  { name: 'Lucas F.', background: 'ITA / Funniie Tech', photo: '/team/lucas-f.png' },
 ];
 
 export default function Team() {
