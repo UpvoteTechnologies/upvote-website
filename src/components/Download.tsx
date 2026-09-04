@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const APP_STORE_URL = 'https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251';
+import { APP_STORE_URL, PLAY_STORE_URL } from '../links';
+
 const APP_STORE_PROVIDER_TOKEN = '127358169';
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.jaques.castello.upvote';
 
 type DeviceType = 'ios' | 'android' | 'desktop';
 type RedirectTarget = 'app_store' | 'play_store' | 'fallback';
@@ -109,13 +109,11 @@ function Download() {
   }, [device, redirectTarget, navigate]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-pink-50/40 to-orange-50/40 flex items-center justify-center">
-      <div className="text-center space-y-4">
-        <h1 className="text-3xl font-bold text-gray-900">Upvote</h1>
-        <div className="flex justify-center">
-          <div className="w-8 h-8 border-4 border-gray-300 border-t-blue-600 rounded-full animate-spin" />
-        </div>
-        <p className="text-gray-500">
+    <div className="flex min-h-screen items-center justify-center bg-paper px-6">
+      <div className="flex flex-col items-center gap-5 text-center">
+        <img src="/brand/logo-default.svg" alt="Upvote" className="h-10 w-auto" />
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-line-2 border-t-brand" />
+        <p className="text-[15px] font-semibold text-muted">
           Redirecting to the {redirectTarget === 'app_store' ? 'App Store' : 'Google Play'}...
         </p>
       </div>
