@@ -1,94 +1,98 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import AnimatedLockup from '../brand/AnimatedLockup';
+
+const navItems = [
+  { id: 'diets', label: 'Diets' },
+  { id: 'features', label: 'Features' },
+  { id: 'how-it-works', label: 'How It Works' },
+  { id: 'about', label: 'About' },
+  { id: 'team', label: 'Team' },
+  { id: 'contact', label: 'Contact' },
+];
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  const location = useLocation();
 
   const scrollToSection = (id: string) => {
+    setIsMenuOpen(false);
+    if (location.pathname !== '/') {
+      window.location.href = `/#${id}`;
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
     }
   };
 
+  const scrollToTop = () => {
+    setIsMenuOpen(false);
+    if (location.pathname !== '/') {
+      window.location.href = '/';
+      return;
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/90 backdrop-blur-lg shadow-lg' : 'bg-transparent'
-    }`}>
-      <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+    <header className="sticky top-0 z-50 border-b border-line bg-paper/[.82] backdrop-blur-xl backdrop-saturate-150">
+      <nav className="site-container">
+        <div className="flex h-[68px] items-center gap-6 lg:h-[76px] lg:gap-9">
+          {/* The lockup plays the app's splash once on load, then stays as the static logo. */}
           <button
-            onClick={() => scrollToSection('home')}
-            className="flex items-center group"
+            onClick={scrollToTop}
+            className="flex items-center rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+            aria-label="Upvote — back to top"
           >
-            <img
-              src="https://api.upvote.dev/storage/v1/object/public/assets/Blue_Horizontal.svg"
-              alt="Upvote"
-              className="h-8 md:h-10 group-hover:scale-105 transition-transform"
-            />
+            <AnimatedLockup height={34} className="h-7 w-auto sm:h-[34px]" />
           </button>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <button onClick={() => scrollToSection('diets')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
-              Diets
-            </button>
-            <button onClick={() => scrollToSection('features')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
-              Features
-            </button>
-            <button onClick={() => scrollToSection('how-it-works')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
-              How It Works
-            </button>
-            <button onClick={() => scrollToSection('about')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
-              About
-            </button>
-            <button onClick={() => scrollToSection('team')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
-              Team
-            </button>
-            <button onClick={() => scrollToSection('contact')} className="font-medium transition-colors text-gray-700 hover:text-upvote-pink">
-              Contact
-            </button>
+          <div className="hidden flex-1 items-center gap-6 md:flex lg:gap-[26px]">
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="text-[13.5px] font-bold text-ink-3 transition-colors hover:text-brand"
+              >
+                {item.label}
+              </button>
+            ))}
           </div>
 
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-lg transition-colors text-gray-700 hover:bg-gray-100"
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <div className="ml-auto flex items-center gap-2">
+            <Link
+              to="/download"
+              className="rounded-full bg-brand px-5 py-[11px] text-[13.5px] font-extrabold text-white shadow-btn-inset transition-colors hover:bg-brand-deep"
+            >
+              Get the app
+            </Link>
+
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="rounded-lg p-2 text-ink-3 transition-colors hover:bg-paper-2 md:hidden"
+              aria-label="Toggle menu"
+              aria-expanded={isMenuOpen}
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden py-4 bg-white rounded-b-2xl shadow-xl">
-            <div className="flex flex-col space-y-4">
-              <button onClick={() => scrollToSection('diets')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
-                Diets
-              </button>
-              <button onClick={() => scrollToSection('features')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
-                Features
-              </button>
-              <button onClick={() => scrollToSection('how-it-works')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
-                How It Works
-              </button>
-              <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
-                About
-              </button>
-              <button onClick={() => scrollToSection('team')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
-                Team
-              </button>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-upvote-pink transition-colors font-medium text-left px-4">
-                Contact
-              </button>
+          <div className="border-t border-line py-3 md:hidden">
+            <div className="flex flex-col">
+              {navItems.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="rounded-xl px-3 py-3 text-left text-[15px] font-bold text-ink-3 transition-colors hover:bg-paper-2 hover:text-brand"
+                >
+                  {item.label}
+                </button>
+              ))}
             </div>
           </div>
         )}

@@ -18,44 +18,40 @@ const diets = [
 
 export default function Diets() {
   return (
-    <section id="diets" className="py-24">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
-              Built Around Your Diet
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tell Upvote how you eat and what you avoid. Every scan is scored against your profile,
-              not against an average shopper who doesn't exist. Over 8 million products, matched in
-              under two seconds.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {diets.map((diet) => (
-              <span
-                key={diet}
-                className="px-5 py-3 rounded-full bg-white border border-gray-200 text-gray-800 font-semibold shadow-sm hover:border-upvote-pink hover:text-upvote-pink hover:shadow-md transition-all"
-              >
-                {diet}
-              </span>
-            ))}
-          </div>
-
-          {/*
-            LEGAL REVIEW REQUIRED. Upvote scores products against a profile the user
-            configures. It must not read as medical or dietary advice, and the
-            allergen flags must not read as a safety guarantee. Keep this disclaimer
-            visible wherever diets or allergens are promised.
-          */}
-          <p className="text-sm text-gray-500 text-center max-w-3xl mx-auto leading-relaxed">
-            Upvote matches products against the preferences you set. It is not a medical device and
-            does not provide medical or dietary advice. Always check the physical label and talk to a
-            healthcare professional about your diet, especially if you have an allergy or a medical
-            condition.
+    <section id="diets" className="bg-paper">
+      <div className="site-container py-16 lg:py-[88px]">
+        <div className="text-center">
+          <h2 className="section-title">Built Around Your Diet</h2>
+          <p className="section-lead mx-auto mt-4 max-w-[640px] text-pretty">
+            Tell Upvote how you eat and what you avoid. Every scan is scored against your profile,
+            not against an average shopper who doesn't exist. Over 8 million products, matched in
+            under two seconds.
           </p>
         </div>
+
+        <div className="mx-auto mt-9 flex max-w-[820px] flex-wrap justify-center gap-[10px]">
+          {diets.map((diet) => (
+            <span
+              key={diet}
+              className="rounded-full border border-line-2 bg-white px-5 py-[11px] text-[14px] font-bold text-ink-2 transition-colors hover:border-brand hover:text-brand"
+            >
+              {diet}
+            </span>
+          ))}
+        </div>
+
+        {/*
+          LEGAL REVIEW REQUIRED. Upvote scores products against a profile the user
+          configures. It must not read as medical or dietary advice, and the
+          allergen flags must not read as a safety guarantee. Keep this disclaimer
+          visible wherever diets or allergens are promised.
+        */}
+        <p className="mx-auto mt-9 max-w-[680px] text-center text-[12.5px] font-medium leading-[1.6] text-muted-3">
+          Upvote matches products against the preferences you set. It is not a medical device and
+          does not provide medical or dietary advice. Always check the physical label and talk to a
+          healthcare professional about your diet, especially if you have an allergy or a medical
+          condition.
+        </p>
       </div>
     </section>
   );

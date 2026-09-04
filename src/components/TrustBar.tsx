@@ -6,27 +6,19 @@ const partner = {
 
 export default function TrustBar() {
   return (
-    <section className="border-y border-gray-200/70 bg-white/50 backdrop-blur-sm">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="flex flex-col items-center gap-5 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-500">
-            Data partner
-          </p>
+    <section className="border-y border-line bg-paper-2">
+      <div className="site-container flex flex-col items-center gap-[10px] py-[34px] text-center">
+        <p className="font-mono text-[10px] font-bold uppercase tracking-[.2em] text-muted-3">Data partner</p>
 
-          {partner.logo ? (
-            <img
-              src={partner.logo}
-              alt={partner.name}
-              className="h-16 sm:h-20 w-auto opacity-90"
-            />
-          ) : (
-            <p className="text-xl sm:text-2xl font-bold text-gray-800">{partner.name}</p>
-          )}
+        {partner.logo ? (
+          <img src={partner.logo} alt={partner.name} className="h-14 w-auto sm:h-16" />
+        ) : (
+          <p className="text-[21px] font-extrabold tracking-[-.01em] text-ink-2">{partner.name}</p>
+        )}
 
-          <p className="text-sm sm:text-base text-gray-600 max-w-xl">
-            Working with Upvote on commercial intelligence and consumer sentiment research.
-          </p>
-        </div>
+        <p className="max-w-[520px] text-[13.5px] font-medium text-muted-2">
+          Working with Upvote on commercial intelligence and consumer sentiment research.
+        </p>
       </div>
     </section>
   );

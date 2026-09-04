@@ -1,4 +1,3 @@
-import { ArrowDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const steps = [
@@ -31,50 +30,36 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-24 bg-gradient-to-br from-upvote-blue to-upvote-pink relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjA1IiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-20"></div>
-
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-white">
-            How It Works
-          </h2>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
+    <section id="how-it-works" className="bg-brand-dark">
+      <div className="mx-auto max-w-[900px] px-5 py-16 sm:px-8 lg:px-10 lg:py-[88px]">
+        <div className="mb-10 text-center lg:mb-[52px]">
+          <h2 className="section-title !text-white">How It Works</h2>
+          <p className="mx-auto mt-[14px] text-base font-medium text-white/[.72] sm:text-[17px]">
             Five steps between you and knowing exactly what fits your diet
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          {steps.map((step, index) => (
-            <div key={index} className="relative">
-              <div className="flex items-start gap-6 md:gap-8 mb-12">
-                <div className="flex-shrink-0">
-                  <div className="glass-effect w-20 h-20 rounded-2xl flex items-center justify-center">
-                    <span className="text-3xl font-bold text-white">{step.number}</span>
-                  </div>
-                </div>
-                <div className="flex-1 glass-effect rounded-3xl p-8 md:p-10 group hover:bg-white/20 transition-all duration-300">
-                  <h3 className="text-2xl md:text-3xl font-bold mb-3 text-white">
-                    {step.title}
-                  </h3>
-                  <p className="text-lg text-white/90 leading-relaxed">
-                    {step.description}
-                  </p>
-                </div>
+        <div className="flex flex-col gap-[14px]">
+          {steps.map((step) => (
+            <div
+              key={step.number}
+              className="flex items-start gap-4 rounded-[20px] border border-white/[.14] bg-white/[.07] px-5 py-5 transition-colors hover:bg-white/[.11] sm:items-center sm:gap-5 sm:px-[26px] sm:py-[22px]"
+            >
+              <span className="w-9 flex-none font-mono text-[20px] font-bold leading-none text-brand-mint sm:w-11 sm:text-[22px]">
+                {step.number}
+              </span>
+              <div className="min-w-0 flex-1">
+                <h3 className="text-[17px] font-extrabold tracking-[-.015em] text-white sm:text-[19px]">{step.title}</h3>
+                <p className="mt-1 text-[14px] font-medium leading-[1.5] text-white/[.72]">{step.description}</p>
               </div>
-              {index < steps.length - 1 && (
-                <div className="flex justify-center mb-12">
-                  <ArrowDown className="w-8 h-8 text-white/60 animate-bounce" />
-                </div>
-              )}
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-16">
+        <div className="mt-11 text-center">
           <Link
             to="/download"
-            className="inline-block bg-white text-upvote-pink px-10 py-5 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all"
+            className="inline-block rounded-full bg-paper px-[38px] py-4 text-[16px] font-extrabold text-brand-dark shadow-[0_10px_26px_rgba(0,0,0,.25)] transition-transform hover:scale-[1.03]"
           >
             Start Your Journey
           </Link>

@@ -1,6 +1,5 @@
-import { X } from 'lucide-react';
-import { useState, useEffect } from 'react';
-import { createPortal } from 'react-dom';
+import StoreButtons from './StoreButtons';
+import PhoneMockup from './PhoneMockup';
 
 // Figures come from the retailer one-pager. Anything left empty is dropped at
 // render time, so the section never ships a placeholder.
@@ -10,292 +9,57 @@ const stats = [
   { value: '0', label: 'Barcodes needed' },
 ];
 
-const appPreviews = [
-  'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_1.png',
-  'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_2.png',
-  'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_3.png',
-  'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_4.png',
-  'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_5.png',
-  'https://api.upvote.dev/storage/v1/object/public/assets/app_preview_6.png',
-];
-
 export default function Hero() {
   const visibleStats = stats.filter((stat) => stat.value.trim() !== '');
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [fullscreenImage, setFullscreenImage] = useState<string | null>(null);
-  const [fullscreenIndex, setFullscreenIndex] = useState<number>(0);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 1024);
-    };
-
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % appPreviews.length);
-    }, 12000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const handleDotClick = (index: number) => {
-    setCurrentIndex(index);
-  };
-
-  const handleImageClick = (preview: string, index: number) => {
-    setFullscreenImage(preview);
-    setFullscreenIndex(index);
-    document.body.style.overflow = 'hidden';
-  };
-
-  const navigateFullscreen = (direction: 'prev' | 'next') => {
-    const newIndex = direction === 'next'
-      ? (fullscreenIndex + 1) % appPreviews.length
-      : (fullscreenIndex - 1 + appPreviews.length) % appPreviews.length;
-    setFullscreenIndex(newIndex);
-    setFullscreenImage(appPreviews[newIndex]);
-  };
-
-  const handleFullscreenImageClick = (e: React.MouseEvent<HTMLImageElement>) => {
-    e.stopPropagation();
-    const rect = e.currentTarget.getBoundingClientRect();
-    const clickX = e.clientX - rect.left;
-    const imageWidth = rect.width;
-
-    if (clickX < imageWidth / 2) {
-      navigateFullscreen('prev');
-    } else {
-      navigateFullscreen('next');
-    }
-  };
-
-  const closeFullscreen = () => {
-    setFullscreenImage(null);
-    document.body.style.overflow = 'unset';
-  };
-
-  useEffect(() => {
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, []);
-
-  const getSlidePosition = (index: number) => {
-    const diff = index - currentIndex;
-    const total = appPreviews.length;
-    const normalizedDiff = ((diff + total) % total);
-
-    if (normalizedDiff === 0) {
-      return { x: 0, z: 0, opacity: 1, scale: 1 };
-    } else if (normalizedDiff === 1 || normalizedDiff === -total + 1) {
-      return { x: 70, z: -200, opacity: 0.4, scale: 0.75 };
-    } else if (normalizedDiff === total - 1 || normalizedDiff === -1) {
-      return { x: -70, z: -200, opacity: 0.4, scale: 0.75 };
-    } else {
-      return { x: 0, z: -400, opacity: 0, scale: 0.5 };
-    }
-  };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(59,130,246,0.08),transparent_50%)]"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(236,72,153,0.06),transparent_50%)]"></div>
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLW9wYWNpdHk9IjAuMDMiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-50"></div>
-      </div>
+    <section id="home" className="overflow-hidden bg-paper">
+      <div className="site-container flex flex-col items-center gap-14 pb-16 pt-14 lg:flex-row lg:gap-16 lg:pb-20 lg:pt-[84px]">
+        <div className="min-w-0 flex-[1.15] text-center lg:text-left">
+          <div className="eyebrow animate-fade-in-up">Scan · Score · Eat better</div>
+          <h1
+            className="mt-4 animate-fade-in-up text-[44px] font-extrabold leading-[1.02] tracking-[-.03em] text-ink sm:text-[54px] lg:text-[62px]"
+            style={{ animationDelay: '0.05s' }}
+          >
+            Know What Fits
+            <br />
+            <span className="text-brand">Your Diet</span>
+          </h1>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-32 pb-24">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-          <div className="flex-1 space-y-8">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in-up text-gray-900">
-              Know What Fits
-              <br />
-              <span className="bg-gradient-upvote bg-clip-text text-transparent">Your Diet</span>
-            </h1>
+          <p
+            className="mx-auto mt-[22px] max-w-[540px] animate-fade-in-up text-pretty text-[17px] font-medium leading-[1.55] text-muted sm:text-[19px] lg:mx-0"
+            style={{ animationDelay: '0.15s' }}
+          >
+            Keto, diabetic, gluten-free, low-sodium. Set your diet once, then scan any product. Upvote reads the label and scores how well it fits, from 0 to 100.
+          </p>
 
-            <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 max-w-2xl leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Keto, diabetic, gluten-free, low-sodium. Set your diet once, then scan any product. Upvote reads the label and scores how well it fits, from 0 to 100.
-            </p>
+          <StoreButtons className="mt-[30px] animate-fade-in-up justify-center lg:justify-start" />
 
-            <div className="flex flex-row gap-3 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-              <a
-                href="https://apps.apple.com/us/app/upvote-food-diet-scanner/id6753091251"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block hover:scale-105 transition-transform flex-shrink-0"
-              >
-                <img
-                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                  alt="Download on the App Store"
-                  className="h-12 sm:h-14"
-                />
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.jaques.castello.upvote"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block hover:scale-105 transition-transform flex-shrink-0"
-              >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                  alt="Get it on Google Play"
-                  className="h-12 sm:h-14"
-                />
-              </a>
+          {visibleStats.length > 0 && (
+            <div
+              className="mt-11 flex animate-fade-in-up flex-wrap justify-center gap-x-10 gap-y-6 sm:gap-x-12 lg:justify-start"
+              style={{ animationDelay: '0.3s' }}
+            >
+              {visibleStats.map((stat) => (
+                <div key={stat.label} className="text-left">
+                  <div className="whitespace-nowrap text-[30px] font-extrabold tracking-[-.03em] text-brand sm:text-[34px]">
+                    {stat.value}
+                  </div>
+                  <div className="mt-[2px] text-[13px] font-semibold text-muted-2">{stat.label}</div>
+                </div>
+              ))}
             </div>
+          )}
+        </div>
 
-            {visibleStats.length > 0 && (
-              <div className="grid grid-cols-3 gap-6 pt-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-                {visibleStats.map((stat) => (
-                  <div key={stat.label}>
-                    <div className="text-3xl sm:text-4xl font-bold mb-1 whitespace-nowrap bg-gradient-upvote bg-clip-text text-transparent">
-                      {stat.value}
-                    </div>
-                    <div className="text-sm text-gray-600">{stat.label}</div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <div className="flex-1 relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            {!isMobile ? (
-              <>
-                <div className="relative w-full max-w-2xl mx-auto h-[600px] flex items-center justify-center" style={{ perspective: '1200px' }}>
-                  <div className="absolute -inset-4 bg-gradient-upvote opacity-10 rounded-3xl blur-3xl"></div>
-
-                  <div className="relative w-full h-full flex items-center justify-center">
-                    {appPreviews.map((preview, index) => {
-                      const { x, z, opacity, scale } = getSlidePosition(index);
-                      const isCenter = index === currentIndex;
-
-                      return (
-                        <div
-                          key={preview}
-                          className="absolute transition-all duration-700 ease-out cursor-pointer"
-                          style={{
-                            transform: `translateX(${x}%) translateZ(${z}px) scale(${scale})`,
-                            opacity,
-                            zIndex: isCenter ? 20 : 10 - Math.abs(z) / 100,
-                            pointerEvents: 'auto',
-                          }}
-                          onClick={() => !isCenter && handleDotClick(index)}
-                        >
-                          <img
-                            src={preview}
-                            alt={`Upvote App Preview ${index + 1}`}
-                            className="w-[320px] h-auto rounded-3xl shadow-2xl select-none"
-                            style={{
-                              animation: isCenter ? 'float 6s ease-in-out infinite' : 'none'
-                            }}
-                          />
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                <div className="flex justify-center gap-2 mt-16">
-                  {appPreviews.map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => handleDotClick(index)}
-                      className={`h-2 rounded-full transition-all ${
-                        currentIndex === index ? 'w-8 bg-gradient-upvote' : 'w-2 bg-gray-300 hover:bg-gray-400'
-                      }`}
-                      aria-label={`Go to preview ${index + 1}`}
-                    />
-                  ))}
-                </div>
-              </>
-            ) : (
-              <>
-                <div className="relative w-full overflow-x-auto -mx-4 px-4 scrollbar-hide">
-                  <div
-                    className="flex gap-4 pb-4"
-                    style={{
-                      scrollSnapType: 'x mandatory',
-                      WebkitOverflowScrolling: 'touch'
-                    }}
-                    onScroll={(e) => {
-                      const scrollLeft = e.currentTarget.scrollLeft;
-                      const itemWidth = 280 + 16;
-                      const newIndex = Math.round(scrollLeft / itemWidth);
-                      setCurrentIndex(newIndex);
-                    }}
-                  >
-                    {appPreviews.map((preview, index) => (
-                      <div
-                        key={preview}
-                        className="flex-shrink-0 cursor-pointer"
-                        style={{ scrollSnapAlign: 'center' }}
-                        onClick={() => handleImageClick(preview, index)}
-                      >
-                        <img
-                          src={preview}
-                          alt={`Upvote App Preview ${index + 1}`}
-                          className="w-[280px] h-auto rounded-2xl shadow-xl hover:shadow-2xl transition-shadow select-none"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="flex justify-center gap-2 mt-6">
-                  {appPreviews.map((_, index) => (
-                    <div
-                      key={index}
-                      className={`h-2 rounded-full transition-all ${
-                        currentIndex === index ? 'w-8 bg-gradient-upvote' : 'w-2 bg-gray-300'
-                      }`}
-                    />
-                  ))}
-                </div>
-              </>
-            )}
-          </div>
+        <div className="relative flex flex-1 justify-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <div
+            className="pointer-events-none absolute -inset-y-8 -inset-x-16"
+            style={{ background: 'radial-gradient(circle at 50% 45%, rgba(31,122,78,.12), transparent 62%)' }}
+          />
+          <PhoneMockup className="animate-float" />
         </div>
       </div>
-
-      {fullscreenImage && createPortal(
-        <div
-          className="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center p-4"
-          style={{ zIndex: 9999 }}
-          onClick={closeFullscreen}
-        >
-          <button
-            onClick={closeFullscreen}
-            className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors z-10"
-            aria-label="Close fullscreen"
-          >
-            <X className="w-8 h-8" />
-          </button>
-          <img
-            src={fullscreenImage}
-            alt="Fullscreen preview"
-            className="max-w-full max-h-full object-contain cursor-pointer select-none"
-            onClick={handleFullscreenImageClick}
-          />
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-2">
-            {appPreviews.map((_, index) => (
-              <div
-                key={index}
-                className={`h-2 rounded-full transition-all ${
-                  fullscreenIndex === index ? 'w-8 bg-white' : 'w-2 bg-white/50'
-                }`}
-              />
-            ))}
-          </div>
-        </div>,
-        document.body
-      )}
     </section>
   );
 }
