@@ -325,6 +325,21 @@ export const ptBr: Dict = {
       sodium_mg: 'Sódio',
     },
   },
+  dietPages: {
+    indexTitle: 'Dietas que o Upvote Confere: Keto, Sem Glúten, Vegana e Mais | Upvote',
+    indexDescription:
+      'Como o scanner de alimentos Upvote lê um rótulo em cada dieta: keto, sem glúten, celíaca, vegana, vegetariana, sem laticínios, halal, kosher, low-FODMAP e outras.',
+    indexHeading: 'Dietas que o Upvote confere',
+    indexLead:
+      'Cada dieta tem o seu conjunto de regras. Estas páginas dizem o que o Upvote sinaliza no rótulo em cada uma, o que ele só aponta e o que ele não consegue dizer.',
+    breadcrumb: 'Dietas',
+    allDiets: 'Veja como o Upvote lê cada dieta',
+    flags: 'O que o Upvote sinaliza no rótulo',
+    notes: 'O que ele aponta sem decidir',
+    limit: 'O que ele não consegue dizer',
+    related: 'Leia mais',
+    more: 'Outras dietas',
+  },
   appCta: {
     title: 'Veja o quanto combina com a sua dieta',
     body: 'Configure a sua dieta uma vez e escaneie qualquer produto. O Upvote lê o rótulo e dá uma nota de 0 a 100 para você. Grátis para iPhone e Android.',

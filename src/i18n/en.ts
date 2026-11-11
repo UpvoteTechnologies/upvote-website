@@ -331,6 +331,21 @@ export const en = {
       sodium_mg: 'Sodium',
     } as Record<string, string>,
   },
+  dietPages: {
+    indexTitle: 'Diets Upvote Checks: Keto, Gluten-Free, Vegan and More | Upvote',
+    indexDescription:
+      'How the Upvote food scanner reads a label for each diet: keto, gluten-free, celiac, vegan, vegetarian, dairy-free, halal, kosher, low-FODMAP and more.',
+    indexHeading: 'Diets Upvote checks',
+    indexLead:
+      'Each diet has its own set of rules. These pages say what Upvote flags on a label for each one, what it only points out, and what it cannot tell you.',
+    breadcrumb: 'Diets',
+    allDiets: 'See how Upvote reads each diet',
+    flags: 'What Upvote flags on a label',
+    notes: 'What it points out without deciding',
+    limit: 'What it cannot tell you',
+    related: 'Read more',
+    more: 'Other diets',
+  },
   appCta: {
     title: 'See how it fits your diet',
     body: 'Set your diet once and scan any product. Upvote reads the label and scores it from 0 to 100 for you. Free on iPhone and Android.',

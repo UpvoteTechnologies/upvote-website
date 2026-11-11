@@ -1,0 +1,40 @@
+{
+  "id": "vegetarian",
+  "order": 2,
+  "slugs": {
+    "en": "vegetarian",
+    "pt-br": "vegetariana"
+  },
+  "articles": [
+    "what-we-read-for-vegetarian",
+    "where-vegetarian-comes-up"
+  ],
+  "en": {
+    "name": "Vegetarian",
+    "title": "Vegetarian Food Scanner: Find Hidden Meat and Fish on a Label",
+    "summary": "Scan a product and see if it contains meat, poultry or fish, including the less obvious forms such as broths, gelatin and anchovy.",
+    "intro": "A vegetarian diet leaves out meat, poultry and fish, and keeps dairy and eggs. Most misses come from ingredients that do not look like meat: a broth in a soup, gelatin in a dessert, anchovy in a sauce.",
+    "flags": [
+      "Meat, poultry, fish and shellfish in any form",
+      "Additives that come from slaughtered animals or insects, such as gelatin and carmine"
+    ],
+    "notes": [
+      "Ingredients that can be made with or without meat or fish, such as dashi, stock, bouillon, gravy and marshmallow. Upvote tells you they are there and leaves the call to you."
+    ],
+    "limit": "Upvote reads what is printed on the pack. A vague word like \"flavoring\" does not say where it came from, so some products cannot be fully checked."
+  },
+  "pt-br": {
+    "name": "Vegetariana",
+    "title": "Scanner de Alimentos Vegetarianos: Encontre Carne e Peixe Escondidos",
+    "summary": "Escaneie um produto e veja se ele contém carne, frango ou peixe, incluindo as formas menos óbvias, como caldos, gelatina e anchova.",
+    "intro": "A dieta vegetariana deixa de fora carne, frango e peixe, e mantém laticínios e ovos. A maioria dos erros vem de ingredientes que não parecem carne: um caldo na sopa, gelatina na sobremesa, anchova no molho.",
+    "flags": [
+      "Carne, frango, peixe e frutos do mar em qualquer forma",
+      "Aditivos que vêm de animais abatidos ou de insetos, como gelatina e carmim"
+    ],
+    "notes": [
+      "Ingredientes que podem ser feitos com ou sem carne ou peixe, como dashi, caldos, molhos de carne e marshmallow. O Upvote avisa que eles estão ali e deixa a decisão com você."
+    ],
+    "limit": "O Upvote lê o que está impresso na embalagem. Uma palavra vaga como \"aromatizante\" não diz de onde veio, então alguns produtos não podem ser conferidos por completo."
+  }
+}

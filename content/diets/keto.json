@@ -1,0 +1,43 @@
+{
+  "id": "keto",
+  "order": 3,
+  "slugs": {
+    "en": "keto",
+    "pt-br": "keto"
+  },
+  "articles": [
+    "what-the-keto-plan-reads"
+  ],
+  "en": {
+    "name": "Keto",
+    "title": "Keto Food Scanner: Net Carbs and Keto Fit for Any Product",
+    "summary": "Scan a product and see its net carbs per serving and how much of its energy comes from carbs. Upvote scores it from 0 to 100 for a keto plan.",
+    "intro": "A keto diet keeps carbohydrates very low and gets most of its energy from fat. What matters on a label is net carbs: total carbohydrates minus the parts that are not absorbed the same way.",
+    "flags": [
+      "Net carbs per serving, counted as carbohydrates minus fiber, erythritol and allulose",
+      "The share of calories that comes from those net carbs. The score drops as it rises above 10%",
+      "Net carbs per 100 g, as a second check when the serving size is missing or very small"
+    ],
+    "notes": [
+      "Protein and fat per serving raise the score, as long as the product is within the carb budget.",
+      "Other sugar alcohols, such as maltitol and sorbitol, are not subtracted from net carbs."
+    ],
+    "limit": "The numbers come from the nutrition panel. If the panel is missing or incomplete, Upvote says it cannot work out net carbs instead of showing a score it cannot support."
+  },
+  "pt-br": {
+    "name": "Keto",
+    "title": "Scanner de Alimentos Keto: Carboidratos Líquidos de Qualquer Produto",
+    "summary": "Escaneie um produto e veja os carboidratos líquidos por porção e quanto da energia dele vem de carboidratos. O Upvote dá uma nota de 0 a 100 para um plano keto.",
+    "intro": "A dieta keto (cetogênica) mantém os carboidratos muito baixos e tira a maior parte da energia da gordura. O que importa no rótulo são os carboidratos líquidos: os carboidratos totais menos as partes que não são absorvidas da mesma forma.",
+    "flags": [
+      "Carboidratos líquidos por porção, contados como carboidratos menos fibras, eritritol e alulose",
+      "A parcela das calorias que vem desses carboidratos líquidos. A nota cai conforme ela passa de 10%",
+      "Carboidratos líquidos por 100 g, como segunda conferência quando a porção não é informada ou é muito pequena"
+    ],
+    "notes": [
+      "Proteína e gordura por porção aumentam a nota, desde que o produto esteja dentro do limite de carboidratos.",
+      "Outros polióis, como maltitol e sorbitol, não são subtraídos dos carboidratos líquidos."
+    ],
+    "limit": "Os números vêm da tabela nutricional. Se a tabela estiver ausente ou incompleta, o Upvote diz que não consegue calcular os carboidratos líquidos em vez de mostrar uma nota sem base."
+  }
+}

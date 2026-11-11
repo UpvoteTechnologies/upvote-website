@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import AppCta from './AppCta.astro';
+import { LOCALES, getDict, type Locale } from '../i18n';
+import { dietIndexPath, dietPath, getDiets } from '../lib/content';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const dict = getDict(locale);
+const t = dict.dietPages;
+const alternates = Object.fromEntries(LOCALES.map((code) => [code, dietIndexPath(code)]));
+---
+
+<Base locale={locale} title={t.indexTitle} description={t.indexDescription} path={dietIndexPath(locale)} alternates={alternates}>
+  <section class="site-container pb-16 pt-12 lg:pt-16">
+    <h1 class="section-title">{t.indexHeading}</h1>
+    <p class="section-lead mt-[14px] max-w-[720px]">{t.indexLead}</p>
+
+    <div class="mt-10 grid grid-cols-1 gap-[18px] sm:grid-cols-2 lg:grid-cols-3">
+      {
+        getDiets().map((diet) => (
+          <a href={dietPath(locale, diet)} class="card group flex flex-col bg-paper-2 p-6 transition-colors hover:border-brand">
+            <h2 class="text-[20px] font-extrabold tracking-[-.015em] text-ink group-hover:text-brand">{diet[locale].name}</h2>
+            <p class="mt-2 text-pretty text-[14px] font-medium leading-[1.55] text-muted">{diet[locale].summary}</p>
+          </a>
+        ))
+      }
+    </div>
+
+    <p class="mx-auto mt-10 max-w-[720px] text-center text-[12.5px] font-medium leading-[1.6] text-muted-3">{dict.diets.disclaimer}</p>
+
+    <div class="mt-12">
+      <AppCta locale={locale} />
+    </div>
+  </section>
+</Base>

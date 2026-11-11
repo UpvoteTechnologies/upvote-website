@@ -9,6 +9,7 @@ import About from './About';
 import Team from './Team';
 import Contact from './Contact';
 import { LOCALES, LOCALE_TAG, getDict, localePath, type Locale } from '../i18n';
+import { dietIndexPath, dietPath, getDiets } from '../lib/content';
 import { appStoreUrl, playStoreUrl } from '../links';
 import { CONTACT_EMAIL, LEGAL_NAME, SITE_NAME, SITE_URL, absoluteUrl } from '../site';
 
@@ -20,6 +21,14 @@ const { locale } = Astro.props;
 const t = getDict(locale);
 const path = localePath(locale);
 const alternates = Object.fromEntries(LOCALES.map((code) => [code, localePath(code)]));
+
+// App ruleset behind each landing chip, index-aligned with `diets.list` in the dictionaries.
+// Chips with no page yet stay as plain text.
+const CHIP_DIETS = ['keto', null, 'gluten-free', null, 'dairy-free', 'vegan', 'vegetarian', null, null, null, null, 'low-fodmap'];
+const dietLinks = CHIP_DIETS.map((id) => {
+  const diet = getDiets().find((entry) => entry.id === id);
+  return diet ? dietPath(locale, diet) : null;
+});
 
 const organization = {
   '@context': 'https://schema.org',
@@ -58,7 +67,7 @@ const app = {
 >
   <Hero locale={locale} />
   <TrustBar locale={locale} />
-  <Diets locale={locale} />
+  <Diets locale={locale} links={dietLinks} indexHref={dietIndexPath(locale)} />
   <Features client:visible locale={locale} />
   <HowItWorks locale={locale} />
   <About locale={locale} />

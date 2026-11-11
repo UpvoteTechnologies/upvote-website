@@ -56,6 +56,28 @@ export interface Article {
   citations: Record<string, Citation>;
 }
 
+export interface DietText {
+  name: string;
+  title: string;
+  summary: string;
+  intro: string;
+  flags: string[];
+  notes: string[];
+  limit: string;
+}
+
+/** One diet from the app's picker. The text is written for the site and reviewed by hand. */
+export interface Diet {
+  /** Ruleset id in the app (`packages/rules/rulesets/<id>.json`). */
+  id: string;
+  order: number;
+  slugs: Record<Locale, string>;
+  /** Slugs of related articles; only the ones published in the page's language are linked. */
+  articles: string[];
+  en: DietText;
+  'pt-br': DietText;
+}
+
 export interface Recipe {
   slug: string;
   title: string;
@@ -83,6 +105,22 @@ const articlesByLocale: Record<Locale, Article[]> = {
 
 const recipes = load<Recipe>(import.meta.glob('/content/recipes/*.json', { eager: true }));
 
+const diets = Object.values(import.meta.glob('/content/diets/*.json', { eager: true }))
+  .map((module) => (module as { default: Diet }).default)
+  .sort((a, b) => a.order - b.order);
+
+export function getDiets(): Diet[] {
+  return diets;
+}
+
+export function dietIndexPath(locale: Locale): string {
+  return locale === 'pt-br' ? '/pt-br/dietas' : '/diets';
+}
+
+export function dietPath(locale: Locale, diet: Diet): string {
+  return `${dietIndexPath(locale)}/${diet.slugs[locale]}`;
+}
+
 /** Sections in the order the index shows them; hand-written pieces lead. */
 const KICKER_ORDER = [
   'WORTH KNOWING',
@@ -99,6 +137,10 @@ const KICKER_ORDER = [
 ];
 
 /** Articles of a locale in index order. The pt-BR list follows the English order. */
+export function getArticle(locale: Locale, slug: string): Article | undefined {
+  return articlesByLocale[locale].find((article) => article.slug === slug);
+}
+
 export function getArticles(locale: Locale): Article[] {
   const rank = (slug: string) => {
     const source = articlesByLocale.en.find((article) => article.slug === slug);

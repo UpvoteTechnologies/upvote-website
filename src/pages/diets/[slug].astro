@@ -1,0 +1,12 @@
+---
+import DietPage from '../../components/DietPage.astro';
+import { getDiets } from '../../lib/content';
+
+export function getStaticPaths() {
+  return getDiets().map((diet) => ({ params: { slug: diet.slugs['en'] }, props: { diet } }));
+}
+
+const { diet } = Astro.props;
+---
+
+<DietPage locale="en" diet={diet} />

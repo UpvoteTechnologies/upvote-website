@@ -38,6 +38,11 @@ export default function Footer({ locale, switchHref }: FooterProps) {
                   {t.howItWorks}
                 </a>
               </li>
+              <li>
+                <a href={locale === 'pt-br' ? '/pt-br/dietas' : '/diets'} className={linkClass}>
+                  {dict.dietPages.breadcrumb}
+                </a>
+              </li>
               {dict.pages.links.map((link) => (
                 <li key={link.href}>
                   <a href={link.href} className={linkClass}>

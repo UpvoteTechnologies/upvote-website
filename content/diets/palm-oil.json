@@ -1,0 +1,40 @@
+{
+  "id": "palm-oil",
+  "order": 11,
+  "slugs": {
+    "en": "palm-oil-free",
+    "pt-br": "sem-oleo-de-palma"
+  },
+  "articles": [
+    "what-we-read-for-palm-oil",
+    "where-palm-oil-comes-up"
+  ],
+  "en": {
+    "name": "Palm-oil free",
+    "title": "Palm Oil Scanner: Check Any Product for Palm Oil",
+    "summary": "Scan a product and see if its ingredient list names palm oil, palm kernel oil or one of their fractions.",
+    "intro": "Palm oil is in a large share of packaged foods, from biscuits to spreads, and it goes by several names. This plan is for people who prefer to avoid it.",
+    "flags": [
+      "Palm oil and palm kernel oil",
+      "Their fractions and forms, such as palm olein, palm stearin, palm fat and hydrogenated palm oil"
+    ],
+    "notes": [
+      "\"Vegetable oil\" or \"vegetable fat\" with no further detail. These blends often include palm, and the label does not say."
+    ],
+    "limit": "Upvote reads the ingredient list. Some additives can be made from palm without the word appearing on the pack, and those cannot be checked from the label."
+  },
+  "pt-br": {
+    "name": "Sem óleo de palma",
+    "title": "Scanner de Óleo de Palma: Confira Qualquer Produto",
+    "summary": "Escaneie um produto e veja se a lista de ingredientes cita óleo de palma, óleo de palmiste ou uma das frações deles.",
+    "intro": "O óleo de palma está em boa parte dos alimentos embalados, de biscoitos a cremes, e aparece com vários nomes. Este plano é para quem prefere evitar esse óleo.",
+    "flags": [
+      "Óleo de palma e óleo de palmiste",
+      "As frações e formas deles, como oleína de palma, estearina de palma, gordura de palma e óleo de palma hidrogenado"
+    ],
+    "notes": [
+      "\"Óleo vegetal\" ou \"gordura vegetal\" sem mais detalhes. Essas misturas muitas vezes incluem palma, e o rótulo não diz."
+    ],
+    "limit": "O Upvote lê a lista de ingredientes. Alguns aditivos podem ser feitos de palma sem que a palavra apareça na embalagem, e isso não pode ser conferido pelo rótulo."
+  }
+}

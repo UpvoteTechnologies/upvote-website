@@ -1,0 +1,50 @@
+{
+  "id": "aip",
+  "order": 12,
+  "slugs": {
+    "en": "aip",
+    "pt-br": "aip"
+  },
+  "articles": [
+    "what-we-read-for-aip",
+    "where-aip-comes-up"
+  ],
+  "en": {
+    "name": "Autoimmune Protocol (AIP)",
+    "title": "AIP Food Scanner: Check a Label Against the Autoimmune Protocol",
+    "summary": "Scan a product and see if it contains any food group the AIP elimination phase removes: grains, dairy, eggs, legumes, nightshades, nuts, seeds and refined sugar.",
+    "intro": "The Autoimmune Protocol is an elimination diet. Its first phase removes many food groups at once, which makes almost every packaged food a long read. Upvote checks all the groups in one scan.",
+    "flags": [
+      "Grains and pseudocereals, such as wheat, rice, corn, oats and quinoa",
+      "Dairy",
+      "Eggs",
+      "Legumes, including soy, peanuts, beans, lentils and peas",
+      "Nightshades, such as tomato, potato, peppers, eggplant and paprika",
+      "Nuts and seeds, including seed spices such as cumin and coriander",
+      "Refined sugar and refined syrups"
+    ],
+    "notes": [
+      "Black pepper, sweet potato and coconut are not flagged. Honey and maple syrup are not counted as refined sugar."
+    ],
+    "limit": "This plan follows the elimination phase only and does not track reintroductions. AIP lists differ between sources, so check the result against the version you follow."
+  },
+  "pt-br": {
+    "name": "Protocolo Autoimune (AIP)",
+    "title": "Scanner de Alimentos AIP: Confira um Rótulo pelo Protocolo Autoimune",
+    "summary": "Escaneie um produto e veja se ele contém algum grupo de alimentos que a fase de eliminação do AIP retira: grãos, laticínios, ovos, leguminosas, solanáceas, oleaginosas, sementes e açúcar refinado.",
+    "intro": "O Protocolo Autoimune é uma dieta de eliminação. A primeira fase retira muitos grupos de alimentos de uma vez, o que torna quase todo alimento embalado uma leitura longa. O Upvote confere todos os grupos em um scan.",
+    "flags": [
+      "Grãos e pseudocereais, como trigo, arroz, milho, aveia e quinoa",
+      "Laticínios",
+      "Ovos",
+      "Leguminosas, incluindo soja, amendoim, feijão, lentilha e ervilha",
+      "Solanáceas, como tomate, batata, pimentões, berinjela e páprica",
+      "Oleaginosas e sementes, incluindo temperos de sementes, como cominho e coentro em grão",
+      "Açúcar refinado e xaropes refinados"
+    ],
+    "notes": [
+      "Pimenta-do-reino, batata-doce e coco não são sinalizados. Mel e xarope de bordo não contam como açúcar refinado."
+    ],
+    "limit": "Este plano segue só a fase de eliminação e não acompanha as reintroduções. As listas do AIP variam entre as fontes, então compare o resultado com a versão que você segue."
+  }
+}
