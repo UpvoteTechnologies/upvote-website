@@ -1,0 +1,213 @@
+{
+  "slug": "what-we-hold-on-e102",
+  "kicker": "ADDITIVES",
+  "title": "Tartrazine (E102): what we hold",
+  "standfirst": "The published sources behind what we say, and what counting them cannot tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "FDA · 2024",
+  "image": "/media/articles/what-we-hold-on-e102.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "This page is about the record we hold on this additive: who has written about it, and where you can read them."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "Published sources we hold on Tartrazine (E102)",
+      "caption": "Tap to see how we counted, and what the count leaves out.",
+      "basis": {
+        "q": "kb.count",
+        "of": "additive_citations",
+        "subject": "e102"
+      },
+      "resolved": {
+        "value": "29",
+        "method": "Published sources behind what we say about E102.",
+        "n": 29,
+        "scope": "kb",
+        "excluded": 0,
+        "excludedNote": null,
+        "sources": [
+          {
+            "authority": "FDA",
+            "year": 2024,
+            "url": "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices#table1B"
+          },
+          {
+            "authority": "FDA",
+            "year": 2024,
+            "url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=ColorAdditives&id=FDCYellow5&sort=Sort_Unique_ID&order=ASC&startrow=1&type=basic&search=TAR"
+          },
+          {
+            "authority": "CAS",
+            "year": 2024,
+            "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2316"
+          },
+          {
+            "authority": "OEHHA",
+            "year": 2021,
+            "url": "https://oehha.ca.gov/risk-assessment/report/health-effects-assessment-potential-neurobehavioral-effects-synthetic-food"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2010,
+            "url": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2010.1778"
+          },
+          {
+            "authority": "CSPI",
+            "year": 2010,
+            "url": "https://www.cspinet.org/resource/food-dyes-rainbow-risks"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2009,
+            "url": null
+          },
+          {
+            "authority": "EFSA",
+            "year": 2008,
+            "url": "https://www.efsa.europa.eu/en/efsajournal/pub/660"
+          }
+        ],
+        "limit": "A source count is a measure of how much has been written, not of how risky a thing is."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Names it goes by"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "A label may name this additive in any of these ways, or by its code alone."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b5",
+      "source": "kb",
+      "items": [
+        "amarillo ocaso fcf",
+        "tartracina",
+        "tartrazin",
+        "tartrazina",
+        "tartrazine",
+        "yellow 5",
+        "yellow 5 lake"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "The sources"
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b7",
+      "citationId": "additive-e102-fda-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b8",
+      "citationId": "additive-e102-fda-2024-2"
+    },
+    {
+      "kind": "citation",
+      "key": "b9",
+      "citationId": "additive-e102-cas-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b10",
+      "citationId": "additive-e102-oehha-2021"
+    },
+    {
+      "kind": "citation",
+      "key": "b11",
+      "citationId": "additive-e102-efsa-2010"
+    },
+    {
+      "kind": "citation",
+      "key": "b12",
+      "citationId": "additive-e102-cspi-2010"
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "additive-e102-efsa-2009"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "additive-e102-efsa-2008"
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b15",
+      "spans": [
+        {
+          "text": "A count of sources says how much has been written, not how risky a thing is. A well studied additive can be well studied because it is common, and a quiet one can be quiet because nobody has looked. What matters for you is the amount in the food in front of you, which this page cannot tell you."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e102-fda-2024": {
+      "authority": "FDA",
+      "year": 2024,
+      "url": "https://www.fda.gov/industry/color-additives/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices#table1B"
+    },
+    "additive-e102-fda-2024-2": {
+      "authority": "FDA",
+      "year": 2024,
+      "url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=ColorAdditives&id=FDCYellow5&sort=Sort_Unique_ID&order=ASC&startrow=1&type=basic&search=TAR"
+    },
+    "additive-e102-cas-2024": {
+      "authority": "CAS",
+      "year": 2024,
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2316"
+    },
+    "additive-e102-oehha-2021": {
+      "authority": "OEHHA",
+      "year": 2021,
+      "url": "https://oehha.ca.gov/risk-assessment/report/health-effects-assessment-potential-neurobehavioral-effects-synthetic-food"
+    },
+    "additive-e102-efsa-2010": {
+      "authority": "EFSA",
+      "year": 2010,
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2010.1778"
+    },
+    "additive-e102-cspi-2010": {
+      "authority": "CSPI",
+      "year": 2010,
+      "url": "https://www.cspinet.org/resource/food-dyes-rainbow-risks"
+    },
+    "additive-e102-efsa-2009": {
+      "authority": "EFSA",
+      "year": 2009
+    },
+    "additive-e102-efsa-2008": {
+      "authority": "EFSA",
+      "year": 2008,
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/660"
+    }
+  }
+}

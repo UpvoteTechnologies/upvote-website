@@ -1,0 +1,112 @@
+{
+  "slug": "chocolate-espresso-custards",
+  "title": "Chocolate Espresso Custards",
+  "blurb": "Silky baked custards with dark chocolate and strong coffee, set in a water bath and topped with chocolate-covered coffee beans.",
+  "steps": [
+    "Heat the oven to 150C. Pour the cream and milk into a saucepan and warm over medium heat until small bubbles appear at the edges, then remove from the heat.",
+    "Break the chocolate into pieces and add to the warm cream along with the espresso powder, stirring until both are completely dissolved and the mixture is smooth.",
+    "In a large bowl, whisk together the egg yolks, sugar and salt until pale and slightly thickened, about two minutes.",
+    "Pour the warm chocolate cream slowly into the egg mixture, whisking constantly to prevent the eggs from cooking, then stir in the vanilla extract.",
+    "Strain the custard through a fine sieve into a jug to remove any lumps, then divide evenly between eight ramekins.",
+    "Place the ramekins in a deep roasting tin and pour hot water into the tin until it reaches halfway up the sides of the ramekins.",
+    "Bake for 35 to 40 minutes until the custards are set around the edges but still have a slight wobble in the centre when gently shaken.",
+    "Remove the ramekins from the water bath and let them cool to room temperature, then refrigerate for at least three hours. Top each custard with a chocolate-covered coffee bean before serving."
+  ],
+  "servings": 8,
+  "prepMinutes": 40,
+  "cookMinutes": 40,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/chocolate-espresso-custards.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 385.68,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 5.381,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 22.032,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 19.027,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.9,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 30.678,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 16.607,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 82.92,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "heavy cream",
+      "measure": null,
+      "grams": 480
+    },
+    {
+      "text": "whole milk",
+      "measure": null,
+      "grams": 240
+    },
+    {
+      "text": "dark chocolate",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "instant espresso powder",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "egg yolks",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "fine sea salt",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "vanilla extract",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "chocolate-covered coffee beans",
+      "measure": null,
+      "grams": 16
+    }
+  ]
+}

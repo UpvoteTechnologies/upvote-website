@@ -1,0 +1,117 @@
+{
+  "slug": "carrot-and-orange-glazed-salmon-with-bulgur",
+  "title": "Carrot and Orange Glazed Salmon with Bulgur",
+  "blurb": "Roasted salmon with a sweet carrot and orange glaze, served alongside nutty bulgur and charred Brussels sprouts.",
+  "steps": [
+    "Preheat your oven to 200°C and bring 300ml water to the boil in a small pan.",
+    "Peel and roughly chop the carrots, then simmer them in the boiling water for 12 minutes until very soft.",
+    "Meanwhile, add the bulgur to a heatproof bowl, pour over 250ml boiling water, cover and leave to absorb for 15 minutes.",
+    "Trim and halve the Brussels sprouts, toss with half the olive oil and a pinch of salt, then spread on a baking tray and roast for 15 minutes.",
+    "Drain the cooked carrots and blend them with the juice and zest of the orange, honey and a pinch of salt until smooth.",
+    "Place the salmon fillets on a lined baking tray, brush generously with the carrot glaze, and roast for 12 minutes.",
+    "Fluff the bulgur with a fork, stir through the remaining olive oil and season with salt and pepper.",
+    "Finely chop the chives and scatter over the salmon and bulgur before serving with the roasted sprouts."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/carrot-and-orange-glazed-salmon-with-bulgur.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 647.055,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 32.22,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 79.054,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 16.807,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 14.682,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 24.888,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 4.671,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 729.9,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "salmon fillets",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "carrots",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "orange",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "bulgur wheat",
+      "measure": null,
+      "grams": 140
+    },
+    {
+      "text": "Brussels sprouts",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "fresh chives",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "honey",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

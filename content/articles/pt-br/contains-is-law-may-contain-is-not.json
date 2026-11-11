@@ -1,0 +1,182 @@
+{
+  "slug": "contains-is-law-may-contain-is-not",
+  "kicker": "ALERGÊNICOS",
+  "title": "\"Contém\" é lei. \"Pode conter\" não é.",
+  "standfirst": "Uma dessas frases é obrigatória. A outra é uma escolha.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "US FDA · 2004",
+  "image": "/media/articles/contains-is-law-may-contain-is-not.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "Um rótulo pode falar de um alergênico de mais de uma forma, e essas formas não têm o mesmo peso. Saber qual delas você está lendo muda o que ela diz."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "A frase que a lei exige"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Nos Estados Unidos, se um fabricante coloca de propósito um dos principais alergênicos em um alimento, a lei o obriga a dizer isso em palavras simples. Essa é a lei FALCPA (Food Allergen Labeling and Consumer Protection Act), e a lei FASTER depois acrescentou o gergelim à lista."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b4",
+      "citationId": "allergen-milk-us-fda-2004"
+    },
+    {
+      "kind": "citation",
+      "key": "b5",
+      "citationId": "allergen-milk-us-congress-fda-2021"
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "A União Europeia tem a sua própria versão, que funciona do mesmo jeito: um ingrediente com nome, na lista de ingredientes, de uma forma que você consegue encontrar."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b7",
+      "citationId": "allergen-milk-european-union-2011"
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Então \"contém leite\" é um fato que o fabricante é obrigado a informar. Você pode confiar nele."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "A frase que é uma escolha"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b10",
+      "spans": [
+        {
+          "text": "Nessas regras, \"pode conter leite\" é diferente. Ninguém exige, ninguém define e ninguém confere. O fabricante coloca o aviso quando acha que existe chance de contato cruzado: pó de farinha no ar, uma linha compartilhada, uma lâmina compartilhada."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "Como o aviso é voluntário, a ausência dele não diz nada. Um alimento sem aviso ainda pode ser feito em uma linha compartilhada. Um alimento com aviso pode nunca ter encostado no alergênico."
+        }
+      ]
+    },
+    {
+      "kind": "callout",
+      "key": "b12",
+      "tone": "caution",
+      "spans": [
+        {
+          "text": "O aviso fala da fábrica, não da receita. É o fabricante dizendo do que não tem certeza, com palavras que ele mesmo escolheu."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b13",
+      "spans": [
+        {
+          "text": "O que isso significa quando você está no corredor do mercado"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b14",
+      "spans": [
+        {
+          "text": "Leia primeiro a lista de ingredientes, porque essa é a parte que a lei regula. Leia o aviso depois, e leia como uma avaliação do fabricante, não como uma medição."
+        }
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b15",
+      "spans": [
+        {
+          "text": "Não existe um limite combinado por trás de um aviso de precaução, então fabricantes diferentes podem olhar para o mesmo risco e rotular de formas diferentes. Podemos dizer o que o rótulo informa. Não podemos dizer o que ele deixou de fora."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b16",
+      "spans": [
+        {
+          "text": "O que fazemos com isso"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b17",
+      "spans": [
+        {
+          "text": "Lemos as duas frases. Quando a lista de ingredientes cita um alergênico que você pediu para acompanhar, dizemos isso com clareza. Quando só o aviso voluntário cita, também dizemos, com outras palavras, porque não são a mesma afirmação."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b18",
+      "spans": [
+        {
+          "text": "Neste assunto, preferimos errar para o lado do cuidado a ficar em silêncio."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "allergen-milk-us-fda-2004": {
+      "authority": "US FDA",
+      "doc": "Food Allergen Labeling and Consumer Protection Act (FALCPA), Title II of Public Law 108-282 — milk as a major food allergen",
+      "year": 2004,
+      "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa"
+    },
+    "allergen-milk-us-congress-fda-2021": {
+      "authority": "US Congress / FDA",
+      "doc": "FASTER Act of 2021 (Public Law 117-11) — reaffirms the 9 major allergens incl. milk",
+      "year": 2021,
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/578"
+    },
+    "allergen-milk-european-union-2011": {
+      "authority": "European Union",
+      "doc": "Regulation (EU) No 1169/2011 on food information to consumers, Annex II — 'Milk and products thereof (including lactose)'",
+      "year": 2011,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+    }
+  }
+}

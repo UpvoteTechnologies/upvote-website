@@ -1,0 +1,108 @@
+{
+  "slug": "tomato-and-spring-onion-omelette-with-jalapeno-salsa",
+  "title": "Tomato and Spring Onion Omelette with Jalapeño Salsa",
+  "blurb": "A fluffy omelette filled with spring onions, served with a fresh tomato and jalapeño salsa that adds a proper kick.",
+  "steps": [
+    "Dice the tomatoes finely and deseed and finely chop the jalapeños, then mix them together in a small bowl with a pinch of salt to make the salsa.",
+    "Trim and finely slice the spring onions, keeping the white and green parts separate.",
+    "Crack the eggs into a bowl, add the water and a pinch each of salt and pepper, then beat well with a fork until combined.",
+    "Heat half the olive oil in a non-stick frying pan over medium heat and add the white parts of the spring onions, cooking for one minute until softened.",
+    "Pour in half the egg mixture and let it settle for a few seconds, then gently push the edges towards the centre with a spatula, tilting the pan so uncooked egg flows to the edges.",
+    "When the omelette is nearly set but still slightly wet on top, scatter over half the green spring onion parts and fold the omelette in half.",
+    "Slide onto a warm plate and repeat with the remaining oil, egg mixture and spring onions to make the second omelette.",
+    "Serve the omelettes with the fresh salsa spooned over the top."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/tomato-and-spring-onion-omelette-with-jalapeno-salsa.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 238.58,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 13.812,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 7.45,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.814,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.197,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 17.761,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 4.288,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 525.425,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "red tomatoes",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "spring onions",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "jalapeño peppers",
+      "measure": null,
+      "grams": 25
+    },
+    {
+      "text": "large eggs",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "tap water",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

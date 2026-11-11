@@ -1,0 +1,106 @@
+{
+  "slug": "chive-and-sun-dried-tomato-pasta",
+  "title": "Chive and Sun-Dried Tomato Pasta",
+  "blurb": "A simple pasta with fresh chives, tangy sun-dried tomatoes and a hint of lemon, brought together with starchy pasta water.",
+  "steps": [
+    "Bring a large pot of salted water to the boil and cook the fusilli according to the packet instructions until al dente.",
+    "While the pasta cooks, heat the olive oil in a large frying pan over medium heat and add the garlic, cooking for about one minute until fragrant.",
+    "Add the minced sun-dried tomatoes to the pan and stir for another minute.",
+    "Reserve a mugful of pasta water, then drain the pasta.",
+    "Add the drained pasta to the pan along with about 100ml of the reserved pasta water, the lemon juice and most of the chopped chives, tossing everything together.",
+    "Season with black pepper and a pinch of salt, adding more pasta water if needed to create a light coating sauce.",
+    "Serve in bowls with the remaining chives scattered over the top."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/chive-and-sun-dried-tomato-pasta.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 519.015,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 16.318,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 87.55,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 10.539,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 6.051,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 12.201,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.766,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 415.34,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "fusilli pasta",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "fresh chives, chopped",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "sun-dried tomatoes in oil, drained and minced",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "lemon, juiced",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "garlic cloves, minced",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 4
+    }
+  ]
+}

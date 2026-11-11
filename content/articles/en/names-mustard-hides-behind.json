@@ -1,0 +1,276 @@
+{
+  "slug": "names-mustard-hides-behind",
+  "kicker": "ALLERGENS",
+  "title": "The names mustard hides behind",
+  "standfirst": "Mustard goes by many names on a label. Here is the list we read for you.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "European Union · 2011",
+  "image": "/media/articles/names-mustard-hides-behind.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "The law makes a maker name mustard when they put it in on purpose. It does not make them use the word you are looking for."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "names we watch for on a label",
+      "caption": "Counted only where the link to mustard is settled. Names that depend on the product are listed further down, and are not in this count.",
+      "basis": {
+        "q": "kb.count",
+        "of": "allergen_forms",
+        "subject": "mustard"
+      },
+      "resolved": {
+        "value": "33",
+        "method": "Names whose link to mustard is settled, counted from our allergen registry.",
+        "n": 50,
+        "scope": "kb",
+        "excluded": 17,
+        "excludedNote": "17 more depend on the product or are shared with something else, so they are listed separately rather than counted here.",
+        "sources": [
+          {
+            "authority": "European Union",
+            "doc": "Regulation (EU) No 1169/2011 on the provision of food information to consumers, Annex II point 10 — 'Mustard and products thereof'",
+            "year": 2011,
+            "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+          },
+          {
+            "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+            "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes (mustard: Sinapis alba, Brassica nigra, Brassica juncea; allergens Sin a 1, Bra j 1)",
+            "year": 2014,
+            "url": "https://www.efsa.europa.eu/en/efsajournal/pub/3894"
+          },
+          {
+            "authority": "UK Food Standards Agency (FSA)",
+            "doc": "Allergen guidance for food businesses — the 14 allergens (mustard, incl. seeds, powder, liquid mustard, and hidden sources such as breads, curries, marinades, salad dressings, sauces)",
+            "year": 2023,
+            "url": "https://www.food.gov.uk/business-guidance/allergen-guidance-for-food-businesses"
+          },
+          {
+            "authority": "Health Canada / Canadian Food Inspection Agency (CFIA)",
+            "doc": "Priority food allergens — Mustard (Sinapis alba, Brassica juncea, Brassica nigra) and derived products",
+            "year": 2022,
+            "url": "https://inspection.canada.ca/food-labels/labelling/industry/allergens-and-gluten"
+          },
+          {
+            "authority": "U.S. FDA",
+            "doc": "FALCPA (2004) and FASTER Act (2021) — major food allergen list (milk, egg, fish, crustacean shellfish, tree nuts, wheat, peanuts, soybeans, sesame); mustard is NOT a US major allergen, informing never/context handling for US labels",
+            "year": 2021,
+            "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergies"
+          }
+        ],
+        "limit": "We read what a label says. We cannot see what a maker left off it."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Always means mustard"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "mustard",
+        "mustard seed",
+        "mustard seeds",
+        "mustard flour",
+        "mustard powder",
+        "ground mustard",
+        "dry mustard",
+        "mustard bran",
+        "mustard oil",
+        "prepared mustard",
+        "dijon mustard",
+        "wholegrain mustard",
+        "yellow mustard",
+        "brown mustard",
+        "black mustard",
+        "white mustard",
+        "english mustard",
+        "american mustard",
+        "oriental mustard",
+        "honey mustard",
+        "mustard sauce",
+        "mustard dressing",
+        "mustard vinaigrette",
+        "mustard extract",
+        "mustard seed extract",
+        "mustard protein",
+        "mustard seed protein",
+        "leaf mustard",
+        "sinapis alba",
+        "brassica hirta",
+        "brassica nigra",
+        "brassica juncea",
+        "sinapis"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Sometimes means mustard"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "These depend on the product. We treat them with care, and we say so on the label reading rather than guessing."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b7",
+      "source": "kb",
+      "items": [
+        "mustard essential oil",
+        "volatile oil of mustard",
+        "allyl isothiocyanate",
+        "dijon",
+        "chinese mustard",
+        "mustard greens",
+        "mustard flavour",
+        "sinapis arvensis",
+        "mostarda",
+        "piccalilli",
+        "curry powder",
+        "mixed spices",
+        "spices",
+        "natural flavoring",
+        "mayonnaise",
+        "salad dressing",
+        "marinade"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "And these do not"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "Names that look close but are not mustard. These are the ones you can stop worrying about."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "alliaria petiolata",
+        "custard",
+        "custard powder",
+        "garlic mustard",
+        "hedge mustard",
+        "mustard color",
+        "mustard colour",
+        "mustard coloured",
+        "mustard gas",
+        "mustard tree",
+        "mustard yellow",
+        "mustard-colored",
+        "salvadora persica"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "What we do when the label is unclear"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "If we cannot tell, we warn you. On this one thing we would rather be wrong in the direction of caution than quiet."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "allergen-mustard-european-union-2011"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "allergen-mustard-efsa-panel-on-dietetic-products-nutritio-2014"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "allergen-mustard-uk-food-standards-agency-fsa-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "allergen-mustard-health-canada-canadian-food-inspection-a-2022"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "allergen-mustard-u-s-fda-2021"
+    }
+  ],
+  "citations": {
+    "allergen-mustard-european-union-2011": {
+      "authority": "European Union",
+      "doc": "Regulation (EU) No 1169/2011 on the provision of food information to consumers, Annex II point 10 — 'Mustard and products thereof'",
+      "year": 2011,
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+    },
+    "allergen-mustard-efsa-panel-on-dietetic-products-nutritio-2014": {
+      "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+      "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes (mustard: Sinapis alba, Brassica nigra, Brassica juncea; allergens Sin a 1, Bra j 1)",
+      "year": 2014,
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/3894"
+    },
+    "allergen-mustard-uk-food-standards-agency-fsa-2023": {
+      "authority": "UK Food Standards Agency (FSA)",
+      "doc": "Allergen guidance for food businesses — the 14 allergens (mustard, incl. seeds, powder, liquid mustard, and hidden sources such as breads, curries, marinades, salad dressings, sauces)",
+      "year": 2023,
+      "url": "https://www.food.gov.uk/business-guidance/allergen-guidance-for-food-businesses"
+    },
+    "allergen-mustard-health-canada-canadian-food-inspection-a-2022": {
+      "authority": "Health Canada / Canadian Food Inspection Agency (CFIA)",
+      "doc": "Priority food allergens — Mustard (Sinapis alba, Brassica juncea, Brassica nigra) and derived products",
+      "year": 2022,
+      "url": "https://inspection.canada.ca/food-labels/labelling/industry/allergens-and-gluten"
+    },
+    "allergen-mustard-u-s-fda-2021": {
+      "authority": "U.S. FDA",
+      "doc": "FALCPA (2004) and FASTER Act (2021) — major food allergen list (milk, egg, fish, crustacean shellfish, tree nuts, wheat, peanuts, soybeans, sesame); mustard is NOT a US major allergen, informing never/context handling for US labels",
+      "year": 2021,
+      "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergies"
+    }
+  }
+}

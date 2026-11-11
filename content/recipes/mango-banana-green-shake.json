@@ -1,0 +1,93 @@
+{
+  "slug": "mango-banana-green-shake",
+  "title": "Mango Banana Green Shake",
+  "blurb": "A smooth, filling shake with mango, banana and leafy greens, sweetened naturally by the fruit and bolstered with protein powder.",
+  "steps": [
+    "Peel the banana and break it into chunks.",
+    "Put the banana, mango, spinach, protein powder, rice milk and cinnamon into a blender.",
+    "Blend on high speed until completely smooth, about one minute.",
+    "Pour into two glasses and serve straight away."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/mango-banana-green-shake.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "banana",
+      "measure": "1 medium",
+      "grams": 120
+    },
+    {
+      "text": "mango chunks",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "spinach",
+      "measure": "2 handfuls",
+      "grams": 60
+    },
+    {
+      "text": "vanilla protein powder",
+      "measure": "2 scoops",
+      "grams": 60
+    },
+    {
+      "text": "rice milk",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "ground cinnamon",
+      "measure": "½ tsp",
+      "grams": 1
+    }
+  ]
+}

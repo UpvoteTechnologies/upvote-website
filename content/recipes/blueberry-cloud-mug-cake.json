@@ -1,0 +1,89 @@
+{
+  "slug": "blueberry-cloud-mug-cake",
+  "title": "Blueberry Cloud Mug Cake",
+  "blurb": "A light, fluffy single-serving cake made in the microwave with cream cheese and fresh blueberries.",
+  "steps": [
+    "Break the egg into a mug and beat it with a fork until smooth.",
+    "Add the cream cheese and mash it into the egg until mostly combined.",
+    "Stir in the baking powder and nutmeg, then gently fold in the blueberries.",
+    "Microwave on high for 60 to 90 seconds until the cake has risen and set in the centre.",
+    "Let it stand for a minute before eating straight from the mug."
+  ],
+  "servings": 1,
+  "prepMinutes": 1,
+  "cookMinutes": 1,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/blueberry-cloud-mug-cake.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 228.71,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 8.52,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 13.822,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 8.278,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.012,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 15.623,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 7.79,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 387.06,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "large egg",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "cream cheese",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "blueberries",
+      "measure": null,
+      "grams": 75
+    },
+    {
+      "text": "baking powder",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "ground nutmeg",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

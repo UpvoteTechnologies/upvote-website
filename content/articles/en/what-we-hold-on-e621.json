@@ -1,0 +1,280 @@
+{
+  "slug": "what-we-hold-on-e621",
+  "kicker": "ADDITIVES",
+  "title": "Sodium glutamate (E621): what we hold",
+  "standfirst": "The published sources behind what we say, and what counting them cannot tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "EFSA · 2017",
+  "image": "/media/articles/what-we-hold-on-e621.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "E621 Monosodium glutamate (MSG) is the sodium salt of glutamic acid, produced by fermentation. It is a flavour enhancer that adds a savoury, umami taste."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use it as flavour enhancer."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "What we hold on it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "This page is about the record we hold on this additive: who has written about it, and where you can read them."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b7",
+      "label": "Published sources we hold on Sodium glutamate (E621)",
+      "caption": "Tap to see how we counted, and what the count leaves out.",
+      "basis": {
+        "q": "kb.count",
+        "of": "additive_citations",
+        "subject": "e621"
+      },
+      "resolved": {
+        "value": "24",
+        "method": "Published sources behind what we say about E621.",
+        "n": 24,
+        "scope": "kb",
+        "excluded": 0,
+        "excludedNote": null,
+        "sources": [
+          {
+            "authority": "EFSA",
+            "year": 2017,
+            "url": null
+          },
+          {
+            "authority": "FDA",
+            "year": 1988,
+            "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-182/subpart-A/section-182.1"
+          },
+          {
+            "authority": null,
+            "year": 2024,
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/fsn3.4198"
+          },
+          {
+            "authority": null,
+            "year": 2021,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34070818/"
+          },
+          {
+            "authority": null,
+            "year": 2019,
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952072/#ABS1"
+          },
+          {
+            "authority": null,
+            "year": 2019,
+            "url": "https://journals.ekb.eg/article_28865_11292a3eb832e574000760d346e86594.pdf"
+          },
+          {
+            "authority": null,
+            "year": 2019,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31658055/"
+          },
+          {
+            "authority": null,
+            "year": 2018,
+            "url": "https://karger.com/anm/article-pdf/73/Suppl.%205/36/2230690/000494781.pdf"
+          }
+        ],
+        "limit": "A source count is a measure of how much has been written, not of how risky a thing is."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Names it goes by"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "A label may name this additive in any of these ways, or by its code alone."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "142 47 2",
+        "6106 04 3",
+        "c5h8nnao4",
+        "glutamate",
+        "glutamate de sodium",
+        "glutamate monosodique",
+        "glutamato",
+        "glutamato de monosodio",
+        "glutamato de sodio",
+        "glutamato monosodico",
+        "glutamato monossodico",
+        "glutammato di monosodio",
+        "glutammato di sodio",
+        "glutammato monosodico",
+        "monoglutamate de sodium",
+        "mononatriumglutamaat",
+        "mononatriumglutamat",
+        "monosodium glutamate",
+        "monosodium l glutamate",
+        "monosodium salt",
+        "msg",
+        "msg fine",
+        "nac5no4h8",
+        "natriumglutamaat",
+        "natriumglutamat",
+        "smaakversterker e621",
+        "sodium glutamate",
+        "ve tsin",
+        "vetsin"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "The sources"
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b12",
+      "citationId": "additive-e621-efsa-2017"
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "additive-e621-fda-1988"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "additive-e621-source-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "additive-e621-source-2021"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "additive-e621-source-2019"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "additive-e621-source-2019-2"
+    },
+    {
+      "kind": "citation",
+      "key": "b18",
+      "citationId": "additive-e621-source-2019-3"
+    },
+    {
+      "kind": "citation",
+      "key": "b19",
+      "citationId": "additive-e621-source-2018"
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b20",
+      "spans": [
+        {
+          "text": "A count of sources says how much has been written, not how risky a thing is. A well studied additive can be well studied because it is common, and a quiet one can be quiet because nobody has looked. What matters for you is the amount in the food in front of you, which this page cannot tell you."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e621-efsa-2017": {
+      "authority": "EFSA",
+      "year": 2017
+    },
+    "additive-e621-fda-1988": {
+      "authority": "FDA",
+      "year": 1988,
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-182/subpart-A/section-182.1"
+    },
+    "additive-e621-source-2024": {
+      "authority": "",
+      "year": 2024,
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/fsn3.4198"
+    },
+    "additive-e621-source-2021": {
+      "authority": "",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34070818/"
+    },
+    "additive-e621-source-2019": {
+      "authority": "",
+      "year": 2019,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952072/#ABS1"
+    },
+    "additive-e621-source-2019-2": {
+      "authority": "",
+      "year": 2019,
+      "url": "https://journals.ekb.eg/article_28865_11292a3eb832e574000760d346e86594.pdf"
+    },
+    "additive-e621-source-2019-3": {
+      "authority": "",
+      "year": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31658055/"
+    },
+    "additive-e621-source-2018": {
+      "authority": "",
+      "year": 2018,
+      "url": "https://karger.com/anm/article-pdf/73/Suppl.%205/36/2230690/000494781.pdf"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "roasted-salmon-and-lentil-bowl",
+  "title": "Roasted Salmon and Lentil Bowl",
+  "blurb": "Flaked salmon with roasted courgettes and green lentils, topped with herbed cottage cheese",
+  "steps": [
+    "Heat the oven to 200°C. Rinse the lentils and put them in a saucepan with 400ml cold water and a pinch of salt, then bring to the boil.",
+    "Once boiling, reduce the heat and simmer the lentils for 20 to 25 minutes until tender but still holding their shape, then drain.",
+    "While the lentils cook, slice the courgettes into rounds about 1cm thick and spread them on a baking tray with half the olive oil, salt and pepper.",
+    "Peel and finely chop the garlic, then place the salmon fillets skin-side down on the tray with the courgettes, drizzle with the remaining oil and scatter over half the garlic.",
+    "Roast everything for 15 to 18 minutes until the salmon is cooked through and the courgettes are golden at the edges.",
+    "Finely chop the chives and stir most of them through the cottage cheese with the remaining garlic and a squeeze of lemon juice.",
+    "Divide the drained lentils between two bowls, flake the salmon on top and add the roasted courgettes, then spoon over the herbed cottage cheese and scatter with the remaining chives and a wedge of lemon."
+  ],
+  "servings": 2,
+  "prepMinutes": 35,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/roasted-salmon-and-lentil-bowl.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 672.645,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 52.122,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 43.503,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.518,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 7.883,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 33.102,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 7.83,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 942.06,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "dried green lentils",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "courgettes",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "salmon fillets",
+      "measure": null,
+      "grams": 280
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 6
+    },
+    {
+      "text": "cottage cheese",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "fresh chives",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "sweet-potato-waffles",
+  "title": "Sweet Potato Waffles",
+  "blurb": "Soft waffles with a natural sweetness from sweet potato purée, warmly spiced with nutmeg and a touch of brown sugar.",
+  "steps": [
+    "Heat your waffle iron according to the manufacturer's instructions.",
+    "In a large bowl, whisk together the flour, baking powder, nutmeg and salt.",
+    "In another bowl, whisk the sweet potato purée with the milk, eggs, melted butter and brown sugar until smooth.",
+    "Pour the wet ingredients into the dry and stir gently until just combined, leaving a few small lumps.",
+    "Ladle the batter onto the hot waffle iron, close the lid and cook until golden and crisp, about 5 minutes per batch.",
+    "Serve the waffles warm."
+  ],
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/sweet-potato-waffles.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 294.877,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 7.385,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 40.514,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 10.246,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.083,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.745,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 5.978,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 467.72,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "sweet potato purée",
+      "measure": "240g",
+      "grams": 240
+    },
+    {
+      "text": "plain flour",
+      "measure": "180g",
+      "grams": 180
+    },
+    {
+      "text": "whole milk",
+      "measure": "240ml",
+      "grams": 240
+    },
+    {
+      "text": "eggs",
+      "measure": "2 eggs",
+      "grams": 100
+    },
+    {
+      "text": "unsalted butter, melted",
+      "measure": "60g",
+      "grams": 60
+    },
+    {
+      "text": "dark brown sugar",
+      "measure": "40g",
+      "grams": 40
+    },
+    {
+      "text": "baking powder",
+      "measure": "12g",
+      "grams": 12
+    },
+    {
+      "text": "ground nutmeg",
+      "measure": "1 tsp",
+      "grams": 2
+    },
+    {
+      "text": "fine sea salt",
+      "measure": "½ tsp",
+      "grams": 3
+    }
+  ]
+}

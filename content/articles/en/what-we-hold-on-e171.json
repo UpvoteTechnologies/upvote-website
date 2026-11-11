@@ -1,0 +1,269 @@
+{
+  "slug": "what-we-hold-on-e171",
+  "kicker": "ADDITIVES",
+  "title": "Titanium dioxide (E171): what we hold",
+  "standfirst": "The published sources behind what we say, and what counting them cannot tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "FDA · 2024",
+  "image": "/media/articles/what-we-hold-on-e171.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "E171 Titanium dioxide: a bright white mineral pigment used to whiten and opacify foods; the EU banned it as a food additive in 2022 over safety concerns."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use it as colour."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "What we hold on it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "This page is about the record we hold on this additive: who has written about it, and where you can read them."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b7",
+      "label": "Published sources we hold on Titanium dioxide (E171)",
+      "caption": "Tap to see how we counted, and what the count leaves out.",
+      "basis": {
+        "q": "kb.count",
+        "of": "additive_citations",
+        "subject": "e171"
+      },
+      "resolved": {
+        "value": "17",
+        "method": "Published sources behind what we say about E171.",
+        "n": 17,
+        "scope": "kb",
+        "excluded": 0,
+        "excludedNote": null,
+        "sources": [
+          {
+            "authority": "FDA",
+            "year": 2024,
+            "url": "https://www.fda.gov/industry/color-additives/titanium-dioxide-color-additive-foods"
+          },
+          {
+            "authority": "NYS",
+            "year": 2023,
+            "url": "https://www.nysenate.gov/legislation/bills/2023/S6055/amendment/A"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2021,
+            "url": "https://www.efsa.europa.eu/fr/efsajournal/pub/6585"
+          },
+          {
+            "authority": "ANSES",
+            "year": 2019,
+            "url": "https://www.anses.fr/fr/system/files/ERCA2019SA0036.pdf"
+          },
+          {
+            "authority": "IARC",
+            "year": 2018,
+            "url": "https://monographs.iarc.who.int/wp-content/uploads/2018/09/ClassificationsAlphaOrder.pdf"
+          },
+          {
+            "authority": "ANSES",
+            "year": 2017,
+            "url": "https://www.anses.fr/fr/system/files/ERCA2017SA0020.pdf"
+          },
+          {
+            "authority": "ECHA",
+            "year": 2017,
+            "url": "https://echa.europa.eu/fr/-/titanium-dioxide-proposed-to-be-classified-as-suspected-of-causing-cancer-when-inhaled"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2016,
+            "url": "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2016.4545"
+          }
+        ],
+        "limit": "A source count is a measure of how much has been written, not of how risky a thing is."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Names it goes by"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "A label may name this additive in any of these ways, or by its code alone."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "biossido di titanio",
+        "bioxyde de titane",
+        "dioxido de titanio",
+        "dioxyde de titane",
+        "oxyde de titane",
+        "titandioxid",
+        "titanium dioxide",
+        "titanium oxide"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "The sources"
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b12",
+      "citationId": "additive-e171-fda-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "additive-e171-nys-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "additive-e171-efsa-2021"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "additive-e171-anses-2019"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "additive-e171-iarc-2018"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "additive-e171-anses-2017"
+    },
+    {
+      "kind": "citation",
+      "key": "b18",
+      "citationId": "additive-e171-echa-2017"
+    },
+    {
+      "kind": "citation",
+      "key": "b19",
+      "citationId": "additive-e171-efsa-2016"
+    },
+    {
+      "kind": "paragraph",
+      "key": "b20",
+      "spans": [
+        {
+          "text": "Our record says at least one national regulator does not permit this additive in food. Which regulators, and on what terms, is on the pages about each of them."
+        }
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b21",
+      "spans": [
+        {
+          "text": "A count of sources says how much has been written, not how risky a thing is. A well studied additive can be well studied because it is common, and a quiet one can be quiet because nobody has looked. What matters for you is the amount in the food in front of you, which this page cannot tell you."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e171-fda-2024": {
+      "authority": "FDA",
+      "year": 2024,
+      "url": "https://www.fda.gov/industry/color-additives/titanium-dioxide-color-additive-foods"
+    },
+    "additive-e171-nys-2023": {
+      "authority": "NYS",
+      "year": 2023,
+      "url": "https://www.nysenate.gov/legislation/bills/2023/S6055/amendment/A"
+    },
+    "additive-e171-efsa-2021": {
+      "authority": "EFSA",
+      "year": 2021,
+      "url": "https://www.efsa.europa.eu/fr/efsajournal/pub/6585"
+    },
+    "additive-e171-anses-2019": {
+      "authority": "ANSES",
+      "year": 2019,
+      "url": "https://www.anses.fr/fr/system/files/ERCA2019SA0036.pdf"
+    },
+    "additive-e171-iarc-2018": {
+      "authority": "IARC",
+      "year": 2018,
+      "url": "https://monographs.iarc.who.int/wp-content/uploads/2018/09/ClassificationsAlphaOrder.pdf"
+    },
+    "additive-e171-anses-2017": {
+      "authority": "ANSES",
+      "year": 2017,
+      "url": "https://www.anses.fr/fr/system/files/ERCA2017SA0020.pdf"
+    },
+    "additive-e171-echa-2017": {
+      "authority": "ECHA",
+      "year": 2017,
+      "url": "https://echa.europa.eu/fr/-/titanium-dioxide-proposed-to-be-classified-as-suspected-of-causing-cancer-when-inhaled"
+    },
+    "additive-e171-efsa-2016": {
+      "authority": "EFSA",
+      "year": 2016,
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2016.4545"
+    }
+  }
+}

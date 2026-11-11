@@ -1,0 +1,116 @@
+{
+  "slug": "green-pepper-fish-with-sweet-chili-rice",
+  "title": "Green Pepper Fish with Sweet Chili Rice",
+  "blurb": "Firm white fish baked with green peppers and tomatoes in a sweet chili glaze, served over fluffy rice with fresh parsley.",
+  "steps": [
+    "Preheat your oven to 200°C and cook the rice according to packet instructions.",
+    "Cut the green peppers into strips and finely chop the garlic.",
+    "Heat the olive oil in an ovenproof pan and cook the peppers and garlic for 5 minutes until softened.",
+    "Stir in the crushed tomatoes and half the sweet chilli sauce, then season with salt and pepper.",
+    "Place the cod fillets on top of the tomato mixture and brush with the remaining sweet chilli sauce.",
+    "Transfer the pan to the oven and bake for 15 minutes until the fish is cooked through and flakes easily.",
+    "Chop the parsley and scatter over the fish before serving with the rice."
+  ],
+  "servings": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/green-pepper-fish-with-sweet-chili-rice.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 543.475,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 35.189,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 75.175,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 10.377,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 6.457,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 9.933,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.467,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1030.13,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "white rice",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "cod fillets",
+      "measure": null,
+      "grams": 350
+    },
+    {
+      "text": "green peppers",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "crushed tomatoes",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "sweet chilli sauce",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "fresh parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "spiced-carrot-fritters-with-yoghurt-sauce",
+  "title": "Spiced Carrot Fritters with Yoghurt Sauce",
+  "blurb": "Golden carrot patties seasoned with cumin and cayenne, served with a cool garlic yoghurt dip.",
+  "steps": [
+    "Place the grated carrots in a clean tea towel and squeeze out as much liquid as possible, then transfer to a large bowl.",
+    "Add the flour, eggs, cumin, cayenne, half the parsley, half the garlic and half the salt to the carrots and mix thoroughly until everything is combined.",
+    "Heat half the olive oil in a large frying pan over medium heat.",
+    "Shape heaped tablespoons of the mixture into patties and fry in batches for about 4 minutes each side until golden brown, adding more oil as needed.",
+    "While the fritters cook, mix the yoghurt with the remaining garlic, lemon juice and remaining salt.",
+    "Stir the remaining parsley into the yoghurt sauce and serve alongside the warm fritters."
+  ],
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/spiced-carrot-fritters-with-yoghurt-sauce.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 304.993,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 8.786,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 32.856,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 8.263,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.751,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 15.72,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.44,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 553.413,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "carrots, grated",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "eggs",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "cayenne pepper",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "Italian parsley, fresh, finely chopped",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "garlic, finely chopped",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 4
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "natural yoghurt",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "lemon juice",
+      "measure": null,
+      "grams": 15
+    }
+  ]
+}

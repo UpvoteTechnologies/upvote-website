@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "typecheck": "astro check",
     "sync-privacy": "node scripts/sync-privacy.mjs",
-    "brand-assets": "node scripts/brand-assets.mjs"
+    "brand-assets": "node scripts/brand-assets.mjs",
+    "sync-content": "node --env-file-if-exists=.env scripts/sync-content.mjs"
   },
   "dependencies": {
     "@astrojs/react": "7.1.5",

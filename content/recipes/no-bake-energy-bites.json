@@ -1,0 +1,90 @@
+{
+  "slug": "no-bake-energy-bites",
+  "title": "No-Bake Energy Bites",
+  "blurb": "Quick energy balls made from crushed biscuits, nut butter and dried fruit, ready in minutes with no cooking required.",
+  "steps": [
+    "Place the Graham crackers in a food processor and pulse until they form fine crumbs, or crush them in a sealed bag with a rolling pin.",
+    "Transfer the crumbs to a mixing bowl and add the peanut butter, honey, raisins and half the coconut flakes.",
+    "Mix everything together with a wooden spoon until well combined and the mixture holds together when pressed.",
+    "Roll the mixture into twelve balls, each about the size of a walnut, using damp hands to prevent sticking.",
+    "Spread the remaining coconut flakes on a plate and roll each ball in them to coat.",
+    "Place the energy bites on a plate and refrigerate for at least 30 minutes before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/no-bake-energy-bites.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 391.25,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 8.874,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 48.006,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 30.835,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.785,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 20.915,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 6.408,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 237.5,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "Graham crackers",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "natural peanut butter",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "honey",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "raisins",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "unsweetened coconut flakes",
+      "measure": null,
+      "grams": 40
+    }
+  ]
+}

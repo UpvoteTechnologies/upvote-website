@@ -1,0 +1,112 @@
+{
+  "slug": "coconut-lemongrass-salmon-with-aubergine-rice",
+  "title": "Coconut lemongrass salmon with aubergine rice",
+  "blurb": "Tender salmon fillets simmered in fragrant coconut milk with lemongrass, served over rice studded with roasted aubergine and fresh parsley.",
+  "steps": [
+    "Heat your oven to 200°C and cook the rice according to the packet instructions.",
+    "Cut the aubergine into small cubes, toss with half the olive oil, spread on a baking tray and roast for 20 minutes until golden and soft.",
+    "Bash the lemongrass stalks with the back of a knife to bruise them and release their flavour.",
+    "Heat the remaining oil in a wide pan, add the lemongrass and cook for one minute, then pour in the coconut milk and fish sauce and bring to a gentle simmer.",
+    "Add the salmon fillets to the coconut milk, cover the pan and simmer gently for 8 to 10 minutes until the fish is just cooked through.",
+    "Roughly chop the parsley and stir most of it through the cooked rice along with the roasted aubergine.",
+    "Divide the rice between two bowls, place a salmon fillet on top of each and spoon over the coconut sauce, discarding the lemongrass stalks.",
+    "Scatter over the remaining parsley and serve with lime wedges for squeezing."
+  ],
+  "servings": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 25,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/coconut-lemongrass-salmon-with-aubergine-rice.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 542.85,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 34.601,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 13.658,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.369,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 5.868,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 40.71,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 23.783,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 526.75,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "jasmine rice",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "aubergine",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "salmon fillets, skin removed",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "lemongrass stalks",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "coconut milk",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "fish sauce",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "fresh flat-leaf parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "lime",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

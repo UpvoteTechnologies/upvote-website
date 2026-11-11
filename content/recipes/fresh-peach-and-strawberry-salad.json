@@ -1,0 +1,84 @@
+{
+  "slug": "fresh-peach-and-strawberry-salad",
+  "title": "Fresh Peach and Strawberry Salad",
+  "blurb": "A simple fruit salad with ripe peaches, strawberries and kiwi, brightened with a squeeze of lemon juice.",
+  "steps": [
+    "Halve the peaches, remove the stones, and cut the flesh into bite-sized wedges.",
+    "Hull the strawberries and halve or quarter them depending on size.",
+    "Peel the kiwis and slice them into rounds, then cut each round into quarters.",
+    "Put all the fruit into a serving bowl and squeeze the lemon juice over the top.",
+    "Gently toss everything together and serve straight away, or chill for up to an hour before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/fresh-peach-and-strawberry-salad.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 75.175,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.473,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 16.769,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 12.223,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.06,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 0.458,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.022,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 13.15,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "ripe peaches",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "strawberries",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "kiwi fruits",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

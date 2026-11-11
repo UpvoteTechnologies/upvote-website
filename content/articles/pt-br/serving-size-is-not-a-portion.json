@@ -1,0 +1,123 @@
+{
+  "slug": "serving-size-is-not-a-portion",
+  "kicker": "LENDO A EMBALAGEM",
+  "title": "A porção do rótulo não é a sua porção",
+  "standfirst": "A tabela descreve uma porção de referência. Quem decide quanto come é você. As duas quase nunca são iguais.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "US FDA · 2016",
+  "image": "/media/articles/serving-size-is-not-a-portion.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "Todos os números da tabela dependem de uma linha perto do topo: o tamanho da porção. Se você pular essa linha, o resto da tabela quer dizer outra coisa."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "O que é a porção do rótulo"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "A porção do rótulo não é uma recomendação. É uma quantidade de referência, definida para que o mesmo alimento de marcas diferentes possa ser comparado de forma justa."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b4",
+      "citationId": "fda-serving-size-racc-2016"
+    },
+    {
+      "kind": "paragraph",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Nos Estados Unidos, as porções devem refletir o que as pessoas realmente comem de uma vez. Várias foram aumentadas por esse motivo, o que fez alguns números parecerem piores de um dia para o outro, embora o alimento não tivesse mudado."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b6",
+      "citationId": "fda-nutrition-labeling-2016"
+    },
+    {
+      "kind": "heading",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "Onde dá errado"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "A tabela fala de uma porção. A embalagem contém o que você vai comer. Se uma garrafa tem mais de uma porção, cada número precisa ser multiplicado antes de descrever o que você bebeu."
+        }
+      ]
+    },
+    {
+      "kind": "callout",
+      "key": "b9",
+      "tone": "neutral",
+      "spans": [
+        {
+          "text": "Essa é a forma mais comum de ler um rótulo errado. Não é descuido. As contas são chatas e a embalagem não foi feita para ajudar."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b10",
+      "spans": [
+        {
+          "text": "O hábito"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "Encontre o tamanho da porção. Depois veja quantas porções a embalagem contém. Se forem diferentes, a tabela descreve só uma parte do que está na sua mão."
+        }
+      ]
+    },
+    {
+      "kind": "plan",
+      "key": "b12",
+      "cue": "Quando eu pegar uma garrafa ou um pacote",
+      "action": "Vou ver quantas porções ele contém antes de ler o resto"
+    }
+  ],
+  "citations": {
+    "fda-serving-size-racc-2016": {
+      "authority": "US FDA",
+      "doc": "Food Serving Sizes Get a Reality Check — Reference Amounts Customarily Consumed reflect what people actually eat, not what they should",
+      "year": 2016,
+      "url": "https://www.fda.gov/food/nutrition-facts-label/food-serving-sizes-get-reality-check"
+    },
+    "fda-nutrition-labeling-2016": {
+      "authority": "US FDA",
+      "doc": "Changes to the Nutrition Facts Label — final rule, including the Added Sugars declaration and updated serving sizes",
+      "year": 2016,
+      "url": "https://www.fda.gov/food/nutrition-facts-label/changes-nutrition-facts-label"
+    }
+  }
+}

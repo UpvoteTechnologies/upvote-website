@@ -1,0 +1,47 @@
+---
+import type { Page } from 'astro';
+import Base from '../layouts/Base.astro';
+import AppCta from './AppCta.astro';
+import ContentCard from './ContentCard.astro';
+import Pagination from './Pagination.astro';
+import { LOCALES, getDict, type Locale } from '../i18n';
+import { articleIndexPath, articlePath, getArticles, type Article } from '../lib/content';
+
+interface Props {
+  locale: Locale;
+  page: Page<Article>;
+}
+
+const { locale, page } = Astro.props;
+const t = getDict(locale).articles;
+const first = page.currentPage === 1;
+const indexPath = articleIndexPath(locale);
+const path = first ? indexPath : `${indexPath}/${page.currentPage}`;
+// Only the first page is paired across languages: the lists have different lengths.
+const alternates =
+  first && getArticles('pt-br').length > 0
+    ? Object.fromEntries(LOCALES.map((code) => [code, articleIndexPath(code)]))
+    : undefined;
+const title = first ? t.indexTitle : `${t.indexTitle.replace(' | Upvote', '')} · ${t.pageLabel} ${page.currentPage} | Upvote`;
+---
+
+<Base locale={locale} title={title} description={t.indexDescription} path={path} alternates={alternates}>
+  <section class="site-container pb-16 pt-12 lg:pt-16">
+    <h1 class="section-title">{t.indexHeading}</h1>
+    <p class="section-lead mt-[14px] max-w-[720px]">{t.indexLead}</p>
+
+    <div class="mt-10 grid grid-cols-1 gap-[18px] sm:grid-cols-2 lg:grid-cols-3">
+      {
+        page.data.map((article) => (
+          <ContentCard href={articlePath(locale, article.slug)} title={article.title} text={article.standfirst} eyebrow={article.kicker} image={article.image} ratio={[1200, 675]} />
+        ))
+      }
+    </div>
+
+    <Pagination locale={locale} current={page.currentPage} last={page.lastPage} previous={page.url.prev} next={page.url.next} />
+
+    <div class="mt-14">
+      <AppCta locale={locale} />
+    </div>
+  </section>
+</Base>

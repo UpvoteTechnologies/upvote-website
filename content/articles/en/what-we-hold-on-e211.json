@@ -1,0 +1,267 @@
+{
+  "slug": "what-we-hold-on-e211",
+  "kicker": "ADDITIVES",
+  "title": "Sodium benzoate (E211): what we hold",
+  "standfirst": "The published sources behind what we say, and what counting them cannot tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "IARC · 2018",
+  "image": "/media/articles/what-we-hold-on-e211.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "E211 Sodium benzoate is a synthetic salt of benzoic acid used as a preservative to inhibit mould, yeast and bacteria, mainly in acidic foods and drinks."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use it as preservative."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "What we hold on it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "This page is about the record we hold on this additive: who has written about it, and where you can read them."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b7",
+      "label": "Published sources we hold on Sodium benzoate (E211)",
+      "caption": "Tap to see how we counted, and what the count leaves out.",
+      "basis": {
+        "q": "kb.count",
+        "of": "additive_citations",
+        "subject": "e211"
+      },
+      "resolved": {
+        "value": "21",
+        "method": "Published sources behind what we say about E211.",
+        "n": 21,
+        "scope": "kb",
+        "excluded": 0,
+        "excludedNote": null,
+        "sources": [
+          {
+            "authority": "IARC",
+            "year": 2018,
+            "url": "https://www.iarc.who.int/news-events/iarc-monographs-volume-120-benzene/"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2016,
+            "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4433"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2008,
+            "url": "https://www.efsa.europa.eu/en/efsajournal/pub/660"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2008,
+            "url": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2002,
+            "url": "https://ec.europa.eu/food/fs/sc/scf/out137_en.pdf"
+          },
+          {
+            "authority": "FDA",
+            "year": 1984,
+            "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1733"
+          },
+          {
+            "authority": null,
+            "year": 2023,
+            "url": "https://doi.org/10.1038/s41598-023-32887-9"
+          },
+          {
+            "authority": null,
+            "year": 2021,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34400959/"
+          }
+        ],
+        "limit": "A source count is a measure of how much has been written, not of how risky a thing is."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Names it goes by"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "A label may name this additive in any of these ways, or by its code alone."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "antimol",
+        "benzoate de sodium",
+        "benzoate of soda",
+        "benzoato de sodio",
+        "benzoato de sosa",
+        "benzoato di sodio",
+        "benzoato sodico",
+        "c6h5coona",
+        "conservante e 211",
+        "conservante e211",
+        "conservateur e211",
+        "natriumbenzoaat",
+        "natriumbenzoat",
+        "sodium benzoate",
+        "sodium benzoate solution"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "The sources"
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b12",
+      "citationId": "additive-e211-iarc-2018"
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "additive-e211-efsa-2016"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "additive-e211-efsa-2008"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "additive-e211-efsa-2008-2"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "additive-e211-efsa-2002"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "additive-e211-fda-1984"
+    },
+    {
+      "kind": "citation",
+      "key": "b18",
+      "citationId": "additive-e211-source-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b19",
+      "citationId": "additive-e211-source-2021"
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b20",
+      "spans": [
+        {
+          "text": "A count of sources says how much has been written, not how risky a thing is. A well studied additive can be well studied because it is common, and a quiet one can be quiet because nobody has looked. What matters for you is the amount in the food in front of you, which this page cannot tell you."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e211-iarc-2018": {
+      "authority": "IARC",
+      "year": 2018,
+      "url": "https://www.iarc.who.int/news-events/iarc-monographs-volume-120-benzene/"
+    },
+    "additive-e211-efsa-2016": {
+      "authority": "EFSA",
+      "year": 2016,
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4433"
+    },
+    "additive-e211-efsa-2008": {
+      "authority": "EFSA",
+      "year": 2008,
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/660"
+    },
+    "additive-e211-efsa-2008-2": {
+      "authority": "EFSA",
+      "year": 2008,
+      "url": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
+    },
+    "additive-e211-efsa-2002": {
+      "authority": "EFSA",
+      "year": 2002,
+      "url": "https://ec.europa.eu/food/fs/sc/scf/out137_en.pdf"
+    },
+    "additive-e211-fda-1984": {
+      "authority": "FDA",
+      "year": 1984,
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1733"
+    },
+    "additive-e211-source-2023": {
+      "authority": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1038/s41598-023-32887-9"
+    },
+    "additive-e211-source-2021": {
+      "authority": "",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34400959/"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "sauteed-mushrooms-with-shallots",
+  "title": "Sautéed Mushrooms with Shallots",
+  "blurb": "Simple pan-fried mushrooms with shallots, seasoned with salt and pepper. A quick side dish that works with most mains.",
+  "steps": [
+    "Peel the shallots and chop them finely.",
+    "Wipe the mushrooms clean and cut each one into quarters.",
+    "Heat the olive oil in a large frying pan over medium-high heat.",
+    "Add the shallots and cook for one minute, stirring occasionally.",
+    "Add the mushrooms, salt and pepper, then cook for four to five minutes, stirring now and then, until the mushrooms are golden and any liquid has evaporated."
+  ],
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 5,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/sauteed-mushrooms-with-shallots.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 75.828,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 2.916,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 4.24,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 1.982,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.763,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 5.378,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.744,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 296.4,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "button mushrooms",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "shallots",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

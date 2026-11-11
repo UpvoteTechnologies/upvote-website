@@ -1,0 +1,354 @@
+{
+  "slug": "names-milk-hides-behind",
+  "kicker": "ALLERGENS",
+  "title": "The names milk hides behind",
+  "standfirst": "Milk goes by many names on a label. Here is the list we read for you.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "US FDA · 2004",
+  "image": "/media/articles/names-milk-hides-behind.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "The law makes a maker name milk when they put it in on purpose. It does not make them use the word you are looking for."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "names we watch for on a label",
+      "caption": "Counted only where the link to milk is settled. Names that depend on the product are listed further down, and are not in this count.",
+      "basis": {
+        "q": "kb.count",
+        "of": "allergen_forms",
+        "subject": "milk"
+      },
+      "resolved": {
+        "value": "61",
+        "method": "Names whose link to milk is settled, counted from our allergen registry.",
+        "n": 75,
+        "scope": "kb",
+        "excluded": 14,
+        "excludedNote": "14 more depend on the product or are shared with something else, so they are listed separately rather than counted here.",
+        "sources": [
+          {
+            "authority": "US FDA",
+            "doc": "Food Allergen Labeling and Consumer Protection Act (FALCPA), Title II of Public Law 108-282 — milk as a major food allergen",
+            "year": 2004,
+            "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa"
+          },
+          {
+            "authority": "US Congress / FDA",
+            "doc": "FASTER Act of 2021 (Public Law 117-11) — reaffirms the 9 major allergens incl. milk",
+            "year": 2021,
+            "url": "https://www.congress.gov/bill/117th-congress/senate-bill/578"
+          },
+          {
+            "authority": "European Union",
+            "doc": "Regulation (EU) No 1169/2011 on food information to consumers, Annex II — 'Milk and products thereof (including lactose)'",
+            "year": 2011,
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+          },
+          {
+            "authority": "FARE (Food Allergy Research & Education)",
+            "doc": "Milk Allergy — 'Avoiding Milk' ingredient/hidden-name list (casein/caseinates, whey, lactalbumin, Recaldent, Simplesse, ghee, rennet casein, natural/artificial butter flavor)",
+            "year": 2023,
+            "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/milk"
+          },
+          {
+            "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+            "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes — cow's milk allergens (casein, alpha-lactalbumin, beta-lactoglobulin), EFSA Journal 12(11):3894",
+            "year": 2014,
+            "url": "https://www.efsa.europa.eu/en/efsajournal/pub/3894"
+          },
+          {
+            "authority": "US FDA",
+            "doc": "Food Allergies — 'What You Need To Know' consumer guidance (milk hidden-source examples)",
+            "year": 2022,
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies"
+          }
+        ],
+        "limit": "We read what a label says. We cannot see what a maker left off it."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Always means milk"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "milk",
+        "goat milk",
+        "sheep milk",
+        "buffalo milk",
+        "casein",
+        "caseinate",
+        "sodium caseinate",
+        "calcium caseinate",
+        "potassium caseinate",
+        "ammonium caseinate",
+        "magnesium caseinate",
+        "rennet casein",
+        "hydrolyzed casein",
+        "casein hydrolysate",
+        "whey",
+        "whey protein",
+        "whey protein concentrate",
+        "whey protein isolate",
+        "whey protein hydrolysate",
+        "sweet whey",
+        "acid whey",
+        "delactosed whey",
+        "demineralized whey",
+        "whey powder",
+        "lactalbumin",
+        "lactalbumin phosphate",
+        "lactoglobulin",
+        "milk protein",
+        "milk protein concentrate",
+        "milk protein isolate",
+        "hydrolyzed milk protein",
+        "lactose",
+        "butter",
+        "butterfat",
+        "milk fat",
+        "anhydrous milk fat",
+        "butter oil",
+        "ghee",
+        "cream",
+        "sour cream",
+        "buttermilk",
+        "half and half",
+        "milk solids",
+        "milk solids non-fat",
+        "nonfat dry milk",
+        "dry milk",
+        "milk powder",
+        "condensed milk",
+        "evaporated milk",
+        "malted milk",
+        "cheese",
+        "cream cheese",
+        "yogurt",
+        "kefir",
+        "curds",
+        "quark",
+        "paneer",
+        "dulce de leche",
+        "recaldent",
+        "casein phosphopeptide",
+        "simplesse"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Sometimes means milk"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "These depend on the product. We treat them with care, and we say so on the label reading rather than guessing."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b7",
+      "source": "kb",
+      "items": [
+        "lactoferrin",
+        "lactulose",
+        "lactitol",
+        "butter esters",
+        "custard",
+        "pudding",
+        "ice cream",
+        "gelato",
+        "nougat",
+        "natural flavoring",
+        "natural flavor",
+        "natural butter flavor",
+        "caramel flavoring",
+        "starter distillate"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "And these do not"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "Names that look close but are not milk. These are the ones you can stop worrying about."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "almond butter",
+        "almond milk",
+        "almondmilk",
+        "apple butter",
+        "butter bean",
+        "butter beans",
+        "buttercup",
+        "butterhead lettuce",
+        "butternut squash",
+        "calcium lactate",
+        "calcium lactate gluconate",
+        "calcium stearoyl lactylate",
+        "caramel color",
+        "cashew butter",
+        "cashew milk",
+        "cocoa butter",
+        "cocoa nibs",
+        "coconut butter",
+        "coconut cream",
+        "coconut milk",
+        "cream of coconut",
+        "cream of tartar",
+        "flax milk",
+        "hazelnut milk",
+        "hemp milk",
+        "lactase",
+        "lactic acid",
+        "lactic acid bacteria",
+        "lactic acid starter culture",
+        "lactylate",
+        "macadamia milk",
+        "milk thistle",
+        "milkfish",
+        "milkweed",
+        "nut butter",
+        "oat milk",
+        "oatmilk",
+        "pea milk",
+        "peanut butter",
+        "pistachio milk",
+        "rice milk",
+        "seed butter",
+        "shea butter",
+        "sodium lactate",
+        "sodium stearoyl lactylate",
+        "soy milk",
+        "soymilk",
+        "sunflower butter",
+        "walnut milk"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "What we do when the label is unclear"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "If we cannot tell, we warn you. On this one thing we would rather be wrong in the direction of caution than quiet."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "allergen-milk-us-fda-2004"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "allergen-milk-us-congress-fda-2021"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "allergen-milk-european-union-2011"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "allergen-milk-fare-food-allergy-research-education-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "allergen-milk-efsa-panel-on-dietetic-products-nutritio-2014"
+    },
+    {
+      "kind": "citation",
+      "key": "b18",
+      "citationId": "allergen-milk-us-fda-2022"
+    }
+  ],
+  "citations": {
+    "allergen-milk-us-fda-2004": {
+      "authority": "US FDA",
+      "doc": "Food Allergen Labeling and Consumer Protection Act (FALCPA), Title II of Public Law 108-282 — milk as a major food allergen",
+      "year": 2004,
+      "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa"
+    },
+    "allergen-milk-us-congress-fda-2021": {
+      "authority": "US Congress / FDA",
+      "doc": "FASTER Act of 2021 (Public Law 117-11) — reaffirms the 9 major allergens incl. milk",
+      "year": 2021,
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/578"
+    },
+    "allergen-milk-european-union-2011": {
+      "authority": "European Union",
+      "doc": "Regulation (EU) No 1169/2011 on food information to consumers, Annex II — 'Milk and products thereof (including lactose)'",
+      "year": 2011,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+    },
+    "allergen-milk-fare-food-allergy-research-education-2023": {
+      "authority": "FARE (Food Allergy Research & Education)",
+      "doc": "Milk Allergy — 'Avoiding Milk' ingredient/hidden-name list (casein/caseinates, whey, lactalbumin, Recaldent, Simplesse, ghee, rennet casein, natural/artificial butter flavor)",
+      "year": 2023,
+      "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/milk"
+    },
+    "allergen-milk-efsa-panel-on-dietetic-products-nutritio-2014": {
+      "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+      "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes — cow's milk allergens (casein, alpha-lactalbumin, beta-lactoglobulin), EFSA Journal 12(11):3894",
+      "year": 2014,
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/3894"
+    },
+    "allergen-milk-us-fda-2022": {
+      "authority": "US FDA",
+      "doc": "Food Allergies — 'What You Need To Know' consumer guidance (milk hidden-source examples)",
+      "year": 2022,
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies"
+    }
+  }
+}

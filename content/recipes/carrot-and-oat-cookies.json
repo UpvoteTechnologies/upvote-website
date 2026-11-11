@@ -1,0 +1,120 @@
+{
+  "slug": "carrot-and-oat-cookies",
+  "title": "Carrot and Oat Cookies",
+  "blurb": "Soft, lightly spiced cookies packed with grated carrot, oats and raisins. A wholesome treat for any time of day.",
+  "steps": [
+    "Heat your oven to 180°C and line a baking tray with baking paper.",
+    "Beat the softened butter and sugar together in a bowl until combined, then add the egg and mix well.",
+    "Stir in the grated carrot, oats, flour, baking powder, cinnamon and salt until you have a thick mixture.",
+    "Fold through the raisins and chopped walnuts.",
+    "Spoon rounded tablespoons of the mixture onto the prepared tray, spacing them apart, and flatten each one slightly with the back of a spoon.",
+    "Bake for 22 to 25 minutes until the edges are golden and the cookies are just firm to the touch.",
+    "Leave to cool on the tray for a few minutes, then transfer to a wire rack to cool completely."
+  ],
+  "servings": 8,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/carrot-and-oat-cookies.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 258.329,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 4.896,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 33.452,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 14.467,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.86,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 12.185,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 4.166,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 128.625,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "carrots, grated",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "rolled oats",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "raisins",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "walnuts, chopped",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "light brown soft sugar",
+      "measure": null,
+      "grams": 70
+    },
+    {
+      "text": "unsalted butter, softened",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "egg",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "ground cinnamon",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "baking powder",
+      "measure": null,
+      "grams": 4
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

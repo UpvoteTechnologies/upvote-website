@@ -1,0 +1,97 @@
+{
+  "slug": "cinnamon-chocolate-pots",
+  "title": "Cinnamon Chocolate Pots",
+  "blurb": "Rich, set chocolate custards with a warm hint of cinnamon, cooked gently on the hob and chilled until firm.",
+  "steps": [
+    "Break the chocolate into pieces and place in a heatproof bowl.",
+    "Warm the milk in a saucepan over a medium heat until it just begins to steam, then pour it over the chocolate and stir until melted and smooth.",
+    "Whisk the eggs, sugar, cinnamon and salt together in a separate bowl until combined.",
+    "Pour the chocolate mixture into the egg mixture, whisking constantly until smooth.",
+    "Divide the mixture between six small ramekins or cups.",
+    "Place the ramekins in a large, deep frying pan and pour boiling water around them until it reaches halfway up their sides.",
+    "Cover the pan with a lid or foil and simmer gently for 8 to 10 minutes until the custards are just set but still have a slight wobble in the centre.",
+    "Remove the ramekins from the water, leave to cool, then chill in the fridge for at least 2 hours before serving."
+  ],
+  "servings": 6,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/cinnamon-chocolate-pots.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 349.79,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 10.09,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 37.105,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 32.001,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.577,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 17.893,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 9.172,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 162.167,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "dark chocolate",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "large eggs",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "ground cinnamon",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "whole milk",
+      "measure": null,
+      "grams": 400
+    }
+  ]
+}

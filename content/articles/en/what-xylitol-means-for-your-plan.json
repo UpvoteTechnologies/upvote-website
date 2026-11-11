@@ -1,0 +1,75 @@
+{
+  "slug": "what-xylitol-means-for-your-plan",
+  "kicker": "INGREDIENTS",
+  "title": "Xylitol: what it means for your plan",
+  "standfirst": "Which of our plan rules this ingredient turns on, and what that does not tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-xylitol-means-for-your-plan.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "Xylitol: a naturally occurring sugar alcohol used as a low-calorie sweetener, common in sugar-free gum, mints and confectionery. Equivalent to additive E967."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use xylitol as a sweetener and it is of plant origin."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "When it matters to you"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "Our scorer looks for xylitol when Low-FODMAP is on for you. If that plan is off, your score does not change. This is how the app reads a label. It is not a claim about health."
+        }
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

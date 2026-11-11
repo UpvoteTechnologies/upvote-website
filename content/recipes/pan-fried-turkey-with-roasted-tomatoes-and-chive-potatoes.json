@@ -1,0 +1,110 @@
+{
+  "slug": "pan-fried-turkey-with-roasted-tomatoes-and-chive-potatoes",
+  "title": "Pan-fried turkey with roasted tomatoes and chive potatoes",
+  "blurb": "Turkey cutlets cooked until golden, served with soft roasted tomatoes and buttery new potatoes tossed with chives and shallot.",
+  "steps": [
+    "Heat the oven to 200°C. Halve the new potatoes and put them in a pan of cold salted water, bring to the boil, then simmer for 12 minutes until tender.",
+    "While the potatoes cook, halve the tomatoes and place them cut-side up on a baking tray, drizzle with half the olive oil, season with salt and pepper, then roast for 20 minutes.",
+    "Peel and finely slice the shallot. Snip the chives into short lengths.",
+    "Season the turkey cutlets on both sides with salt and pepper. Heat the remaining olive oil in a frying pan over medium-high heat and cook the cutlets for 4 minutes each side until cooked through and golden.",
+    "Drain the potatoes and return them to the pan with the butter, shallot and most of the chives. Toss gently until the butter melts and coats everything.",
+    "Serve the turkey with the potatoes and roasted tomatoes on the side, scattered with the remaining chives."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/pan-fried-turkey-with-roasted-tomatoes-and-chive-potatoes.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "new potatoes",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "turkey breast cutlets",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "tomatoes",
+      "measure": null,
+      "grams": 250
+    },
+    {
+      "text": "shallot",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "fresh chives",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "butter",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

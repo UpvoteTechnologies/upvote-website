@@ -16,6 +16,7 @@ interface Props {
   noindex?: boolean;
   ogType?: 'website' | 'article';
   ogImage?: string;
+  ogImageSize?: [number, number];
   jsonLd?: Record<string, unknown>[];
   /** Set to false for bare pages (the `/download` redirect) that carry no header or footer. */
   chrome?: boolean;

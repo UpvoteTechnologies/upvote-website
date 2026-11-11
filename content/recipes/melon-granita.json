@@ -1,0 +1,84 @@
+{
+  "slug": "melon-granita",
+  "title": "Melon Granita",
+  "blurb": "A light, icy dessert made from blended melon and lemon juice, frozen and scraped into delicate crystals.",
+  "steps": [
+    "Cut the melon in half, scoop out the seeds, then cut away the skin and chop the flesh roughly.",
+    "Put the melon, water, sugar and lemon juice into a blender and blend until completely smooth.",
+    "Taste and add more sugar or lemon juice if needed, then pour the mixture into a shallow freezer-proof container.",
+    "Freeze for about 2 hours until the edges start to set, then use a fork to scrape and break up the ice crystals.",
+    "Return to the freezer and repeat the scraping process every 30 minutes for 2 to 3 hours until you have a container full of light, fluffy ice crystals.",
+    "Serve scooped into chilled glasses or bowls."
+  ],
+  "servings": 8,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/melon-granita.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 97.925,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.243,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 22.459,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 21.895,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.211,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 0.311,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.078,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 46.138,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "ripe cantaloupe melon",
+      "measure": null,
+      "grams": 1200
+    },
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "lemon juice",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

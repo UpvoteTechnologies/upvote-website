@@ -1,0 +1,117 @@
+{
+  "slug": "lemon-quinoa-with-peas-and-carrots",
+  "title": "Lemon quinoa with peas and carrots",
+  "blurb": "A light grain bowl with sweet peas and carrots, sharp feta and fresh herbs",
+  "steps": [
+    "Rinse the quinoa in a sieve under cold water, then tip into a saucepan with the vegetable stock and bring to the boil.",
+    "Reduce the heat to low, cover and simmer for 15 minutes until the liquid is absorbed and the quinoa is tender.",
+    "Meanwhile, peel and finely chop the onion, then peel and dice the carrot into small cubes.",
+    "Heat the olive oil in a frying pan over medium heat, add the onion and carrot and cook for 8 minutes, stirring occasionally, until softened.",
+    "Drain the peas and add them to the pan, cooking for 2 minutes to warm through.",
+    "Zest and juice the lemon, then chop the parsley and crumble the feta.",
+    "Fluff the cooked quinoa with a fork, then stir through the vegetables, lemon zest and juice, and most of the parsley.",
+    "Divide between two bowls and top with the crumbled feta, remaining parsley and black pepper."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/lemon-quinoa-with-peas-and-carrots.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 340.855,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 16.483,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 35.297,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 14.012,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 10.624,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 16.118,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 5.713,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 914.55,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "white quinoa",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "vegetable stock",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "onion",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "carrot",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "canned garden peas",
+      "measure": null,
+      "grams": 240
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "flat-leaf parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "feta cheese",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "what-glucose-syrup-means-for-your-plan",
+  "kicker": "INGREDIENTS",
+  "title": "Glucose syrup: what it means for your plan",
+  "standfirst": "Which of our plan rules this ingredient turns on, and what that does not tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-glucose-syrup-means-for-your-plan.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "Glucose syrup is a thick, sweet liquid made by breaking down starch (usually corn or wheat) into simple sugars. It sweetens products and helps control texture, moisture and crystallisation."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use glucose syrup as a sweetener/sugar and it is of plant origin."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "How our rules read it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "Our rules read glucose syrup as a refined syrup."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "When it matters to you"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Our scorer looks for glucose syrup when Autoimmune Protocol (AIP), Diabetes, Gout or Fatty liver (NAFLD) is on for you. If those plans are off, your score does not change. This is how the app reads a label. It is not a claim about health."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "What it may be called"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b10",
+      "spans": [
+        {
+          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b11",
+      "source": "kb",
+      "items": [
+        "glicose",
+        "glucose syrup",
+        "glucosesirup",
+        "glucosestroop",
+        "glukosesirup",
+        "jarabe de glucosa",
+        "sciroppo di glucosio",
+        "sirop de glucose",
+        "xarope de glucose"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

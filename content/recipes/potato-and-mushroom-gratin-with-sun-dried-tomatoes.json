@@ -1,0 +1,111 @@
+{
+  "slug": "potato-and-mushroom-gratin-with-sun-dried-tomatoes",
+  "title": "Potato and mushroom gratin with sun-dried tomatoes",
+  "blurb": "Layers of sliced potato and mushrooms baked in a creamy garlic sauce with sun-dried tomatoes.",
+  "steps": [
+    "Heat your oven to 180°C. Peel the potatoes and slice them thinly, about 3mm thick, then slice the mushrooms and finely slice the onion.",
+    "Crush the garlic cloves and chop the sun-dried tomatoes into strips. Butter a medium baking dish.",
+    "Mix the cream and milk together in a jug with the garlic and some salt and pepper.",
+    "Layer half the potato slices in the dish, then add the mushrooms, onion and sun-dried tomatoes in an even layer.",
+    "Top with the remaining potato slices, arranging them neatly, then pour the cream mixture over the top.",
+    "Grate the cheddar over the surface and cover the dish tightly with foil.",
+    "Bake for 25 minutes, then remove the foil and bake for another 5 minutes until the top is golden and the potatoes are tender when pierced with a knife."
+  ],
+  "servings": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/potato-and-mushroom-gratin-with-sun-dried-tomatoes.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 888.22,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 23.197,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 75.33,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 21.494,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 11.153,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 56.993,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 31.898,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 339.43,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "waxy potatoes",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "chestnut mushrooms",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "yellow onion",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "sun-dried tomatoes in oil",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "double cream",
+      "measure": "ml",
+      "grams": 200
+    },
+    {
+      "text": "whole milk",
+      "measure": "ml",
+      "grams": 100
+    },
+    {
+      "text": "butter",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "mature cheddar",
+      "measure": null,
+      "grams": 60
+    }
+  ]
+}

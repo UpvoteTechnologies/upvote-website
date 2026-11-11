@@ -38,6 +38,13 @@ export default function Footer({ locale, switchHref }: FooterProps) {
                   {t.howItWorks}
                 </a>
               </li>
+              {dict.pages.links.map((link) => (
+                <li key={link.href}>
+                  <a href={link.href} className={linkClass}>
+                    {link.label}
+                  </a>
+                </li>
+              ))}
               <li>
                 <a href={downloadHref(locale)} className={linkClass}>
                   {t.download}

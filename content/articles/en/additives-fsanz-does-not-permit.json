@@ -1,0 +1,148 @@
+{
+  "slug": "additives-fsanz-does-not-permit",
+  "kicker": "ADDITIVES",
+  "title": "Additives our record says FSANZ does not permit",
+  "standfirst": "What one place does not permit, another may. Here is what FSANZ does not allow in food.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/additives-fsanz-does-not-permit.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "Every additive named here is one our registry records as not permitted in food by FSANZ. That is a decision about the substance itself. It is not a claim about any food you are holding."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "additives our record says FSANZ does not permit",
+      "caption": "Counted from each additive's own record of where it may not be used. Every additive in that count is named below.",
+      "basis": {
+        "q": "kb.count",
+        "of": "jurisdiction_forbidden",
+        "subject": "au"
+      },
+      "resolved": {
+        "value": "54",
+        "method": "Additives our registry records as not permitted in food by FSANZ, counted from each additive's own record of where it may not be used.",
+        "n": 58,
+        "scope": "kb",
+        "excluded": 4,
+        "excludedNote": "4 more are recorded as not permitted EXCEPT in uses our sources do not name — a narrower record than the one behind this list, so they are not on it.",
+        "sources": [],
+        "limit": "This is our record of a decision, not a reading of the law itself: we have not checked each additive against the text of the law. And where a law works by naming what may be used, an additive missing from this list is not thereby permitted — it may simply not be listed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "A decision like this one is about whether a substance may be used in food at all, in the place that decided. It is not a ceiling on how much of it a food may contain."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "The ones our record says FSANZ does not permit"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b5",
+      "source": "kb",
+      "items": [
+        "e105",
+        "e107",
+        "e111",
+        "e125",
+        "e126",
+        "e128",
+        "e130",
+        "e131",
+        "e152",
+        "e154",
+        "e180",
+        "e209",
+        "e214",
+        "e217",
+        "e219",
+        "e226",
+        "e230",
+        "e231",
+        "e232",
+        "e233",
+        "e236",
+        "e237",
+        "e238",
+        "e239",
+        "e240",
+        "e241",
+        "e284",
+        "e285",
+        "e324",
+        "e370",
+        "e424",
+        "e430",
+        "e434",
+        "e474",
+        "e493",
+        "e494",
+        "e495",
+        "e517",
+        "e521",
+        "e527",
+        "e538",
+        "e544",
+        "e545",
+        "e626",
+        "e638",
+        "e913",
+        "e924",
+        "e924a",
+        "e924b",
+        "e925",
+        "e926",
+        "e927",
+        "e927a",
+        "e1452"
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "A decision made in one place is not a decision made everywhere. Another regulator may still allow the same additive."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "Our record also marks some additives as not permitted except in uses it does not name. That is a narrower record than the one behind the list above, so those additives are not on it."
+        }
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Our record of where an additive may not be used is a summary, not the law itself, and we have not checked each additive against the text of the law. And where a law works by naming what may be used, an additive missing from this list is not thereby permitted."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

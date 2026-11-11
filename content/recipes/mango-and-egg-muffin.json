@@ -1,0 +1,94 @@
+{
+  "slug": "mango-and-egg-muffin",
+  "title": "Mango and Egg Muffin",
+  "blurb": "Toasted muffins with fried eggs, fresh mango, avocado and melted Cheddar.",
+  "steps": [
+    "Split the muffins in half and toast them until lightly golden.",
+    "Heat the olive oil in a frying pan over medium heat and crack in the eggs. Fry for 3 to 4 minutes until the whites are set and the yolks are still runny, or cook to your preference.",
+    "While the eggs cook, peel and slice the mango, discarding the stone. Halve and peel the avocado, then slice the flesh.",
+    "Place the muffin halves on plates, cut side up. Top each half with a slice of cheese.",
+    "Arrange the mango and avocado slices over the cheese, then place a fried egg on top of each muffin half."
+  ],
+  "servings": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "breakfast",
+    "lunch"
+  ],
+  "image": "/media/recipes/mango-and-egg-muffin.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 523.39,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 23.731,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 42.125,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 12.853,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 6.545,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 30.338,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 9.28,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 506.4,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "English muffins",
+      "measure": "2 muffins",
+      "grams": 114
+    },
+    {
+      "text": "large eggs",
+      "measure": "4 eggs",
+      "grams": 200
+    },
+    {
+      "text": "ripe mango",
+      "measure": "1 mango, sliced",
+      "grams": 150
+    },
+    {
+      "text": "avocado",
+      "measure": "1 small avocado, sliced",
+      "grams": 100
+    },
+    {
+      "text": "low-fat Cheddar cheese",
+      "measure": "4 thin slices",
+      "grams": 40
+    },
+    {
+      "text": "olive oil",
+      "measure": "2 tsp",
+      "grams": 10
+    }
+  ]
+}

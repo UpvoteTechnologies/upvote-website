@@ -1,0 +1,110 @@
+{
+  "slug": "roasted-red-pepper-and-garlic-rice",
+  "title": "Roasted red pepper and garlic rice",
+  "blurb": "Sweet roasted peppers stirred through buttery rice with softened shallots and garlic.",
+  "steps": [
+    "Heat your oven to 200°C. Cut the peppers in half, remove the seeds and white membrane, then place them cut side down on a baking tray with the olive oil and roast for 20 minutes until the skins are blistered and the flesh is soft.",
+    "While the peppers roast, peel and finely chop the shallot and garlic. Rinse the rice under cold water until the water runs clear.",
+    "Put the stock in a saucepan and bring it to the boil, then add the rice and half the butter. Reduce the heat to low, cover with a lid and simmer for 12 minutes until the liquid is absorbed.",
+    "When the peppers are done, let them cool slightly then peel off the skins and slice the flesh into strips.",
+    "Melt the remaining butter in a frying pan over medium heat, add the shallot and garlic and cook for 3 minutes until softened.",
+    "Stir the cooked rice, roasted pepper strips and the shallot mixture together in the pan. Season with salt and pepper and serve warm."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/roasted-red-pepper-and-garlic-rice.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 515.155,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 7.628,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 73.304,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.493,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.037,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 20.678,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 8.16,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1181.95,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "red peppers",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "shallot",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "long grain white rice",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "vegetable stock",
+      "measure": null,
+      "grams": 350
+    },
+    {
+      "text": "butter",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

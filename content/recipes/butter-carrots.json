@@ -1,0 +1,89 @@
+{
+  "slug": "butter-carrots",
+  "title": "Butter Carrots",
+  "blurb": "Tender carrot rounds cooked gently in butter until sweet and glossy.",
+  "steps": [
+    "Place the carrot rounds in a wide pan with the butter, oil, salt and water.",
+    "Bring to a simmer over medium heat, then reduce the heat to low.",
+    "Cover and cook for 15 minutes, stirring occasionally, until the carrots are tender.",
+    "Remove the lid and increase the heat to medium-high.",
+    "Cook for another 5 to 8 minutes, stirring often, until the liquid has evaporated and the carrots are glossy."
+  ],
+  "servings": 4,
+  "prepMinutes": 7,
+  "cookMinutes": 25,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/butter-carrots.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 168.8,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.495,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 15.411,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.168,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.65,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.245,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 4.773,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 422.35,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "carrots, cut into 3-4 mm rounds",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "unsalted butter",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "canola oil",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 120
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "slug": "names-sulfite-hides-behind",
+  "kicker": "ALLERGENS",
+  "title": "The names sulfites hide behind",
+  "standfirst": "Sulfites goes by many names on a label. Here is the list we read for you.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "US FDA · 1986",
+  "image": "/media/articles/names-sulfite-hides-behind.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "The law makes a maker name sulfites when they put it in on purpose. It does not make them use the word you are looking for."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "names we watch for on a label",
+      "caption": "Counted only where the link to sulfites is settled. Names that depend on the product are listed further down, and are not in this count.",
+      "basis": {
+        "q": "kb.count",
+        "of": "allergen_forms",
+        "subject": "sulfite"
+      },
+      "resolved": {
+        "value": "50",
+        "method": "Names whose link to sulfite is settled, counted from our allergen registry.",
+        "n": 59,
+        "scope": "kb",
+        "excluded": 9,
+        "excludedNote": "9 more depend on the product or are shared with something else, so they are listed separately rather than counted here.",
+        "sources": [
+          {
+            "authority": "US FDA",
+            "doc": "21 CFR 101.100(a)(4) — Foods exempt from full ingredient labeling; sulfiting agents must be declared when present at ≥10 ppm total SO2",
+            "year": 1986,
+            "url": "https://www.ecfr.gov/current/title-21/part-101/section-101.100"
+          },
+          {
+            "authority": "US FDA",
+            "doc": "21 CFR 130.9 — Sulfites in standardized foods; declaration requirement",
+            "year": 2024,
+            "url": "https://www.ecfr.gov/current/title-21/part-130/section-130.9"
+          },
+          {
+            "authority": "US FDA",
+            "doc": "21 CFR 182.3616/182.3637/182.3739/182.3766/182.3798/182.3862 — GRAS sulfiting agents (potassium bisulfite, potassium metabisulfite, sodium bisulfite, sodium metabisulfite, sodium sulfite, sulfur dioxide)",
+            "year": 2024,
+            "url": "https://www.ecfr.gov/current/title-21/part-182/subpart-D"
+          },
+          {
+            "authority": "European Union",
+            "doc": "Regulation (EU) No 1169/2011 on food information to consumers, Annex II point 12 — Sulphur dioxide and sulphites at >10 mg/kg or 10 mg/L expressed as total SO2",
+            "year": 2011,
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+          },
+          {
+            "authority": "European Union",
+            "doc": "Regulation (EC) No 1333/2008 on food additives, Annex II — E220 sulphur dioxide through E228 potassium hydrogen sulphite",
+            "year": 2008,
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333"
+          },
+          {
+            "authority": "EFSA ANS Panel",
+            "doc": "Re-evaluation of sulfur dioxide (E 220), sodium sulfite (E 221), sodium bisulfite (E 222), sodium metabisulfite (E 223), potassium metabisulfite (E 224), calcium sulfite (E 226), calcium bisulfite (E 227) and potassium bisulfite (E 228) as food additives, EFSA Journal 14(4):4438",
+            "year": 2016,
+            "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438"
+          },
+          {
+            "authority": "US FDA / Congress",
+            "doc": "FALCPA (2004) and FASTER Act (2021) — establish the 9 major food allergens; sulfites are NOT among them and are regulated separately under 21 CFR 101.100",
+            "year": 2021,
+            "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergies"
+          },
+          {
+            "authority": "FARE (Food Allergy Research & Education)",
+            "doc": "Sulfite sensitivity — hidden sources (dried fruit, wine, dehydrated potatoes, shrimp, bottled lemon/lime juice)",
+            "year": 2023,
+            "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/sulfites"
+          }
+        ],
+        "limit": "We read what a label says. We cannot see what a maker left off it."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Always means sulfites"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "sulfites",
+        "sulphites",
+        "sulfite",
+        "sulphite",
+        "sulfur dioxide",
+        "sulphur dioxide",
+        "so2",
+        "sulphur dioxide and sulphites",
+        "sulfur dioxide and sulfites",
+        "sulfiting agent",
+        "sulfiting agents",
+        "sulphiting agent",
+        "sulphiting agents",
+        "sodium sulfite",
+        "sodium sulphite",
+        "sodium bisulfite",
+        "sodium bisulphite",
+        "sodium hydrogen sulfite",
+        "sodium hydrogen sulphite",
+        "sodium metabisulfite",
+        "sodium metabisulphite",
+        "sodium disulfite",
+        "sodium disulphite",
+        "potassium metabisulfite",
+        "potassium metabisulphite",
+        "potassium disulfite",
+        "potassium disulphite",
+        "potassium sulfite",
+        "potassium sulphite",
+        "calcium sulfite",
+        "calcium sulphite",
+        "calcium bisulfite",
+        "calcium bisulphite",
+        "calcium hydrogen sulfite",
+        "calcium hydrogen sulphite",
+        "potassium bisulfite",
+        "potassium bisulphite",
+        "potassium hydrogen sulfite",
+        "potassium hydrogen sulphite",
+        "bisulfite",
+        "bisulphite",
+        "e220",
+        "e221",
+        "e222",
+        "e223",
+        "e224",
+        "e225",
+        "e226",
+        "e227",
+        "e228"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Sometimes means sulfites"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "These depend on the product. We treat them with care, and we say so on the label reading rather than guessing."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b7",
+      "source": "kb",
+      "items": [
+        "sulfurous acid",
+        "sulphurous acid",
+        "sodium pyrosulfite",
+        "potassium pyrosulfite",
+        "metabisulfite",
+        "metabisulphite",
+        "sulfite ammonia caramel",
+        "caramel color",
+        "caramel colour"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "And these do not"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "Names that look close but are not sulfites. These are the ones you can stop worrying about."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "aluminium sulfate",
+        "aluminum sulfate",
+        "ammonium sulfate",
+        "ammonium sulphate",
+        "barium sulfate",
+        "calcium sulfate",
+        "calcium sulphate",
+        "chondroitin sulfate",
+        "copper sulfate",
+        "cupric sulfate",
+        "cysteine",
+        "cystine",
+        "dextran sulfate",
+        "elemental sulfur",
+        "ferric sulfate",
+        "ferrous sulfate",
+        "glucosamine sulfate",
+        "heparin sulfate",
+        "magnesium sulfate",
+        "magnesium sulphate",
+        "manganese sulfate",
+        "methionine",
+        "methylsulfonylmethane",
+        "msm",
+        "potassium sulfate",
+        "potassium sulphate",
+        "sodium dithionite",
+        "sodium hydrosulfite",
+        "sodium laureth sulfate",
+        "sodium lauryl sulfate",
+        "sodium sulfate",
+        "sodium sulphate",
+        "sodium thiosulfate",
+        "sulfamic acid",
+        "sulfanilamide",
+        "sulfate",
+        "sulfur",
+        "sulphate",
+        "sulphur",
+        "taurine",
+        "zinc sulfate"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "What we do when the label is unclear"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "If we cannot tell, we warn you. On this one thing we would rather be wrong in the direction of caution than quiet."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "allergen-sulfite-us-fda-1986"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "allergen-sulfite-us-fda-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "allergen-sulfite-us-fda-2024-2"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "allergen-sulfite-european-union-2011"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "allergen-sulfite-european-union-2008"
+    },
+    {
+      "kind": "citation",
+      "key": "b18",
+      "citationId": "allergen-sulfite-efsa-ans-panel-2016"
+    },
+    {
+      "kind": "citation",
+      "key": "b19",
+      "citationId": "allergen-sulfite-us-fda-congress-2021"
+    },
+    {
+      "kind": "citation",
+      "key": "b20",
+      "citationId": "allergen-sulfite-fare-food-allergy-research-education-2023"
+    }
+  ],
+  "citations": {
+    "allergen-sulfite-us-fda-1986": {
+      "authority": "US FDA",
+      "doc": "21 CFR 101.100(a)(4) — Foods exempt from full ingredient labeling; sulfiting agents must be declared when present at ≥10 ppm total SO2",
+      "year": 1986,
+      "url": "https://www.ecfr.gov/current/title-21/part-101/section-101.100"
+    },
+    "allergen-sulfite-us-fda-2024": {
+      "authority": "US FDA",
+      "doc": "21 CFR 130.9 — Sulfites in standardized foods; declaration requirement",
+      "year": 2024,
+      "url": "https://www.ecfr.gov/current/title-21/part-130/section-130.9"
+    },
+    "allergen-sulfite-us-fda-2024-2": {
+      "authority": "US FDA",
+      "doc": "21 CFR 182.3616/182.3637/182.3739/182.3766/182.3798/182.3862 — GRAS sulfiting agents (potassium bisulfite, potassium metabisulfite, sodium bisulfite, sodium metabisulfite, sodium sulfite, sulfur dioxide)",
+      "year": 2024,
+      "url": "https://www.ecfr.gov/current/title-21/part-182/subpart-D"
+    },
+    "allergen-sulfite-european-union-2011": {
+      "authority": "European Union",
+      "doc": "Regulation (EU) No 1169/2011 on food information to consumers, Annex II point 12 — Sulphur dioxide and sulphites at >10 mg/kg or 10 mg/L expressed as total SO2",
+      "year": 2011,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+    },
+    "allergen-sulfite-european-union-2008": {
+      "authority": "European Union",
+      "doc": "Regulation (EC) No 1333/2008 on food additives, Annex II — E220 sulphur dioxide through E228 potassium hydrogen sulphite",
+      "year": 2008,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333"
+    },
+    "allergen-sulfite-efsa-ans-panel-2016": {
+      "authority": "EFSA ANS Panel",
+      "doc": "Re-evaluation of sulfur dioxide (E 220), sodium sulfite (E 221), sodium bisulfite (E 222), sodium metabisulfite (E 223), potassium metabisulfite (E 224), calcium sulfite (E 226), calcium bisulfite (E 227) and potassium bisulfite (E 228) as food additives, EFSA Journal 14(4):4438",
+      "year": 2016,
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438"
+    },
+    "allergen-sulfite-us-fda-congress-2021": {
+      "authority": "US FDA / Congress",
+      "doc": "FALCPA (2004) and FASTER Act (2021) — establish the 9 major food allergens; sulfites are NOT among them and are regulated separately under 21 CFR 101.100",
+      "year": 2021,
+      "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergies"
+    },
+    "allergen-sulfite-fare-food-allergy-research-education-2023": {
+      "authority": "FARE (Food Allergy Research & Education)",
+      "doc": "Sulfite sensitivity — hidden sources (dried fruit, wine, dehydrated potatoes, shrimp, bottled lemon/lime juice)",
+      "year": 2023,
+      "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/sulfites"
+    }
+  }
+}

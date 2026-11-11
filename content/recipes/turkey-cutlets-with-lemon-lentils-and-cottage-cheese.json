@@ -1,0 +1,110 @@
+{
+  "slug": "turkey-cutlets-with-lemon-lentils-and-cottage-cheese",
+  "title": "Turkey Cutlets with Lemon Lentils and Cottage Cheese",
+  "blurb": "Pan-fried turkey with soft coral lentils, leeks and a simple lemon cottage cheese sauce.",
+  "steps": [
+    "Rinse the lentils in cold water, then put them in a pan with 500ml water and a pinch of salt. Bring to the boil, then reduce the heat and simmer for 12 to 15 minutes until soft and the water is absorbed.",
+    "Meanwhile, trim and slice the leek into thin rounds, then rinse well to remove any grit. Peel and finely chop the garlic.",
+    "Heat half the olive oil in a frying pan over medium heat and cook the leek and garlic for 5 minutes until soft.",
+    "Season the turkey cutlets with salt and pepper. Heat the remaining oil in another frying pan over medium-high heat and cook the turkey for 4 to 5 minutes each side until golden and cooked through.",
+    "Zest and juice the lemon. Mix the cottage cheese with the lemon zest, half the lemon juice, and a pinch of salt and pepper.",
+    "Stir the cooked leeks through the lentils with the remaining lemon juice. Serve the lentils topped with the turkey cutlets and cottage cheese sauce."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/turkey-cutlets-with-lemon-lentils-and-cottage-cheese.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 632.315,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 61.269,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 66.897,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.513,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 10.666,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 14.106,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.456,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 991.19,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "dried red lentils",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "turkey breast cutlets",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "leek",
+      "measure": null,
+      "grams": 180
+    },
+    {
+      "text": "cottage cheese",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "garlic clove",
+      "measure": null,
+      "grams": 4
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

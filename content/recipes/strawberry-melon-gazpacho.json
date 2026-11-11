@@ -1,0 +1,95 @@
+{
+  "slug": "strawberry-melon-gazpacho",
+  "title": "Strawberry Melon Gazpacho",
+  "blurb": "A chilled summer soup made by blending fresh watermelon, cantaloupe, strawberries and cucumber with lime juice. Serve cold on warm days.",
+  "steps": [
+    "Set aside about 100g of the strawberries and a small handful of the watermelon and cantaloupe chunks for garnish.",
+    "Put the remaining watermelon, cantaloupe, cucumber and strawberries into a blender with the lime juice.",
+    "Blend until completely smooth, then taste and add more lime juice if needed.",
+    "Pour into a jug and chill in the fridge for at least 30 minutes.",
+    "Chop the reserved fruit into small pieces.",
+    "Ladle the gazpacho into bowls and top with the chopped fruit and torn mint leaves."
+  ],
+  "servings": 8,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "lunch",
+    "snack"
+  ],
+  "image": "/media/recipes/strawberry-melon-gazpacho.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 66.219,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.39,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 15.115,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 11.773,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.845,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 0.373,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.047,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 16.288,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "seedless watermelon, cut into chunks",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "cantaloupe, cut into chunks",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "cucumber, peeled and deseeded",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "strawberries, hulled",
+      "measure": null,
+      "grams": 450
+    },
+    {
+      "text": "lime juice",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "mint leaves",
+      "measure": null,
+      "grams": 5
+    }
+  ]
+}

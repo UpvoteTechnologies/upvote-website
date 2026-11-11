@@ -1,0 +1,121 @@
+{
+  "slug": "buckwheat-soba-with-roasted-shrimp-and-snap-peas",
+  "title": "Buckwheat Soba with Roasted Shrimp and Snap Peas",
+  "blurb": "Nutty soba noodles with roasted shrimp, sweet snap peas and a bright lemon-garlic dressing",
+  "steps": [
+    "Heat your oven to 220°C. Thaw the shrimp if frozen, then pat them completely dry with kitchen paper.",
+    "Peel and finely chop the garlic and ginger. Trim and slice the spring onions, keeping the white and green parts separate.",
+    "Toss the shrimp with half the olive oil, half the garlic and a pinch of salt on a baking tray. Roast for 8 to 10 minutes until just cooked through and lightly golden.",
+    "Meanwhile, bring a large pan of water to the boil. Cook the soba noodles according to the packet instructions, adding the snap peas for the final 2 minutes. Drain and rinse under cold water.",
+    "In a small bowl, whisk together the lemon juice, soy sauce, sesame oil, remaining olive oil, remaining garlic, ginger and the white parts of the spring onions.",
+    "Toss the drained noodles and snap peas with the dressing in a large bowl.",
+    "Divide the noodles between four bowls, top with the roasted shrimp and scatter over the green spring onion slices and sesame seeds."
+  ],
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/buckwheat-soba-with-roasted-shrimp-and-snap-peas.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 235.215,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 16.621,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 8.371,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 2.652,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.1,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 15.269,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.276,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 537.01,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "frozen peeled raw shrimp",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "buckwheat soba noodles",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "sugar snap peas",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 12
+    },
+    {
+      "text": "lemon juice",
+      "measure": null,
+      "grams": 45
+    },
+    {
+      "text": "sesame oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "soy sauce",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "fresh ginger",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "spring onions",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "black sesame seeds",
+      "measure": null,
+      "grams": 10
+    }
+  ]
+}

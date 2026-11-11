@@ -1,0 +1,105 @@
+{
+  "slug": "roasted-butternut-squash-soup-with-blue-cheese-toasts",
+  "title": "Roasted butternut squash soup with blue cheese toasts",
+  "blurb": "A smooth, warming soup made from roasted squash with garlic, served alongside toasted sourdough topped with melted blue cheese.",
+  "steps": [
+    "Heat your oven to 200°C. Peel the butternut squash, remove the seeds and cut the flesh into roughly 3cm chunks.",
+    "Place the squash and unpeeled garlic clove on a baking tray, drizzle with half the olive oil and season with salt and pepper. Roast for 35 minutes until the squash is soft and starting to caramelise at the edges.",
+    "Dissolve the stock cube in 400ml boiling water. Squeeze the roasted garlic from its skin and add to a blender with the roasted squash and stock.",
+    "Blend until completely smooth, adding a splash more water if needed to reach your preferred consistency. Taste and adjust the seasoning.",
+    "Slice the sourdough and toast until golden. Crumble the blue cheese on top and place under a hot grill for 2 minutes until the cheese melts.",
+    "Pour the soup into a bowl, drizzle with the remaining olive oil and serve with the blue cheese toasts on the side."
+  ],
+  "servings": 1,
+  "prepMinutes": 40,
+  "cookMinutes": 35,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/roasted-butternut-squash-soup-with-blue-cheese-toasts.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "butternut squash",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "garlic clove",
+      "measure": null,
+      "grams": 4
+    },
+    {
+      "text": "extra virgin olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 0.5
+    },
+    {
+      "text": "vegetable stock cube",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "sourdough bread",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "Bleu d'Auvergne",
+      "measure": null,
+      "grams": 40
+    }
+  ]
+}

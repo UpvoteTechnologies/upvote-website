@@ -1,0 +1,105 @@
+{
+  "slug": "almond-protein-pancakes-with-blueberries",
+  "title": "Almond Protein Pancakes with Blueberries",
+  "blurb": "Light, fluffy pancakes made with almond flour and protein powder, served with fresh blueberries.",
+  "steps": [
+    "Crack the egg into a mixing bowl and whisk until smooth.",
+    "Add the protein powder, soy flour, almond flour and baking powder, then stir in the water until you have a thick batter.",
+    "Heat the coconut oil in a non-stick frying pan over medium heat.",
+    "Pour half the batter into the pan to make one pancake, cook for 2 minutes until bubbles appear on the surface, then flip and cook for another 2 minutes.",
+    "Repeat with the remaining batter to make a second pancake.",
+    "Serve the pancakes topped with the fresh blueberries."
+  ],
+  "servings": 1,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/almond-protein-pancakes-with-blueberries.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 255.32,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 18.534,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 18.596,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.894,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.572,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.998,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 6.072,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 333.06,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "vanilla whey protein powder",
+      "measure": "1 tbsp",
+      "grams": 15
+    },
+    {
+      "text": "large egg",
+      "measure": "1",
+      "grams": 50
+    },
+    {
+      "text": "whole grain soy flour",
+      "measure": "1/2 tbsp",
+      "grams": 8
+    },
+    {
+      "text": "blanched almond flour",
+      "measure": "1 tbsp",
+      "grams": 12
+    },
+    {
+      "text": "fresh blueberries",
+      "measure": "1/2 cup",
+      "grams": 75
+    },
+    {
+      "text": "baking powder",
+      "measure": "1/2 tsp",
+      "grams": 2
+    },
+    {
+      "text": "water",
+      "measure": "2 tbsp",
+      "grams": 30
+    },
+    {
+      "text": "coconut oil",
+      "measure": "1 tsp",
+      "grams": 5
+    }
+  ]
+}

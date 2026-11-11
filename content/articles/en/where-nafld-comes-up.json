@@ -1,0 +1,90 @@
+{
+  "slug": "where-nafld-comes-up",
+  "kicker": "CONDITIONS",
+  "title": "Fatty liver (NAFLD): where it comes up",
+  "standfirst": "The things this plan reads most often, and the foods they turn up in.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/where-nafld-comes-up.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "The ones you will meet most"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "Of the things this plan reads, these are the ones on the most products we hold. That is how common they are, not how much they matter. Each one has its own page."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b3",
+      "source": "kb",
+      "items": [
+        "corn syrup",
+        "high fructose corn syrup",
+        "invert sugar",
+        "glucose syrup",
+        "rice syrup",
+        "cane syrup",
+        "invert syrup",
+        "glucose fructose syrup",
+        "refiners syrup",
+        "crystalline fructose",
+        "fructose glucose syrup"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Where they turn up"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "These are the kinds of food whose labels name those things most often. It is where this plan comes up, not a ruling on what belongs in it."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b6",
+      "source": "kb",
+      "items": [
+        "Candy Confectionery",
+        "Nature Apple Compote",
+        "Gelly Candy",
+        "Fruit Snack",
+        "Marshmallow",
+        "Coffee",
+        "Soda",
+        "Brioche"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "This is what our scorer reads, counted across the products we hold. It does not tell you what to eat, and we say nothing here about whether any of it changes your health. A pack can name something no list here holds. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

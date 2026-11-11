@@ -1,0 +1,114 @@
+{
+  "slug": "chocolate-sour-cream-cupcakes",
+  "title": "Chocolate Sour Cream Cupcakes",
+  "blurb": "Soft chocolate cupcakes made with soy flour and enriched with sour cream for a tender crumb.",
+  "steps": [
+    "Heat your oven to 180°C and line a 12-hole muffin tin with paper cases.",
+    "Whisk together the soy flour, cocoa powder, baking powder and salt in a bowl.",
+    "In a separate large bowl, beat the sugar and eggs together until pale and slightly thickened, then mix in the sour cream, oil and vanilla extract.",
+    "Fold the dry ingredients into the wet mixture until just combined, then stir in the boiling water to create a thin batter.",
+    "Divide the batter evenly between the paper cases, filling each about two-thirds full.",
+    "Bake for 18 to 20 minutes until a skewer inserted into the centre comes out clean, then cool on a wire rack."
+  ],
+  "servings": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/chocolate-sour-cream-cupcakes.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 147.24,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 6.336,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 17.816,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 13.837,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.886,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 6.246,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.416,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 173.541,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "whole grain soy flour",
+      "measure": "1 cup",
+      "grams": 120
+    },
+    {
+      "text": "unsweetened cocoa powder",
+      "measure": "⅓ cup",
+      "grams": 30
+    },
+    {
+      "text": "baking powder",
+      "measure": "1½ tsp",
+      "grams": 8
+    },
+    {
+      "text": "salt",
+      "measure": "½ tsp",
+      "grams": 3
+    },
+    {
+      "text": "caster sugar",
+      "measure": "¾ cup",
+      "grams": 150
+    },
+    {
+      "text": "large eggs",
+      "measure": "3 eggs",
+      "grams": 150
+    },
+    {
+      "text": "sour cream",
+      "measure": "6 oz",
+      "grams": 170
+    },
+    {
+      "text": "vegetable oil",
+      "measure": "¼ cup",
+      "grams": 60
+    },
+    {
+      "text": "vanilla extract",
+      "measure": "1 tsp",
+      "grams": 5
+    },
+    {
+      "text": "boiling water",
+      "measure": "¼ cup",
+      "grams": 60
+    }
+  ]
+}

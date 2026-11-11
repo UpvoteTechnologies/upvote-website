@@ -1,0 +1,94 @@
+{
+  "slug": "mango-mint-green-smoothie",
+  "title": "Mango Mint Green Smoothie",
+  "blurb": "A refreshing blend of ripe mango, fresh mint and spinach for a naturally sweet breakfast or snack.",
+  "steps": [
+    "Peel the mango and cut the flesh away from the stone, then roughly chop into chunks.",
+    "Peel the banana and break it into pieces.",
+    "Put the mango, banana, spinach and mint leaves into a blender.",
+    "Add the ice cubes and water, then blend on high speed until completely smooth.",
+    "Pour into two glasses and serve straight away."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/mango-mint-green-smoothie.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 137.3,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 2.381,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 32.393,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 26.936,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.56,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 0.872,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.202,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 35.8,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "ripe mango",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "baby spinach",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "fresh mint leaves",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "small banana",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "ice cubes",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 100
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "roasted-carrot-and-chickpea-wraps",
+  "title": "Roasted carrot and chickpea wraps",
+  "blurb": "Soft tortillas filled with roasted vegetables, chickpeas and a garlic tahini sauce",
+  "steps": [
+    "Heat your oven to 200°C. Cut the carrots into thin batons and the peppers into strips, then toss them with half the olive oil and the cumin on a baking tray.",
+    "Roast the vegetables for 20 minutes until softened and lightly charred at the edges.",
+    "Meanwhile, crush the garlic and mix it with the tahini, lemon juice and yoghurt in a small bowl, adding a tablespoon of water to loosen if needed.",
+    "Drain the chickpeas and toss them with the remaining olive oil.",
+    "Warm the tortillas in a dry pan for a few seconds on each side.",
+    "Spread the tahini sauce down the centre of each tortilla, then add the roasted vegetables and chickpeas.",
+    "Roll up the tortillas, folding in the ends as you go, then cut each one in half to serve."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/roasted-carrot-and-chickpea-wraps.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 864.245,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 33.599,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 123.814,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 22.785,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 23.983,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 29.06,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 4.297,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 174.86,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "carrots",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "red peppers",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "cooked chickpeas",
+      "measure": null,
+      "grams": 240
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "garlic clove",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "tahini",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "lemon juice",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "plain yoghurt",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "wheat tortillas",
+      "measure": null,
+      "grams": 120
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "smoked-salmon-souffle",
+  "title": "Smoked Salmon Soufflé",
+  "blurb": "A light baked soufflé with flakes of smoked salmon and a hint of nutmeg.",
+  "steps": [
+    "Heat the oven to 200°C and butter two ramekins thoroughly, then dust lightly with a little extra flour.",
+    "Melt the butter in a small saucepan over medium heat, stir in the flour and cook for one minute, then gradually whisk in the milk until smooth and thickened.",
+    "Remove from the heat and beat in the egg yolks one at a time, then stir in the chopped smoked salmon, nutmeg, pepper and parmesan.",
+    "In a clean bowl, whisk the egg whites until they form stiff peaks.",
+    "Fold a spoonful of the whites into the salmon mixture to loosen it, then gently fold in the rest until just combined.",
+    "Divide the mixture between the ramekins, filling them three-quarters full, and run your thumb around the inside rim to help them rise evenly.",
+    "Bake for 15 minutes until risen and golden, then serve immediately."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/smoked-salmon-souffle.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 365.055,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 22.982,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 12.816,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.894,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.291,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 24.444,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 11.209,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 591.28,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "butter",
+      "measure": null,
+      "grams": 25
+    },
+    {
+      "text": "white flour",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "whole milk",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "eggs, separated",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "smoked salmon, finely chopped",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "nutmeg",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "ground black pepper",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "parmesan cheese, finely grated",
+      "measure": null,
+      "grams": 15
+    }
+  ]
+}

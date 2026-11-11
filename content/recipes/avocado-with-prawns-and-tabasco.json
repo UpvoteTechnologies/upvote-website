@@ -1,0 +1,98 @@
+{
+  "slug": "avocado-with-prawns-and-tabasco",
+  "title": "Avocado with prawns and Tabasco",
+  "blurb": "Ripe avocado halves filled with cold prawns, dressed with a bright Tabasco and lemon mix.",
+  "steps": [
+    "Cut the avocados in half lengthways and remove the stones.",
+    "Chop the parsley finely and put it in a bowl with the prawns.",
+    "Add the Tabasco, lemon juice, salt and pepper, then toss gently to coat the prawns.",
+    "Spoon the prawn mixture into the hollows of the avocado halves and serve straight away."
+  ],
+  "servings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "lunch",
+    "snack"
+  ],
+  "image": "/media/recipes/avocado-with-prawns-and-tabasco.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 296.727,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 13.366,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 14.333,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 1.205,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 10.233,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 22.812,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.397,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 310.6,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "ripe avocados",
+      "measure": "2 medium",
+      "grams": 300
+    },
+    {
+      "text": "cooked and peeled prawns",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "Tabasco sauce",
+      "measure": "1 tsp",
+      "grams": 5
+    },
+    {
+      "text": "lemon",
+      "measure": "juice of half",
+      "grams": 15
+    },
+    {
+      "text": "fresh flat-leaf parsley",
+      "measure": "small handful",
+      "grams": 5
+    },
+    {
+      "text": "salt",
+      "measure": "pinch",
+      "grams": 1
+    },
+    {
+      "text": "black pepper",
+      "measure": "pinch",
+      "grams": 0.5
+    }
+  ]
+}

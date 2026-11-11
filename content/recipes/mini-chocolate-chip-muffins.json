@@ -1,0 +1,91 @@
+{
+  "slug": "mini-chocolate-chip-muffins",
+  "title": "Mini Chocolate Chip Muffins",
+  "blurb": "Small, lightly sweet muffins with a nutty flavour from soy flour and scattered chocolate chips throughout.",
+  "steps": [
+    "Heat your oven to 180°C and line two mini muffin tins with paper cases.",
+    "Mix the soy flour and baking powder together in a bowl.",
+    "Pour in the melted butter and water, then stir until you have a smooth batter.",
+    "Fold in the chocolate chips so they are evenly distributed.",
+    "Spoon the batter into the muffin cases, filling each about three-quarters full.",
+    "Bake for 15 minutes until the muffins are golden and springy to touch.",
+    "Remove from the tin and cool on a wire rack before serving."
+  ],
+  "servings": 24,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/mini-chocolate-chip-muffins.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 84.795,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 3.392,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 4.538,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 2.466,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.997,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 6.15,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.741,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 48.827,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "whole grain soy flour",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "baking powder",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "unsalted butter, melted",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "tap water",
+      "measure": null,
+      "grams": 180
+    },
+    {
+      "text": "sugar-free chocolate chips",
+      "measure": null,
+      "grams": 80
+    }
+  ]
+}

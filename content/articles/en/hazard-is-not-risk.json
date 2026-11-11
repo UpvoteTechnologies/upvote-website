@@ -1,0 +1,160 @@
+{
+  "slug": "hazard-is-not-risk",
+  "kicker": "HOW WE JUDGE",
+  "title": "Hazard is not risk",
+  "standfirst": "One asks if a thing can cause harm. The other asks if it does, at the amount you meet.",
+  "evidenceTier": "strong",
+  "sourceLabel": "IARC · 2024",
+  "image": "/media/articles/hazard-is-not-risk.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "When a headline says a thing is linked to cancer, it is usually reporting a hazard finding. That is a real result, and it answers a narrower question than most people read into it."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "The question a hazard answers"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "A hazard rating asks: can this cause harm at all, under any conditions, at any amount? It is a yes or no about the thing itself."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "The agency that does this work for cancer is IARC, part of the World Health Organization. It sorts things by how strong the evidence is. Not by how much harm. Not by how likely you are to meet enough of it."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b5",
+      "citationId": "additive-e951-iarc-2024"
+    },
+    {
+      "kind": "heading",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "The question a risk answers"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "A risk assessment asks the rest of it. At the amount people really eat, does harm happen?"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "A different body does that work. It sets a daily ceiling, far below the smallest amount that showed any effect, and then lowers it again to leave room for error."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b9",
+      "citationId": "additive-e951-who-2023"
+    },
+    {
+      "kind": "callout",
+      "key": "b10",
+      "tone": "neutral",
+      "spans": [
+        {
+          "text": "Sunlight is in the highest hazard group there is. So is processed meat. Neither fact tells you how much of either is safe, because that was never the question being asked."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "Why we keep them apart"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "A rating that reads as a verdict on a food is not one. We show you the hazard finding because it is true and because you should be able to see it. We show the exposure next to it, because the finding alone is the part that reads as alarming."
+        }
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b13",
+      "spans": [
+        {
+          "text": "Where the evidence is thin, the agencies say so, and so do we. A group means \"the evidence for a link is at this strength\" — it is a statement about how much we know, not about how dangerous something is."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b14",
+      "spans": [
+        {
+          "text": "What we do with it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b15",
+      "spans": [
+        {
+          "text": "The rating on an additive page comes from a rule someone else made: a ban, a hazard group, or a warning label a government requires. We do not invent a scale of our own."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b16",
+      "spans": [
+        {
+          "text": "Where an agency has set a daily ceiling, that is the number worth knowing. It is the one measured in what you eat."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e951-iarc-2024": {
+      "authority": "IARC",
+      "year": 2024,
+      "url": "https://publications.iarc.who.int/627"
+    },
+    "additive-e951-who-2023": {
+      "authority": "WHO",
+      "year": 2023,
+      "url": "https://iris.who.int/bitstream/handle/10665/376279/9789240083059-eng.pdf"
+    }
+  }
+}

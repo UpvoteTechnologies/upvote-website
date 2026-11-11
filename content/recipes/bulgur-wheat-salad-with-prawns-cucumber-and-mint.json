@@ -1,0 +1,110 @@
+{
+  "slug": "bulgur-wheat-salad-with-prawns-cucumber-and-mint",
+  "title": "Bulgur wheat salad with prawns, cucumber and mint",
+  "blurb": "A light grain salad with tender prawns, fresh mint and crisp cucumber on a bed of baby spinach.",
+  "steps": [
+    "Put the bulgur wheat in a heatproof bowl and pour over 200ml boiling water with a pinch of salt. Cover and leave to stand for 10 minutes until the water is absorbed and the grains are tender.",
+    "While the bulgur soaks, halve the cucumber lengthways and scoop out the seeds with a teaspoon, then slice into half-moons. Roughly chop the mint leaves.",
+    "Fluff the cooked bulgur with a fork and spread it out on a plate to cool for a minute or two.",
+    "Squeeze the lemon juice into a large bowl and whisk in the olive oil with some salt and pepper.",
+    "Add the bulgur, prawns, cucumber, spinach and mint to the bowl and toss everything together gently.",
+    "Divide between two plates and serve straight away."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/bulgur-wheat-salad-with-prawns-cucumber-and-mint.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 361.705,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 21.687,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 44.671,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 2.254,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 8.092,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 12.149,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.827,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 561.2,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "bulgur wheat",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "cooked king prawns",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "baby spinach",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "cucumber",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "fresh mint leaves",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+---
+import Base from '../../layouts/Base.astro';
+import AppCta from '../../components/AppCta.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import { getDict } from '../../i18n';
+import { getRecipes, ingredientLine, isoMinutes, neighbours, recipePath } from '../../lib/content';
+import { SITE_NAME, SITE_URL, absoluteUrl } from '../../site';
+
+export function getStaticPaths() {
+  // Page numbers of the index (`/recipes/2`) share this folder; a recipe slug is never a number.
+  return getRecipes().map((recipe) => ({ params: { slug: recipe.slug }, props: { recipe } }));
+}
+
+const { recipe } = Astro.props;
+const t = getDict('en').recipes;
+const path = recipePath(recipe.slug);
+const related = neighbours(getRecipes(), recipe.slug, 3);
+const totalMinutes = (recipe.prepMinutes ?? 0) + (recipe.cookMinutes ?? 0);
+const slots = recipe.mealSlots.map((slot) => t.slots[slot] ?? slot);
+// Only nutrients the app could estimate are shown; the rest are left out rather than shown as zero.
+const nutrients = recipe.perServing.filter((entry) => entry.status === 'estimated' && entry.value !== null);
+const amount = (key: string, value: number) =>
+  key === 'energy_kcal' ? `${Math.round(value)} kcal` : key.endsWith('_mg') ? `${Math.round(value)} mg` : `${Number(value.toFixed(1))} g`;
+const nutrient = (key: string) => nutrients.find((entry) => entry.key === key)?.value ?? null;
+const grams = (key: string) => (nutrient(key) === null ? undefined : `${Number(nutrient(key)!.toFixed(1))} g`);
+
+const times = [
+  { label: t.prep, minutes: recipe.prepMinutes },
+  { label: t.cook, minutes: recipe.cookMinutes },
+  { label: t.total, minutes: totalMinutes || null },
+].filter((entry) => entry.minutes);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Recipe',
+    name: recipe.title,
+    description: recipe.blurb,
+    inLanguage: 'en',
+    url: absoluteUrl(path),
+    ...(recipe.image ? { image: absoluteUrl(recipe.image) } : {}),
+    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    ...(recipe.servings ? { recipeYield: `${recipe.servings} servings` } : {}),
+    ...(recipe.prepMinutes ? { prepTime: isoMinutes(recipe.prepMinutes) } : {}),
+    ...(recipe.cookMinutes ? { cookTime: isoMinutes(recipe.cookMinutes) } : {}),
+    ...(totalMinutes ? { totalTime: isoMinutes(totalMinutes) } : {}),
+    ...(slots.length ? { recipeCategory: slots.join(', ') } : {}),
+    recipeIngredient: recipe.ingredients.map(ingredientLine),
+    recipeInstructions: recipe.steps.map((text) => ({ '@type': 'HowToStep', text })),
+    ...(nutrient('energy_kcal') !== null
+      ? {
+          nutrition: {
+            '@type': 'NutritionInformation',
+            calories: `${Math.round(nutrient('energy_kcal')!)} calories`,
+            proteinContent: grams('proteins_g'),
+            carbohydrateContent: grams('carbohydrates_g'),
+            sugarContent: grams('sugars_g'),
+            fiberContent: grams('fiber_g'),
+            fatContent: grams('fat_g'),
+            saturatedFatContent: grams('saturated_fat_g'),
+            sodiumContent: nutrient('sodium_mg') === null ? undefined : `${Math.round(nutrient('sodium_mg')!)} mg`,
+          },
+        }
+      : {}),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.breadcrumb, item: absoluteUrl('/recipes') },
+      { '@type': 'ListItem', position: 2, name: recipe.title, item: absoluteUrl(path) },
+    ],
+  },
+];
+---
+
+<Base
+  locale="en"
+  title={`${recipe.title}${t.titleSuffix}`}
+  description={recipe.blurb}
+  path={path}
+  ogType="article"
+  ogImage={recipe.image ?? undefined}
+  ogImageSize={recipe.image ? [1024, 559] : undefined}
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-[820px] px-5 pb-16 pt-10 sm:px-8 lg:pt-14">
+    <nav class="text-[13px] font-bold text-muted">
+      <a href="/recipes" class="transition-colors hover:text-brand">{t.breadcrumb}</a>
+    </nav>
+    {slots.length > 0 && <p class="eyebrow mt-6">{slots.join(' · ')}</p>}
+    <h1 class="mt-3 text-balance text-[34px] font-extrabold leading-[1.1] tracking-[-.03em] text-ink sm:text-[44px]">{recipe.title}</h1>
+    <p class="mt-4 text-pretty text-[19px] font-semibold leading-[1.5] text-ink-3">{recipe.blurb}</p>
+
+    <dl class="mt-6 flex flex-wrap gap-x-8 gap-y-3">
+      {
+        recipe.servings && (
+          <div>
+            <dt class="eyebrow">{t.servings}</dt>
+            <dd class="mt-1 text-[17px] font-extrabold text-ink">{recipe.servings}</dd>
+          </div>
+        )
+      }
+      {
+        times.map((entry) => (
+          <div>
+            <dt class="eyebrow">{entry.label}</dt>
+            <dd class="mt-1 text-[17px] font-extrabold text-ink">{entry.minutes} {t.minutes}</dd>
+          </div>
+        ))
+      }
+    </dl>
+
+    {
+      recipe.image && (
+        <img src={recipe.image} alt={recipe.title} width="1024" height="559" fetchpriority="high" class="mt-8 aspect-[16/9] w-full rounded-[20px] object-cover" />
+      )
+    }
+
+    <h2 class="mt-11 text-[24px] font-extrabold tracking-[-.02em] text-ink sm:text-[28px]">{t.ingredients}</h2>
+    <ul class="mt-4 flex list-disc flex-col gap-2 pl-6 text-[17px] font-medium leading-[1.55] text-ink-2">
+      {recipe.ingredients.map((item) => <li>{ingredientLine(item)}</li>)}
+    </ul>
+
+    <h2 class="mt-11 text-[24px] font-extrabold tracking-[-.02em] text-ink sm:text-[28px]">{t.method}</h2>
+    <ol class="mt-4 flex list-decimal flex-col gap-3 pl-6 text-[17px] font-medium leading-[1.6] text-ink-2">
+      {recipe.steps.map((step) => <li>{step}</li>)}
+    </ol>
+
+    {
+      nutrients.length > 0 && (
+        <section>
+          <h2 class="mt-11 text-[24px] font-extrabold tracking-[-.02em] text-ink sm:text-[28px]">{t.nutrition}</h2>
+          <dl class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {nutrients.map((entry) => (
+              <div class="rounded-[16px] border border-line bg-paper-2 px-4 py-3">
+                <dt class="text-[12.5px] font-bold text-muted">{t.nutrients[entry.key] ?? entry.key}</dt>
+                <dd class="mt-1 font-mono text-[17px] font-bold text-ink">{amount(entry.key, entry.value!)}</dd>
+              </div>
+            ))}
+          </dl>
+          <p class="mt-3 text-[13px] font-medium italic text-muted-2">{t.nutritionNote}</p>
+        </section>
+      )
+    }
+
+    <div class="mt-12">
+      <AppCta locale="en" />
+    </div>
+  </article>
+
+  {
+    related.length > 0 && (
+      <section class="border-t border-line bg-paper">
+        <div class="site-container py-14">
+          <h2 class="text-[24px] font-extrabold tracking-[-.02em] text-ink">{t.more}</h2>
+          <div class="mt-6 grid grid-cols-1 gap-[18px] md:grid-cols-3">
+            {related.map((item) => (
+              <ContentCard href={recipePath(item.slug)} title={item.title} text={item.blurb} image={item.image} ratio={[1024, 559]} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+</Base>

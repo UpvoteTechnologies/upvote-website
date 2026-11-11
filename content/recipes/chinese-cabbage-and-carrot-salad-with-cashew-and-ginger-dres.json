@@ -1,0 +1,114 @@
+{
+  "slug": "chinese-cabbage-and-carrot-salad-with-cashew-and-ginger-dres",
+  "title": "Chinese cabbage and carrot salad with cashew and ginger dressing",
+  "blurb": "Crisp ribbons of Chinese cabbage and carrot tossed with toasted cashews and a zingy ginger and lemon dressing.",
+  "steps": [
+    "Toast the cashew nuts in a dry frying pan over medium heat for 3 to 4 minutes until golden, then roughly chop them.",
+    "Finely slice the Chinese cabbage and peel the carrots into ribbons with a vegetable peeler.",
+    "Peel and finely chop the shallot and ginger, then place in a bowl with the juice of the lemon, rice vinegar, sesame oil, soy sauce and honey.",
+    "Whisk the dressing ingredients together until the honey dissolves.",
+    "Toss the cabbage and carrot with the dressing, then scatter over the toasted cashews."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 5,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/chinese-cabbage-and-carrot-salad-with-cashew-and-ginger-dres.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 125.76,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 3.74,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 17.734,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 9.34,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.673,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 5.704,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.798,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 438.71,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "Chinese cabbage",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "carrots",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "cashew nuts",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "shallot",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "fresh ginger",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "rice vinegar",
+      "measure": "tbsp",
+      "grams": 15
+    },
+    {
+      "text": "sesame oil",
+      "measure": "tsp",
+      "grams": 10
+    },
+    {
+      "text": "soy sauce",
+      "measure": "tsp",
+      "grams": 10
+    },
+    {
+      "text": "honey",
+      "measure": "tsp",
+      "grams": 8
+    }
+  ]
+}

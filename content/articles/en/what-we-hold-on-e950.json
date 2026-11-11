@@ -1,0 +1,225 @@
+{
+  "slug": "what-we-hold-on-e950",
+  "kicker": "ADDITIVES",
+  "title": "Acesulfame potassium (E950): what we hold",
+  "standfirst": "The published sources behind what we say, and what counting them cannot tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "FDA · 2024",
+  "image": "/media/articles/what-we-hold-on-e950.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "This page is about the record we hold on this additive: who has written about it, and where you can read them."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "Published sources we hold on Acesulfame potassium (E950)",
+      "caption": "Tap to see how we counted, and what the count leaves out.",
+      "basis": {
+        "q": "kb.count",
+        "of": "additive_citations",
+        "subject": "e950"
+      },
+      "resolved": {
+        "value": "20",
+        "method": "Published sources behind what we say about E950.",
+        "n": 20,
+        "scope": "kb",
+        "excluded": 0,
+        "excludedNote": null,
+        "sources": [
+          {
+            "authority": "FDA",
+            "year": 2024,
+            "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food"
+          },
+          {
+            "authority": "ANSES",
+            "year": 2015,
+            "url": "https://www.anses.fr/fr/system/files/NUT2011sa0161Ra.pdf"
+          },
+          {
+            "authority": null,
+            "year": 2023,
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10465821/"
+          },
+          {
+            "authority": null,
+            "year": 2022,
+            "url": "https://doi.org/10.1136/bmj-2022-071204"
+          },
+          {
+            "authority": null,
+            "year": 2022,
+            "url": "https://doi.org/10.1371/journal.pmed.1003950"
+          },
+          {
+            "authority": null,
+            "year": 2022,
+            "url": "https://doi.org/10.1172/jci.insight.157714"
+          },
+          {
+            "authority": null,
+            "year": 2022,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35987213/"
+          },
+          {
+            "authority": null,
+            "year": 2021,
+            "url": "https://doi.org/10.1111/jgh.15654"
+          }
+        ],
+        "limit": "A source count is a measure of how much has been written, not of how risky a thing is."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Names it goes by"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "A label may name this additive in any of these ways, or by its code alone."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b5",
+      "source": "kb",
+      "items": [
+        "ace k",
+        "acelsufamo de potasio",
+        "acessulfame de potassio",
+        "acessulfame k",
+        "acesulfaam k",
+        "acesulfaam kalium",
+        "acesulfam k",
+        "acesulfame de potasio",
+        "acesulfame de potassium",
+        "acesulfame k",
+        "acesulfame potasico",
+        "acesulfame potassico",
+        "acesulfame potassium",
+        "acesulfamo",
+        "acesulfamo de potasio",
+        "acesulfamo k",
+        "acesulfamo potasico",
+        "sel de potassium de l acesulfame"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "The sources"
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b7",
+      "citationId": "additive-e950-fda-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b8",
+      "citationId": "additive-e950-anses-2015"
+    },
+    {
+      "kind": "citation",
+      "key": "b9",
+      "citationId": "additive-e950-source-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b10",
+      "citationId": "additive-e950-source-2022"
+    },
+    {
+      "kind": "citation",
+      "key": "b11",
+      "citationId": "additive-e950-source-2022-2"
+    },
+    {
+      "kind": "citation",
+      "key": "b12",
+      "citationId": "additive-e950-source-2022-3"
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "additive-e950-source-2022-4"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "additive-e950-source-2021"
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b15",
+      "spans": [
+        {
+          "text": "A count of sources says how much has been written, not how risky a thing is. A well studied additive can be well studied because it is common, and a quiet one can be quiet because nobody has looked. What matters for you is the amount in the food in front of you, which this page cannot tell you."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e950-fda-2024": {
+      "authority": "FDA",
+      "year": 2024,
+      "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food"
+    },
+    "additive-e950-anses-2015": {
+      "authority": "ANSES",
+      "year": 2015,
+      "url": "https://www.anses.fr/fr/system/files/NUT2011sa0161Ra.pdf"
+    },
+    "additive-e950-source-2023": {
+      "authority": "",
+      "year": 2023,
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10465821/"
+    },
+    "additive-e950-source-2022": {
+      "authority": "",
+      "year": 2022,
+      "url": "https://doi.org/10.1136/bmj-2022-071204"
+    },
+    "additive-e950-source-2022-2": {
+      "authority": "",
+      "year": 2022,
+      "url": "https://doi.org/10.1371/journal.pmed.1003950"
+    },
+    "additive-e950-source-2022-3": {
+      "authority": "",
+      "year": 2022,
+      "url": "https://doi.org/10.1172/jci.insight.157714"
+    },
+    "additive-e950-source-2022-4": {
+      "authority": "",
+      "year": 2022,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35987213/"
+    },
+    "additive-e950-source-2021": {
+      "authority": "",
+      "year": 2021,
+      "url": "https://doi.org/10.1111/jgh.15654"
+    }
+  }
+}

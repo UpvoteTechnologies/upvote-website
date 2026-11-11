@@ -1,0 +1,110 @@
+{
+  "slug": "red-bean-and-cottage-cheese-salad",
+  "title": "Red Bean and Cottage Cheese Salad",
+  "blurb": "A hearty salad with tender red beans, fresh spinach and tomatoes, topped with cottage cheese and a lime dressing.",
+  "steps": [
+    "Rinse the dried red kidney beans and place them in a saucepan with plenty of cold water. Bring to the boil, then reduce the heat and simmer for 45 to 50 minutes until tender, then drain and set aside to cool slightly.",
+    "Peel and finely chop the yellow onion. Cut the tomatoes into wedges.",
+    "In a large bowl, combine the cooked beans, chopped onion, baby spinach and tomato wedges.",
+    "Squeeze the lime juice into a small bowl and whisk with the olive oil, ground cumin and salt.",
+    "Pour the dressing over the salad and toss gently to combine.",
+    "Divide the salad between two plates and top each serving with half the cottage cheese."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/red-bean-and-cottage-cheese-salad.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 313.575,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 18.315,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 37.926,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.473,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 10.785,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.187,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.7,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 837.68,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "dried red kidney beans",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "yellow onion",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "baby spinach",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "tomatoes",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "cottage cheese",
+      "measure": null,
+      "grams": 115
+    },
+    {
+      "text": "lime",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    }
+  ]
+}

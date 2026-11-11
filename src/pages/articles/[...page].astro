@@ -1,0 +1,11 @@
+---
+import type { GetStaticPaths } from 'astro';
+import ArticleIndex from '../../components/ArticleIndex.astro';
+import { getArticles } from '../../lib/content';
+
+export const getStaticPaths = (({ paginate }) => paginate(getArticles('en'), { pageSize: 30 })) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<ArticleIndex locale="en" page={page} />

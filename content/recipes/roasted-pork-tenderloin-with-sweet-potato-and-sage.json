@@ -1,0 +1,105 @@
+{
+  "slug": "roasted-pork-tenderloin-with-sweet-potato-and-sage",
+  "title": "Roasted Pork Tenderloin with Sweet Potato and Sage",
+  "blurb": "Tender pork fillet roasted with sweet potato, potatoes and leek, finished with fresh sage.",
+  "steps": [
+    "Heat your oven to 200°C. Peel the sweet potato and potatoes, then cut them into chunks of roughly the same size.",
+    "Trim the leek, slice it lengthways, rinse out any grit, then cut into thick rounds.",
+    "Put the sweet potato, potatoes and leek into a roasting tin with half the olive oil, half the salt and some pepper, and toss to coat. Roast for 15 minutes.",
+    "Meanwhile, pat the pork tenderloin dry and rub it with the remaining olive oil, salt and pepper.",
+    "Remove the tin from the oven, push the vegetables to the sides and place the pork in the centre. Scatter the sage leaves over everything.",
+    "Return to the oven and roast for 20 minutes until the pork is cooked through and the vegetables are tender.",
+    "Rest the pork for 5 minutes, then slice and serve with the roasted vegetables."
+  ],
+  "servings": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "dinner"
+  ],
+  "image": "/media/recipes/roasted-pork-tenderloin-with-sweet-potato-and-sage.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 501.78,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 37.405,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 55.975,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 11.571,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 8.859,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 14.403,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.694,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 683.075,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "pork tenderloin",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "sweet potato",
+      "measure": null,
+      "grams": 250
+    },
+    {
+      "text": "potatoes",
+      "measure": null,
+      "grams": 250
+    },
+    {
+      "text": "leek",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "fresh sage",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

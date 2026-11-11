@@ -1,0 +1,115 @@
+{
+  "slug": "what-the-goal-anti-inflammatory-plan-reads",
+  "kicker": "PLANS",
+  "title": "What the Anti-inflammatory plan reads",
+  "standfirst": "The things we read off a product when this plan is on, and what they can do.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-the-goal-anti-inflammatory-plan-reads.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "Turn this on and it re-weighs a few things we read off a product, and your score moves. It does not tell you what to eat."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "We show this because a plan that moves a score should be able to say what it read. This is the whole list."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "What can move your score, read for a fixed weight of food"
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "key": "b4",
+      "items": [
+        [
+          {
+            "text": "added sugar"
+          }
+        ],
+        [
+          {
+            "text": "fibre"
+          }
+        ],
+        [
+          {
+            "text": "fruit, vegetables and legumes"
+          }
+        ],
+        [
+          {
+            "text": "saturated fat"
+          }
+        ],
+        [
+          {
+            "text": "sugar"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Which way it can move your score"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "A plan can move a score up or move it down, and the same thing we read can do either depending on the product. It can also mark a product as not fitting this plan, and it uses that same wording for every plan you follow, though those plans do not all mean the same thing by it. It can never block a product. We do not say here which of the things above did what — that depends on the product in your hand."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "When the pack leaves a figure out"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "A pack does not always print every figure. Where one is missing we sometimes read it as none, and sometimes fall back on what is usual for that kind of food. So a pack that tells us less can score better here than one that tells us more."
+        }
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "This is what our scorer reads. It is not a list of things for you to track, and we do not say whether any of it changes your health."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

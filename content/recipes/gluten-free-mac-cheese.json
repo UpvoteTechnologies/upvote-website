@@ -1,0 +1,106 @@
+{
+  "slug": "gluten-free-mac-cheese",
+  "title": "Gluten-Free Mac & Cheese",
+  "blurb": "Creamy Cheddar cheese sauce tossed with gluten-free pasta shells, finished with a hint of mustard.",
+  "steps": [
+    "Bring a large pan of salted water to the boil, add the pasta shells and cook according to the packet instructions until tender.",
+    "Meanwhile, melt the butter in a saucepan over a medium heat. Stir in the cornstarch and cook for one minute, stirring constantly.",
+    "Gradually whisk in the milk, a little at a time, until smooth and combined.",
+    "Bring the sauce to a gentle simmer, stirring often, until it thickens enough to coat the back of a spoon.",
+    "Remove from the heat and stir in the grated Cheddar until melted, then add the mustard, salt and pepper.",
+    "Drain the cooked pasta and return it to the pan. Pour over the cheese sauce and stir gently until every shell is coated.",
+    "Serve straight away while hot."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/gluten-free-mac-cheese.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 852.63,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 32.336,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 90.518,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 10.244,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.609,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 39.229,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 21.447,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1093.175,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "gluten-free pasta shells",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "unsalted butter",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "cornstarch",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "whole milk",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "Cheddar cheese, grated",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "whole-grain mustard",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

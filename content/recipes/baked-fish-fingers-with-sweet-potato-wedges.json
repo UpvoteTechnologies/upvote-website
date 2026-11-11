@@ -1,0 +1,116 @@
+{
+  "slug": "baked-fish-fingers-with-sweet-potato-wedges",
+  "title": "Baked Fish Fingers with Sweet Potato Wedges",
+  "blurb": "Crispy coated fish strips and golden sweet potato wedges baked together on one tray",
+  "steps": [
+    "Heat your oven to 220°C and line a large baking sheet with parchment paper.",
+    "Peel the sweet potatoes and cut them into wedges about 1cm thick, then toss with half the oil and a pinch of salt on one half of the prepared tray.",
+    "Cut the cod into finger-width strips and pat them dry with kitchen paper.",
+    "Set up three shallow dishes: flour with seasoning in the first, lightly beaten egg whites in the second, and breadcrumbs mixed with the remaining oil in the third.",
+    "Coat each fish strip in flour, then egg white, then breadcrumbs, and arrange them on the other half of the tray.",
+    "Bake for 25 to 30 minutes, turning the sweet potato wedges halfway through, until the fish is golden and the wedges are tender.",
+    "Serve with light mayonnaise and lemon wedges for squeezing over."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/baked-fish-fingers-with-sweet-potato-wedges.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 676.355,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 34.636,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 72.37,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 10.656,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 8.077,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 27.293,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.502,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1214.5,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "sweet potatoes",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "cod fillet",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "egg whites",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "panko breadcrumbs",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "rapeseed oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "light mayonnaise",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

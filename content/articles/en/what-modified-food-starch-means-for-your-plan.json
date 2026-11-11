@@ -1,0 +1,85 @@
+{
+  "slug": "what-modified-food-starch-means-for-your-plan",
+  "kicker": "INGREDIENTS",
+  "title": "Modified food starch: what it is",
+  "standfirst": "What this ingredient is, why it is in your food, and the names it goes by.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-modified-food-starch-means-for-your-plan.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "Modified food starch: starch that has been physically or chemically treated to improve its thickening, stability or texture in processed foods."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use modified food starch as a starch/thickener and it is of plant origin."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "What it may be called"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b7",
+      "source": "kb",
+      "items": [
+        "amidon transformé",
+        "amidons modifiés",
+        "modified food starch"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

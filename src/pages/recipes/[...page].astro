@@ -1,0 +1,45 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import AppCta from '../../components/AppCta.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getDict } from '../../i18n';
+import { getRecipes, recipePath } from '../../lib/content';
+
+export const getStaticPaths = (({ paginate }) => paginate(getRecipes(), { pageSize: 30 })) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const t = getDict('en').recipes;
+const first = page.currentPage === 1;
+const path = first ? '/recipes' : `/recipes/${page.currentPage}`;
+const title = first ? t.indexTitle : `${t.indexTitle.replace(' | Upvote', '')} · Page ${page.currentPage} | Upvote`;
+---
+
+<Base locale="en" title={title} description={t.indexDescription} path={path}>
+  <section class="site-container pb-16 pt-12 lg:pt-16">
+    <h1 class="section-title">{t.indexHeading}</h1>
+    <p class="section-lead mt-[14px] max-w-[720px]">{t.indexLead}</p>
+
+    <div class="mt-10 grid grid-cols-1 gap-[18px] sm:grid-cols-2 lg:grid-cols-3">
+      {
+        page.data.map((recipe) => (
+          <ContentCard
+            href={recipePath(recipe.slug)}
+            title={recipe.title}
+            text={recipe.blurb}
+            eyebrow={recipe.mealSlots.map((slot) => t.slots[slot] ?? slot).join(' · ')}
+            image={recipe.image}
+            ratio={[1024, 559]}
+          />
+        ))
+      }
+    </div>
+
+    <Pagination locale="en" current={page.currentPage} last={page.lastPage} previous={page.url.prev} next={page.url.next} />
+
+    <div class="mt-14">
+      <AppCta locale="en" />
+    </div>
+  </section>
+</Base>

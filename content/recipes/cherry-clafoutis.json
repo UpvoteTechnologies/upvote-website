@@ -1,0 +1,112 @@
+{
+  "slug": "cherry-clafoutis",
+  "title": "Cherry Clafoutis",
+  "blurb": "A classic French baked dessert with sweet cherries suspended in a light, custardy batter",
+  "steps": [
+    "Heat your oven to 180°C and grease a shallow baking dish with the butter.",
+    "Wash the cherries and pat them dry, then arrange them in a single layer in the prepared dish.",
+    "Whisk together the flour, sugar and salt in a mixing bowl.",
+    "Beat the eggs in a separate bowl, then whisk in the cream, milk and vanilla extract.",
+    "Pour the egg mixture into the flour mixture and whisk until you have a smooth batter with no lumps.",
+    "Pour the batter over the cherries in the dish, ensuring they are mostly covered.",
+    "Bake for 30 minutes until the clafoutis is puffed and golden, with the centre just set.",
+    "Let it cool for 10 minutes before serving warm or at room temperature."
+  ],
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/cherry-clafoutis.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 408.288,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 8.791,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 47.354,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 33.276,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.243,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 20.373,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 10.512,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 176.088,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "butter, unsalted, to grease the dish",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "dark red cherries",
+      "measure": null,
+      "grams": 350
+    },
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 75
+    },
+    {
+      "text": "eggs",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "whipping cream",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "whole milk",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "vanilla extract",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

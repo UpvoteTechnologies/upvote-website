@@ -1,0 +1,421 @@
+{
+  "slug": "names-fish-hides-behind",
+  "kicker": "ALLERGENS",
+  "title": "The names fish hides behind",
+  "standfirst": "Fish goes by many names on a label. Here is the list we read for you.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "US Congress / FDA · 2004",
+  "image": "/media/articles/names-fish-hides-behind.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "The law makes a maker name fish when they put it in on purpose. It does not make them use the word you are looking for."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "names we watch for on a label",
+      "caption": "Counted only where the link to fish is settled. Names that depend on the product are listed further down, and are not in this count.",
+      "basis": {
+        "q": "kb.count",
+        "of": "allergen_forms",
+        "subject": "fish"
+      },
+      "resolved": {
+        "value": "102",
+        "method": "Names whose link to fish is settled, counted from our allergen registry.",
+        "n": 118,
+        "scope": "kb",
+        "excluded": 16,
+        "excludedNote": "16 more depend on the product or are shared with something else, so they are listed separately rather than counted here.",
+        "sources": [
+          {
+            "authority": "US Congress / FDA",
+            "doc": "Food Allergen Labeling and Consumer Protection Act of 2004 (FALCPA), Public Law 108-282 Title II — defines 'fish' as a major food allergen and requires the specific species to be declared",
+            "year": 2004,
+            "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-questions-and-answers"
+          },
+          {
+            "authority": "US Congress / FDA",
+            "doc": "FASTER Act of 2021, Public Law 117-11 — reaffirms the major food allergens (fish among the 9) and adds sesame",
+            "year": 2021,
+            "url": "https://www.congress.gov/bill/117th-congress/senate-bill/578"
+          },
+          {
+            "authority": "European Union",
+            "doc": "Regulation (EU) No 1169/2011 on food information to consumers, Annex II point 4 'Fish and products thereof' — with exemptions (a) fish gelatine as vitamin/carotenoid carrier and (b) fish gelatine or isinglass as fining agent in beer and wine",
+            "year": 2011,
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+          },
+          {
+            "authority": "US FDA",
+            "doc": "Food Allergies — Major Food Allergens; 21 CFR 101.100 and 101.22 (flavor labeling)",
+            "year": 2023,
+            "url": "https://www.fda.gov/food/food-labeling-nutrition/food-allergies"
+          },
+          {
+            "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+            "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes, EFSA Journal 12(11):3894 — fish allergen exemption assessment (gelatine, isinglass)",
+            "year": 2014,
+            "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3894"
+          },
+          {
+            "authority": "FARE (Food Allergy Research & Education)",
+            "doc": "Fish Allergy — allergen overview and hidden sources (anchovy, Worcestershire, Caesar, surimi/imitation crab, fish gelatin, fish sauce)",
+            "year": 2023,
+            "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/fish"
+          }
+        ],
+        "limit": "We read what a label says. We cannot see what a maker left off it."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Always means fish"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "fish",
+        "finfish",
+        "whitefish",
+        "cod",
+        "salmon",
+        "tuna",
+        "albacore",
+        "skipjack",
+        "tilapia",
+        "pollock",
+        "anchovy",
+        "sardine",
+        "pilchard",
+        "brisling",
+        "sea bass",
+        "branzino",
+        "striped bass",
+        "haddock",
+        "hake",
+        "halibut",
+        "flounder",
+        "sole",
+        "plaice",
+        "turbot",
+        "mackerel",
+        "king mackerel",
+        "herring",
+        "kipper",
+        "trout",
+        "arctic char",
+        "catfish",
+        "snapper",
+        "grouper",
+        "mahi-mahi",
+        "swordfish",
+        "marlin",
+        "carp",
+        "perch",
+        "walleye",
+        "pike",
+        "monkfish",
+        "whiting",
+        "pangasius",
+        "basa",
+        "swai",
+        "barramundi",
+        "sea bream",
+        "eel",
+        "smelt",
+        "capelin",
+        "bluefish",
+        "rockfish",
+        "sablefish",
+        "orange roughy",
+        "tilefish",
+        "shark",
+        "dogfish",
+        "skate",
+        "sturgeon",
+        "menhaden",
+        "yellowtail",
+        "milkfish",
+        "bacalao",
+        "stockfish",
+        "whitebait",
+        "bonito",
+        "katsuobushi",
+        "fish gelatin",
+        "marine collagen",
+        "fish collagen",
+        "hydrolyzed fish protein",
+        "fish protein isolate",
+        "fish protein concentrate",
+        "fish extract",
+        "fish stock",
+        "fish sauce",
+        "nam pla",
+        "nuoc mam",
+        "garum",
+        "anchovy paste",
+        "surimi",
+        "imitation crab",
+        "crab stick",
+        "crab sticks",
+        "seafood stick",
+        "seafood sticks",
+        "sea legs",
+        "ocean sticks",
+        "seafood extender",
+        "kamaboko",
+        "fish cake",
+        "fish ball",
+        "fish tofu",
+        "fish maw",
+        "caviar",
+        "fish roe",
+        "tobiko",
+        "masago",
+        "bottarga",
+        "fish oil",
+        "cod liver oil",
+        "anchoveta"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Sometimes means fish"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "These depend on the product. We treat them with care, and we say so on the label reading rather than guessing."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b7",
+      "source": "kb",
+      "items": [
+        "roe",
+        "isinglass",
+        "dashi",
+        "worcestershire sauce",
+        "caesar dressing",
+        "omega-3",
+        "epa",
+        "dha",
+        "marine oil",
+        "squalene",
+        "chondroitin",
+        "disodium inosinate",
+        "disodium 5'-ribonucleotides",
+        "natural flavor",
+        "seafood flavor",
+        "seafood seasoning"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "And these do not"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "Names that look close but are not fish. These are the ones you can stop worrying about."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "abalone",
+        "agar",
+        "agar-agar",
+        "algae oil",
+        "algae omega-3",
+        "algal dha",
+        "algal oil",
+        "alginate",
+        "calamari",
+        "carrageenan",
+        "chia oil",
+        "chlorella",
+        "clam",
+        "clam juice",
+        "cockle",
+        "cocoa butter",
+        "crab",
+        "crab meat",
+        "crawfish",
+        "crayfish",
+        "cream of tartar",
+        "cuttlefish",
+        "cuttlefish ink",
+        "dulse",
+        "escargot",
+        "fish mint",
+        "fishless fillet",
+        "fishtail palm",
+        "flaxseed oil",
+        "goldfish crackers",
+        "irish moss",
+        "jellyfish",
+        "kelp",
+        "kombu",
+        "krill",
+        "krill oil",
+        "langoustine",
+        "lobster",
+        "mock fish",
+        "mussel",
+        "nori",
+        "octopus",
+        "oyster",
+        "oyster extract",
+        "oyster sauce",
+        "plant-based fish",
+        "prawn",
+        "sacha inchi",
+        "scallop",
+        "scampi",
+        "sea buckthorn",
+        "sea cucumber",
+        "sea lettuce",
+        "sea moss",
+        "sea salt",
+        "sea urchin",
+        "seaweed",
+        "shea butter",
+        "shellfish",
+        "shrimp",
+        "silverfish",
+        "snail",
+        "sodium alginate",
+        "spirulina",
+        "squid",
+        "starfish",
+        "swedish fish",
+        "tartar sauce",
+        "tofish",
+        "uni",
+        "vegan fish",
+        "wakame",
+        "whelk"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "What we do when the label is unclear"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "If we cannot tell, we warn you. On this one thing we would rather be wrong in the direction of caution than quiet."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "allergen-fish-us-congress-fda-2004"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "allergen-fish-us-congress-fda-2021"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "allergen-fish-european-union-2011"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "allergen-fish-us-fda-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "allergen-fish-efsa-panel-on-dietetic-products-nutritio-2014"
+    },
+    {
+      "kind": "citation",
+      "key": "b18",
+      "citationId": "allergen-fish-fare-food-allergy-research-education-2023"
+    }
+  ],
+  "citations": {
+    "allergen-fish-us-congress-fda-2004": {
+      "authority": "US Congress / FDA",
+      "doc": "Food Allergen Labeling and Consumer Protection Act of 2004 (FALCPA), Public Law 108-282 Title II — defines 'fish' as a major food allergen and requires the specific species to be declared",
+      "year": 2004,
+      "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-questions-and-answers"
+    },
+    "allergen-fish-us-congress-fda-2021": {
+      "authority": "US Congress / FDA",
+      "doc": "FASTER Act of 2021, Public Law 117-11 — reaffirms the major food allergens (fish among the 9) and adds sesame",
+      "year": 2021,
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/578"
+    },
+    "allergen-fish-european-union-2011": {
+      "authority": "European Union",
+      "doc": "Regulation (EU) No 1169/2011 on food information to consumers, Annex II point 4 'Fish and products thereof' — with exemptions (a) fish gelatine as vitamin/carotenoid carrier and (b) fish gelatine or isinglass as fining agent in beer and wine",
+      "year": 2011,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+    },
+    "allergen-fish-us-fda-2023": {
+      "authority": "US FDA",
+      "doc": "Food Allergies — Major Food Allergens; 21 CFR 101.100 and 101.22 (flavor labeling)",
+      "year": 2023,
+      "url": "https://www.fda.gov/food/food-labeling-nutrition/food-allergies"
+    },
+    "allergen-fish-efsa-panel-on-dietetic-products-nutritio-2014": {
+      "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA)",
+      "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes, EFSA Journal 12(11):3894 — fish allergen exemption assessment (gelatine, isinglass)",
+      "year": 2014,
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3894"
+    },
+    "allergen-fish-fare-food-allergy-research-education-2023": {
+      "authority": "FARE (Food Allergy Research & Education)",
+      "doc": "Fish Allergy — allergen overview and hidden sources (anchovy, Worcestershire, Caesar, surimi/imitation crab, fish gelatin, fish sauce)",
+      "year": 2023,
+      "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/fish"
+    }
+  }
+}

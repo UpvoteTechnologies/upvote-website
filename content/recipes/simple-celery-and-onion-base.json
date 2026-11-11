@@ -1,0 +1,89 @@
+{
+  "slug": "simple-celery-and-onion-base",
+  "title": "Simple Celery and Onion Base",
+  "blurb": "A gentle, savoury base of softened celery and onion cooked in butter. Use it as a foundation for soups, stews, or stir through pasta.",
+  "steps": [
+    "Melt the butter in a wide frying pan over a medium heat.",
+    "Add the celery and onion, then stir to coat everything in the butter.",
+    "Cook gently for 15 to 20 minutes, stirring occasionally, until the vegetables are very soft and translucent but not browned.",
+    "Season with the salt and black pepper, stir through, then taste and adjust if needed.",
+    "Use immediately as a base for other dishes, or cool and store in the fridge for up to three days."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/simple-celery-and-onion-base.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 107.678,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.028,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 7.326,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.185,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.113,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 8.398,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 4.616,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 417.45,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "celery, finely chopped",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "onion, finely chopped",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "unsalted butter",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "ground black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

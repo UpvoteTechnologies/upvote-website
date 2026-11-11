@@ -1,0 +1,159 @@
+{
+  "slug": "what-no-added-sugar-is-allowed-to-mean",
+  "kicker": "LENDO A EMBALAGEM",
+  "title": "O que \"sem adição de açúcar\" pode querer dizer",
+  "standfirst": "Algumas palavras da embalagem têm significado legal. Outras são só palavras bonitas.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "US FDA · 2024",
+  "image": "/media/articles/what-no-added-sugar-is-allowed-to-mean.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "A frente da embalagem é desenhada. O verso é regulado. É nesse espaço que mora a maior parte da confusão."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "As palavras que têm definição"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Nos Estados Unidos, uma lista curta de palavras tem definição legal, e o alimento precisa cumprir essa definição antes de usar a palavra. \"Free\" (zero), \"low\" (baixo), \"reduced\" (reduzido) e \"light\" estão nessa lista, e cada uma indica um limite."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b4",
+      "citationId": "fda-nutrient-content-claims"
+    },
+    {
+      "kind": "paragraph",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Então \"baixo teor de sódio\" é uma medição em que alguém precisou passar. Não é um clima."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "As palavras que não têm"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "Todo o resto na frente é marketing, e o marketing pode ser verdadeiro e enganoso ao mesmo tempo."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "\"Sem adição de açúcar\" quer dizer que ninguém acrescentou açúcar. Não diz nada sobre quanto açúcar o alimento já tem, o que em um suco de fruta pode ser bastante."
+        }
+      ]
+    },
+    {
+      "kind": "callout",
+      "key": "b9",
+      "tone": "neutral",
+      "spans": [
+        {
+          "text": "\"Feito com fruta de verdade\" não define uma quantidade mínima. \"Natural\" não tem significado combinado para a maioria dos alimentos. Nenhuma das duas palavras é mentira. Nenhuma é uma medição."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b10",
+      "spans": [
+        {
+          "text": "Por que a frente funciona mesmo assim"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "Uma alegação na frente muda a forma como as pessoas avaliam o alimento inteiro, inclusive as partes de que a alegação não fala. Os pesquisadores chamam isso de efeito halo, e ele vale mesmo quando a tabela do verso está bem ali."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "Isso não é falta de atenção. É para isso que serve uma embalagem bem desenhada."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b13",
+      "spans": [
+        {
+          "text": "O hábito que vence isso"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b14",
+      "spans": [
+        {
+          "text": "Leia primeiro a tabela e depois a frente. A tabela é a parte que alguém precisou defender."
+        }
+      ]
+    },
+    {
+      "kind": "plan",
+      "key": "b15",
+      "cue": "Quando uma alegação na frente chamar a minha atenção",
+      "action": "Vou virar a embalagem antes de decidir"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "fda-nutrition-labeling-2016"
+    }
+  ],
+  "citations": {
+    "fda-nutrient-content-claims": {
+      "authority": "US FDA",
+      "doc": "Nutrient Content Claims — 21 CFR 101 Subpart D, the definitions a package must meet to use words like 'free', 'low', 'reduced' and 'light'",
+      "year": 2024,
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-D"
+    },
+    "fda-nutrition-labeling-2016": {
+      "authority": "US FDA",
+      "doc": "Changes to the Nutrition Facts Label — final rule, including the Added Sugars declaration and updated serving sizes",
+      "year": 2016,
+      "url": "https://www.fda.gov/food/nutrition-facts-label/changes-nutrition-facts-label"
+    }
+  }
+}

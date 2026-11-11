@@ -1,0 +1,125 @@
+{
+  "slug": "chicken-and-brown-rice-soup",
+  "title": "Chicken and Brown Rice Soup",
+  "blurb": "A comforting soup with tender chicken, wholesome brown rice and plenty of vegetables in a light broth.",
+  "steps": [
+    "Heat the olive oil in a large pot over medium heat and add the onion, carrots and celery. Cook for about 8 minutes, stirring occasionally, until the vegetables begin to soften.",
+    "Add the garlic and thyme and cook for another minute until fragrant.",
+    "Pour in the chicken stock and add the bay leaf, then bring to the boil.",
+    "Add the chicken breasts and brown rice, then reduce the heat and simmer gently for 35 minutes until the rice is tender and the chicken is cooked through.",
+    "Remove the chicken breasts and shred them with two forks, then return the meat to the pot.",
+    "Season with salt and black pepper, remove the bay leaf and serve hot."
+  ],
+  "servings": 8,
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/chicken-and-brown-rice-soup.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "chicken breasts, skinless and boneless",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "low-sodium chicken stock",
+      "measure": null,
+      "grams": 2000
+    },
+    {
+      "text": "brown rice",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "medium carrots, chopped",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "medium onion, chopped",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "celery stalks, chopped",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "bay leaf",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "garlic cloves, minced",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "dried thyme",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 5
+    }
+  ]
+}

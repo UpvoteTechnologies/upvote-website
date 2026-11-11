@@ -1,0 +1,57 @@
+{
+  "slug": "what-hydrogenated-vegetable-oil-means-for-your-plan",
+  "kicker": "INGREDIENTS",
+  "title": "Hydrogenated vegetable oil: what it means for your plan",
+  "standfirst": "Which of our plan rules this ingredient turns on, and what that does not tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-hydrogenated-vegetable-oil-means-for-your-plan.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "How our rules read it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "Our rules read hydrogenated vegetable oil as a plant oil the pack does not name."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "When it matters to you"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Our scorer looks for hydrogenated vegetable oil when Palm-oil free or Seed-oil free is on for you. If those plans are off, your score does not change. This is how the app reads a label. It is not a claim about health."
+        }
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

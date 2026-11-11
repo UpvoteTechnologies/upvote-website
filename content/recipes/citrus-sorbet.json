@@ -1,0 +1,95 @@
+{
+  "slug": "citrus-sorbet",
+  "title": "Citrus Sorbet",
+  "blurb": "A light, refreshing frozen dessert made with freshly squeezed orange and grapefruit juice, churned to a smooth texture.",
+  "steps": [
+    "Put the water and sugar in a small pan and heat gently, stirring until the sugar dissolves completely.",
+    "Bring to a simmer for two minutes, then remove from the heat and leave to cool.",
+    "Strain the orange juice and grapefruit juice through a sieve into a large bowl.",
+    "Stir in the cooled sugar syrup and salt until combined.",
+    "Whisk the egg whites until they form soft peaks, then gently fold them into the citrus mixture.",
+    "Pour into a shallow freezer-proof container and freeze for about two hours, stirring every thirty minutes to break up ice crystals.",
+    "Once frozen to a scoopable consistency, transfer to the fridge for ten minutes before serving to soften slightly."
+  ],
+  "servings": 8,
+  "prepMinutes": 20,
+  "cookMinutes": 5,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/citrus-sorbet.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 112.338,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.267,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 26.657,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 25.421,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.175,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 0.16,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.012,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 63.763,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "orange juice, freshly squeezed",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "grapefruit juice, freshly squeezed",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "egg whites",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

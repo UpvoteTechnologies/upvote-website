@@ -1,0 +1,115 @@
+{
+  "slug": "chicken-and-corn-rice-bowl",
+  "title": "Chicken and corn rice bowl",
+  "blurb": "Tender chicken with sweetcorn and rice, topped with cottage cheese and fresh coriander",
+  "steps": [
+    "Cook the rice in boiling water according to packet instructions, then drain if needed and keep warm.",
+    "Cut the chicken into bite-sized pieces and toss with the paprika, cumin, cayenne and a pinch of salt.",
+    "Heat the olive oil in a frying pan over medium-high heat and cook the chicken for 6 to 8 minutes, turning occasionally, until golden and cooked through.",
+    "Add the drained sweetcorn to the pan and cook for 2 minutes to warm through.",
+    "Spoon the rice into a bowl and top with the chicken and corn mixture.",
+    "Add the cottage cheese on top, tear over the coriander leaves, and squeeze over the lime juice before serving."
+  ],
+  "servings": 1,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/chicken-and-corn-rice-bowl.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 673.2,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 49.453,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 81.779,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 7.363,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.214,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 16.67,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.984,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 299.3,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "long grain rice",
+      "measure": null,
+      "grams": 75
+    },
+    {
+      "text": "chicken breast fillet",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "tinned sweetcorn, drained",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "smoked paprika",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "cayenne pepper",
+      "measure": null,
+      "grams": 0.5
+    },
+    {
+      "text": "cottage cheese",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "fresh coriander",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "lime",
+      "measure": null,
+      "grams": 20
+    }
+  ]
+}

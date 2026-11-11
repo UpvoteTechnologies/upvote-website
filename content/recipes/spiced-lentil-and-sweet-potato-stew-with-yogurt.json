@@ -1,0 +1,124 @@
+{
+  "slug": "spiced-lentil-and-sweet-potato-stew-with-yogurt",
+  "title": "Spiced lentil and sweet potato stew with yogurt",
+  "blurb": "A warming bowl of red lentils and sweet potato simmered with cumin, turmeric and mustard seeds, finished with yogurt and wilted spinach.",
+  "steps": [
+    "Peel and dice the sweet potato into small cubes. Peel and finely grate the ginger, then crush the garlic.",
+    "Heat the olive oil in a medium saucepan over medium heat and add the mustard seeds. When they begin to pop, stir in the cumin, turmeric, ginger and garlic, cooking for about 30 seconds until fragrant.",
+    "Add the lentils and sweet potato to the pan, then pour in the stock and add the salt. Bring to the boil, then reduce the heat and simmer for 20 minutes until the lentils are soft and the sweet potato is tender.",
+    "Stir the spinach into the pan and let it wilt for a minute or two.",
+    "Remove from the heat and stir through the yogurt before serving."
+  ],
+  "servings": 1,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/spiced-lentil-and-sweet-potato-stew-with-yogurt.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 665.27,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 31.833,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 101.944,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 14.881,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 16.616,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 15.989,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.438,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 2188,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "dried red lentils",
+      "measure": null,
+      "grams": 75
+    },
+    {
+      "text": "sweet potato",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "yellow mustard seeds",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "ground turmeric",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "fresh ginger",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "garlic clove",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "vegetable stock",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "spinach",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "Greek yogurt",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 2
+    }
+  ]
+}

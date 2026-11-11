@@ -1,0 +1,106 @@
+{
+  "slug": "broccoli-and-pesto-soup",
+  "title": "Broccoli and Pesto Soup",
+  "blurb": "A simple Italian-style soup where tender broccoli florets are simmered in chicken broth and finished with pesto for a fresh, herby flavour.",
+  "steps": [
+    "Cut the broccoli into small florets and peel and chop the stalks into thin slices.",
+    "Peel and thinly slice the garlic cloves.",
+    "Heat the olive oil in a large pan over medium heat and cook the garlic for one minute until fragrant.",
+    "Pour in the chicken stock and water, then add the broccoli stalks and bring to a simmer.",
+    "Add the broccoli florets and simmer for 20 minutes until the broccoli is very tender.",
+    "Stir in the pesto and season with salt and black pepper to taste.",
+    "Serve the soup in bowls with extra pesto on top if you like."
+  ],
+  "servings": 6,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/broccoli-and-pesto-soup.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "broccoli",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "chicken stock",
+      "measure": null,
+      "grams": 1200
+    },
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "basil pesto",
+      "measure": null,
+      "grams": 90
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

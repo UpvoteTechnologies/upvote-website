@@ -1,0 +1,110 @@
+{
+  "slug": "salmon-crepes-with-yogurt-sauce",
+  "title": "Salmon Crêpes with Yogurt Sauce",
+  "blurb": "Light crêpes filled with flaked salmon and served with a tangy yogurt dressing",
+  "steps": [
+    "Whisk the flour, salt, baking soda and cold water together until smooth, then stir in half the canola oil.",
+    "Heat a non-stick frying pan over medium heat and cook thin crêpes using a small ladleful of batter for each, about one minute per side until lightly golden.",
+    "Meanwhile, place the salmon in a shallow pan with enough water to cover and simmer gently for 8 minutes until cooked through.",
+    "Drain the salmon and flake it into chunks with a fork, discarding any bones.",
+    "Mix the Greek yogurt with lemon juice and chopped dill to make a sauce.",
+    "Fill each crêpe with flaked salmon, fold into quarters, and serve with the yogurt sauce on the side."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/salmon-crepes-with-yogurt-sauce.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 306.675,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 29.088,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 24.609,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 1.956,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.911,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 9.629,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.721,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 520.938,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "baking soda",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "water, cold",
+      "measure": null,
+      "grams": 250
+    },
+    {
+      "text": "canola oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salmon fillet, skinless",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "Greek yogurt, plain, 2% M.F.",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "lemon juice",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "fresh dill",
+      "measure": null,
+      "grams": 10
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "vanilla-custard-pots-with-caramelised-sugar",
+  "title": "Vanilla Custard Pots with Caramelised Sugar",
+  "blurb": "Smooth baked custards with a crisp sugar topping, made with egg yolks and cream.",
+  "steps": [
+    "Heat your oven to 160°C and lightly grease two small ramekins with the butter.",
+    "Warm the cream in a small saucepan over low heat until it just begins to steam, then remove from the heat.",
+    "Whisk the egg yolks with the caster sugar and vanilla extract in a bowl until smooth and pale.",
+    "Pour the warm cream slowly into the egg mixture, whisking constantly, then strain through a sieve into a jug.",
+    "Divide the custard between the prepared ramekins and place them in a roasting tin.",
+    "Pour enough hot water into the tin to come halfway up the sides of the ramekins, then bake for 25 to 30 minutes until the custards are just set with a slight wobble in the centre.",
+    "Remove from the water bath and let the custards cool completely, then chill in the fridge for at least an hour.",
+    "Just before serving, sprinkle the brown sugar evenly over the top of each custard and caramelise with a kitchen blowtorch until the sugar melts and turns golden."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/vanilla-custard-pots-with-caramelised-sugar.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 583.9,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 5.697,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 27.025,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 25.807,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 50.527,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 27.53,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 50.825,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "unsalted butter, to grease",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "whipping cream",
+      "measure": "ml",
+      "grams": 240
+    },
+    {
+      "text": "egg yolks",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 25
+    },
+    {
+      "text": "vanilla extract",
+      "measure": "ml",
+      "grams": 3
+    },
+    {
+      "text": "soft light brown sugar",
+      "measure": null,
+      "grams": 20
+    }
+  ]
+}

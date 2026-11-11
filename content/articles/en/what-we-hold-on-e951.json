@@ -1,0 +1,211 @@
+{
+  "slug": "what-we-hold-on-e951",
+  "kicker": "ADDITIVES",
+  "title": "Aspartame (E951): what we hold",
+  "standfirst": "The published sources behind what we say, and what counting them cannot tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "FDA · 2024",
+  "image": "/media/articles/what-we-hold-on-e951.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "This page is about the record we hold on this additive: who has written about it, and where you can read them."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "Published sources we hold on Aspartame (E951)",
+      "caption": "Tap to see how we counted, and what the count leaves out.",
+      "basis": {
+        "q": "kb.count",
+        "of": "additive_citations",
+        "subject": "e951"
+      },
+      "resolved": {
+        "value": "29",
+        "method": "Published sources behind what we say about E951.",
+        "n": 29,
+        "scope": "kb",
+        "excluded": 0,
+        "excludedNote": null,
+        "sources": [
+          {
+            "authority": "FDA",
+            "year": 2024,
+            "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food"
+          },
+          {
+            "authority": "IARC",
+            "year": 2024,
+            "url": "https://publications.iarc.who.int/627"
+          },
+          {
+            "authority": "WHO",
+            "year": 2023,
+            "url": "https://iris.who.int/bitstream/handle/10665/376279/9789240083059-eng.pdf"
+          },
+          {
+            "authority": "WHO",
+            "year": 2022,
+            "url": "https://www.who.int/publications/i/item/9789240046429"
+          },
+          {
+            "authority": "ANSES",
+            "year": 2015,
+            "url": "https://www.anses.fr/fr/system/files/NUT2011sa0161Ra.pdf"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2013,
+            "url": "https://www.efsa.europa.eu/fr/efsajournal/pub/3496"
+          },
+          {
+            "authority": "ANSES",
+            "year": 2013,
+            "url": "https://www.anses.fr/fr/system/files/ERCA2013sa0016.pdf"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2011,
+            "url": "https://www.corporateeurope.org/en/efsa/2011/09/eu-food-additive-experts-fail-declare-links-food-industry"
+          }
+        ],
+        "limit": "A source count is a measure of how much has been written, not of how risky a thing is."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Names it goes by"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "A label may name this additive in any of these ways, or by its code alone."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b5",
+      "source": "kb",
+      "items": [
+        "aspartaam",
+        "aspartam",
+        "aspartame",
+        "aspartamo"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "The sources"
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b7",
+      "citationId": "additive-e951-fda-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b8",
+      "citationId": "additive-e951-iarc-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b9",
+      "citationId": "additive-e951-who-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b10",
+      "citationId": "additive-e951-who-2022"
+    },
+    {
+      "kind": "citation",
+      "key": "b11",
+      "citationId": "additive-e951-anses-2015"
+    },
+    {
+      "kind": "citation",
+      "key": "b12",
+      "citationId": "additive-e951-efsa-2013"
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "additive-e951-anses-2013"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "additive-e951-efsa-2011"
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b15",
+      "spans": [
+        {
+          "text": "A count of sources says how much has been written, not how risky a thing is. A well studied additive can be well studied because it is common, and a quiet one can be quiet because nobody has looked. What matters for you is the amount in the food in front of you, which this page cannot tell you."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e951-fda-2024": {
+      "authority": "FDA",
+      "year": 2024,
+      "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food"
+    },
+    "additive-e951-iarc-2024": {
+      "authority": "IARC",
+      "year": 2024,
+      "url": "https://publications.iarc.who.int/627"
+    },
+    "additive-e951-who-2023": {
+      "authority": "WHO",
+      "year": 2023,
+      "url": "https://iris.who.int/bitstream/handle/10665/376279/9789240083059-eng.pdf"
+    },
+    "additive-e951-who-2022": {
+      "authority": "WHO",
+      "year": 2022,
+      "url": "https://www.who.int/publications/i/item/9789240046429"
+    },
+    "additive-e951-anses-2015": {
+      "authority": "ANSES",
+      "year": 2015,
+      "url": "https://www.anses.fr/fr/system/files/NUT2011sa0161Ra.pdf"
+    },
+    "additive-e951-efsa-2013": {
+      "authority": "EFSA",
+      "year": 2013,
+      "url": "https://www.efsa.europa.eu/fr/efsajournal/pub/3496"
+    },
+    "additive-e951-anses-2013": {
+      "authority": "ANSES",
+      "year": 2013,
+      "url": "https://www.anses.fr/fr/system/files/ERCA2013sa0016.pdf"
+    },
+    "additive-e951-efsa-2011": {
+      "authority": "EFSA",
+      "year": 2011,
+      "url": "https://www.corporateeurope.org/en/efsa/2011/09/eu-food-additive-experts-fail-declare-links-food-industry"
+    }
+  }
+}

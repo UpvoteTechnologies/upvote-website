@@ -1,0 +1,26 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  text: string;
+  eyebrow?: string;
+  image: string | null;
+  /** Width and height of the source image, to reserve its space before it loads. */
+  ratio: [number, number];
+}
+
+const { href, title, text, eyebrow, image, ratio } = Astro.props;
+---
+
+<a href={href} class="card group flex flex-col overflow-hidden bg-paper-2 transition-colors hover:border-brand">
+  {
+    image && (
+      <img src={image} alt="" width={ratio[0]} height={ratio[1]} loading="lazy" decoding="async" class="aspect-[16/9] w-full object-cover" />
+    )
+  }
+  <div class="flex flex-1 flex-col p-5">
+    {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+    <h3 class="mt-1 text-[18px] font-extrabold leading-[1.25] tracking-[-.015em] text-ink group-hover:text-brand">{title}</h3>
+    <p class="mt-2 text-pretty text-[14px] font-medium leading-[1.55] text-muted">{text}</p>
+  </div>
+</a>

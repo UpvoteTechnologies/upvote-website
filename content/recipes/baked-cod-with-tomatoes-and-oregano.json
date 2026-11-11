@@ -1,0 +1,105 @@
+{
+  "slug": "baked-cod-with-tomatoes-and-oregano",
+  "title": "Baked Cod with Tomatoes and Oregano",
+  "blurb": "Tender white fish baked with tomatoes, garlic and oregano in a simple Mediterranean-style casserole.",
+  "steps": [
+    "Heat the oven to 180°C.",
+    "Warm half the olive oil in a frying pan over medium heat and cook the onion for 8 minutes until soft.",
+    "Add the garlic and cook for another minute, then remove from the heat.",
+    "Chop the tomatoes into rough chunks and mix them in a baking dish with the onion mixture, oregano, salt and pepper.",
+    "Nestle the cod fillets into the tomato mixture and drizzle with the remaining olive oil.",
+    "Cover the dish with foil and bake for 40 minutes, then remove the foil and bake for another 10 minutes until the fish flakes easily."
+  ],
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 55,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/baked-cod-with-tomatoes-and-oregano.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 236.305,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 24.71,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 9.888,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 4.94,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.601,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 10.954,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.577,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 559.198,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "cod fillets",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "plum tomatoes",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "onion, finely chopped",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "garlic, finely chopped",
+      "measure": null,
+      "grams": 12
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "dried oregano",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "ground black pepper",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 4
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "lemon-and-brandy-mousse",
+  "title": "Lemon and Brandy Mousse",
+  "blurb": "A light, set mousse with sharp lemon and a hint of brandy, chilled until firm.",
+  "steps": [
+    "Sprinkle the gelatin over the cold water in a small bowl and leave to sponge for five minutes.",
+    "Separate the eggs, putting the yolks in a heatproof bowl and the whites in a large clean bowl.",
+    "Add 100g of the sugar and the lemon zest to the yolks and whisk until pale, then whisk in the lemon juice.",
+    "Set the bowl over a pan of simmering water and cook, stirring constantly, until the mixture thickens enough to coat the back of a spoon, about ten minutes.",
+    "Remove from the heat, stir in the soaked gelatin until dissolved, then stir in the brandy and leave to cool to room temperature.",
+    "Whip the cream to soft peaks and whisk the egg whites with the remaining 50g sugar to stiff peaks.",
+    "Fold the cream into the cooled lemon mixture, then gently fold in the egg whites until no streaks remain.",
+    "Divide between eight serving glasses or pour into one large dish, then refrigerate for at least three hours until set."
+  ],
+  "servings": 8,
+  "prepMinutes": 180,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/lemon-and-brandy-mousse.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 349.99,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 8.922,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 22.47,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 20.949,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.125,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 25.173,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 13.449,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 68.443,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "heavy cream",
+      "measure": "2 cups",
+      "grams": 480
+    },
+    {
+      "text": "large eggs",
+      "measure": "6 eggs",
+      "grams": 300
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "fresh lemon juice",
+      "measure": "½ cup",
+      "grams": 120
+    },
+    {
+      "text": "lemon zest",
+      "measure": "2 lemons",
+      "grams": 6
+    },
+    {
+      "text": "unflavoured gelatin powder",
+      "measure": "1 oz",
+      "grams": 28
+    },
+    {
+      "text": "brandy",
+      "measure": "4 tbsp",
+      "grams": 60
+    },
+    {
+      "text": "cold water",
+      "measure": "6 tbsp",
+      "grams": 90
+    }
+  ]
+}

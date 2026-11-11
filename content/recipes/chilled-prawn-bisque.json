@@ -1,0 +1,110 @@
+{
+  "slug": "chilled-prawn-bisque",
+  "title": "Chilled Prawn Bisque",
+  "blurb": "A smooth, chilled soup with prawns and thyme, perfect for warm weather.",
+  "steps": [
+    "Melt the butter in a large pan over medium heat and cook the onion for 5 minutes until softened.",
+    "Add the prawns and cook for 2 minutes until they turn pink.",
+    "Pour in the clam juice, fish stock, thyme and tomato purée, then bring to a simmer and cook for 8 minutes.",
+    "Remove from the heat and blend the soup until completely smooth using a stick blender or food processor.",
+    "Stir in the cream and season with salt.",
+    "Transfer to a container and refrigerate for at least 2 hours until thoroughly chilled before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/chilled-prawn-bisque.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 224.492,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 14.019,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 7.092,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.218,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.028,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 15.356,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 8.226,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 660.175,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "unsalted butter",
+      "measure": "1 tablespoon",
+      "grams": 15
+    },
+    {
+      "text": "onion, chopped",
+      "measure": "1 medium",
+      "grams": 150
+    },
+    {
+      "text": "raw king prawns",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "clam juice",
+      "measure": "240ml",
+      "grams": 240
+    },
+    {
+      "text": "fish stock",
+      "measure": "500ml",
+      "grams": 500
+    },
+    {
+      "text": "dried thyme",
+      "measure": "1 teaspoon",
+      "grams": 2
+    },
+    {
+      "text": "double cream",
+      "measure": "120ml",
+      "grams": 120
+    },
+    {
+      "text": "tomato purée",
+      "measure": "1 tablespoon",
+      "grams": 20
+    },
+    {
+      "text": "salt",
+      "measure": "½ teaspoon",
+      "grams": 3
+    }
+  ]
+}

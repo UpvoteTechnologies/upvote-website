@@ -1,0 +1,100 @@
+{
+  "slug": "red-cabbage-slaw-with-tarragon-cream",
+  "title": "Red Cabbage Slaw with Tarragon Cream",
+  "blurb": "Finely sliced red cabbage and onion dressed in a tangy tarragon cream, ready in minutes.",
+  "steps": [
+    "Remove the outer leaves from the cabbage, quarter it and cut out the core, then slice the quarters as finely as you can.",
+    "Peel and halve the red onion, then slice it very thinly into half-moons.",
+    "Put the cabbage and onion in a large bowl and add the salt, then massage with your hands for a minute to soften the vegetables slightly.",
+    "In a small bowl, whisk together the cream, balsamic vinegar, tarragon and black pepper until smooth.",
+    "Pour the dressing over the cabbage and onion, then toss everything together until evenly coated.",
+    "Taste and adjust the seasoning if needed, then serve straight away or chill for up to an hour to let the flavours develop."
+  ],
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/red-cabbage-slaw-with-tarragon-cream.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 70.785,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.665,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 7.255,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 4.376,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.911,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 3.996,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.059,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 217.067,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "red cabbage",
+      "measure": null,
+      "grams": 450
+    },
+    {
+      "text": "red onion",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "light cream",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "balsamic vinegar",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "dried tarragon",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

@@ -11,6 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run preview` - Preview the production build locally
 - `npm run sync-privacy` - Copy the published privacy policy from Termly into `content/privacy/policy.html` (the prerendered fallback of `/privacy`); commit the result
 - `npm run brand-assets` - Regenerate the social cards (`public/og.png`, `public/og-pt-br.png`) and the PNG icons from the SVG logos
+- `npm run sync-content` - Copy articles and recipes from the app's public API into `content/` and `public/media/` (needs `CATALOG_API_URL`)
 
 Needs Node >= 22.23 (see `.nvmrc`).
 
@@ -36,6 +37,13 @@ Every page must reach the browser as finished HTML (title, description, text, JS
 - All copy lives in `src/i18n/en.ts` and `src/i18n/pt-br.ts`; never hard-code visible text in a component. The two files must keep the same shape (`pt-br.ts` is typed against `en.ts`)
 - A page that exists in both languages passes `alternates` to `Base` so the `hreflang` pairs and the language switch are correct
 - Store links are per language (`src/links.ts`)
+
+### App content (`content/`)
+- Articles and recipes come from the app's catalog API, but the build never calls it. `npm run sync-content` (`scripts/sync-content.mjs`) copies them into `content/articles/en/`, `content/recipes/` and `public/media/`, and the result is committed
+- `content/articles/published.json` is the list of article slugs on the site. Articles are opened in batches on purpose (most are generated families, and publishing all at once risks being read as scaled content). Add slugs there and re-run the sync to open the next batch
+- `content/articles/pt-br/<slug>.json` are hand-reviewed translations with the same shape as the English file. An article has a pt-BR page and an `hreflang` pair only when that file exists. The sync never touches this folder
+- `src/lib/content.ts` loads the files; `ArticleBlocks.astro` renders the app's typed blocks
+- Routes: `/a/<slug>`, `/articles`, `/pt-br/a/<slug>`, `/pt-br/artigos`, `/recipes/<slug>`, `/recipes` (recipes are English only for now)
 
 ### SEO files
 - `public/robots.txt`, `public/site.webmanifest`; the sitemap is generated at build time by `@astrojs/sitemap` (`astro.config.mjs`)
