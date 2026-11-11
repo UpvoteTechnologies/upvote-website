@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from './Hero';
+import TrustBar from './TrustBar';
+import Diets from './Diets';
+import Features from './Features';
+import HowItWorks from './HowItWorks';
+import About from './About';
+import Team from './Team';
+import Contact from './Contact';
+import { LOCALES, LOCALE_TAG, getDict, localePath, type Locale } from '../i18n';
+import { appStoreUrl, playStoreUrl } from '../links';
+import { CONTACT_EMAIL, LEGAL_NAME, SITE_NAME, SITE_URL, absoluteUrl } from '../site';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getDict(locale);
+const path = localePath(locale);
+const alternates = Object.fromEntries(LOCALES.map((code) => [code, localePath(code)]));
+
+const organization = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${SITE_URL}/#organization`,
+  name: SITE_NAME,
+  legalName: LEGAL_NAME,
+  url: SITE_URL,
+  logo: absoluteUrl('/icon-512.png'),
+  email: CONTACT_EMAIL,
+};
+
+// No rating fields on purpose: they may only be published from a real, current source.
+const app = {
+  '@context': 'https://schema.org',
+  '@type': 'MobileApplication',
+  name: SITE_NAME,
+  description: t.meta.appDescription,
+  url: absoluteUrl(path),
+  inLanguage: LOCALE_TAG[locale],
+  operatingSystem: 'iOS, Android',
+  applicationCategory: 'HealthApplication',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: locale === 'pt-br' ? 'BRL' : 'USD' },
+  installUrl: [appStoreUrl(locale), playStoreUrl(locale)],
+  publisher: { '@id': `${SITE_URL}/#organization` },
+};
+---
+
+<Base
+  locale={locale}
+  title={t.meta.homeTitle}
+  description={t.meta.homeDescription}
+  path={path}
+  alternates={alternates}
+  jsonLd={[organization, app]}
+>
+  <Hero locale={locale} />
+  <TrustBar locale={locale} />
+  <Diets locale={locale} />
+  <Features client:visible locale={locale} />
+  <HowItWorks locale={locale} />
+  <About locale={locale} />
+  <Team locale={locale} />
+  <Contact client:visible locale={locale} />
+</Base>

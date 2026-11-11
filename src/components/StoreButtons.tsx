@@ -1,4 +1,5 @@
-import { APP_STORE_URL, PLAY_STORE_URL } from '../links';
+import { getDict, type Locale } from '../i18n';
+import { appStoreUrl, playStoreUrl } from '../links';
 
 function AppleIcon() {
   return (
@@ -44,11 +45,12 @@ function StoreButton({ href, eyebrow, label, icon }: StoreButtonProps) {
   );
 }
 
-export default function StoreButtons({ className = '' }: { className?: string }) {
+export default function StoreButtons({ locale, className = '' }: { locale: Locale; className?: string }) {
+  const t = getDict(locale).store;
   return (
     <div className={`flex flex-wrap gap-3 ${className}`}>
-      <StoreButton href={APP_STORE_URL} eyebrow="DOWNLOAD ON THE" label="App Store" icon={<AppleIcon />} />
-      <StoreButton href={PLAY_STORE_URL} eyebrow="GET IT ON" label="Google Play" icon={<PlayIcon />} />
+      <StoreButton href={appStoreUrl(locale)} eyebrow={t.appStoreEyebrow} label="App Store" icon={<AppleIcon />} />
+      <StoreButton href={playStoreUrl(locale)} eyebrow={t.playEyebrow} label="Google Play" icon={<PlayIcon />} />
     </div>
   );
 }

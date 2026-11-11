@@ -1,44 +1,20 @@
 import { Smartphone, Sparkles, Target, Shield, Share2, Gift } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
+import { getDict, type Locale } from '../i18n';
 
-const features = [
-  {
-    icon: Sparkles,
-    title: 'Set Your Diet',
-    description: 'Keto, diabetic-friendly, gluten-free and more, plus your allergies and anything else you steer clear of',
-  },
-  {
-    icon: Smartphone,
-    title: 'No Barcode Needed',
-    description: 'Point your camera at the product itself. It works on produce, meats, and anything with no barcode to find',
-  },
-  {
-    icon: Target,
-    title: 'Match Score 0-100',
-    description: 'Every product is scored against your diet, so you know in a second whether it belongs in your cart',
-  },
-  {
-    icon: Shield,
-    title: 'Ingredient Flags',
-    description: 'Upvote highlights the ingredients you asked it to watch for, right when you scan the label',
-  },
-  {
-    icon: Share2,
-    title: 'Reviews From Your Diet',
-    description: 'See what people eating the way you eat thought of a product, before you buy it',
-  },
-  {
-    icon: Gift,
-    title: 'Earn Rewards',
-    description: 'Get Upcoins for every helpful review and redeem them for real rewards',
-  },
-];
+// Index-aligned with `features.items` in the dictionaries.
+const icons = [Sparkles, Smartphone, Target, Shield, Share2, Gift];
 
-export default function Features() {
+export default function Features({ locale }: { locale: Locale }) {
+  const t = getDict(locale).features;
+  // Cards are visible in the server-rendered HTML; the reveal only arms once the script runs,
+  // so the section still reads without JavaScript.
+  const [armed, setArmed] = useState(false);
   const [visibleCards, setVisibleCards] = useState<number[]>([]);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
+    setArmed(true);
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -62,22 +38,21 @@ export default function Features() {
     <section id="features" className="border-t border-line bg-paper-2">
       <div className="site-container py-16 lg:py-[88px]">
         <div className="mb-10 text-center lg:mb-[52px]">
-          <h2 className="section-title">How Upvote Helps</h2>
-          <p className="section-lead mx-auto mt-4 max-w-[600px] text-pretty">
-            Reading a label shouldn't take a nutrition degree. Upvote does it for you, against the
-            diet you actually follow.
-          </p>
+          <h2 className="section-title">{t.title}</h2>
+          <p className="section-lead mx-auto mt-4 max-w-[600px] text-pretty">{t.lead}</p>
         </div>
 
         <div className="grid grid-cols-1 gap-[18px] md:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature, index) => {
-            const Icon = feature.icon;
-            const isVisible = visibleCards.includes(index);
+          {t.items.map((feature, index) => {
+            const Icon = icons[index];
+            const isVisible = !armed || visibleCards.includes(index);
 
             return (
               <div
                 key={feature.title}
-                ref={(el) => (cardRefs.current[index] = el)}
+                ref={(el) => {
+                  cardRefs.current[index] = el;
+                }}
                 className={`card bg-paper p-7 transition-all duration-700 hover:border-brand/40 ${
                   isVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
                 }`}

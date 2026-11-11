@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import { getDict } from '../i18n';
+
+// The policy itself is a Termly embed, published in English only, so this page has one language.
+const t = getDict('en');
+
+// Termly finds its mount point by a `name` attribute, which is not a typed attribute on a div.
+const termlyEmbed = { name: 'termly-embed', 'data-id': 'babeea2f-52c8-4655-b2ec-061c72ff9f91' };
+---
+
+<Base locale="en" title={t.meta.privacyTitle} description={t.meta.privacyDescription} path="/privacy">
+  <section class="min-h-screen bg-paper py-16 lg:py-20">
+    <div class="site-container">
+      <a
+        href="/"
+        class="group mb-8 inline-flex items-center gap-2 text-[14px] font-bold text-muted transition-colors hover:text-brand"
+      >
+        <svg
+          class="h-5 w-5 transition-transform group-hover:-translate-x-1"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="m12 19-7-7 7-7"></path>
+          <path d="M19 12H5"></path>
+        </svg>
+        <span>{t.privacy.back}</span>
+      </a>
+
+      <div class="mx-auto max-w-4xl">
+        <h1 class="section-title mb-8">{t.privacy.title}</h1>
+
+        <div class="rounded-[22px] border border-line bg-white p-6 sm:p-8 md:p-12">
+          <div {...termlyEmbed}></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline id="termly-jssdk" src="https://app.termly.io/embed-policy.min.js"></script>
+</Base>

@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import Download from '../components/Download';
+import { getDict } from '../i18n';
+
+// QR codes and every "Get the app" button land here. The component reads the device in the
+// browser and forwards to the right store, so there is nothing to prerender or index.
+const t = getDict('en');
+---
+
+<Base
+  locale="en"
+  title={t.meta.downloadTitle}
+  description={t.meta.homeDescription}
+  path="/download"
+  noindex
+  chrome={false}
+>
+  <Download client:only="react" />
+</Base>

@@ -1,0 +1,84 @@
+---
+import { LOCALES, LOCALE_TAG, OG_LOCALE, DEFAULT_LOCALE, type Locale } from '../i18n';
+import { APP_STORE_ID } from '../links';
+import { DEFAULT_OG_IMAGE, SITE_NAME, absoluteUrl } from '../site';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  /** Site path of this page, e.g. `/` or `/pt-br`. The canonical URL is built from it. */
+  path: string;
+  /** Site path of this page in each language it exists in (including this one). */
+  alternates?: Partial<Record<Locale, string>>;
+  noindex?: boolean;
+  ogType?: 'website' | 'article';
+  ogImage?: string;
+  /** schema.org objects, one `<script type="application/ld+json">` each. */
+  jsonLd?: Record<string, unknown>[];
+}
+
+const {
+  locale,
+  title,
+  description,
+  path,
+  alternates = {},
+  noindex = false,
+  ogType = 'website',
+  ogImage = DEFAULT_OG_IMAGE,
+  jsonLd = [],
+} = Astro.props;
+
+const canonical = absoluteUrl(path);
+const image = absoluteUrl(ogImage);
+const languages = LOCALES.filter((code) => alternates[code]);
+const defaultAlternate = alternates[DEFAULT_LOCALE];
+const verification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+
+// `<` is escaped so page content can never close the script element early.
+const serialize = (data: Record<string, unknown>) => JSON.stringify(data).replace(/</g, '\\u003c');
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+{noindex ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={canonical} />}
+
+{
+  !noindex &&
+    languages.length > 1 &&
+    languages.map((code) => (
+      <link rel="alternate" hreflang={LOCALE_TAG[code]} href={absoluteUrl(alternates[code]!)} />
+    ))
+}
+{
+  !noindex && languages.length > 1 && defaultAlternate && (
+    <link rel="alternate" hreflang="x-default" href={absoluteUrl(defaultAlternate)} />
+  )
+}
+
+<meta property="og:site_name" content={SITE_NAME} />
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={image} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content={OG_LOCALE[locale]} />
+{
+  languages
+    .filter((code) => code !== locale)
+    .map((code) => <meta property="og:locale:alternate" content={OG_LOCALE[code]} />)
+}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+
+{/* Safari's Smart App Banner: offers the app (or opens it) at the top of the page on iOS. */}
+<meta name="apple-itunes-app" content={`app-id=${APP_STORE_ID}`} />
+{verification && <meta name="google-site-verification" content={verification} />}
+
+{jsonLd.map((data) => <script type="application/ld+json" is:inline set:html={serialize(data)} />)}

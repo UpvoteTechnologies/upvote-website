@@ -9,4 +9,5 @@
 # When the app ships to production, add the Play App Signing SHA-256 fingerprint (Play Console
 # -> Setup -> App signing) to .well-known/assetlinks.json alongside the debug one.
 
-/*    /index.html   200
+# Short alias for the Portuguese home page.
+/pt        /pt-br    301
