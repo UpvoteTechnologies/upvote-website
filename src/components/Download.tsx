@@ -1,7 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-
-import { APP_STORE_URL, PLAY_STORE_URL } from '../links';
+import { localePath, type Locale } from '../i18n';
+import { appStoreUrl, playStoreUrl } from '../links';
 
 const APP_STORE_PROVIDER_TOKEN = '127358169';
 
@@ -25,16 +24,21 @@ function getRedirectTarget(device: DeviceType): RedirectTarget {
   return 'fallback';
 }
 
-function buildRedirectUrl(target: RedirectTarget, params: URLSearchParams): string | null {
+/** `/download` is one URL for every language (QR codes point at it), so the visitor's browser picks. */
+function detectLocale(): Locale {
+  return navigator.language.toLowerCase().startsWith('pt') ? 'pt-br' : 'en';
+}
+
+function buildRedirectUrl(target: RedirectTarget, params: URLSearchParams, locale: Locale): string | null {
   if (target === 'app_store') {
-    const url = new URL(APP_STORE_URL);
+    const url = new URL(appStoreUrl(locale));
     url.searchParams.set('pt', APP_STORE_PROVIDER_TOKEN);
     url.searchParams.set('ct', params.get('utm_campaign') || 'qr_download');
     url.searchParams.set('mt', '8');
     return url.toString();
   }
   if (target === 'play_store') {
-    const url = new URL(PLAY_STORE_URL);
+    const url = new URL(playStoreUrl(locale));
     const referrer = new URLSearchParams({
       utm_source: params.get('utm_source') || 'qr',
       utm_medium: params.get('utm_medium') || 'qr',
@@ -58,9 +62,9 @@ function getSessionId(): string {
 
 function Download() {
   const [device] = useState<DeviceType>(detectDevice);
+  const [locale] = useState<Locale>(detectLocale);
   const redirectTarget = getRedirectTarget(device);
   const tracked = useRef(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     if (tracked.current) return;
@@ -84,9 +88,11 @@ function Download() {
     const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
     navigator.sendBeacon('/.netlify/functions/track-download', blob);
 
-    const url = buildRedirectUrl(redirectTarget, params);
+    const goHome = () => window.location.replace(localePath(locale));
+
+    const url = buildRedirectUrl(redirectTarget, params, locale);
     if (!url) {
-      navigate('/', { replace: true });
+      goHome();
       return;
     }
 
@@ -95,7 +101,6 @@ function Download() {
     // After the OS hands off to the App Store / Play Store, swap this page to
     // the landing page so a user who returns to the browser sees the site
     // instead of being stuck on the "Redirecting..." spinner.
-    const goHome = () => navigate('/', { replace: true });
     const onVisibilityChange = () => {
       if (document.visibilityState === 'visible') goHome();
     };
@@ -106,7 +111,7 @@ function Download() {
       document.removeEventListener('visibilitychange', onVisibilityChange);
       window.clearTimeout(fallback);
     };
-  }, [device, redirectTarget, navigate]);
+  }, [device, redirectTarget, locale]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-paper px-6">
@@ -114,7 +119,8 @@ function Download() {
         <img src="/brand/logo-default.svg" alt="Upvote" className="h-10 w-auto" />
         <div className="h-8 w-8 animate-spin rounded-full border-4 border-line-2 border-t-brand" />
         <p className="text-[15px] font-semibold text-muted">
-          Redirecting to the {redirectTarget === 'app_store' ? 'App Store' : 'Google Play'}...
+          {locale === 'pt-br' ? 'Redirecionando para' : 'Redirecting to the'}{' '}
+          {redirectTarget === 'app_store' ? 'App Store' : 'Google Play'}...
         </p>
       </div>
     </div>

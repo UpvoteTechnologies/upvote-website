@@ -1,11 +1,14 @@
-import { useState, FormEvent } from 'react';
+import { useState, type FormEvent } from 'react';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { getDict, type Locale } from '../i18n';
+import { CONTACT_EMAIL } from '../site';
 
 const fieldClass =
   'w-full rounded-[13px] border border-line-2 bg-white px-4 py-[14px] text-[14px] font-semibold text-ink placeholder:text-muted-4 outline-none transition-shadow focus:border-brand focus:ring-2 focus:ring-brand/25';
 const labelClass = 'mb-[6px] block text-[12.5px] font-extrabold text-ink';
 
-export default function Contact() {
+export default function Contact({ locale }: { locale: Locale }) {
+  const t = getDict(locale).contact;
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -47,7 +50,7 @@ export default function Contact() {
     } catch (error) {
       console.error('Error submitting form:', error);
       setStatus('error');
-      setErrorMessage('Failed to send message. Please try again or email us directly.');
+      setErrorMessage(t.error);
     }
   };
 
@@ -62,9 +65,9 @@ export default function Contact() {
     <section id="contact" className="border-t border-line bg-paper">
       <div className="site-container py-16 lg:py-[88px]">
         <div className="mb-10 text-center lg:mb-11">
-          <h2 className="section-title">Get In Touch</h2>
+          <h2 className="section-title">{t.title}</h2>
           <p className="section-lead mx-auto mt-[14px] max-w-[560px]">
-            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            {t.lead}
           </p>
         </div>
 
@@ -74,28 +77,28 @@ export default function Contact() {
               <path d="M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z" stroke="#9FE3BE" strokeWidth="1.8" />
               <path d="m3.5 7 8.5 6 8.5-6" stroke="#9FE3BE" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <h3 className="mt-4 text-[21px] font-extrabold text-white">Contact Information</h3>
+            <h3 className="mt-4 text-[21px] font-extrabold text-white">{t.infoTitle}</h3>
             <p className="mt-2 text-[13.5px] font-medium leading-[1.5] text-white/[.72]">
-              Reach out and we'll get back to you as soon as possible
+              {t.infoLead}
             </p>
 
             <div className="mt-7 flex flex-col gap-[18px]">
               <div>
-                <h4 className="text-[13.5px] font-extrabold text-white">Email</h4>
+                <h4 className="text-[13.5px] font-extrabold text-white">{t.email}</h4>
                 <a
-                  href="mailto:admin@upvote.app"
+                  href={`mailto:${CONTACT_EMAIL}`}
                   className="mt-[2px] block text-[13px] font-semibold text-brand-mint transition-colors hover:text-white"
                 >
-                  admin@upvote.app
+                  {CONTACT_EMAIL}
                 </a>
               </div>
               <div>
-                <h4 className="text-[13.5px] font-extrabold text-white">Response Time</h4>
-                <p className="mt-[2px] text-[12.5px] font-medium text-white/[.72]">We typically respond within 24-48 hours</p>
+                <h4 className="text-[13.5px] font-extrabold text-white">{t.responseTitle}</h4>
+                <p className="mt-[2px] text-[12.5px] font-medium text-white/[.72]">{t.responseBody}</p>
               </div>
               <div>
-                <h4 className="text-[13.5px] font-extrabold text-white">App Support</h4>
-                <p className="mt-[2px] text-[12.5px] font-medium text-white/[.72]">For app issues, open Settings → Help</p>
+                <h4 className="text-[13.5px] font-extrabold text-white">{t.supportTitle}</h4>
+                <p className="mt-[2px] text-[12.5px] font-medium text-white/[.72]">{t.supportBody}</p>
               </div>
             </div>
           </div>
@@ -106,15 +109,15 @@ export default function Contact() {
                 <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-brand-tint">
                   <CheckCircle className="h-8 w-8 text-brand" />
                 </div>
-                <h3 className="text-[24px] font-extrabold text-ink">Message Sent!</h3>
+                <h3 className="text-[24px] font-extrabold text-ink">{t.sentTitle}</h3>
                 <p className="mt-2 text-[15px] font-medium text-muted">
-                  Thank you for reaching out. We'll get back to you soon.
+                  {t.sentBody}
                 </p>
                 <button
                   onClick={() => setStatus('idle')}
                   className="mt-6 text-[15px] font-extrabold text-brand transition-colors hover:text-brand-deep"
                 >
-                  Send Another Message
+                  {t.sendAnother}
                 </button>
               </div>
             ) : (
@@ -122,7 +125,7 @@ export default function Contact() {
                 <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                   <div>
                     <label htmlFor="name" className={labelClass}>
-                      Name
+                      {t.name}
                     </label>
                     <input
                       type="text"
@@ -132,13 +135,13 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       className={fieldClass}
-                      placeholder="John Doe"
+                      placeholder={t.namePlaceholder}
                     />
                   </div>
 
                   <div>
                     <label htmlFor="email" className={labelClass}>
-                      Email
+                      {t.email}
                     </label>
                     <input
                       type="email"
@@ -148,14 +151,14 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       className={fieldClass}
-                      placeholder="john@example.com"
+                      placeholder={t.emailPlaceholder}
                     />
                   </div>
                 </div>
 
                 <div>
                   <label htmlFor="subject" className={labelClass}>
-                    Subject
+                    {t.subject}
                   </label>
                   <input
                     type="text"
@@ -165,13 +168,13 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className={fieldClass}
-                    placeholder="How can we help?"
+                    placeholder={t.subjectPlaceholder}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="message" className={labelClass}>
-                    Message
+                    {t.message}
                   </label>
                   <textarea
                     id="message"
@@ -181,7 +184,7 @@ export default function Contact() {
                     required
                     rows={5}
                     className={`${fieldClass} resize-none`}
-                    placeholder="Tell us more about your inquiry..."
+                    placeholder={t.messagePlaceholder}
                   />
                 </div>
 
@@ -198,10 +201,10 @@ export default function Contact() {
                   className="group mt-1 flex w-full items-center justify-center gap-2 rounded-[13px] bg-brand px-6 py-[15px] text-[15px] font-extrabold text-white shadow-btn-inset-lg transition-colors hover:bg-brand-deep disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   {status === 'loading' ? (
-                    <span>Sending...</span>
+                    <span>{t.sending}</span>
                   ) : (
                     <>
-                      <span>Send Message</span>
+                      <span>{t.send}</span>
                       <Send className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </>
                   )}

@@ -1,46 +1,25 @@
 import { Linkedin } from 'lucide-react';
+import { getDict, type Locale } from '../i18n';
 
+// Roles and highlights live in the dictionaries, index-aligned with this list.
 type Leader = {
   name: string;
-  role: string;
   photo: string;
-  highlights: string[];
   linkedin?: string;
 };
 
 const leadership: Leader[] = [
   {
     name: 'Jaques Castello',
-    role: 'Co-Founder & CEO',
     photo: '/team/jaques-castello.jpg',
-    highlights: [
-      '12+ years in CPG, Pricing & Analytics at Kraft Heinz',
-      'Former Management Consultant at McKinsey',
-      "Mechanical Engineer, ITA '12",
-      'National medalist in Math and Astronomy',
-    ],
   },
   {
     name: 'João Steiner',
-    role: 'Co-Founder & CFO',
     photo: '/team/joao-steiner.png',
-    highlights: [
-      '8+ years in CPG, Strategy & eCommerce at Kraft Heinz',
-      'Former Management Consultant at Falconi',
-      "Industrial Engineer, Northwestern University '17",
-      'Division 1 student-athlete, Swimming',
-    ],
   },
   {
     name: 'Michel Sena',
-    role: 'CTO',
     photo: '/team/michel-sena.jpg',
-    highlights: [
-      '7+ years in software development',
-      'Founder & CTO at Teora.app and Guilda',
-      "Electronic Engineer, ITA '20",
-      'React Native, PostgreSQL, Next.js, Node.js',
-    ],
   },
 ];
 
@@ -49,20 +28,19 @@ const engineers = [
   { name: 'Caio M.', background: 'ITA / FoodAtlas', photo: '/team/caio-m.png' },
 ];
 
-export default function Team() {
+export default function Team({ locale }: { locale: Locale }) {
+  const t = getDict(locale).team;
+
   return (
     <section id="team" className="border-t border-line bg-paper-2">
       <div className="site-container py-16 lg:py-[88px]">
         <div className="mb-10 text-center lg:mb-[52px]">
-          <h2 className="section-title">Meet the Team</h2>
-          <p className="section-lead mx-auto mt-4 max-w-[660px] text-pretty">
-            Built by people who spent their careers inside the food industry, in pricing, analytics
-            and eCommerce, and saw how little of what's on the label ever reaches the shopper.
-          </p>
+          <h2 className="section-title">{t.title}</h2>
+          <p className="section-lead mx-auto mt-4 max-w-[660px] text-pretty">{t.lead}</p>
         </div>
 
         <div className="grid grid-cols-1 gap-[18px] md:grid-cols-3">
-          {leadership.map((person) => (
+          {leadership.map((person, index) => (
             <div key={person.name} className="card group overflow-hidden bg-paper">
               <div className="h-[280px] overflow-hidden bg-[#EDEAE0]">
                 <img
@@ -75,10 +53,10 @@ export default function Team() {
 
               <div className="px-[26px] pb-7 pt-6">
                 <h3 className="text-[20px] font-extrabold tracking-[-.015em] text-ink">{person.name}</h3>
-                <p className="mt-1 font-mono text-[10px] font-bold uppercase tracking-[.12em] text-brand">{person.role}</p>
+                <p className="mt-1 font-mono text-[10px] font-bold uppercase tracking-[.12em] text-brand">{t.leadership[index].role}</p>
 
                 <ul className="mt-4 flex flex-col gap-[7px]">
-                  {person.highlights.map((item) => (
+                  {t.leadership[index].highlights.map((item) => (
                     <li key={item} className="flex gap-2 text-[12.5px] font-medium leading-[1.45] text-muted">
                       <span className="font-extrabold text-brand">•</span>
                       <span>{item}</span>
@@ -103,7 +81,7 @@ export default function Team() {
         </div>
 
         <div className="mt-6 rounded-[22px] border border-line bg-paper px-6 py-8 sm:px-10">
-          <h3 className="text-center text-[20px] font-extrabold text-ink">Engineering</h3>
+          <h3 className="text-center text-[20px] font-extrabold text-ink">{t.engineering}</h3>
 
           <div className="mt-[26px] flex flex-wrap justify-center gap-x-[52px] gap-y-8">
             {engineers.map((person) => (

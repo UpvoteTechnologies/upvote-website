@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import { LOCALES, LOCALE_TAG, getDict, localePath } from '../i18n';
+
+// One 404 serves every path, so it answers in both languages.
+const en = getDict('en');
+---
+
+<Base locale="en" title={en.meta.notFoundTitle} description={en.notFound.body} path="/404" noindex>
+  <section class="bg-paper">
+    <div class="site-container flex min-h-[60vh] flex-col items-center justify-center py-20 text-center">
+      <p class="eyebrow">404</p>
+      {
+        LOCALES.map((code, index) => {
+          const t = getDict(code).notFound;
+          return (
+            <div lang={LOCALE_TAG[code]} class={index === 0 ? 'mt-4' : 'mt-10 border-t border-line pt-10'}>
+              {index === 0 ? <h1 class="section-title">{t.title}</h1> : <h2 class="section-title">{t.title}</h2>}
+              <p class="section-lead mx-auto mt-4 max-w-[520px]">{t.body}</p>
+              <a
+                href={localePath(code)}
+                class="mt-7 inline-block rounded-full bg-brand px-7 py-[13px] text-[14px] font-extrabold text-white shadow-btn-inset transition-colors hover:bg-brand-deep"
+              >
+                {t.cta}
+              </a>
+            </div>
+          );
+        })
+      }
+    </div>
+  </section>
+</Base>

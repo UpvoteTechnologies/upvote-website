@@ -3,12 +3,11 @@
   publish = "dist"
   functions = "netlify/functions"
 
+[build.environment]
+  NODE_VERSION = "22"
+
 [functions]
   node_bundler = "esbuild"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
-  conditions = {Role = [""], Path = ["!/.netlify/functions/*"]}
+# No SPA catch-all: every route is a prerendered HTML file, and unknown paths fall through to
+# dist/404.html with a real 404 status.

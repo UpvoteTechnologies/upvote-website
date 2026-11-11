@@ -4,22 +4,42 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
-- `npm run dev` - Start Vite dev server
-- `npm run build` - Production build (outputs to `dist/`)
-- `npm run lint` - ESLint
-- `npm run typecheck` - TypeScript type checking
-- `npm run preview` - Preview production build locally
+- `npm run dev` - Start the Astro dev server
+- `npm run build` - Production build (prerenders every page to `dist/`)
+- `npm run lint` - ESLint (`.ts` / `.tsx`)
+- `npm run typecheck` - `astro check` (TypeScript in `.astro`, `.ts` and `.tsx`)
+- `npm run preview` - Preview the production build locally
+- `npm run brand-assets` - Regenerate `public/og.png` and the PNG icons from the SVG logos
+
+Needs Node >= 22.23 (see `.nvmrc`).
 
 ## Architecture
 
-This is the **Upvote** marketing/landing website — a React SPA built with Vite, TypeScript, and Tailwind CSS. Deployed on Netlify.
+This is the **Upvote** marketing website: a statically prerendered **Astro** site with **React** components, TypeScript and Tailwind CSS. Deployed on Netlify.
+
+Every page must reach the browser as finished HTML (title, description, text, JSON-LD) with no JavaScript needed. That is the reason the site moved off the old client-rendered Vite SPA, so do not add content that only exists after hydration.
 
 ### Frontend (`src/`)
-- **React 18** with **react-router-dom** for routing (BrowserRouter in `main.tsx`)
-- Three routes: `/` (landing page with Hero, Features, About, Contact sections), `/privacy`, and `/download` (QR code redirect)
-- All page sections are in `src/components/`; no nested component directories
-- Styling: **Tailwind CSS 3** (PostCSS + autoprefixer)
+- `src/pages/*.astro` - one file per route: `/` (`index.astro`), `/pt-br` (`pt-br.astro`), `/privacy`, `/download` (QR code redirect, `noindex`), `404`
+- `src/layouts/Base.astro` - the HTML shell: head, header, footer, analytics. Every page uses it
+- `src/components/Seo.astro` - title, description, canonical, `hreflang`, Open Graph, JSON-LD. Pages pass their own values through `Base`
+- `src/components/Landing.astro` - the landing page, shared by both languages
+- All page sections are React components in `src/components/`; no nested component directories
+- Components render on the server by default. Only the ones that need state hydrate (`client:load` on `Header`, `client:visible` on `Features` and `Contact`, `client:only` on `Download`)
+- Internal links are plain `<a href>`; there is no client router
+- Styling: **Tailwind CSS 3** (PostCSS + autoprefixer), tokens in `tailwind.config.js`
 - Icons: `lucide-react`
+
+### Languages
+- English at the root, Brazilian Portuguese under `/pt-br`. Helpers in `src/i18n/index.ts` (`getDict`, `localePath`, `sectionHref`)
+- All copy lives in `src/i18n/en.ts` and `src/i18n/pt-br.ts`; never hard-code visible text in a component. The two files must keep the same shape (`pt-br.ts` is typed against `en.ts`)
+- A page that exists in both languages passes `alternates` to `Base` so the `hreflang` pairs and the language switch are correct
+- Store links are per language (`src/links.ts`)
+
+### SEO files
+- `public/robots.txt`, `public/site.webmanifest`; the sitemap is generated at build time by `@astrojs/sitemap` (`astro.config.mjs`)
+- The production origin is set once in `astro.config.mjs` (`site`) and `src/site.ts` (`SITE_URL`)
+- Optional build-time env vars: `PUBLIC_POSTHOG_KEY`, `PUBLIC_GOOGLE_SITE_VERIFICATION` (see `.env.example`)
 
 ### Backend / Serverless Functions
 Contact form email sending exists in two implementations (both use Resend API):
@@ -28,7 +48,8 @@ Contact form email sending exists in two implementations (both use Resend API):
 
 ### Deployment
 - **Netlify** — config in `netlify.toml`
-- SPA fallback redirect configured (`/* -> /index.html`)
+- No SPA fallback: unknown paths get `dist/404.html` with a 404 status
+- `public/_redirects` keeps the Apple app-site-association rewrite
 - Functions bundled with esbuild
 
 ## Workflow Rules

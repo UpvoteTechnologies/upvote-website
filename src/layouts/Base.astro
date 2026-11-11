@@ -1,0 +1,80 @@
+---
+import '../index.css';
+import Seo from '../components/Seo.astro';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import { LOCALES, LOCALE_TAG, localePath, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  /** Site path of this page, e.g. `/` or `/pt-br`. */
+  path: string;
+  /** Site path of this page in each language it exists in. Omit for single-language pages. */
+  alternates?: Partial<Record<Locale, string>>;
+  noindex?: boolean;
+  ogType?: 'website' | 'article';
+  ogImage?: string;
+  jsonLd?: Record<string, unknown>[];
+  /** Set to false for bare pages (the `/download` redirect) that carry no header or footer. */
+  chrome?: boolean;
+}
+
+const { locale, alternates, chrome = true, ...seo } = Astro.props;
+
+// The language switch goes to the same page when it is translated, and to the other home otherwise.
+const otherLocale = LOCALES.find((code) => code !== locale)!;
+const switchHref = alternates?.[otherLocale] ?? localePath(otherLocale);
+---
+
+<!doctype html>
+<html lang={LOCALE_TAG[locale]} class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FAF8F1" />
+    <link rel="icon" type="image/svg+xml" href="/brand/logo-icon.svg" />
+    <link rel="alternate icon" type="image/png" href="/Favicon_16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <Seo locale={locale} alternates={alternates} {...seo} />
+  </head>
+  <body>
+    {
+      chrome ? (
+        <div class="min-h-screen bg-paper text-ink">
+          <Header client:load locale={locale} switchHref={switchHref} />
+          <main>
+            <slot />
+          </main>
+          <Footer locale={locale} switchHref={switchHref} />
+        </div>
+      ) : (
+        <slot />
+      )
+    }
+
+    <script>
+      // Analytics load only when a PostHog token is configured for the build. Nothing is stored
+      // on the visitor's device (`persistence: 'memory'`), since the site has no consent banner.
+      const key = import.meta.env.PUBLIC_POSTHOG_KEY;
+      if (key) {
+        import('posthog-js').then(({ default: posthog }) => {
+          posthog.init(key, {
+            api_host: 'https://us.i.posthog.com',
+            persistence: 'memory',
+            person_profiles: 'identified_only',
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
