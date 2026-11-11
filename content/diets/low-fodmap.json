@@ -1,0 +1,46 @@
+{
+  "id": "low-fodmap",
+  "order": 9,
+  "slugs": {
+    "en": "low-fodmap",
+    "pt-br": "low-fodmap"
+  },
+  "articles": [
+    "what-we-read-for-low-fodmap",
+    "where-low-fodmap-comes-up"
+  ],
+  "en": {
+    "name": "Low-FODMAP",
+    "title": "Low-FODMAP Food Scanner: Spot High-FODMAP Ingredients on a Label",
+    "summary": "Scan a product and see if its ingredients include common high-FODMAP items such as onion, garlic, wheat, honey, inulin and polyols.",
+    "intro": "FODMAPs are a group of carbohydrates that can cause gut symptoms in some people. A low-FODMAP diet limits them for a period, usually with a dietitian. On a packaged food the usual suspects are onion and garlic, which hide in almost any savory product.",
+    "flags": [
+      "Onion and garlic, including powders",
+      "Wheat, barley and rye",
+      "Legumes such as beans, lentils and chickpeas",
+      "Honey, high-fructose corn syrup and high-FODMAP fruits such as dates and figs",
+      "Inulin and chicory root fiber",
+      "Polyols such as sorbitol, mannitol and maltitol",
+      "Lactose from dairy ingredients, with a lighter penalty"
+    ],
+    "notes": [],
+    "limit": "FODMAP content depends on the amount, and an ingredient list does not give amounts. Upvote flags that a high-FODMAP ingredient is present. It cannot tell you if the serving stays under a threshold, and tolerance differs from person to person."
+  },
+  "pt-br": {
+    "name": "Low-FODMAP",
+    "title": "Scanner de Alimentos Low-FODMAP: Encontre Ingredientes Ricos em FODMAPs",
+    "summary": "Escaneie um produto e veja se os ingredientes incluem itens ricos em FODMAPs, como cebola, alho, trigo, mel, inulina e polióis.",
+    "intro": "Os FODMAPs são um grupo de carboidratos que podem causar sintomas intestinais em algumas pessoas. A dieta low-FODMAP limita esses carboidratos por um período, em geral com o acompanhamento de um nutricionista. Em alimentos embalados, os suspeitos de sempre são a cebola e o alho, que aparecem em quase todo produto salgado.",
+    "flags": [
+      "Cebola e alho, incluindo as versões em pó",
+      "Trigo, cevada e centeio",
+      "Leguminosas, como feijão, lentilha e grão-de-bico",
+      "Mel, xarope de milho rico em frutose e frutas ricas em FODMAPs, como tâmara e figo",
+      "Inulina e fibra de raiz de chicória",
+      "Polióis, como sorbitol, manitol e maltitol",
+      "Lactose de ingredientes lácteos, com uma penalidade menor"
+    ],
+    "notes": [],
+    "limit": "O teor de FODMAPs depende da quantidade, e a lista de ingredientes não informa quantidades. O Upvote sinaliza que um ingrediente rico em FODMAPs está presente. Ele não sabe dizer se a porção fica abaixo de um limite, e a tolerância varia de pessoa para pessoa."
+  }
+}

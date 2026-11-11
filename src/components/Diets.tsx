@@ -1,7 +1,18 @@
 import { getDict, type Locale } from '../i18n';
 
-export default function Diets({ locale }: { locale: Locale }) {
-  const t = getDict(locale).diets;
+interface DietsProps {
+  locale: Locale;
+  /** Page of each chip, index-aligned with `diets.list`; `null` when the diet has no page. */
+  links: (string | null)[];
+  /** The page that lists every diet. */
+  indexHref: string;
+}
+
+export default function Diets({ locale, links, indexHref }: DietsProps) {
+  const dict = getDict(locale);
+  const t = dict.diets;
+  const chip =
+    'block rounded-full border border-line-2 bg-white px-5 py-[11px] text-[14px] font-bold text-ink-2 transition-colors';
 
   return (
     <section id="diets" className="bg-paper">
@@ -12,15 +23,27 @@ export default function Diets({ locale }: { locale: Locale }) {
         </div>
 
         <ul className="mx-auto mt-9 flex max-w-[820px] flex-wrap justify-center gap-[10px]">
-          {t.list.map((diet) => (
-            <li
-              key={diet}
-              className="rounded-full border border-line-2 bg-white px-5 py-[11px] text-[14px] font-bold text-ink-2 transition-colors hover:border-brand hover:text-brand"
-            >
-              {diet}
-            </li>
-          ))}
+          {t.list.map((diet, index) => {
+            const href = links[index];
+            return (
+              <li key={diet}>
+                {href ? (
+                  <a href={href} className={`${chip} hover:border-brand hover:text-brand`}>
+                    {diet}
+                  </a>
+                ) : (
+                  <span className={chip}>{diet}</span>
+                )}
+              </li>
+            );
+          })}
         </ul>
+
+        <p className="mt-6 text-center">
+          <a href={indexHref} className="text-[14px] font-extrabold text-brand transition-colors hover:text-brand-deep">
+            {dict.dietPages.allDiets} →
+          </a>
+        </p>
 
         {/*
           LEGAL REVIEW REQUIRED. Upvote scores products against a profile the user

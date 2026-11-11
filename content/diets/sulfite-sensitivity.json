@@ -1,0 +1,42 @@
+{
+  "id": "sulfite-sensitivity",
+  "order": 13,
+  "slugs": {
+    "en": "sulfite-sensitivity",
+    "pt-br": "sensibilidade-a-sulfitos"
+  },
+  "articles": [
+    "what-we-read-for-sulfite-sensitivity",
+    "where-sulfite-sensitivity-comes-up"
+  ],
+  "en": {
+    "name": "Sulfite sensitivity",
+    "title": "Sulfite Scanner: Find Sulfites on Any Food Label",
+    "summary": "Scan a product and see if its label names sulfites, such as sulfur dioxide and metabisulfite, or warns that it may contain them.",
+    "intro": "Sulfites are preservatives used in dried fruit, wine, some sauces and many other foods. They can cause reactions in people who are sensitive to them, and they appear on labels under several names and E-numbers.",
+    "flags": [
+      "Sulfites named in the ingredients, such as sulfur dioxide, sodium metabisulfite and potassium bisulfite (E220 to E228)",
+      "\"May contain sulfites\" warnings"
+    ],
+    "notes": [
+      "Caramel color E150d, which is made with sulfite compounds and can carry traces, usually below the level that must be declared.",
+      "Ingredient lists that could not be read clearly. Upvote says it cannot fully check them."
+    ],
+    "limit": "In the US and the EU, sulfites must be declared only above 10 parts per million, so a label with no sulfites listed is not proof that there are none. Upvote reads the label and cannot measure the food."
+  },
+  "pt-br": {
+    "name": "Sensibilidade a sulfitos",
+    "title": "Scanner de Sulfitos: Encontre Sulfitos em Qualquer Rótulo",
+    "summary": "Escaneie um produto e veja se o rótulo cita sulfitos, como dióxido de enxofre e metabissulfito, ou avisa que o produto pode conter sulfitos.",
+    "intro": "Os sulfitos são conservantes usados em frutas secas, vinhos, alguns molhos e muitos outros alimentos. Eles podem causar reações em pessoas sensíveis e aparecem nos rótulos com vários nomes e códigos.",
+    "flags": [
+      "Sulfitos citados nos ingredientes, como dióxido de enxofre, metabissulfito de sódio e bissulfito de potássio (E220 a E228)",
+      "Avisos de \"pode conter sulfitos\""
+    ],
+    "notes": [
+      "Corante caramelo E150d, que é feito com compostos de sulfito e pode ter traços, em geral abaixo do nível que precisa ser declarado.",
+      "Listas de ingredientes que não puderam ser lidas com clareza. O Upvote diz que não consegue conferir por completo."
+    ],
+    "limit": "Nos Estados Unidos e na União Europeia, os sulfitos só precisam ser declarados acima de 10 partes por milhão, então um rótulo sem sulfitos na lista não prova que eles não estão ali. O Upvote lê o rótulo e não mede o alimento."
+  }
+}

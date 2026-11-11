@@ -1,0 +1,46 @@
+{
+  "id": "vegan",
+  "order": 1,
+  "slugs": {
+    "en": "vegan",
+    "pt-br": "vegana"
+  },
+  "articles": [
+    "what-we-read-for-vegan",
+    "where-vegan-comes-up"
+  ],
+  "en": {
+    "name": "Vegan",
+    "title": "Vegan Food Scanner: Check Any Label for Animal Ingredients",
+    "summary": "Scan a product and see if its ingredient list has anything animal-derived. Upvote also points out ingredients whose origin the label does not state.",
+    "intro": "A vegan diet leaves out every ingredient that comes from an animal: meat, fish, dairy, eggs, honey and the additives made from them. The hard part is rarely the steak. It is the whey in the crisps and the carmine in the sweets.",
+    "flags": [
+      "Meat, poultry, fish and shellfish, including broths and extracts",
+      "Milk and everything made from it, such as whey, casein and lactose",
+      "Eggs and egg-derived ingredients",
+      "Animal-derived additives, such as gelatin and carmine"
+    ],
+    "notes": [
+      "Ingredients that can be plant or animal, such as natural flavors, mono- and diglycerides and vitamin D3. The label does not say which, so Upvote tells you instead of guessing.",
+      "Products with a vegan label whose ingredient list still names something animal. One of the two is wrong, and Upvote shows the conflict."
+    ],
+    "limit": "Upvote reads what is printed on the pack. It cannot see how a product was made, so it does not know about shared equipment or processing aids that are not listed."
+  },
+  "pt-br": {
+    "name": "Vegana",
+    "title": "Scanner de Alimentos Veganos: Veja se o Rótulo Tem Ingrediente Animal",
+    "summary": "Escaneie um produto e veja se a lista de ingredientes tem algo de origem animal. O Upvote também aponta ingredientes cuja origem o rótulo não informa.",
+    "intro": "A dieta vegana deixa de fora todo ingrediente que vem de um animal: carne, peixe, laticínios, ovos, mel e os aditivos feitos a partir deles. A parte difícil quase nunca é o bife. É o soro de leite no salgadinho e o carmim na bala.",
+    "flags": [
+      "Carne, frango, peixe e frutos do mar, incluindo caldos e extratos",
+      "Leite e tudo o que é feito dele, como soro de leite, caseína e lactose",
+      "Ovos e ingredientes derivados de ovo",
+      "Aditivos de origem animal, como gelatina e carmim"
+    ],
+    "notes": [
+      "Ingredientes que podem ser vegetais ou animais, como aromas naturais, mono e diglicerídeos e vitamina D3. O rótulo não diz qual é o caso, então o Upvote avisa em vez de adivinhar.",
+      "Produtos com selo vegano cuja lista de ingredientes ainda cita algo animal. Um dos dois está errado, e o Upvote mostra o conflito."
+    ],
+    "limit": "O Upvote lê o que está impresso na embalagem. Ele não vê como o produto foi feito, então não sabe de equipamentos compartilhados nem de coadjuvantes que não aparecem na lista."
+  }
+}

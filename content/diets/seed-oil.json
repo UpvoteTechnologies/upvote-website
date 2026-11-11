@@ -1,0 +1,40 @@
+{
+  "id": "seed-oil",
+  "order": 10,
+  "slugs": {
+    "en": "seed-oil-free",
+    "pt-br": "sem-oleos-de-sementes"
+  },
+  "articles": [
+    "what-we-read-for-seed-oil",
+    "where-seed-oil-comes-up"
+  ],
+  "en": {
+    "name": "Seed-oil free",
+    "title": "Seed Oil Scanner: Check Any Product for Seed Oils",
+    "summary": "Scan a product and see if its ingredient list names a seed oil such as canola, soybean, corn, sunflower or cottonseed oil.",
+    "intro": "Some people choose to avoid refined seed oils. This plan is a preference: it shows you where those oils are so you can decide. It makes no claim about their effect on health.",
+    "flags": [
+      "Canola (rapeseed), soybean, corn, sunflower, safflower, cottonseed, grapeseed and rice bran oil",
+      "Peanut oil, which most seed-oil-free lists also leave out"
+    ],
+    "notes": [
+      "\"Vegetable oil\" with no further detail. It can be palm, olive or a seed-oil blend, and the label does not say, so Upvote tells you it could not check."
+    ],
+    "limit": "Upvote reads the ingredient list. It cannot identify the oil behind a generic \"vegetable oil\", and it does not know which oil a restaurant or bakery used."
+  },
+  "pt-br": {
+    "name": "Sem óleos de sementes",
+    "title": "Scanner de Óleos de Sementes: Confira Qualquer Produto",
+    "summary": "Escaneie um produto e veja se a lista de ingredientes cita um óleo de sementes, como óleo de canola, soja, milho, girassol ou algodão.",
+    "intro": "Algumas pessoas escolhem evitar óleos de sementes refinados. Este plano é uma preferência: ele mostra onde esses óleos estão para você decidir. Ele não faz nenhuma afirmação sobre o efeito deles na saúde.",
+    "flags": [
+      "Óleo de canola (colza), soja, milho, girassol, cártamo, algodão, semente de uva e farelo de arroz",
+      "Óleo de amendoim, que a maioria das listas sem óleos de sementes também deixa de fora"
+    ],
+    "notes": [
+      "\"Óleo vegetal\" sem mais detalhes. Pode ser palma, oliva ou uma mistura com óleos de sementes, e o rótulo não diz, então o Upvote avisa que não conseguiu conferir."
+    ],
+    "limit": "O Upvote lê a lista de ingredientes. Ele não identifica o óleo por trás de um \"óleo vegetal\" genérico e não sabe qual óleo um restaurante ou padaria usou."
+  }
+}

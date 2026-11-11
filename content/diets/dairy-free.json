@@ -1,0 +1,36 @@
+{
+  "id": "dairy-free",
+  "order": 6,
+  "slugs": {
+    "en": "dairy-free",
+    "pt-br": "sem-laticinios"
+  },
+  "articles": [
+    "what-we-read-for-dairy-free",
+    "where-dairy-free-comes-up"
+  ],
+  "en": {
+    "name": "Dairy-free",
+    "title": "Dairy-Free Food Scanner: Find Milk Ingredients on Any Label",
+    "summary": "Scan a product and see if it contains milk in any form, including whey, casein, lactose, butter and named cheeses.",
+    "intro": "A dairy-free diet leaves out milk and everything made from it. Milk shows up under many names, and a label that never says \"milk\" in the ingredient list can still contain it.",
+    "flags": [
+      "Milk from any animal, cream, butter, yogurt and cheese, including cheeses listed by name",
+      "Milk-derived ingredients such as whey, casein, caseinate, lactose and milk solids"
+    ],
+    "notes": [],
+    "limit": "This plan is a diet preference, not an allergy check. If you have a milk allergy, add it as an allergy in the app so \"may contain milk\" warnings are flagged too."
+  },
+  "pt-br": {
+    "name": "Sem laticínios",
+    "title": "Scanner de Alimentos Sem Laticínios: Encontre Leite em Qualquer Rótulo",
+    "summary": "Escaneie um produto e veja se ele contém leite em qualquer forma, incluindo soro de leite, caseína, lactose, manteiga e queijos citados pelo nome.",
+    "intro": "A dieta sem laticínios deixa de fora o leite e tudo o que é feito dele. O leite aparece com muitos nomes, e um rótulo que nunca diz \"leite\" na lista de ingredientes ainda pode ter leite.",
+    "flags": [
+      "Leite de qualquer animal, creme de leite, manteiga, iogurte e queijo, incluindo queijos citados pelo nome",
+      "Ingredientes derivados do leite, como soro de leite, caseína, caseinato, lactose e sólidos de leite"
+    ],
+    "notes": [],
+    "limit": "Este plano é uma preferência de dieta, não uma conferência de alergia. Se você tem alergia ao leite, adicione a alergia no app para que os avisos de \"pode conter leite\" também sejam sinalizados."
+  }
+}

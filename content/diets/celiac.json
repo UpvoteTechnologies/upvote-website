@@ -1,0 +1,46 @@
+{
+  "id": "celiac",
+  "order": 5,
+  "slugs": {
+    "en": "celiac",
+    "pt-br": "celiaca"
+  },
+  "articles": [
+    "what-we-read-for-celiac",
+    "where-celiac-comes-up"
+  ],
+  "en": {
+    "name": "Celiac",
+    "title": "Celiac Food Scanner: The Strictest Gluten Check for a Label",
+    "summary": "Scan a product and see every gluten signal on its label: ingredients, \"contains\" statements, \"may contain\" warnings and uncertified oats.",
+    "intro": "For celiac disease, small amounts of gluten matter, so this plan reads the label more strictly than the gluten-free plan. Any gluten signal marks the product as not safe for you, including a \"may contain\" warning.",
+    "flags": [
+      "Wheat, barley, rye, spelt, malt and ingredients made from them",
+      "A \"Contains: wheat\" statement, even when the ingredient list is vague",
+      "\"May contain wheat, barley or rye\" warnings",
+      "Oats without a gluten-free certification, because of cross-contamination",
+      "Products labeled gluten-free whose ingredients still name a gluten source"
+    ],
+    "notes": [
+      "When the label data is uncertain, this plan errs toward flagging the product."
+    ],
+    "limit": "Upvote reads the label and cannot test the food. A \"may contain\" warning is voluntary, so a pack without one may still be made on shared equipment. Upvote does not replace your doctor or dietitian."
+  },
+  "pt-br": {
+    "name": "Celíaca",
+    "title": "Scanner de Alimentos para Celíacos: a Conferência Mais Rígida de Glúten",
+    "summary": "Escaneie um produto e veja todos os sinais de glúten no rótulo: ingredientes, frases de \"contém\", avisos de \"pode conter\" e aveia sem certificação.",
+    "intro": "Na doença celíaca, pequenas quantidades de glúten importam, então este plano lê o rótulo com mais rigor do que o plano sem glúten. Qualquer sinal de glúten marca o produto como não seguro para você, inclusive um aviso de \"pode conter\".",
+    "flags": [
+      "Trigo, cevada, centeio, espelta, malte e ingredientes feitos deles",
+      "A frase \"Contém trigo\" ou \"Contém glúten\", mesmo quando a lista de ingredientes é vaga",
+      "Avisos de \"pode conter trigo, cevada ou centeio\"",
+      "Aveia sem certificação sem glúten, por causa da contaminação cruzada",
+      "Produtos rotulados como sem glúten cujos ingredientes ainda citam uma fonte de glúten"
+    ],
+    "notes": [
+      "Quando os dados do rótulo são incertos, este plano prefere sinalizar o produto."
+    ],
+    "limit": "O Upvote lê o rótulo e não testa o alimento. O aviso de \"pode conter\" é voluntário em muitos países, então uma embalagem sem aviso ainda pode ser feita em equipamento compartilhado. O Upvote não substitui o seu médico ou nutricionista."
+  }
+}

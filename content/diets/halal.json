@@ -1,0 +1,44 @@
+{
+  "id": "halal",
+  "order": 7,
+  "slugs": {
+    "en": "halal",
+    "pt-br": "halal"
+  },
+  "articles": [
+    "what-we-read-for-halal",
+    "where-halal-comes-up"
+  ],
+  "en": {
+    "name": "Halal",
+    "title": "Halal Food Scanner: Check Ingredients for Pork, Alcohol and More",
+    "summary": "Scan a product and see if it contains pork, alcohol or meat without a halal certification. Upvote also points out additives whose source is unclear.",
+    "intro": "A halal diet excludes pork and alcohol, and requires meat to come from a halal slaughter. For meat, the certification on the pack is the real signal, so Upvote reads both the ingredients and the labels.",
+    "flags": [
+      "Pork and pork-derived ingredients, such as lard, bacon and pork gelatin",
+      "Alcohol and ethanol as ingredients",
+      "Meat or poultry in a product that carries no halal certification"
+    ],
+    "notes": [
+      "Additives that can come from animals, such as gelatin, carmine (E120), mono- and diglycerides (E471) and L-cysteine (E920).",
+      "Vinegar made from alcohol, such as wine or malt vinegar. Most scholars consider it halal and some people avoid it, so Upvote only tells you it is there."
+    ],
+    "limit": "Upvote does not certify anything. It reads the label and cannot confirm how an animal was slaughtered or where an additive came from. For those questions, rely on a certification you trust."
+  },
+  "pt-br": {
+    "name": "Halal",
+    "title": "Scanner de Alimentos Halal: Confira Porco, Álcool e Outros Ingredientes",
+    "summary": "Escaneie um produto e veja se ele contém porco, álcool ou carne sem certificação halal. O Upvote também aponta aditivos de origem incerta.",
+    "intro": "A dieta halal exclui porco e álcool, e exige que a carne venha de um abate halal. No caso da carne, a certificação na embalagem é o sinal que vale, então o Upvote lê os ingredientes e os selos.",
+    "flags": [
+      "Porco e derivados, como banha, bacon e gelatina suína",
+      "Álcool e etanol como ingredientes",
+      "Carne ou frango em um produto sem certificação halal"
+    ],
+    "notes": [
+      "Aditivos que podem vir de animais, como gelatina, carmim (E120), mono e diglicerídeos (E471) e L-cisteína (E920).",
+      "Vinagre feito a partir de álcool, como vinagre de vinho ou de malte. A maioria dos estudiosos o considera halal e algumas pessoas evitam, então o Upvote só avisa que ele está ali."
+    ],
+    "limit": "O Upvote não certifica nada. Ele lê o rótulo e não consegue confirmar como um animal foi abatido nem de onde veio um aditivo. Para essas perguntas, conte com uma certificação em que você confia."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kosher",
+  "order": 8,
+  "slugs": {
+    "en": "kosher",
+    "pt-br": "kosher"
+  },
+  "articles": [
+    "what-we-read-for-kosher",
+    "where-kosher-comes-up"
+  ],
+  "en": {
+    "name": "Kosher",
+    "title": "Kosher Food Scanner: Check Certification and Ingredients on a Label",
+    "summary": "Scan a product and see if it carries a kosher certification, and if its ingredients include pork, shellfish, or meat and dairy together.",
+    "intro": "Kosher status depends on supervision as much as on ingredients, so the certification mark (hechsher) is the main signal. Upvote reads it together with the ingredient list.",
+    "flags": [
+      "Pork, shellfish and fish without scales, which are never kosher",
+      "Meat and dairy together in the same product. Fish with dairy is not flagged",
+      "Meat, dairy or other animal ingredients in a product with no kosher certification",
+      "Additives that can be animal-derived in a product with no kosher certification"
+    ],
+    "notes": [
+      "Gelatin, whose status depends on a source the label rarely states.",
+      "Carmine (E120), a color made from insects. Most agencies treat it as not kosher."
+    ],
+    "limit": "Upvote does not certify anything and does not replace your certifying agency or rabbi. It cannot see how a product was supervised or processed."
+  },
+  "pt-br": {
+    "name": "Kosher",
+    "title": "Scanner de Alimentos Kosher: Confira a Certificação e os Ingredientes",
+    "summary": "Escaneie um produto e veja se ele tem certificação kosher e se os ingredientes incluem porco, frutos do mar ou carne e leite juntos.",
+    "intro": "O status kosher depende da supervisão tanto quanto dos ingredientes, então o selo de certificação (hechsher) é o sinal principal. O Upvote lê o selo junto com a lista de ingredientes.",
+    "flags": [
+      "Porco, frutos do mar e peixes sem escamas, que nunca são kosher",
+      "Carne e leite juntos no mesmo produto. Peixe com leite não é sinalizado",
+      "Carne, laticínios ou outros ingredientes animais em um produto sem certificação kosher",
+      "Aditivos que podem ser de origem animal em um produto sem certificação kosher"
+    ],
+    "notes": [
+      "Gelatina, cujo status depende de uma origem que o rótulo raramente informa.",
+      "Carmim (E120), um corante feito de insetos. A maioria das agências o trata como não kosher."
+    ],
+    "limit": "O Upvote não certifica nada e não substitui a sua agência certificadora ou o seu rabino. Ele não vê como um produto foi supervisionado ou processado."
+  }
+}

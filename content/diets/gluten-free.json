@@ -1,0 +1,42 @@
+{
+  "id": "gluten-free",
+  "order": 4,
+  "slugs": {
+    "en": "gluten-free",
+    "pt-br": "sem-gluten"
+  },
+  "articles": [
+    "what-we-read-for-gluten-free",
+    "where-gluten-free-comes-up"
+  ],
+  "en": {
+    "name": "Gluten-free",
+    "title": "Gluten-Free Food Scanner: Check Labels for Wheat, Barley and Rye",
+    "summary": "Scan a product and see if its ingredients include a gluten source such as wheat, barley, rye or malt. For celiac disease, Upvote has a stricter plan.",
+    "intro": "A gluten-free diet leaves out wheat, barley, rye and what is made from them. This plan is for people who avoid gluten by choice. If you have celiac disease, use the celiac plan, which also treats \"may contain\" warnings as a problem.",
+    "flags": [
+      "Wheat, barley, rye, spelt, malt and ingredients made from them",
+      "Oats without a gluten-free certification, because they are often processed next to wheat"
+    ],
+    "notes": [
+      "A gluten-free certification on the pack, shown as a badge.",
+      "Products certified gluten-free whose ingredient list still names a gluten source. Upvote shows the conflict."
+    ],
+    "limit": "This plan does not act on \"may contain wheat\" warnings. Upvote reads the label and cannot measure gluten in the food."
+  },
+  "pt-br": {
+    "name": "Sem glúten",
+    "title": "Scanner de Alimentos Sem Glúten: Confira Trigo, Cevada e Centeio",
+    "summary": "Escaneie um produto e veja se os ingredientes incluem uma fonte de glúten, como trigo, cevada, centeio ou malte. Para doença celíaca, o Upvote tem um plano mais rígido.",
+    "intro": "A dieta sem glúten deixa de fora trigo, cevada, centeio e o que é feito deles. Este plano é para quem evita glúten por escolha. Se você tem doença celíaca, use o plano celíaco, que também trata os avisos de \"pode conter\" como um problema.",
+    "flags": [
+      "Trigo, cevada, centeio, espelta, malte e ingredientes feitos deles",
+      "Aveia sem certificação sem glúten, porque costuma ser processada junto com trigo"
+    ],
+    "notes": [
+      "A certificação sem glúten na embalagem, mostrada como um selo.",
+      "Produtos certificados sem glúten cuja lista de ingredientes ainda cita uma fonte de glúten. O Upvote mostra o conflito."
+    ],
+    "limit": "Este plano não considera os avisos de \"pode conter trigo\". O Upvote lê o rótulo e não mede o glúten no alimento."
+  }
+}

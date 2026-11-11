@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+import AppCta from './AppCta.astro';
+import { LOCALES, LOCALE_TAG, getDict, type Locale } from '../i18n';
+import { articlePath, dietIndexPath, dietPath, getArticle, getDiets, type Diet } from '../lib/content';
+import { SITE_NAME, SITE_URL, absoluteUrl } from '../site';
+
+interface Props {
+  locale: Locale;
+  diet: Diet;
+}
+
+const { locale, diet } = Astro.props;
+const dict = getDict(locale);
+const t = dict.dietPages;
+const text = diet[locale];
+const path = dietPath(locale, diet);
+const indexPath = dietIndexPath(locale);
+const alternates = Object.fromEntries(LOCALES.map((code) => [code, dietPath(code, diet)]));
+const related = diet.articles.flatMap((slug) => getArticle(locale, slug) ?? []);
+const others = getDiets().filter((entry) => entry.id !== diet.id);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: text.title,
+    description: text.summary,
+    inLanguage: LOCALE_TAG[locale],
+    url: absoluteUrl(path),
+    publisher: { '@id': `${SITE_URL}/#organization`, '@type': 'Organization', name: SITE_NAME },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.breadcrumb, item: absoluteUrl(indexPath) },
+      { '@type': 'ListItem', position: 2, name: text.name, item: absoluteUrl(path) },
+    ],
+  },
+];
+const heading = 'mt-11 text-[24px] font-extrabold tracking-[-.02em] text-ink sm:text-[28px]';
+const list = 'mt-4 flex list-disc flex-col gap-2 pl-6 text-[17px] font-medium leading-[1.6] text-ink-2';
+---
+
+<Base locale={locale} title={`${text.title} | Upvote`} description={text.summary} path={path} alternates={alternates} jsonLd={jsonLd}>
+  <article class="mx-auto max-w-[760px] px-5 pb-16 pt-10 sm:px-8 lg:pt-14">
+    <nav class="text-[13px] font-bold text-muted">
+      <a href={indexPath} class="transition-colors hover:text-brand">{t.breadcrumb}</a>
+    </nav>
+    <p class="eyebrow mt-6">{text.name}</p>
+    <h1 class="mt-3 text-balance text-[34px] font-extrabold leading-[1.1] tracking-[-.03em] text-ink sm:text-[44px]">{text.title}</h1>
+    <p class="mt-4 text-pretty text-[19px] font-semibold leading-[1.5] text-ink-3">{text.summary}</p>
+    <p class="mt-8 text-pretty text-[17px] font-medium leading-[1.7] text-ink-2">{text.intro}</p>
+
+    <h2 class={heading}>{t.flags}</h2>
+    <ul class={list}>{text.flags.map((item) => <li>{item}</li>)}</ul>
+
+    {
+      text.notes.length > 0 && (
+        <>
+          <h2 class={heading}>{t.notes}</h2>
+          <ul class={list}>{text.notes.map((item) => <li>{item}</li>)}</ul>
+        </>
+      )
+    }
+
+    <div class="mt-9 rounded-[18px] border border-line bg-paper-2 px-6 py-5">
+      <h2 class="eyebrow">{t.limit}</h2>
+      <p class="mt-2 text-pretty text-[15px] font-medium leading-[1.6] text-ink-3">{text.limit}</p>
+    </div>
+
+    {
+      related.length > 0 && (
+        <>
+          <h2 class={heading}>{t.related}</h2>
+          <ul class="mt-4 flex flex-col gap-2 text-[17px] font-bold">
+            {related.map((article) => (
+              <li>
+                <a href={articlePath(locale, article.slug)} class="text-brand underline-offset-2 transition-colors hover:text-brand-deep hover:underline">
+                  {article.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+
+    {/* LEGAL REVIEW REQUIRED: same disclaimer as the landing page diets section. */}
+    <p class="mt-10 text-[13px] font-medium italic leading-[1.55] text-muted-2">{dict.diets.disclaimer}</p>
+
+    <div class="mt-10">
+      <AppCta locale={locale} />
+    </div>
+
+    <h2 class={heading}>{t.more}</h2>
+    <ul class="mt-4 flex flex-wrap gap-[10px]">
+      {
+        others.map((entry) => (
+          <li>
+            <a href={dietPath(locale, entry)} class="block rounded-full border border-line-2 bg-white px-5 py-[11px] text-[14px] font-bold text-ink-2 transition-colors hover:border-brand hover:text-brand">
+              {entry[locale].name}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>
