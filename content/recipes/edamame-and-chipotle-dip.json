@@ -2,12 +2,6 @@
   "slug": "edamame-and-chipotle-dip",
   "title": "Edamame and Chipotle Dip",
   "blurb": "A smooth, vibrant dip made from edamame beans blended with lime, chipotle and coriander. Serve with vegetable sticks or tortilla chips.",
-  "steps": [
-    "Place the thawed edamame beans in a food processor with the lime juice, chipotle pepper, coriander, garlic, olive oil, black pepper and salt.",
-    "Blend until smooth, scraping down the sides once or twice.",
-    "Taste and adjust the seasoning with more salt, lime juice or chipotle if needed.",
-    "Transfer to a serving bowl and serve immediately, or cover and chill until ready to serve."
-  ],
   "servings": 8,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -15,88 +9,15 @@
     "snack"
   ],
   "image": "/media/recipes/edamame-and-chipotle-dip.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 82.139,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.602,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 4.33,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.971,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.123,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 5.728,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.755,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 148.864,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "frozen shelled edamame beans, thawed",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "lime juice",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "chipotle pepper in adobo sauce",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "ground black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "garlic clove",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    }
-  ]
+    "frozen shelled edamame beans, thawed",
+    "lime juice",
+    "chipotle pepper in adobo sauce",
+    "fresh coriander",
+    "ground black pepper",
+    "olive oil",
+    "garlic clove",
+    "salt"
+  ],
+  "stepCount": 4
 }

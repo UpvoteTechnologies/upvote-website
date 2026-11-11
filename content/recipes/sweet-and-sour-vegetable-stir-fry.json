@@ -2,15 +2,6 @@
   "slug": "sweet-and-sour-vegetable-stir-fry",
   "title": "Sweet and Sour Vegetable Stir-Fry",
   "blurb": "A bright vegetable stir-fry with caramelised shallots, peppers and carrots in a tangy sweet and sour sauce with fresh parsley.",
-  "steps": [
-    "Peel and halve the shallots, then slice them into thin wedges. Peel the carrots and slice them on the diagonal into thin ovals. Deseed the red pepper and cut it into bite-sized squares.",
-    "Peel and finely chop the garlic. Zest the lemon and squeeze out the juice.",
-    "Mix together the lemon juice, lemon zest, brown sugar, rice vinegar, soy sauce and cornflour in a small bowl with 100ml water until smooth.",
-    "Heat the oil in a large wok or frying pan over high heat. Add the shallots and carrots and stir-fry for 8 minutes until starting to soften and brown at the edges.",
-    "Add the red pepper and garlic and cook for another 4 minutes, stirring frequently.",
-    "Pour in the sauce mixture and let it bubble for 2 to 3 minutes until thickened and glossy, tossing the vegetables to coat them.",
-    "Roughly chop the parsley and stir most of it through the vegetables. Serve scattered with the remaining parsley."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 20,
@@ -19,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/sweet-and-sour-vegetable-stir-fry.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "shallots",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "carrots",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "red pepper",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "soft light brown sugar",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "rice vinegar",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "soy sauce",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "cornflour",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "flat leaf parsley",
-      "measure": null,
-      "grams": 15
-    }
-  ]
+    "shallots",
+    "carrots",
+    "red pepper",
+    "vegetable oil",
+    "garlic cloves",
+    "lemon",
+    "soft light brown sugar",
+    "rice vinegar",
+    "soy sauce",
+    "cornflour",
+    "flat leaf parsley"
+  ],
+  "stepCount": 7
 }

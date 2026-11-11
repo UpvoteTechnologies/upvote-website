@@ -2,12 +2,6 @@
   "slug": "vanilla-protein-spinach-smoothie",
   "title": "Vanilla Protein Spinach Smoothie",
   "blurb": "A simple, creamy smoothie that packs in protein and greens without any added sugar.",
-  "steps": [
-    "Put the spinach and almond milk into a blender and blend until smooth.",
-    "Add the protein powder, vanilla extract and sweetener, then blend again until combined.",
-    "Add the ice cubes and blend until the smoothie is cold and thick.",
-    "Pour into a glass and drink straight away."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 0,
@@ -16,78 +10,13 @@
     "snack"
   ],
   "image": "/media/recipes/vanilla-protein-spinach-smoothie.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 157.12,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 19.958,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 10.823,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.804,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.64,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 3.646,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.46,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 306.06,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "fresh spinach",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "unsweetened almond milk",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "vanilla whey protein powder",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "vanilla extract",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "granulated sweetener",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "ice cubes",
-      "measure": null,
-      "grams": 100
-    }
-  ]
+    "fresh spinach",
+    "unsweetened almond milk",
+    "vanilla whey protein powder",
+    "vanilla extract",
+    "granulated sweetener",
+    "ice cubes"
+  ],
+  "stepCount": 4
 }

@@ -2,15 +2,6 @@
   "slug": "date-and-walnut-snack-cake",
   "title": "Date and Walnut Snack Cake",
   "blurb": "A moist wholemeal cake sweetened with dates and studded with walnuts, perfect with a cup of tea.",
-  "steps": [
-    "Heat your oven to 180C and grease a 20cm square baking tin.",
-    "Put the chopped dates in a bowl, pour over the boiling water, and leave to soak for 10 minutes until softened.",
-    "In a large bowl, whisk together the flour, baking powder, bicarbonate of soda and cinnamon.",
-    "Mash the dates and their soaking water with a fork until fairly smooth, then stir in the eggs, oil and vanilla extract.",
-    "Pour the wet mixture into the dry ingredients and fold together until just combined, then stir through the walnuts.",
-    "Scrape the batter into your prepared tin and bake for 40 to 45 minutes until a skewer inserted into the centre comes out clean.",
-    "Leave to cool in the tin for 10 minutes, then turn out onto a wire rack to cool completely before slicing."
-  ],
   "servings": 12,
   "prepMinutes": 15,
   "cookMinutes": 45,
@@ -18,98 +9,17 @@
     "snack"
   ],
   "image": "/media/recipes/date-and-walnut-snack-cake.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 172.835,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.927,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 26.992,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 12.13,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.682,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 5.719,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.723,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 133.062,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "pitted dates, roughly chopped",
-      "measure": null,
-      "grams": 225
-    },
-    {
-      "text": "boiling water",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "whole wheat flour",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "baking powder",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "bicarbonate of soda",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "ground cinnamon",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "eggs",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "vanilla extract",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "walnuts, roughly chopped",
-      "measure": null,
-      "grams": 75
-    }
-  ]
+    "pitted dates, roughly chopped",
+    "boiling water",
+    "whole wheat flour",
+    "baking powder",
+    "bicarbonate of soda",
+    "ground cinnamon",
+    "eggs",
+    "vegetable oil",
+    "vanilla extract",
+    "walnuts, roughly chopped"
+  ],
+  "stepCount": 7
 }

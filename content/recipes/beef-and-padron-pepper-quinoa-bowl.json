@@ -2,14 +2,6 @@
   "slug": "beef-and-padron-pepper-quinoa-bowl",
   "title": "Beef and Padrón Pepper Quinoa Bowl",
   "blurb": "A quick one-pan meal where ground beef and blistered Padrón peppers meet fluffy quinoa, with grated carrot for sweetness and fresh basil stirred through at the end.",
-  "steps": [
-    "Rinse the quinoa in a sieve, then tip into a small saucepan with the water and a pinch of salt. Bring to the boil, reduce to a simmer, cover and cook for 15 minutes until the water is absorbed and the grains are tender.",
-    "While the quinoa cooks, heat half the olive oil in a large frying pan over high heat. Add the whole Padrón peppers and fry for 4 to 5 minutes, turning occasionally, until blistered and softened. Transfer to a plate.",
-    "Add the remaining oil to the same pan and crumble in the beef. Cook over high heat for 5 minutes, breaking it up with a wooden spoon, until browned.",
-    "Peel and coarsely grate the carrot, then peel and finely chop the garlic. Add both to the beef and cook for 2 minutes, stirring often.",
-    "Stir the soy sauce into the beef mixture, then add the cooked quinoa and the blistered peppers. Toss everything together for a minute to combine.",
-    "Tear the basil leaves and scatter over the top just before serving."
-  ],
   "servings": 2,
   "prepMinutes": 15,
   "cookMinutes": 20,
@@ -18,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/beef-and-padron-pepper-quinoa-bowl.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 435.1,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 23.406,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 10.332,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 4.96,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.478,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 32.837,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 10.573,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 931.75,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "white quinoa",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "Padrón peppers",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "lean ground beef",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "carrot",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "garlic clove",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "soy sauce",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh basil",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "sea salt",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "white quinoa",
+    "water",
+    "olive oil",
+    "Padrón peppers",
+    "lean ground beef",
+    "carrot",
+    "garlic clove",
+    "soy sauce",
+    "fresh basil",
+    "sea salt"
+  ],
+  "stepCount": 6
 }

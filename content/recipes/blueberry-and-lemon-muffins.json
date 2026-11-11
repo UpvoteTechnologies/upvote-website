@@ -2,15 +2,6 @@
   "slug": "blueberry-and-lemon-muffins",
   "title": "Blueberry and Lemon Muffins",
   "blurb": "Light, fruity muffins made with brown rice flour and fresh blueberries, with a hint of lemon zest.",
-  "steps": [
-    "Heat your oven to 180°C and line a 12-hole muffin tin with paper cases.",
-    "In a large bowl, whisk together the brown rice flour, tapioca flour, baking powder and salt.",
-    "In another bowl, beat the eggs with the sugar until pale, then whisk in the oil, milk, vanilla extract and the finely grated zest of the lemon.",
-    "Pour the wet ingredients into the dry and fold gently until just combined, then fold in the blueberries.",
-    "Divide the batter evenly among the muffin cases, filling each about three-quarters full.",
-    "Bake for 38 to 40 minutes until golden and a skewer inserted into the centre comes out clean.",
-    "Leave the muffins to cool in the tin for 5 minutes, then transfer to a wire rack."
-  ],
   "servings": 12,
   "prepMinutes": 20,
   "cookMinutes": 40,
@@ -19,103 +10,18 @@
     "snack"
   ],
   "image": "/media/recipes/blueberry-and-lemon-muffins.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 248.468,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 3.896,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 34.174,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 15.102,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.67,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 10.798,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.633,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 203.988,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "brown rice flour",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "tapioca flour",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "baking powder",
-      "measure": null,
-      "grams": 12
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "eggs",
-      "measure": "4 large",
-      "grams": 200
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "sunflower oil",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "whole milk",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "lemon",
-      "measure": "1 medium",
-      "grams": 60
-    },
-    {
-      "text": "vanilla extract",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "blueberries",
-      "measure": null,
-      "grams": 200
-    }
-  ]
+    "brown rice flour",
+    "tapioca flour",
+    "baking powder",
+    "salt",
+    "eggs",
+    "caster sugar",
+    "sunflower oil",
+    "whole milk",
+    "lemon",
+    "vanilla extract",
+    "blueberries"
+  ],
+  "stepCount": 7
 }

@@ -6,101 +6,12 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/additives-the-us-fda-does-not-permit.jpg",
-  "blocks": [
-    {
-      "kind": "paragraph",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "Every additive named here is one our registry records as not permitted in food by the US FDA. That is a decision about the substance itself. It is not a claim about any food you are holding."
-        }
-      ]
-    },
-    {
-      "kind": "figure",
-      "key": "b2",
-      "label": "additives our record says the US FDA does not permit",
-      "caption": "Counted from each additive's own record of where it may not be used. Every additive in that count is named below.",
-      "basis": {
-        "q": "kb.count",
-        "of": "jurisdiction_forbidden",
-        "subject": "us"
-      },
-      "resolved": {
-        "value": "21",
-        "method": "Additives our registry records as not permitted in food by the US FDA, counted from each additive's own record of where it may not be used.",
-        "n": 21,
-        "scope": "kb",
-        "excluded": 0,
-        "excludedNote": null,
-        "sources": [],
-        "limit": "This is our record of a decision, not a reading of the law itself: we have not checked each additive against the text of the law. And where a law works by naming what may be used, an additive missing from this list is not thereby permitted — it may simply not be listed."
-      }
-    },
-    {
-      "kind": "paragraph",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "A decision like this one is about whether a substance may be used in food at all, in the place that decided. It is not a ceiling on how much of it a food may contain."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "The ones our record says the US FDA does not permit"
-        }
-      ]
-    },
-    {
-      "kind": "terms",
-      "key": "b5",
-      "source": "kb",
-      "items": [
-        "e104",
-        "e122",
-        "e124",
-        "e128",
-        "e131",
-        "e142",
-        "e151",
-        "e154",
-        "e155",
-        "e230",
-        "e231",
-        "e232",
-        "e233",
-        "e237",
-        "e238",
-        "e240",
-        "e542",
-        "e638",
-        "e952",
-        "e952ii",
-        "e952iv"
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b6",
-      "spans": [
-        {
-          "text": "A decision made in one place is not a decision made everywhere. Another regulator may still allow the same additive."
-        }
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b7",
-      "spans": [
-        {
-          "text": "Our record of where an additive may not be used is a summary, not the law itself, and we have not checked each additive against the text of the law. And where a law works by naming what may be used, an additive missing from this list is not thereby permitted."
-        }
-      ]
-    }
+  "intro": [
+    "Every additive named here is one our registry records as not permitted in food by the US FDA. That is a decision about the substance itself. It is not a claim about any food you are holding.",
+    "A decision like this one is about whether a substance may be used in food at all, in the place that decided. It is not a ceiling on how much of it a food may contain."
   ],
-  "citations": {}
+  "sections": [
+    "The ones our record says the US FDA does not permit"
+  ],
+  "sourceCount": 0
 }

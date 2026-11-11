@@ -2,15 +2,6 @@
   "slug": "warm-lentil-and-tomato-salad",
   "title": "Warm Lentil and Tomato Salad",
   "blurb": "A simple warm salad of tender lentils tossed with fresh tomatoes, dill and spring onions.",
-  "steps": [
-    "Rinse the lentils in cold water and drain well.",
-    "Put the lentils in a saucepan with plenty of cold water and bring to the boil, then reduce the heat and simmer for 20 to 25 minutes until tender but still holding their shape.",
-    "While the lentils cook, cut the tomatoes in half, scoop out the seeds with a teaspoon, then dice the flesh into small pieces.",
-    "Trim and finely chop the spring onions, peel and finely chop or press the garlic, and roughly chop the dill.",
-    "Drain the cooked lentils well and tip them into a serving bowl while still warm.",
-    "Add the tomatoes, spring onions, garlic and dill to the warm lentils.",
-    "Drizzle over the olive oil and vinegar, season with salt and pepper, then toss everything together gently and serve warm."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 25,
@@ -19,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/warm-lentil-and-tomato-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 388.275,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 20.255,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 55.291,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.319,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 10.279,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 11.115,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.548,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 595.43,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "dried green lentils",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "tomatoes",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "spring onions",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "garlic",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "fresh dill",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "red wine vinegar",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "dried green lentils",
+    "tomatoes",
+    "spring onions",
+    "garlic",
+    "fresh dill",
+    "olive oil",
+    "red wine vinegar",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 7
 }

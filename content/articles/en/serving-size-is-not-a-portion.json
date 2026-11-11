@@ -6,118 +6,13 @@
   "evidenceTier": "regulatory_fact",
   "sourceLabel": "US FDA · 2016",
   "image": "/media/articles/serving-size-is-not-a-portion.jpg",
-  "blocks": [
-    {
-      "kind": "paragraph",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "Every number on a panel hangs off one line near the top: the serving size. Miss that line and the rest of the panel means something other than what you read."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "What a serving actually is"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "A serving is not advice. It is a reference amount, set so the same food from different brands can be compared fairly."
-        }
-      ]
-    },
-    {
-      "kind": "citation",
-      "key": "b4",
-      "citationId": "fda-serving-size-racc-2016"
-    },
-    {
-      "kind": "paragraph",
-      "key": "b5",
-      "spans": [
-        {
-          "text": "They are meant to match what people really eat at once. Several were raised for that reason, which made some numbers look worse overnight, though the food had not changed."
-        }
-      ]
-    },
-    {
-      "kind": "citation",
-      "key": "b6",
-      "citationId": "fda-nutrition-labeling-2016"
-    },
-    {
-      "kind": "heading",
-      "key": "b7",
-      "spans": [
-        {
-          "text": "Where it goes wrong"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b8",
-      "spans": [
-        {
-          "text": "The panel says a serving. The pack holds a portion. If a bottle holds more than one serving, each number has to be multiplied before it describes what you drank."
-        }
-      ]
-    },
-    {
-      "kind": "callout",
-      "key": "b9",
-      "tone": "neutral",
-      "spans": [
-        {
-          "text": "This is the most common way a label is misread. It is not carelessness. The sums are fiddly and the pack is not built to help."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b10",
-      "spans": [
-        {
-          "text": "The habit"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b11",
-      "spans": [
-        {
-          "text": "Find the serving size. Then find how many servings the pack holds. If they differ, the panel describes only part of what you are holding."
-        }
-      ]
-    },
-    {
-      "kind": "plan",
-      "key": "b12",
-      "cue": "When I pick up a bottle or a bag",
-      "action": "I will check how many servings it holds before I read the rest"
-    }
+  "intro": [
+    "Every number on a panel hangs off one line near the top: the serving size. Miss that line and the rest of the panel means something other than what you read."
   ],
-  "citations": {
-    "fda-serving-size-racc-2016": {
-      "authority": "US FDA",
-      "doc": "Food Serving Sizes Get a Reality Check — Reference Amounts Customarily Consumed reflect what people actually eat, not what they should",
-      "year": 2016,
-      "url": "https://www.fda.gov/food/nutrition-facts-label/food-serving-sizes-get-reality-check"
-    },
-    "fda-nutrition-labeling-2016": {
-      "authority": "US FDA",
-      "doc": "Changes to the Nutrition Facts Label — final rule, including the Added Sugars declaration and updated serving sizes",
-      "year": 2016,
-      "url": "https://www.fda.gov/food/nutrition-facts-label/changes-nutrition-facts-label"
-    }
-  }
+  "sections": [
+    "What a serving actually is",
+    "Where it goes wrong",
+    "The habit"
+  ],
+  "sourceCount": 2
 }

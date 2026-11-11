@@ -6,115 +6,15 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/what-high-fructose-corn-syrup-means-for-your-plan.jpg",
-  "blocks": [
-    {
-      "kind": "heading",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "What it is"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "High-fructose corn syrup: a liquid sweetener made from cornstarch that is enzymatically processed to convert some glucose into fructose."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "Why it is in your food"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "Manufacturers use high fructose corn syrup as a sweetener/sugar and it is of plant origin."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b5",
-      "spans": [
-        {
-          "text": "How our rules read it"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b6",
-      "spans": [
-        {
-          "text": "Our rules read high fructose corn syrup as a refined syrup."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b7",
-      "spans": [
-        {
-          "text": "When it matters to you"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b8",
-      "spans": [
-        {
-          "text": "Our scorer looks for high fructose corn syrup when Autoimmune Protocol (AIP), Diabetes, Gout, Low-FODMAP or Fatty liver (NAFLD) is on for you. If those plans are off, your score does not change. This is how the app reads a label. It is not a claim about health."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b9",
-      "spans": [
-        {
-          "text": "What it may be called"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b10",
-      "spans": [
-        {
-          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
-        }
-      ]
-    },
-    {
-      "kind": "terms",
-      "key": "b11",
-      "source": "kb",
-      "items": [
-        "high fructose corn syrup",
-        "jarabe de maiz de alta fructosa"
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b12",
-      "spans": [
-        {
-          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
-        }
-      ]
-    }
+  "intro": [
+    "High-fructose corn syrup: a liquid sweetener made from cornstarch that is enzymatically processed to convert some glucose into fructose."
   ],
-  "citations": {}
+  "sections": [
+    "What it is",
+    "Why it is in your food",
+    "How our rules read it",
+    "When it matters to you",
+    "What it may be called"
+  ],
+  "sourceCount": 0
 }

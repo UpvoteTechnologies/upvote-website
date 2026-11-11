@@ -2,14 +2,6 @@
   "slug": "tomato-and-mozzarella-melt",
   "title": "Tomato and Mozzarella Melt",
   "blurb": "A simple open sandwich with fresh tomato and melted mozzarella on toast.",
-  "steps": [
-    "Toast the bread slices until lightly golden.",
-    "Slice the tomato into rounds about half a centimetre thick.",
-    "Place the toast on a baking tray and drizzle with the olive oil.",
-    "Arrange the tomato slices on top of each piece of toast, then scatter the mozzarella over them.",
-    "Place under a hot grill for 2 to 3 minutes until the cheese has melted and is bubbling.",
-    "Season with black pepper and serve immediately."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 3,
@@ -19,73 +11,12 @@
     "snack"
   ],
   "image": "/media/recipes/tomato-and-mozzarella-melt.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 620.535,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 35.697,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 50.532,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 10.266,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.766,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 31.24,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 14.617,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1157.57,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "thick white bread",
-      "measure": "2 slices",
-      "grams": 80
-    },
-    {
-      "text": "red tomato",
-      "measure": "1 medium",
-      "grams": 150
-    },
-    {
-      "text": "shredded mozzarella cheese",
-      "measure": "1 cup",
-      "grams": 113
-    },
-    {
-      "text": "olive oil",
-      "measure": "1 tsp",
-      "grams": 5
-    },
-    {
-      "text": "black pepper",
-      "measure": "pinch",
-      "grams": 0.5
-    }
-  ]
+    "thick white bread",
+    "red tomato",
+    "shredded mozzarella cheese",
+    "olive oil",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

@@ -2,14 +2,6 @@
   "slug": "coconut-rice-pudding-with-caramelized-apples",
   "title": "Coconut Rice Pudding with Caramelized Apples",
   "blurb": "Creamy arborio rice cooked in coconut milk, topped with golden caramelized apple slices.",
-  "steps": [
-    "Put the rice, coconut milk, water and caster sugar in a medium saucepan and bring to a gentle simmer over a medium heat, stirring occasionally.",
-    "Reduce the heat to low and cook for 25 to 30 minutes, stirring frequently, until the rice is tender and the mixture is thick and creamy.",
-    "While the rice cooks, peel and core the apples, then cut them into thin slices.",
-    "Melt the butter in a frying pan over a medium-high heat, add the apple slices and cook for 3 to 4 minutes until they start to soften.",
-    "Sprinkle the brown sugar over the apples and cook for another 2 to 3 minutes, turning occasionally, until caramelized and golden.",
-    "Divide the rice pudding between four bowls and top each portion with the caramelized apples."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 35,
@@ -18,83 +10,14 @@
     "snack"
   ],
   "image": "/media/recipes/coconut-rice-pudding-with-caramelized-apples.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 398.6,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 2.556,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 34.483,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 29.715,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 4,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 30.173,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 24.581,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 19.375,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "arborio rice",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "coconut milk",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 50
-    },
-    {
-      "text": "eating apples",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "light brown soft sugar",
-      "measure": null,
-      "grams": 25
-    }
-  ]
+    "arborio rice",
+    "coconut milk",
+    "water",
+    "caster sugar",
+    "eating apples",
+    "unsalted butter",
+    "light brown soft sugar"
+  ],
+  "stepCount": 6
 }

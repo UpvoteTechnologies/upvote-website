@@ -2,15 +2,6 @@
   "slug": "bacon-and-leek-tart",
   "title": "Bacon and Leek Tart",
   "blurb": "A savoury tart with tender leeks cooked in white wine and crispy bacon pieces, baked in shortcrust pastry.",
-  "steps": [
-    "Heat your oven to 200°C and roll out the pastry to line a 23cm tart tin, pricking the base with a fork. Line with baking paper and baking beans, then blind bake for 15 minutes until pale golden.",
-    "Meanwhile, trim and slice the leeks into rounds about 1cm thick, washing them well. Cut the bacon into small pieces.",
-    "Melt the butter in a large frying pan over medium heat and cook the bacon until it starts to crisp. Add the leeks and cook for 5 minutes until softened.",
-    "Pour in the wine and let it bubble away until mostly evaporated, about 5 minutes. Season with salt and pepper, then remove from the heat.",
-    "Whisk together the cream and eggs in a bowl. Remove the beans and paper from the pastry case and reduce the oven to 180°C.",
-    "Spread the leek and bacon mixture evenly in the pastry case, then pour over the cream mixture. Bake for 25 to 30 minutes until the filling is just set with a slight wobble in the centre.",
-    "Let the tart cool for 10 minutes in the tin before slicing and serving warm or at room temperature."
-  ],
   "servings": 6,
   "prepMinutes": 30,
   "cookMinutes": 15,
@@ -19,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/bacon-and-leek-tart.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 623.643,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 11.809,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 39.366,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.5,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.656,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 43.783,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 16.789,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 721.433,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "shortcrust pastry",
-      "measure": null,
-      "grams": 320
-    },
-    {
-      "text": "large leeks",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "streaky bacon",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "butter",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "dry white wine",
-      "measure": "cup",
-      "grams": 240
-    },
-    {
-      "text": "double cream",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "eggs",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "sea salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "ground black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "shortcrust pastry",
+    "large leeks",
+    "streaky bacon",
+    "butter",
+    "dry white wine",
+    "double cream",
+    "eggs",
+    "sea salt",
+    "ground black pepper"
+  ],
+  "stepCount": 7
 }

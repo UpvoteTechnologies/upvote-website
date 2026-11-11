@@ -2,14 +2,6 @@
   "slug": "walnut-and-apricot-oat-cookies",
   "title": "Walnut and Apricot Oat Cookies",
   "blurb": "Soft, naturally sweet cookies made with mashed banana, dried fruit and oats. A wholesome snack that needs no added sugar.",
-  "steps": [
-    "Heat your oven to 180°C and line a baking tray with baking paper.",
-    "Peel the bananas and mash them thoroughly in a large bowl with a fork until mostly smooth.",
-    "Chop the walnuts finely, either with a knife or by pulsing briefly in a food processor, then chop the apricots into small pieces.",
-    "Stir the applesauce into the mashed banana, then add the chopped walnuts, apricots and oats, mixing until everything is evenly combined.",
-    "Drop spoonfuls of the mixture onto the prepared tray, spacing them a little apart, and flatten each one slightly with the back of the spoon.",
-    "Bake for 25 to 30 minutes until the cookies are golden at the edges and firm to the touch, then transfer to a wire rack to cool."
-  ],
   "servings": 8,
   "prepMinutes": 10,
   "cookMinutes": 30,
@@ -18,73 +10,12 @@
     "snack"
   ],
   "image": "/media/recipes/walnut-and-apricot-oat-cookies.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 171.4,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 3.651,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 25.828,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.837,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.31,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 6.361,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.657,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 2.2,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "ripe bananas",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "unsweetened applesauce",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "walnuts",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "dried apricots",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "quick-cooking oats",
-      "measure": null,
-      "grams": 120
-    }
-  ]
+    "ripe bananas",
+    "unsweetened applesauce",
+    "walnuts",
+    "dried apricots",
+    "quick-cooking oats"
+  ],
+  "stepCount": 6
 }

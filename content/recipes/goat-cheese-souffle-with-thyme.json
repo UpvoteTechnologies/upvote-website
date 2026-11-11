@@ -2,15 +2,6 @@
   "slug": "goat-cheese-souffle-with-thyme",
   "title": "Goat Cheese Soufflé with Thyme",
   "blurb": "Light, airy soufflés with tangy goat cheese and fresh thyme, baked until golden and risen.",
-  "steps": [
-    "Heat the oven to 190°C and butter two individual ramekins thoroughly, then dust with a little flour.",
-    "Melt the butter in a saucepan, stir in the flour and cook for one minute, then gradually whisk in the milk until smooth and thickened.",
-    "Remove from the heat and stir in the goat cheese, thyme leaves, salt and pepper until the cheese melts, then beat in the egg yolks one at a time.",
-    "Whisk the egg whites in a clean bowl until they form stiff peaks.",
-    "Fold a spoonful of the whites into the cheese mixture to loosen it, then gently fold in the remaining whites until just combined.",
-    "Divide the mixture between the ramekins, filling them three-quarters full, and run your thumb around the inside rim to help them rise evenly.",
-    "Bake for 20 to 25 minutes until risen and golden on top, then serve immediately."
-  ],
   "servings": 2,
   "prepMinutes": 20,
   "cookMinutes": 25,
@@ -19,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/goat-cheese-souffle-with-thyme.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 433.47,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 21.769,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 13.257,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.934,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.952,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 32.357,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 17.814,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 744.875,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "whole milk",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "goat cheese",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "fresh thyme",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "large eggs",
-      "measure": "3 eggs",
-      "grams": 150
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "unsalted butter",
+    "plain flour",
+    "whole milk",
+    "goat cheese",
+    "fresh thyme",
+    "large eggs",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 7
 }

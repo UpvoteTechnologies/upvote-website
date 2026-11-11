@@ -2,16 +2,6 @@
   "slug": "baked-cinnamon-and-walnut-cheesecake",
   "title": "Baked Cinnamon and Walnut Cheesecake",
   "blurb": "A rich baked cheesecake with warm cinnamon, toasted walnuts and a hint of lemon zest on a buttery biscuit base.",
-  "steps": [
-    "Heat the oven to 160C and grease a 23cm springform tin, then line the base with baking paper.",
-    "Crush the digestive biscuits into fine crumbs, melt the butter and mix them together, then press firmly into the base of the tin and chill while you make the filling.",
-    "Roughly chop the walnuts and toast them in a dry pan over medium heat for three to four minutes until fragrant, then set aside to cool.",
-    "Beat the cream cheese and sugar together until smooth, then add the double cream, eggs, cinnamon, lemon zest and flour and beat until just combined.",
-    "Fold most of the toasted walnuts through the mixture, saving a handful for the top.",
-    "Pour the filling over the biscuit base, smooth the surface and scatter the remaining walnuts on top.",
-    "Bake for 55 to 60 minutes until the cheesecake is set around the edges but still has a slight wobble in the centre.",
-    "Turn off the oven, open the door slightly and leave the cheesecake inside to cool completely, then chill in the fridge for at least four hours before serving."
-  ],
   "servings": 10,
   "prepMinutes": 60,
   "cookMinutes": 60,
@@ -19,98 +9,17 @@
     "snack"
   ],
   "image": "/media/recipes/baked-cinnamon-and-walnut-cheesecake.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 469.229,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 7.674,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 21.054,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 17.906,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.672,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 39.413,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 19.5,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 296.524,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "digestive biscuits",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 90
-    },
-    {
-      "text": "cream cheese",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "double cream",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "large eggs",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "ground cinnamon",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "lemon zest",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "walnuts",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 20
-    }
-  ]
+    "digestive biscuits",
+    "unsalted butter",
+    "cream cheese",
+    "caster sugar",
+    "double cream",
+    "large eggs",
+    "ground cinnamon",
+    "lemon zest",
+    "walnuts",
+    "plain flour"
+  ],
+  "stepCount": 8
 }

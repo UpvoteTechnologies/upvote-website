@@ -2,14 +2,6 @@
   "slug": "corned-beef-and-turnip-hash",
   "title": "Corned Beef and Turnip Hash",
   "blurb": "A simple stovetop hash with tender corned beef, soft turnips and golden onions in a creamy sauce.",
-  "steps": [
-    "Heat the canola oil in a large frying pan over medium-high heat.",
-    "Add the chopped onions and cook for 3 to 4 minutes until softened and starting to colour.",
-    "Add the chopped corned beef and turnips to the pan, spreading them out evenly.",
-    "Cook without stirring for 5 minutes to let the bottom crisp up, then stir and cook for another 5 minutes.",
-    "Pour in the heavy cream and season with black pepper, stirring gently to coat everything.",
-    "Simmer for 3 to 4 minutes until the cream has thickened slightly and the hash is heated through."
-  ],
   "servings": 4,
   "prepMinutes": 5,
   "cookMinutes": 20,
@@ -19,78 +11,13 @@
     "dinner"
   ],
   "image": "/media/recipes/corned-beef-and-turnip-hash.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 541.305,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 26.426,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 13.7,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.675,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.777,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 42.066,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 18.182,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 866.575,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "canola oil",
-      "measure": "2 tbsp",
-      "grams": 30
-    },
-    {
-      "text": "onions, chopped",
-      "measure": "2 medium",
-      "grams": 200
-    },
-    {
-      "text": "cooked corned beef brisket, chopped",
-      "measure": null,
-      "grams": 350
-    },
-    {
-      "text": "cooked turnips, drained and chopped",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "heavy cream",
-      "measure": "1 cup",
-      "grams": 240
-    },
-    {
-      "text": "black pepper",
-      "measure": "½ tsp",
-      "grams": 2
-    }
-  ]
+    "canola oil",
+    "onions, chopped",
+    "cooked corned beef brisket, chopped",
+    "cooked turnips, drained and chopped",
+    "heavy cream",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

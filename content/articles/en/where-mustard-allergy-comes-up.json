@@ -6,53 +6,11 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/where-mustard-allergy-comes-up.jpg",
-  "blocks": [
-    {
-      "kind": "heading",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "The ones you will meet most"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "Of the things this plan reads, these are the ones on the most products we hold. That is how common they are, not how much they matter. Each one has its own page."
-        }
-      ]
-    },
-    {
-      "kind": "terms",
-      "key": "b3",
-      "source": "kb",
-      "items": [
-        "mustard seed",
-        "mustard flour",
-        "mustard powder",
-        "spice blend",
-        "dijon",
-        "dijon mustard",
-        "ground mustard",
-        "honey mustard",
-        "mustard oil",
-        "salad dressing",
-        "curry powder",
-        "marinade"
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "This is what our scorer reads, counted across the products we hold. It does not tell you what to eat, and we say nothing here about whether any of it changes your health. A pack can name something no list here holds. Read the pack when it matters."
-        }
-      ]
-    }
+  "intro": [
+    "Of the things this plan reads, these are the ones on the most products we hold. That is how common they are, not how much they matter. Each one has its own page."
   ],
-  "citations": {}
+  "sections": [
+    "The ones you will meet most"
+  ],
+  "sourceCount": 0
 }

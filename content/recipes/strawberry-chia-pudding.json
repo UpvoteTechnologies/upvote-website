@@ -2,13 +2,6 @@
   "slug": "strawberry-chia-pudding",
   "title": "Strawberry Chia Pudding",
   "blurb": "A simple no-cook pudding where chia seeds absorb soy milk to create a creamy texture, layered with fresh strawberries.",
-  "steps": [
-    "Put the chia seeds in a bowl and pour over the soy milk.",
-    "Stir in the honey and vanilla extract until everything is well combined.",
-    "Cover and refrigerate for at least 2 hours, or overnight, stirring once after 30 minutes to prevent clumping.",
-    "Hull and slice the strawberries thinly.",
-    "Spoon the chia pudding into two serving glasses or bowls and top with the sliced strawberries."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -17,73 +10,12 @@
     "snack"
   ],
   "image": "/media/recipes/strawberry-chia-pudding.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 250.16,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 9.178,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 34.608,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 20.826,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 9.1,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 9.308,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.076,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 97.63,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "chia seeds",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "unsweetened fortified soy milk",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "strawberries",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "vanilla extract",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "chia seeds",
+    "unsweetened fortified soy milk",
+    "strawberries",
+    "honey",
+    "vanilla extract"
+  ],
+  "stepCount": 5
 }

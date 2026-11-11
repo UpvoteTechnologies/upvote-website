@@ -2,13 +2,6 @@
   "slug": "buttered-green-beans",
   "title": "Buttered Green Beans",
   "blurb": "Tender green beans tossed in butter with a crack of black pepper and a pinch of salt.",
-  "steps": [
-    "Trim the ends from the green beans.",
-    "Bring a pan of salted water to the boil, add the beans and cook for 6 to 8 minutes until tender but still with a bit of bite.",
-    "Drain the beans well and return them to the pan.",
-    "Add the butter and toss until melted and coating the beans.",
-    "Season with salt and black pepper, toss again and serve."
-  ],
   "servings": 2,
   "prepMinutes": 5,
   "cookMinutes": 10,
@@ -17,68 +10,11 @@
     "dinner"
   ],
   "image": "/media/recipes/buttered-green-beans.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 125.555,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 2.599,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 9.588,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 2.974,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.877,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 8.586,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 4.629,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 439.5,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "green beans",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "ground black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "green beans",
+    "unsalted butter",
+    "salt",
+    "ground black pepper"
+  ],
+  "stepCount": 5
 }

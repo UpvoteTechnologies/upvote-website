@@ -2,14 +2,6 @@
   "slug": "roasted-pepper-and-garlic-wraps-with-spinach",
   "title": "Roasted Pepper and Garlic Wraps with Spinach",
   "blurb": "Soft tortillas filled with sweet roasted peppers, garlicky cream cheese and fresh baby spinach, with a squeeze of lemon.",
-  "steps": [
-    "Heat your oven to 200°C. Cut the peppers into thick strips, discarding the seeds and cores.",
-    "Peel the garlic cloves and leave them whole. Toss the peppers and garlic with the olive oil on a baking tray, then roast for 25 minutes until the peppers are soft and slightly charred at the edges.",
-    "While the vegetables roast, put the cream cheese in a small bowl and grate in the zest from half the lemon. Squeeze in a little lemon juice and stir until smooth and spreadable.",
-    "When the peppers are done, remove them from the oven and crush the soft garlic cloves with a fork, mixing them through the peppers.",
-    "Warm the tortillas briefly in a dry pan or microwave. Spread each tortilla with the lemon cream cheese, then add a handful of baby spinach leaves down the centre.",
-    "Divide the roasted peppers and garlic between the tortillas, season with black pepper, and squeeze over a little more lemon juice. Roll up tightly and serve warm or at room temperature."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 25,
@@ -19,93 +11,16 @@
     "snack"
   ],
   "image": "/media/recipes/roasted-pepper-and-garlic-wraps-with-spinach.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 552.655,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 12.493,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 55.851,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.744,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 5.922,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 31.16,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 13.356,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 789.8,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "red peppers",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "yellow peppers",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "cream cheese",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "baby spinach",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "flour tortillas",
-      "measure": null,
-      "grams": 160
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "red peppers",
+    "yellow peppers",
+    "garlic cloves",
+    "olive oil",
+    "cream cheese",
+    "lemon",
+    "baby spinach",
+    "flour tortillas",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

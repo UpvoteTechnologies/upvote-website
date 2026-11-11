@@ -2,15 +2,6 @@
   "slug": "cumin-bulgur-with-mushrooms-and-tomato",
   "title": "Cumin Bulgur with Mushrooms and Tomato",
   "blurb": "Tender bulgur wheat cooked in spiced tomato sauce with earthy mushrooms, finished with a hint of lemon.",
-  "steps": [
-    "Slice the mushrooms into quarters.",
-    "Heat the olive oil in a wide pan over medium heat and add the mushrooms. Cook for 5 minutes until they release their moisture and begin to brown.",
-    "Stir in the ground cumin and cook for 30 seconds until fragrant.",
-    "Pour in the passata and water, then add the salt. Bring to a simmer.",
-    "Add the bulgur wheat and stir well. Cover the pan and cook gently for 15 minutes until the bulgur is tender and has absorbed the liquid.",
-    "Remove from the heat and let it stand, covered, for 5 minutes.",
-    "Drizzle with lemon juice and stir through before serving."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 30,
@@ -19,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/cumin-bulgur-with-mushrooms-and-tomato.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 456.35,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 16.331,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 78.183,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 12.953,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 15.163,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 12.332,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.705,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 662.435,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "fine bulgur wheat",
-      "measure": null,
-      "grams": 140
-    },
-    {
-      "text": "button mushrooms",
-      "measure": null,
-      "grams": 280
-    },
-    {
-      "text": "passata",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "ground cumin",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "lemon juice",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    }
-  ]
+    "fine bulgur wheat",
+    "button mushrooms",
+    "passata",
+    "ground cumin",
+    "olive oil",
+    "lemon juice",
+    "water",
+    "salt"
+  ],
+  "stepCount": 7
 }

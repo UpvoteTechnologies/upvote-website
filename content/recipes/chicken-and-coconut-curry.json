@@ -2,14 +2,6 @@
   "slug": "chicken-and-coconut-curry",
   "title": "Chicken and Coconut Curry",
   "blurb": "Tender chicken pieces in a fragrant curry sauce with carrots and coconut milk, finished with fresh coriander.",
-  "steps": [
-    "Cut the chicken into bite-sized pieces and peel and slice the onion. Peel the carrot and cut into rounds, then peel and crush the garlic.",
-    "Heat the oil in a large pan over medium heat and fry the onion for five minutes until softened.",
-    "Add the garlic and curry paste and cook for one minute, stirring constantly.",
-    "Add the chicken pieces and cook for three minutes, turning to coat in the curry paste.",
-    "Pour in the coconut milk and stock, then add the carrots. Bring to a simmer and cook for fifteen minutes until the chicken is cooked through and the carrots are tender.",
-    "Stir in the fish sauce, then roughly chop the coriander and scatter over the top before serving."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 20,
@@ -18,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/chicken-and-coconut-curry.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 709.425,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 40.463,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 26.114,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 13.001,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 7.88,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 51.954,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 43.181,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 549.55,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "chicken breast",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "yellow onion",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "carrot",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "red curry paste",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "coconut milk",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "chicken stock",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fish sauce",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "chicken breast",
+    "yellow onion",
+    "carrot",
+    "garlic cloves",
+    "red curry paste",
+    "coconut milk",
+    "chicken stock",
+    "fresh coriander",
+    "vegetable oil",
+    "fish sauce"
+  ],
+  "stepCount": 6
 }

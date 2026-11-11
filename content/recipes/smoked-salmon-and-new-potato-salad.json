@@ -2,14 +2,6 @@
   "slug": "smoked-salmon-and-new-potato-salad",
   "title": "Smoked Salmon and New Potato Salad",
   "blurb": "Tender new potatoes with smoked salmon, peppery rocket and a light yoghurt dressing.",
-  "steps": [
-    "Cut the new potatoes in half and place them in a pan of cold salted water. Bring to the boil and cook for 15 to 18 minutes until tender when pierced with a knife.",
-    "While the potatoes cook, finely chop the chives and mix them into the yoghurt with the juice of half the lemon and a grinding of black pepper.",
-    "Drain the potatoes and let them cool for a few minutes, then cut any larger pieces into bite-sized chunks.",
-    "Tear the smoked salmon into rough pieces with your fingers.",
-    "Arrange the rocket on two plates and top with the warm potatoes and torn salmon.",
-    "Spoon the yoghurt dressing over each portion and finish with a drizzle of olive oil and a wedge of the remaining lemon."
-  ],
   "servings": 2,
   "prepMinutes": 20,
   "cookMinutes": 20,
@@ -18,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/smoked-salmon-and-new-potato-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 378.23,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 17.607,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 44.694,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.634,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 5.352,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 15.188,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 4.31,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 356.8,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "new potatoes",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "smoked salmon",
-      "measure": null,
-      "grams": 85
-    },
-    {
-      "text": "rocket",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "natural yoghurt",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "fresh chives",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "new potatoes",
+    "smoked salmon",
+    "rocket",
+    "natural yoghurt",
+    "fresh chives",
+    "lemon",
+    "olive oil",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

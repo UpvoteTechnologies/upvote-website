@@ -2,15 +2,6 @@
   "slug": "chilled-tomato-and-pepper-soup",
   "title": "Chilled Tomato and Pepper Soup",
   "blurb": "A refreshing cold soup made from blended ripe tomatoes, sweet peppers and spring onions, with a hint of garlic.",
-  "steps": [
-    "Roughly chop the tomatoes and place them in a blender.",
-    "Remove the seeds and white membrane from the pepper, chop it roughly, and add to the blender.",
-    "Trim the spring onions, chop them roughly, and add to the blender along with the peeled garlic cloves.",
-    "Add the olive oil, vinegar, salt and cold water to the blender.",
-    "Blend everything until completely smooth, then taste and add more salt if needed.",
-    "Pour the soup through a sieve into a bowl if you prefer a smoother texture, or leave as is for more body.",
-    "Cover and chill in the fridge for at least two hours before serving."
-  ],
   "servings": 4,
   "prepMinutes": 30,
   "cookMinutes": 0,
@@ -20,88 +11,15 @@
     "snack"
   ],
   "image": "/media/recipes/chilled-tomato-and-pepper-soup.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 147.56,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 2.617,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 12.77,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.729,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.444,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 10.501,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.473,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 400.69,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "very ripe tomatoes",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "red pepper",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "spring onions",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "extra virgin olive oil",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "red wine vinegar",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "sea salt",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "cold water",
-      "measure": null,
-      "grams": 150
-    }
-  ]
+    "very ripe tomatoes",
+    "red pepper",
+    "spring onions",
+    "garlic cloves",
+    "extra virgin olive oil",
+    "red wine vinegar",
+    "sea salt",
+    "cold water"
+  ],
+  "stepCount": 7
 }

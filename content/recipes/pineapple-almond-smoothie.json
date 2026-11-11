@@ -2,12 +2,6 @@
   "slug": "pineapple-almond-smoothie",
   "title": "Pineapple Almond Smoothie",
   "blurb": "A creamy blend of yogurt, pineapple and almonds that comes together in minutes for a quick breakfast or snack.",
-  "steps": [
-    "Cut the pineapple into chunks and place in a blender.",
-    "Add the yogurt, almond milk and almonds to the blender.",
-    "Blend on high speed until smooth and creamy.",
-    "Pour into a glass and serve immediately."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 0,
@@ -16,68 +10,11 @@
     "snack"
   ],
   "image": "/media/recipes/pineapple-almond-smoothie.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 442.3,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 15.659,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 39.604,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 28.021,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.51,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 24.437,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 6.703,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 246.9,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "whole milk yogurt",
-      "measure": "240ml",
-      "grams": 245
-    },
-    {
-      "text": "unsweetened almond milk",
-      "measure": "240ml",
-      "grams": 240
-    },
-    {
-      "text": "fresh pineapple",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "blanched almonds",
-      "measure": null,
-      "grams": 20
-    }
-  ]
+    "whole milk yogurt",
+    "unsweetened almond milk",
+    "fresh pineapple",
+    "blanched almonds"
+  ],
+  "stepCount": 4
 }

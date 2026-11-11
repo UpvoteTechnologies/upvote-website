@@ -2,15 +2,6 @@
   "slug": "crispy-coconut-prawns",
   "title": "Crispy Coconut Prawns",
   "blurb": "Tender prawns coated in egg and rolled in coconut, then pan-fried until golden and crisp.",
-  "steps": [
-    "Pat the prawns dry with kitchen paper and season lightly with half the salt.",
-    "Beat the eggs with the water and remaining salt in a shallow bowl.",
-    "Spread the desiccated coconut on a plate.",
-    "Dip each prawn into the egg mixture, then press into the coconut to coat all over.",
-    "Heat the oil in a large frying pan over medium-high heat.",
-    "Fry the prawns in batches for about 2 minutes on each side until the coconut is golden and the prawns are cooked through.",
-    "Drain on kitchen paper and serve warm."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 10,
@@ -20,78 +11,13 @@
     "snack"
   ],
   "image": "/media/recipes/crispy-coconut-prawns.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 252.425,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 19.35,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 16.819,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.075,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.97,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 12.023,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 9.012,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 541.95,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "raw king prawns, peeled",
-      "measure": null,
-      "grams": 450
-    },
-    {
-      "text": "large eggs",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "desiccated coconut",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 30
-    }
-  ]
+    "raw king prawns, peeled",
+    "large eggs",
+    "water",
+    "desiccated coconut",
+    "salt",
+    "vegetable oil"
+  ],
+  "stepCount": 7
 }

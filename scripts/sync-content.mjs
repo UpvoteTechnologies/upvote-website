@@ -1,6 +1,10 @@
-// Copies the app's public editorial content into this repo, so the site build never calls the
+// Copies a PREVIEW of the app's editorial content into this repo, so the site build never calls the
 // API: `content/articles/en/*.json`, `content/recipes/*.json` and the cover images under
 // `public/media/`. Run `npm run sync-content` and commit the result.
+//
+// Articles and recipes are an app feature. The site only shows a preview of each one (title,
+// summary, cover, opening lines and outline) and sends the reader to the app for the rest, so
+// the full text, sources, quantities and method are never written to this repo.
 //
 // Which articles are published is decided by `content/articles/published.json` (a list of
 // slugs). Add slugs there to open the next batch; a slug that is removed has its files deleted.
@@ -58,6 +62,22 @@ async function inBatches(items, worker) {
   await Promise.all(Array.from({ length: CONCURRENCY }, run));
 }
 
+const text = (spans) => spans.map((span) => span.text).join('');
+
+/**
+ * The opening of an article and its outline. The opening is the paragraphs before the first
+ * heading (two at most); an article that starts with a heading gives its first paragraph instead.
+ */
+function articlePreview(blocks) {
+  const firstHeading = blocks.findIndex((block) => block.kind === 'heading');
+  const lead = (firstHeading === -1 ? blocks : blocks.slice(0, firstHeading)).filter((block) => block.kind === 'paragraph');
+  const opening = lead.length > 0 ? lead.slice(0, 2) : blocks.filter((block) => block.kind === 'paragraph').slice(0, 1);
+  return {
+    intro: opening.map((block) => text(block.spans)),
+    sections: blocks.filter((block) => block.kind === 'heading').map((block) => text(block.spans)),
+  };
+}
+
 const writeJson = (file, data) => writeFile(file, `${JSON.stringify(data, null, 2)}\n`);
 
 /** Delete files in `dir` whose name (without extension) is not in `keep`. */
@@ -90,8 +110,8 @@ await inBatches(published, async (slug) => {
     evidenceTier: data.article.evidence_tier,
     sourceLabel: data.article.source_label,
     image: hasCover ? `/media/articles/${slug}.jpg` : null,
-    blocks: data.blocks,
-    citations: data.citations,
+    ...articlePreview(data.blocks),
+    sourceCount: Object.keys(data.citations ?? {}).length,
   });
 });
 
@@ -123,18 +143,14 @@ await inBatches(recipeSlugs, async (slug) => {
     slug,
     title: recipe.title,
     blurb: recipe.blurb,
-    steps: recipe.steps,
     servings: recipe.servings,
     prepMinutes: recipe.prep_minutes,
     cookMinutes: recipe.cook_minutes,
     mealSlots: recipe.meal_slots,
     image: hasPhoto ? `/media/recipes/${slug}.jpg` : null,
-    perServing: recipe.per_serving,
-    ingredients: recipe.ingredients.map((item) => ({
-      text: item.display_text,
-      measure: item.measure,
-      grams: item.grams,
-    })),
+    // Names only: quantities, method and nutrition stay in the app.
+    ingredients: recipe.ingredients.map((item) => item.display_text),
+    stepCount: recipe.steps.length,
   });
 });
 

@@ -6,84 +6,13 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/what-yeast-extract-means-for-your-plan.jpg",
-  "blocks": [
-    {
-      "kind": "heading",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "What it is"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "Yeast extract: a savoury concentrate made from the broken-down contents of yeast cells, used to add umami flavour."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "Why it is in your food"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "Manufacturers use yeast extract as a flavouring and it is of microbial origin."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b5",
-      "spans": [
-        {
-          "text": "What it may be called"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b6",
-      "spans": [
-        {
-          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
-        }
-      ]
-    },
-    {
-      "kind": "terms",
-      "key": "b7",
-      "source": "kb",
-      "items": [
-        "estratto di lievito",
-        "extracto de levadura",
-        "extrait de levure",
-        "extrato de levedura",
-        "gistextract",
-        "hefeextrakt",
-        "yeast extract"
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b8",
-      "spans": [
-        {
-          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
-        }
-      ]
-    }
+  "intro": [
+    "Yeast extract: a savoury concentrate made from the broken-down contents of yeast cells, used to add umami flavour."
   ],
-  "citations": {}
+  "sections": [
+    "What it is",
+    "Why it is in your food",
+    "What it may be called"
+  ],
+  "sourceCount": 0
 }

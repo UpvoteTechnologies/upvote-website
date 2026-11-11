@@ -6,70 +6,13 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/what-maltitol-means-for-your-plan.jpg",
-  "blocks": [
-    {
-      "kind": "heading",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "What it is"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "Maltitol is a sugar alcohol (polyol) used as a reduced-calorie sweetener that tastes similar to sugar. It is made by hydrogenating maltose from starch."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "Why it is in your food"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "Manufacturers use maltitol as a sweetener and it is of plant origin."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b5",
-      "spans": [
-        {
-          "text": "When it matters to you"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b6",
-      "spans": [
-        {
-          "text": "Our scorer looks for maltitol when Low-FODMAP is on for you. If that plan is off, your score does not change. This is how the app reads a label. It is not a claim about health."
-        }
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b7",
-      "spans": [
-        {
-          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
-        }
-      ]
-    }
+  "intro": [
+    "Maltitol is a sugar alcohol (polyol) used as a reduced-calorie sweetener that tastes similar to sugar. It is made by hydrogenating maltose from starch."
   ],
-  "citations": {}
+  "sections": [
+    "What it is",
+    "Why it is in your food",
+    "When it matters to you"
+  ],
+  "sourceCount": 0
 }

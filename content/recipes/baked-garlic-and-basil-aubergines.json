@@ -2,14 +2,6 @@
   "slug": "baked-garlic-and-basil-aubergines",
   "title": "Baked Garlic and Basil Aubergines",
   "blurb": "Tender aubergine slices baked with garlic, basil and Parmesan until golden and soft.",
-  "steps": [
-    "Heat your oven to 200°C. Slice the aubergines into rounds about 1cm thick and arrange them in a single layer in a large baking dish.",
-    "Peel and thinly slice the garlic, then scatter it over the aubergine slices. Drizzle with the olive oil and pour the water around the edges of the dish.",
-    "Tear half the basil leaves and tuck them between the aubergine slices. Season with black pepper.",
-    "Cover the dish tightly with foil and bake for 40 minutes until the aubergine is very soft.",
-    "Remove the foil, grate the Parmesan over the top, and return to the oven uncovered for 20 minutes until golden.",
-    "Scatter the remaining basil leaves over the top before serving."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 60,
@@ -18,83 +10,14 @@
     "dinner"
   ],
   "image": "/media/recipes/baked-garlic-and-basil-aubergines.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 274.368,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 8.338,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 15.75,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.13,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 6.308,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 21.023,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 5.252,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 355.738,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "large aubergines",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh basil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "Parmesan cheese",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 100
-    }
-  ]
+    "large aubergines",
+    "olive oil",
+    "garlic cloves",
+    "fresh basil",
+    "Parmesan cheese",
+    "black pepper",
+    "water"
+  ],
+  "stepCount": 6
 }

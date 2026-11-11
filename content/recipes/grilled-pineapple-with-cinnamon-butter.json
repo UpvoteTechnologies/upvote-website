@@ -2,14 +2,6 @@
   "slug": "grilled-pineapple-with-cinnamon-butter",
   "title": "Grilled Pineapple with Cinnamon Butter",
   "blurb": "Fresh pineapple slices brushed with spiced butter and grilled until caramelised. A simple warm fruit dish that works as a light pudding or a side.",
-  "steps": [
-    "Preheat your grill to medium-high heat.",
-    "Peel the pineapple, remove the core, and cut into slices about 2cm thick.",
-    "Melt the butter in a small bowl and stir in the cinnamon until combined.",
-    "Brush both sides of each pineapple slice generously with the cinnamon butter.",
-    "Place the slices on the grill and cook for 5 to 6 minutes on each side until you see char marks and the edges start to caramelise.",
-    "Remove from the grill and serve warm."
-  ],
   "servings": 8,
   "prepMinutes": 10,
   "cookMinutes": 12,
@@ -18,63 +10,10 @@
     "dinner"
   ],
   "image": "/media/recipes/grilled-pineapple-with-cinnamon-butter.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 98.385,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 0.522,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 14.496,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.46,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.166,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 4.326,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.291,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 26.25,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "fresh pineapple",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "ground cinnamon",
-      "measure": null,
-      "grams": 4
-    }
-  ]
+    "fresh pineapple",
+    "unsalted butter",
+    "ground cinnamon"
+  ],
+  "stepCount": 6
 }

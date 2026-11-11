@@ -2,14 +2,6 @@
   "slug": "almond-and-raspberry-cupcakes",
   "title": "Almond and Raspberry Cupcakes",
   "blurb": "Light cupcakes made with almond flour and topped with fresh raspberries. A simple teatime treat with a delicate almond flavour.",
-  "steps": [
-    "Heat your oven to 180°C and line a 12-hole muffin tin with 10 paper cases.",
-    "Beat the butter and coconut sugar together in a bowl until pale and fluffy.",
-    "Crack in the eggs one at a time, beating well after each addition, then stir in the almond extract.",
-    "Fold in the almond flour and baking powder until just combined, then add the water to loosen the batter slightly.",
-    "Divide the mixture between the paper cases and press a few raspberries into the top of each one.",
-    "Bake for 25 minutes until golden and a skewer inserted into the centre comes out clean, then leave to cool on a wire rack."
-  ],
   "servings": 10,
   "prepMinutes": 15,
   "cookMinutes": 25,
@@ -17,88 +9,15 @@
     "snack"
   ],
   "image": "/media/recipes/almond-and-raspberry-cupcakes.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 113
-    },
-    {
-      "text": "coconut sugar",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "eggs",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "almond extract",
-      "measure": null,
-      "grams": 6
-    },
-    {
-      "text": "almond flour",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "baking powder",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "tap water",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "fresh raspberries",
-      "measure": null,
-      "grams": 100
-    }
-  ]
+    "unsalted butter",
+    "coconut sugar",
+    "eggs",
+    "almond extract",
+    "almond flour",
+    "baking powder",
+    "tap water",
+    "fresh raspberries"
+  ],
+  "stepCount": 6
 }

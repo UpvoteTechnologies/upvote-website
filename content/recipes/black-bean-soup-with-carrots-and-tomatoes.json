@@ -2,13 +2,6 @@
   "slug": "black-bean-soup-with-carrots-and-tomatoes",
   "title": "Black Bean Soup with Carrots and Tomatoes",
   "blurb": "A warming soup with black beans, carrots and tomatoes in a light vegetable broth, finished with a dash of hot sauce.",
-  "steps": [
-    "Heat the oil in a large pot over medium heat and cook the chopped onion for 5 minutes until soft.",
-    "Add the crushed garlic, sliced carrots and cumin, then stir for 1 minute.",
-    "Tip in the black beans, tomatoes with their liquid, vegetable broth and bay leaves.",
-    "Bring to the boil, then reduce the heat and simmer for 20 minutes until the carrots are tender.",
-    "Remove the bay leaves and stir in the hot sauce and black pepper to taste."
-  ],
   "servings": 6,
   "prepMinutes": 10,
   "cookMinutes": 20,
@@ -17,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/black-bean-soup-with-carrots-and-tomatoes.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 327.493,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 16.574,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 56.481,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 8.683,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 14.028,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 4.941,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.814,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 548.082,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "onion",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "carrots",
-      "measure": null,
-      "grams": 450
-    },
-    {
-      "text": "ground cumin",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "dried black beans",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "diced tomatoes",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "vegetable broth",
-      "measure": null,
-      "grams": 950
-    },
-    {
-      "text": "bay leaves",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "hot sauce",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "olive oil",
+    "onion",
+    "garlic cloves",
+    "carrots",
+    "ground cumin",
+    "dried black beans",
+    "diced tomatoes",
+    "vegetable broth",
+    "bay leaves",
+    "hot sauce",
+    "black pepper"
+  ],
+  "stepCount": 5
 }

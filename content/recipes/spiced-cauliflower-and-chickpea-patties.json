@@ -2,13 +2,6 @@
   "slug": "spiced-cauliflower-and-chickpea-patties",
   "title": "Spiced Cauliflower and Chickpea Patties",
   "blurb": "Golden patties packed with roasted cauliflower, chickpeas and warm curry spices, served in soft buns with cooling yogurt.",
-  "steps": [
-    "Heat the oven to 200°C. Toss the cauliflower florets with half the olive oil and roast for 20 minutes until tender and lightly golden.",
-    "Let the cauliflower cool slightly, then place in a food processor with the chickpeas, green onions, coriander, curry powder, cumin, onion granules, black pepper and salt. Pulse until the mixture comes together but still has some texture.",
-    "Transfer to a bowl and stir through the flour and half the breadcrumbs until the mixture binds. Shape into 8 patties and coat each one in the remaining breadcrumbs.",
-    "Brush a baking tray with the remaining olive oil and arrange the patties on it. Bake for 25 to 30 minutes, turning halfway, until crisp and golden on both sides.",
-    "Split the burger buns and fill each with lettuce, two patties and a spoonful of yogurt."
-  ],
   "servings": 4,
   "prepMinutes": 30,
   "cookMinutes": 30,
@@ -17,123 +10,22 @@
     "dinner"
   ],
   "image": "/media/recipes/spiced-cauliflower-and-chickpea-patties.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 643.175,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 25.967,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 99.387,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 15.981,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 12.631,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 16.73,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.038,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 809.413,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "small cauliflower florets",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "cooked chickpeas",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "green onions, chopped",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "curry powder",
-      "measure": "2 teaspoons",
-      "grams": 6
-    },
-    {
-      "text": "ground cumin",
-      "measure": "1 teaspoon",
-      "grams": 2
-    },
-    {
-      "text": "onion granules",
-      "measure": "1 teaspoon",
-      "grams": 3
-    },
-    {
-      "text": "ground black pepper",
-      "measure": "1 teaspoon",
-      "grams": 2
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "dried breadcrumbs",
-      "measure": null,
-      "grams": 50
-    },
-    {
-      "text": "natural yogurt",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "burger buns",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "lettuce leaves",
-      "measure": null,
-      "grams": 60
-    }
-  ]
+    "small cauliflower florets",
+    "olive oil",
+    "cooked chickpeas",
+    "green onions, chopped",
+    "fresh coriander",
+    "curry powder",
+    "ground cumin",
+    "onion granules",
+    "ground black pepper",
+    "salt",
+    "plain flour",
+    "dried breadcrumbs",
+    "natural yogurt",
+    "burger buns",
+    "lettuce leaves"
+  ],
+  "stepCount": 5
 }

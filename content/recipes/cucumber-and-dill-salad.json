@@ -2,13 +2,6 @@
   "slug": "cucumber-and-dill-salad",
   "title": "Cucumber and Dill Salad",
   "blurb": "Crisp cucumber ribbons dressed with fresh dill and a light vinegar dressing",
-  "steps": [
-    "Use a vegetable peeler to slice the cucumber lengthways into thin ribbons, stopping when you reach the seedy centre.",
-    "Place the ribbons in a bowl and sprinkle with the salt, then toss gently and leave for 5 minutes to draw out moisture.",
-    "Drain any liquid from the bowl and pat the cucumber ribbons dry with kitchen paper.",
-    "Chop the dill finely and add to the cucumber along with the vinegar, olive oil and black pepper.",
-    "Toss everything together and serve immediately."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -18,78 +11,13 @@
     "snack"
   ],
   "image": "/media/recipes/cucumber-and-dill-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 68.828,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 0.956,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 4.585,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 2.507,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.813,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 5.278,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.749,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 390.15,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "cucumber",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "fresh dill",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "white wine vinegar",
-      "measure": "tablespoon",
-      "grams": 15
-    },
-    {
-      "text": "extra virgin olive oil",
-      "measure": "teaspoon",
-      "grams": 10
-    },
-    {
-      "text": "sea salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 0.5
-    }
-  ]
+    "cucumber",
+    "fresh dill",
+    "white wine vinegar",
+    "extra virgin olive oil",
+    "sea salt",
+    "black pepper"
+  ],
+  "stepCount": 5
 }

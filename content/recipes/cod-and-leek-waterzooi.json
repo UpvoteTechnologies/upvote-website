@@ -2,14 +2,6 @@
   "slug": "cod-and-leek-waterzooi",
   "title": "Cod and leek waterzooi",
   "blurb": "A gentle Belgian-style fish stew with cod poached in a creamy broth of leeks, carrots and garlic",
-  "steps": [
-    "Trim the leek, slice it in half lengthways, rinse well between the layers, then slice into thin half-moons. Peel the carrots and slice into thin rounds. Peel and finely slice the garlic.",
-    "Melt the butter in a wide shallow pan over medium heat. Add the leek, carrots and garlic, then cook gently for about 10 minutes until softened but not browned, stirring occasionally.",
-    "Pour in the fish stock and add the bay leaf. Bring to a simmer and cook for 10 minutes until the vegetables are tender.",
-    "Check the cod fillet for any bones, then lower it gently into the simmering broth. Cover the pan and poach for 8 to 10 minutes until the fish is just cooked through and flakes easily.",
-    "Stir in the crème fraîche and let it warm through without boiling. Remove the bay leaf.",
-    "Chop the parsley roughly. Ladle the waterzooi into a wide bowl, season with black pepper and scatter the parsley over the top."
-  ],
   "servings": 1,
   "prepMinutes": 45,
   "cookMinutes": 30,
@@ -18,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/cod-and-leek-waterzooi.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 406.885,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 36.763,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 28.733,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 8.935,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 5.094,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 15.587,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 7.485,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 972.32,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "leek",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "carrots",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 6
-    },
-    {
-      "text": "butter",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fish stock",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "bay leaf",
-      "measure": null,
-      "grams": 0.5
-    },
-    {
-      "text": "cod fillet",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "crème fraîche",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "fresh parsley",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 0.5
-    }
-  ]
+    "leek",
+    "carrots",
+    "garlic cloves",
+    "butter",
+    "fish stock",
+    "bay leaf",
+    "cod fillet",
+    "crème fraîche",
+    "fresh parsley",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

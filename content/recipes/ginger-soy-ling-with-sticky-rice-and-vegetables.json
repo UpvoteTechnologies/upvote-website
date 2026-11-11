@@ -2,16 +2,6 @@
   "slug": "ginger-soy-ling-with-sticky-rice-and-vegetables",
   "title": "Ginger-soy ling with sticky rice and vegetables",
   "blurb": "Pan-fried ling backs glazed with ginger and soy, served with fluffy rice and tender carrot and aubergine.",
-  "steps": [
-    "Rinse the rice in cold water until the water runs clear, then cook according to packet instructions.",
-    "Peel and grate the ginger and garlic, then mix with the soy sauce, rice vinegar and sesame oil in a small bowl.",
-    "Peel the carrot and cut into thin batons, then cut the aubergine into bite-sized cubes.",
-    "Heat half the vegetable oil in a frying pan over medium-high heat and cook the carrot and aubergine for 8 to 10 minutes until softened and golden, then set aside.",
-    "Pat the ling backs dry with kitchen paper and season with a pinch of salt.",
-    "Heat the remaining vegetable oil in the same pan and cook the fish skin-side down for 3 to 4 minutes, then flip and cook for another 2 minutes.",
-    "Pour the ginger-soy mixture over the fish and let it bubble for a minute, spooning the sauce over the fillets.",
-    "Finely chop the chives and serve the fish on the rice with the vegetables alongside, spooning over any remaining sauce and scattering with chives."
-  ],
   "servings": 2,
   "prepMinutes": 20,
   "cookMinutes": 20,
@@ -20,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/ginger-soy-ling-with-sticky-rice-and-vegetables.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "white rice",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "ling backs",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "carrot",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "aubergine",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "fresh ginger",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "garlic clove",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "soy sauce",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "rice vinegar",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "sesame oil",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh chives",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "white rice",
+    "ling backs",
+    "carrot",
+    "aubergine",
+    "fresh ginger",
+    "garlic clove",
+    "soy sauce",
+    "rice vinegar",
+    "sesame oil",
+    "vegetable oil",
+    "fresh chives"
+  ],
+  "stepCount": 8
 }

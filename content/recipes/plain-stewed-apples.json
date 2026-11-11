@@ -2,12 +2,6 @@
   "slug": "plain-stewed-apples",
   "title": "Plain Stewed Apples",
   "blurb": "Gently cooked apples that break down into a soft, naturally sweet compote. Serve warm or cold with porridge, yoghurt or on their own.",
-  "steps": [
-    "Peel the apples, cut them into quarters and remove the cores. Chop each quarter into rough chunks.",
-    "Put the apple pieces and water into a medium saucepan. Bring to a simmer over medium heat, then reduce the heat to low.",
-    "Cover and cook for 12 to 15 minutes, stirring occasionally, until the apples have completely softened and started to break down.",
-    "Mash lightly with a fork if you want a smoother texture, or leave as chunky pieces. Serve warm or leave to cool."
-  ],
   "servings": 8,
   "prepMinutes": 10,
   "cookMinutes": 15,
@@ -16,58 +10,9 @@
     "snack"
   ],
   "image": "/media/recipes/plain-stewed-apples.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 78,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 0.39,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 20.715,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 15.585,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.6,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 0.255,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.042,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1.8,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "eating apples",
-      "measure": null,
-      "grams": 1200
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 120
-    }
-  ]
+    "eating apples",
+    "water"
+  ],
+  "stepCount": 4
 }

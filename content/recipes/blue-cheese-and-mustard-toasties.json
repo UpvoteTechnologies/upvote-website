@@ -2,15 +2,6 @@
   "slug": "blue-cheese-and-mustard-toasties",
   "title": "Blue Cheese and Mustard Toasties",
   "blurb": "Crisp toasted bread filled with tangy blue cheese and a hint of Dijon mustard.",
-  "steps": [
-    "Crumble the blue cheese into a bowl and add the Dijon mustard, mixing them together loosely.",
-    "Spread the mixture over two slices of bread, then season with a small pinch of salt.",
-    "Place the remaining slices on top to make two sandwiches.",
-    "Heat the olive oil in a large frying pan over medium heat.",
-    "Place both sandwiches in the pan and cook for about 4 minutes until the underside is golden and crisp.",
-    "Flip the sandwiches carefully and cook for another 4 minutes until the second side is golden and the cheese has softened.",
-    "Remove from the pan and cut each sandwich in half to serve."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 10,
@@ -20,73 +11,12 @@
     "snack"
   ],
   "image": "/media/recipes/blue-cheese-and-mustard-toasties.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 441.2,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 14.148,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 37.794,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.074,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.44,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 26.062,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 11.152,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1124.25,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "gluten-free bread",
-      "measure": "4 slices",
-      "grams": 160
-    },
-    {
-      "text": "blue cheese",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "Dijon mustard",
-      "measure": "2 tsp",
-      "grams": 10
-    },
-    {
-      "text": "olive oil",
-      "measure": "1 tbsp",
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": "pinch",
-      "grams": 1
-    }
-  ]
+    "gluten-free bread",
+    "blue cheese",
+    "Dijon mustard",
+    "olive oil",
+    "salt"
+  ],
+  "stepCount": 7
 }

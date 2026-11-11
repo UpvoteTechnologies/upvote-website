@@ -2,14 +2,6 @@
   "slug": "minted-pineapple",
   "title": "Minted Pineapple",
   "blurb": "Fresh pineapple slices tossed with sugar and mint, left to macerate briefly before serving.",
-  "steps": [
-    "Cut the top and bottom off the pineapple, then slice away the skin in downward strips. Cut the pineapple into quarters lengthways and remove the tough core from each quarter.",
-    "Slice the pineapple flesh thinly across into pieces about 3mm thick and place in a large bowl.",
-    "Pick the mint leaves from their stems and chop them finely.",
-    "Scatter the sugar and chopped mint over the pineapple, then toss everything together with your hands or a spoon.",
-    "Leave the mixture to sit for 10 minutes so the sugar starts to dissolve and the juices begin to run.",
-    "Transfer to a serving dish or individual bowls and serve."
-  ],
   "servings": 8,
   "prepMinutes": 15,
   "cookMinutes": 0,
@@ -17,63 +9,10 @@
     "snack"
   ],
   "image": "/media/recipes/minted-pineapple.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 110.05,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 0.69,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 26.115,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 22.12,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.35,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 0.331,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.013,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 0.05,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "fresh pineapple",
-      "measure": null,
-      "grams": 1200
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "fresh mint",
-      "measure": null,
-      "grams": 15
-    }
-  ]
+    "fresh pineapple",
+    "caster sugar",
+    "fresh mint"
+  ],
+  "stepCount": 6
 }

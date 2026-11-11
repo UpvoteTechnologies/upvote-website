@@ -2,13 +2,6 @@
   "slug": "egg-yolk-tartare",
   "title": "Egg Yolk Tartare",
   "blurb": "A simple raw preparation of egg yolks dressed with capers, shallots and olive oil, served with pepper.",
-  "steps": [
-    "Rinse the capers under cold water and pat them dry, then chop them finely.",
-    "Peel and finely chop the shallots.",
-    "Separate the eggs and place two yolks on each serving plate, keeping them whole.",
-    "Scatter the chopped capers and shallots around the yolks on each plate.",
-    "Drizzle the olive oil over the yolks and season with black pepper to taste."
-  ],
   "servings": 2,
   "prepMinutes": 15,
   "cookMinutes": 0,
@@ -17,73 +10,12 @@
     "snack"
   ],
   "image": "/media/recipes/egg-yolk-tartare.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 156.98,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 3.469,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 0.891,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.146,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.367,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 15.841,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.315,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 186,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "egg yolks",
-      "measure": "4 yolks",
-      "grams": 40
-    },
-    {
-      "text": "capers",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "shallots",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "extra virgin olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "egg yolks",
+    "capers",
+    "shallots",
+    "extra virgin olive oil",
+    "black pepper"
+  ],
+  "stepCount": 5
 }

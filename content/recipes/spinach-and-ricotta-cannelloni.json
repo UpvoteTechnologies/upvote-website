@@ -2,14 +2,6 @@
   "slug": "spinach-and-ricotta-cannelloni",
   "title": "Spinach and Ricotta Cannelloni",
   "blurb": "Pasta tubes filled with creamy ricotta and spinach, baked in a simple white sauce until golden.",
-  "steps": [
-    "Heat the oven to 190°C. Wilt the spinach in a large pan over medium heat until collapsed, then squeeze out excess water and chop roughly.",
-    "Mix the ricotta with the chopped spinach, half the Parmesan, a pinch of nutmeg, and salt and pepper to taste.",
-    "Melt the butter in a saucepan, stir in the flour and cook for one minute, then gradually whisk in the milk until smooth. Simmer for five minutes until thickened, then season with salt and pepper.",
-    "Spoon the ricotta mixture into the cannelloni tubes and arrange them in a single layer in a baking dish.",
-    "Pour the white sauce over the filled pasta, covering it completely, then scatter the remaining Parmesan on top.",
-    "Bake for 35 minutes until the top is golden and the pasta is tender when pierced with a knife."
-  ],
   "servings": 4,
   "prepMinutes": 20,
   "cookMinutes": 35,
@@ -18,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/spinach-and-ricotta-cannelloni.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 686.493,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 30.32,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 72.075,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 9.664,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 4.839,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 30.189,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 16.9,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 956.715,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "dried cannelloni tubes",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "spinach",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "ricotta cheese",
-      "measure": null,
-      "grams": 350
-    },
-    {
-      "text": "Parmesan cheese, grated",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "whole milk",
-      "measure": "ml",
-      "grams": 600
-    },
-    {
-      "text": "butter",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "ground nutmeg",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "ground black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    }
-  ]
+    "dried cannelloni tubes",
+    "spinach",
+    "ricotta cheese",
+    "Parmesan cheese, grated",
+    "plain flour",
+    "whole milk",
+    "butter",
+    "ground nutmeg",
+    "ground black pepper",
+    "salt"
+  ],
+  "stepCount": 6
 }

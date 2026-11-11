@@ -2,15 +2,6 @@
   "slug": "veal-and-rosemary-pie-with-carrots",
   "title": "Veal and Rosemary Pie with Carrots",
   "blurb": "Tender veal and carrots braised with rosemary in a rich gravy, enclosed in golden puff pastry.",
-  "steps": [
-    "Heat the olive oil and butter in a large casserole dish over medium-high heat, then brown the veal pieces on all sides and remove to a plate.",
-    "Add the onion to the pan and cook until softened, then stir in the flour and cook for one minute.",
-    "Pour in the beef stock gradually, stirring to avoid lumps, then return the veal to the pan with the carrots, rosemary, salt and pepper.",
-    "Bring to a simmer, cover with a lid, and cook in a preheated oven at 160°C for 90 minutes until the veal is tender.",
-    "Remove from the oven, discard the rosemary stalks, and allow the filling to cool for 20 minutes.",
-    "Transfer the filling to a pie dish, then roll out the puff pastry and lay it over the top, trimming and crimping the edges to seal.",
-    "Brush the pastry with beaten egg, cut a small steam hole in the centre, and bake at 200°C for 25 to 30 minutes until the pastry is puffed and golden."
-  ],
   "servings": 4,
   "prepMinutes": 15,
   "cookMinutes": 120,
@@ -18,108 +9,19 @@
     "dinner"
   ],
   "image": "/media/recipes/veal-and-rosemary-pie-with-carrots.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "veal shoulder, diced",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "carrots, cut into 1 cm cubes",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "puff pastry dough",
-      "measure": null,
-      "grams": 375
-    },
-    {
-      "text": "onion, finely chopped",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "fresh rosemary",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "beef stock",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "salt",
-      "measure": "to taste",
-      "grams": 6
-    },
-    {
-      "text": "ground black pepper",
-      "measure": "to taste",
-      "grams": 2
-    },
-    {
-      "text": "egg, beaten",
-      "measure": null,
-      "grams": 50
-    }
-  ]
+    "veal shoulder, diced",
+    "carrots, cut into 1 cm cubes",
+    "puff pastry dough",
+    "onion, finely chopped",
+    "fresh rosemary",
+    "plain flour",
+    "beef stock",
+    "olive oil",
+    "unsalted butter",
+    "salt",
+    "ground black pepper",
+    "egg, beaten"
+  ],
+  "stepCount": 7
 }

@@ -2,14 +2,6 @@
   "slug": "curried-prawn-salad",
   "title": "Curried Prawn Salad",
   "blurb": "A quick, no-cook salad with prawns tossed in a mild curry dressing, served over crisp lettuce with cucumber and tomatoes.",
-  "steps": [
-    "Pat the cooked prawns dry with kitchen paper and place in a large mixing bowl.",
-    "In a small bowl, whisk together the Greek yoghurt, mayonnaise, curry powder, lemon juice and olive oil until smooth.",
-    "Dice the cucumber and halve the cherry tomatoes, then add them to the prawns.",
-    "Finely slice the spring onions and stir them into the prawn mixture.",
-    "Pour the curry dressing over the prawns and vegetables, then toss gently until everything is well coated.",
-    "Separate the lettuce leaves, arrange them on a serving platter, and spoon the curried prawn mixture over the top."
-  ],
   "servings": 6,
   "prepMinutes": 20,
   "cookMinutes": 0,
@@ -18,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/curried-prawn-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 195.8,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 16.355,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 5.988,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 2.371,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.364,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 11.516,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.847,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 203.325,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "cooked king prawns",
-      "measure": null,
-      "grams": 680
-    },
-    {
-      "text": "Greek yoghurt",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "mayonnaise",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "curry powder",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "fresh lemon juice",
-      "measure": null,
-      "grams": 45
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "cucumber",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "cherry tomatoes",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "little gem lettuce",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "spring onions",
-      "measure": null,
-      "grams": 50
-    }
-  ]
+    "cooked king prawns",
+    "Greek yoghurt",
+    "mayonnaise",
+    "curry powder",
+    "fresh lemon juice",
+    "olive oil",
+    "cucumber",
+    "cherry tomatoes",
+    "little gem lettuce",
+    "spring onions"
+  ],
+  "stepCount": 6
 }

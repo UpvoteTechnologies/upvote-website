@@ -6,126 +6,15 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/what-sunflower-oil-means-for-your-plan.jpg",
-  "blocks": [
-    {
-      "kind": "heading",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "What it is"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "Sunflower oil is an edible oil pressed from sunflower seeds (Helianthus annuus). It is light-flavoured and high in unsaturated fat."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "Why it is in your food"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "Manufacturers use sunflower oil as a fat/oil and it is of plant origin."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b5",
-      "spans": [
-        {
-          "text": "How our rules read it"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b6",
-      "spans": [
-        {
-          "text": "Our rules read sunflower oil as a seed oil."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b7",
-      "spans": [
-        {
-          "text": "When it matters to you"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b8",
-      "spans": [
-        {
-          "text": "Our scorer looks for sunflower oil when Seed-oil free is on for you. If that plan is off, your score does not change. This is how the app reads a label. It is not a claim about health."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b9",
-      "spans": [
-        {
-          "text": "What it may be called"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b10",
-      "spans": [
-        {
-          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
-        }
-      ]
-    },
-    {
-      "kind": "terms",
-      "key": "b11",
-      "source": "kb",
-      "items": [
-        "aceite de girasol",
-        "aceite de maravilla",
-        "aceite de semillas de girasol",
-        "huile de tournesol",
-        "oli de gira-sol",
-        "olio di girasole",
-        "olio di semi di girasole",
-        "olio vegetale di semi di girasole",
-        "sonnenblumenöl",
-        "sunflower oil",
-        "zonnebloemolie",
-        "óleo de girassol",
-        "óleo vegetal de girassol"
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b12",
-      "spans": [
-        {
-          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
-        }
-      ]
-    }
+  "intro": [
+    "Sunflower oil is an edible oil pressed from sunflower seeds (Helianthus annuus). It is light-flavoured and high in unsaturated fat."
   ],
-  "citations": {}
+  "sections": [
+    "What it is",
+    "Why it is in your food",
+    "How our rules read it",
+    "When it matters to you",
+    "What it may be called"
+  ],
+  "sourceCount": 0
 }

@@ -2,15 +2,6 @@
   "slug": "pan-fried-sea-bass-with-tomato-and-artichoke-sauce",
   "title": "Pan-Fried Sea Bass with Tomato and Artichoke Sauce",
   "blurb": "Tender sea bass fillets served with a Mediterranean sauce of cherry tomatoes, artichoke hearts and onion",
-  "steps": [
-    "Peel and finely chop the onion and garlic. Halve the cherry tomatoes and drain and quarter the artichoke hearts.",
-    "Season the sea bass fillets on both sides with salt and pepper.",
-    "Heat two tablespoons of olive oil in a large frying pan over medium-high heat and cook the sea bass skin-side down for 4 minutes, then flip and cook for another 2 minutes until just cooked through. Remove to a warm plate.",
-    "Add the remaining olive oil to the same pan, then cook the onion and garlic over medium heat for 2 minutes until softened.",
-    "Add the tomatoes and cook for 3 minutes until they start to break down, then add the white wine and let it bubble for a minute.",
-    "Stir in the artichoke hearts and cook for another 2 minutes to heat through. Season the sauce with salt and pepper.",
-    "Return the sea bass to the pan to warm through briefly, then serve with the sauce spooned over."
-  ],
   "servings": 4,
   "prepMinutes": 12,
   "cookMinutes": 15,
@@ -19,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/pan-fried-sea-bass-with-tomato-and-artichoke-sauce.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "sea bass fillets",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "extra virgin olive oil",
-      "measure": "3 tablespoons",
-      "grams": 40
-    },
-    {
-      "text": "small onion",
-      "measure": "1 small",
-      "grams": 100
-    },
-    {
-      "text": "red cherry tomatoes",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "artichoke hearts in water",
-      "measure": null,
-      "grams": 280
-    },
-    {
-      "text": "black pepper",
-      "measure": "1 teaspoon",
-      "grams": 2
-    },
-    {
-      "text": "sea salt",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "garlic cloves",
-      "measure": "2 cloves",
-      "grams": 10
-    },
-    {
-      "text": "white wine",
-      "measure": null,
-      "grams": 100
-    }
-  ]
+    "sea bass fillets",
+    "extra virgin olive oil",
+    "small onion",
+    "red cherry tomatoes",
+    "artichoke hearts in water",
+    "black pepper",
+    "sea salt",
+    "garlic cloves",
+    "white wine"
+  ],
+  "stepCount": 7
 }

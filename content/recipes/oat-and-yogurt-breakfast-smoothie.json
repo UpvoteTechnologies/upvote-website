@@ -2,11 +2,6 @@
   "slug": "oat-and-yogurt-breakfast-smoothie",
   "title": "Oat and Yogurt Breakfast Smoothie",
   "blurb": "A thick, filling smoothie that blends rolled oats with yogurt, orange, carrot and banana for a protein-rich start to the day.",
-  "steps": [
-    "Put the oats, yogurt, orange, carrot, banana and water into a blender.",
-    "Blend on high speed until completely smooth and creamy, about one minute.",
-    "Pour into a glass and drink straight away, or chill for ten minutes if you prefer it colder."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 0,
@@ -15,78 +10,13 @@
     "snack"
   ],
   "image": "/media/recipes/oat-and-yogurt-breakfast-smoothie.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 420.3,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 12.068,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 72.14,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 35.743,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 8.88,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 9.336,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.96,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 122,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "rolled oats",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "low-fat plain yogurt",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "medium orange, peeled and seeded",
-      "measure": null,
-      "grams": 130
-    },
-    {
-      "text": "small carrot, shredded",
-      "measure": null,
-      "grams": 50
-    },
-    {
-      "text": "small banana, peeled",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "cold water",
-      "measure": null,
-      "grams": 100
-    }
-  ]
+    "rolled oats",
+    "low-fat plain yogurt",
+    "medium orange, peeled and seeded",
+    "small carrot, shredded",
+    "small banana, peeled",
+    "cold water"
+  ],
+  "stepCount": 3
 }

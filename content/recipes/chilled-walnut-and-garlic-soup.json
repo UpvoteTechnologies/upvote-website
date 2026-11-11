@@ -2,13 +2,6 @@
   "slug": "chilled-walnut-and-garlic-soup",
   "title": "Chilled Walnut and Garlic Soup",
   "blurb": "A creamy cold soup with crushed walnuts and raw garlic, smoothed with cream and served chilled.",
-  "steps": [
-    "Peel the garlic cloves and crush them with the flat of a knife, then chop finely.",
-    "Put the walnuts in a food processor or blender with the garlic and blend until you have a fairly smooth paste.",
-    "Add the cream, cold water, salt, pepper and lemon juice, then blend again until completely smooth.",
-    "Taste and adjust the seasoning if needed, then transfer to a bowl or jug.",
-    "Cover and chill in the fridge for at least 15 minutes before serving."
-  ],
   "servings": 2,
   "prepMinutes": 20,
   "cookMinutes": 0,
@@ -17,83 +10,14 @@
     "snack"
   ],
   "image": "/media/recipes/chilled-walnut-and-garlic-soup.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 451.88,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 8.619,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 10.061,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 4.064,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.432,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 42.284,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 10.069,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 637.95,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "walnut halves",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "single cream",
-      "measure": "ml",
-      "grams": 150
-    },
-    {
-      "text": "cold water",
-      "measure": "ml",
-      "grams": 200
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "ground black pepper",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "lemon juice",
-      "measure": "ml",
-      "grams": 15
-    }
-  ]
+    "walnut halves",
+    "garlic cloves",
+    "single cream",
+    "cold water",
+    "salt",
+    "ground black pepper",
+    "lemon juice"
+  ],
+  "stepCount": 5
 }

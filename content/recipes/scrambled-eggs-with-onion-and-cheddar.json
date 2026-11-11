@@ -2,14 +2,6 @@
   "slug": "scrambled-eggs-with-onion-and-cheddar",
   "title": "Scrambled Eggs with Onion and Cheddar",
   "blurb": "Soft scrambled eggs with sweet caramelised onion and melted cheddar.",
-  "steps": [
-    "Heat the oil in a non-stick frying pan over medium heat and add the chopped onion.",
-    "Cook the onion for 6 to 7 minutes, stirring occasionally, until softened and golden.",
-    "Crack the eggs into a bowl and beat them lightly with a fork.",
-    "Pour the eggs into the pan with the onion and let them sit for a few seconds.",
-    "Gently stir and fold the eggs with a spatula, cooking until they form soft curds but are still slightly wet.",
-    "Remove the pan from the heat, scatter over the cheddar and fold through gently so it melts into the eggs."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 10,
@@ -19,68 +11,11 @@
     "dinner"
   ],
   "image": "/media/recipes/scrambled-eggs-with-onion-and-cheddar.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 414.2,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 26.47,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 9.644,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.791,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.36,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 30.22,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 10.924,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 392.9,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "chopped onion",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "canola oil",
-      "measure": "tsp",
-      "grams": 5
-    },
-    {
-      "text": "large eggs",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "shredded cheddar cheese",
-      "measure": null,
-      "grams": 30
-    }
-  ]
+    "chopped onion",
+    "canola oil",
+    "large eggs",
+    "shredded cheddar cheese"
+  ],
+  "stepCount": 6
 }

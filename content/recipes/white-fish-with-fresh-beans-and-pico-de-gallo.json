@@ -2,15 +2,6 @@
   "slug": "white-fish-with-fresh-beans-and-pico-de-gallo",
   "title": "White Fish with Fresh Beans and Pico de Gallo",
   "blurb": "Pan-fried white fish topped with a fresh salsa of tomatoes, red pepper, coriander and lemon, served alongside tender green beans.",
-  "steps": [
-    "Trim the green beans and cook them in boiling salted water for 5 minutes until tender, then drain and set aside.",
-    "Finely chop the tomatoes, red pepper and red onion, then place them in a bowl.",
-    "Roughly chop the coriander and add it to the bowl along with the juice of the lemon, a pinch of salt and some black pepper, then stir to combine.",
-    "Pat the fish fillets dry with kitchen paper and season both sides with salt and pepper.",
-    "Heat half the olive oil in a frying pan over medium-high heat and cook the fish for 3 to 4 minutes on each side until golden and cooked through.",
-    "Warm the green beans in the remaining olive oil in a separate pan for a minute or two.",
-    "Serve the fish on plates with the green beans alongside and spoon the pico de gallo over the top of the fish."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 20,
@@ -19,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/white-fish-with-fresh-beans-and-pico-de-gallo.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "white fish fillets",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "green beans",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "plum tomatoes",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "red pepper",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "red onion",
-      "measure": null,
-      "grams": 50
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "white fish fillets",
+    "green beans",
+    "plum tomatoes",
+    "red pepper",
+    "red onion",
+    "fresh coriander",
+    "lemon",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 7
 }

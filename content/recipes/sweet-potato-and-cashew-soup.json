@@ -2,14 +2,6 @@
   "slug": "sweet-potato-and-cashew-soup",
   "title": "Sweet Potato and Cashew Soup",
   "blurb": "A smooth, gently spiced soup with roasted sweet potato, ground cashews and paprika, finished with crisp bread croutons.",
-  "steps": [
-    "Heat the oven to 200°C and cut the sweet potato into chunks, then toss with half the olive oil and roast for 25 minutes until tender and starting to caramelise.",
-    "Meanwhile, finely chop the onion and garlic, then soften them in a saucepan with the remaining oil over medium heat for 8 minutes.",
-    "Stir in the paprika and cashews, cooking for another minute until fragrant.",
-    "Add the roasted sweet potato and vegetable stock to the pan, bring to a simmer and cook for 5 minutes.",
-    "Blend the soup until completely smooth, then season with salt to taste.",
-    "Tear the bread into rough pieces, toast under the grill until golden and crisp, then scatter over the soup to serve."
-  ],
   "servings": 1,
   "prepMinutes": 35,
   "cookMinutes": 25,
@@ -18,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/sweet-potato-and-cashew-soup.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 782.84,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 15.736,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 104.351,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 22.141,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 13.389,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 36.261,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 6.106,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 2314.46,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "sweet potato",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "white onion",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 6
-    },
-    {
-      "text": "ground paprika",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "cashews",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "vegetable stock",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "white bread",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "sweet potato",
+    "olive oil",
+    "white onion",
+    "garlic cloves",
+    "ground paprika",
+    "cashews",
+    "vegetable stock",
+    "white bread",
+    "salt"
+  ],
+  "stepCount": 6
 }

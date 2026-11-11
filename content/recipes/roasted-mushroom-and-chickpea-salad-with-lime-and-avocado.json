@@ -2,14 +2,6 @@
   "slug": "roasted-mushroom-and-chickpea-salad-with-lime-and-avocado",
   "title": "Roasted Mushroom and Chickpea Salad with Lime and Avocado",
   "blurb": "Warm roasted mushrooms and chickpeas tossed with creamy avocado, fresh basil and a sharp lime dressing.",
-  "steps": [
-    "Heat your oven to 200°C. Halve or quarter the mushrooms so they are roughly even sized, then drain and rinse the chickpeas.",
-    "Toss the mushrooms and chickpeas on a baking tray with half the olive oil, the crushed garlic, salt and pepper. Roast for 20 minutes until the mushrooms are golden and the chickpeas slightly crisp.",
-    "While they roast, juice the lime into a small bowl and whisk in the remaining olive oil with a pinch of salt.",
-    "Halve the avocado, remove the stone and scoop the flesh into chunks.",
-    "When the mushrooms and chickpeas are done, let them cool for a few minutes, then combine in a bowl with the avocado.",
-    "Tear the basil leaves over the top, pour over the lime dressing and toss gently to coat everything."
-  ],
   "servings": 2,
   "prepMinutes": 25,
   "cookMinutes": 20,
@@ -18,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/roasted-mushroom-and-chickpea-salad-with-lime-and-avocado.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 755.395,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 30.148,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 89.599,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 16.112,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 22.137,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 33.776,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 4.465,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 429.96,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "button mushrooms",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "chickpeas",
-      "measure": "drained weight",
-      "grams": 240
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 6
-    },
-    {
-      "text": "lime",
-      "measure": "juice only",
-      "grams": 30
-    },
-    {
-      "text": "avocado",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "fresh basil leaves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "button mushrooms",
+    "chickpeas",
+    "olive oil",
+    "garlic cloves",
+    "lime",
+    "avocado",
+    "fresh basil leaves",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

@@ -2,13 +2,6 @@
   "slug": "mediterranean-beef-stir-fry",
   "title": "Mediterranean Beef Stir-Fry",
   "blurb": "Tender strips of beef cooked quickly with garlic, tomatoes and Mediterranean herbs for a simple weeknight meal.",
-  "steps": [
-    "Slice the beef into thin strips against the grain and season with half the salt and pepper.",
-    "Heat half the olive oil in a large frying pan over high heat and cook the beef in two batches for 2 minutes per batch until browned, then set aside.",
-    "Reduce the heat to medium, add the remaining oil and cook the minced garlic for 30 seconds until fragrant.",
-    "Add the diced tomatoes and oregano, then cook for 8 minutes, stirring occasionally, until the tomatoes break down into a sauce.",
-    "Return the beef to the pan with the vinegar and remaining salt and pepper, stir through for 2 minutes to heat, then serve."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 20,
@@ -17,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/mediterranean-beef-stir-fry.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 259.293,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 28.537,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 5.24,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 2.682,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.557,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 13.516,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.214,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 464.085,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "beef sirloin steak",
-      "measure": null,
-      "grams": 500
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 12
-    },
-    {
-      "text": "Roma tomatoes",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "dried oregano",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "red wine vinegar",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "beef sirloin steak",
+    "olive oil",
+    "garlic cloves",
+    "Roma tomatoes",
+    "dried oregano",
+    "red wine vinegar",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 5
 }

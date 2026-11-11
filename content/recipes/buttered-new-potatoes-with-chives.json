@@ -2,13 +2,6 @@
   "slug": "buttered-new-potatoes-with-chives",
   "title": "Buttered New Potatoes with Chives",
   "blurb": "Tender small potatoes tossed with butter and fresh chives, seasoned simply with salt and pepper.",
-  "steps": [
-    "Bring a large pan of salted water to the boil.",
-    "Add the potatoes and cook for 5 to 6 minutes until tender when pierced with a knife.",
-    "Drain the potatoes well and return them to the warm pan.",
-    "Add the butter and let it melt over the hot potatoes, then toss gently to coat.",
-    "Scatter over the chopped chives and season with salt and pepper to taste."
-  ],
   "servings": 2,
   "prepMinutes": 3,
   "cookMinutes": 6,
@@ -17,73 +10,12 @@
     "dinner"
   ],
   "image": "/media/recipes/buttered-new-potatoes-with-chives.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 249.003,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.396,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 35.365,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 1.807,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 4.388,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 10.5,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 5.761,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 400.45,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "small potatoes",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "unsalted butter",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "fresh chives, chopped",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "salt",
-      "measure": "to taste",
-      "grams": 2
-    },
-    {
-      "text": "ground black pepper",
-      "measure": "to taste",
-      "grams": 0.5
-    }
-  ]
+    "small potatoes",
+    "unsalted butter",
+    "fresh chives, chopped",
+    "salt",
+    "ground black pepper"
+  ],
+  "stepCount": 5
 }

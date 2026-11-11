@@ -1,5 +1,5 @@
 /**
- * The editorial content copied from the app by `npm run sync-content` (see
+ * Previews of the app's editorial content, copied by `npm run sync-content` (see
  * `scripts/sync-content.mjs`). Pages read it from disk at build time, never from the API.
  *
  * A Portuguese article exists only when `content/articles/pt-br/<slug>.json` does; there is no
@@ -7,42 +7,6 @@
  */
 import type { Locale } from '../i18n';
 import { localePath } from '../i18n';
-
-export interface Span {
-  text: string;
-  strong?: true;
-  em?: true;
-  cite?: string;
-}
-
-export interface Citation {
-  authority: string;
-  doc?: string;
-  year?: number;
-  url?: string;
-}
-
-interface FigureResolved {
-  value: string;
-  method?: string | null;
-  n?: number | null;
-  excluded?: number | null;
-  excludedNote?: string | null;
-  limit?: string | null;
-}
-
-/** Block kinds the site renders. Kinds that only make sense in the app are skipped at render. */
-export type ArticleBlock =
-  | { kind: 'paragraph'; key: string; spans: Span[] }
-  | { kind: 'heading'; key: string; spans: Span[] }
-  | { kind: 'list'; key: string; ordered?: boolean; items: Span[][] }
-  | { kind: 'callout'; key: string; tone: 'neutral' | 'caution'; title?: string; spans: Span[] }
-  | { kind: 'uncertainty'; key: string; spans: Span[] }
-  | { kind: 'figure'; key: string; label: string; caption?: string; resolved?: FigureResolved | null }
-  | { kind: 'terms'; key: string; items: string[] }
-  | { kind: 'citation'; key: string; citationId: string }
-  | { kind: 'plan'; key: string; cue: string; action: string }
-  | { kind: 'entity' | 'product' | 'swap' | 'image'; key: string };
 
 export interface Article {
   slug: string;
@@ -52,8 +16,11 @@ export interface Article {
   evidenceTier: string;
   sourceLabel: string | null;
   image: string | null;
-  blocks: ArticleBlock[];
-  citations: Record<string, Citation>;
+  /** Opening paragraphs, shown on the site as a preview. The rest is read in the app. */
+  intro: string[];
+  /** Section headings, shown as the outline of what the app has. */
+  sections: string[];
+  sourceCount: number;
 }
 
 export interface DietText {
@@ -82,14 +49,14 @@ export interface Recipe {
   slug: string;
   title: string;
   blurb: string;
-  steps: string[];
   servings: number | null;
   prepMinutes: number | null;
   cookMinutes: number | null;
   mealSlots: string[];
   image: string | null;
-  perServing: { key: string; value: number | null; status: string }[];
-  ingredients: { text: string; measure: string | null; grams: number | null }[];
+  /** Ingredient names only; quantities, method and nutrition are in the app. */
+  ingredients: string[];
+  stepCount: number;
 }
 
 function load<T extends { slug: string }>(modules: Record<string, unknown>): T[] {
@@ -183,23 +150,4 @@ export function neighbours<T extends { slug: string }>(items: T[], slug: string,
   const index = items.findIndex((item) => item.slug === slug);
   const others = [...items.slice(index + 1), ...items.slice(0, Math.max(index, 0))];
   return others.slice(0, count);
-}
-
-/** Plain text of a run of spans, for meta tags and structured data. */
-export function spansText(spans: Span[]): string {
-  return spans.map((span) => span.text).join('');
-}
-
-const BARE_UNIT = /^(ml|g|tsp|tbsp|cups?|teaspoons?|tablespoons?|ounces|oz|cloves?)$/i;
-
-/** "45 g soy sauce (3 tablespoons)". A measure that is only a unit name adds nothing and is dropped. */
-export function ingredientLine(item: Recipe['ingredients'][number]): string {
-  const grams = item.grams === null ? '' : `${Number(item.grams.toFixed(1))} g `;
-  const measure = item.measure && !BARE_UNIT.test(item.measure.trim()) ? ` (${item.measure.trim()})` : '';
-  return `${grams}${item.text}${measure}`;
-}
-
-/** Minutes as an ISO 8601 duration, the format schema.org expects. */
-export function isoMinutes(minutes: number): string {
-  return `PT${Math.round(minutes)}M`;
 }

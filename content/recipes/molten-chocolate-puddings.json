@@ -2,98 +2,19 @@
   "slug": "molten-chocolate-puddings",
   "title": "Molten Chocolate Puddings",
   "blurb": "Individual chocolate puddings with a soft, flowing centre, baked until the edges are set but the middle remains liquid.",
-  "steps": [
-    "Heat the oven to 200°C and butter six small ramekins or dariole moulds thoroughly.",
-    "Break the chocolate into pieces and melt it with the butter in a heatproof bowl set over a pan of barely simmering water, stirring occasionally until smooth.",
-    "Whisk the whole eggs, egg yolks and caster sugar together in a large bowl until pale and slightly thickened.",
-    "Pour the melted chocolate mixture into the eggs and fold together gently, then sift in the flour and fold until just combined.",
-    "Divide the mixture between the prepared moulds, filling each about three-quarters full.",
-    "Place the moulds on a baking tray and bake for 10 minutes, until the edges are set but the centres still wobble slightly when shaken.",
-    "Leave to stand for one minute, then run a knife around the edge of each pudding and turn out onto serving plates.",
-    "Dust with icing sugar and serve immediately while the centres are still molten."
-  ],
   "servings": 6,
   "prepMinutes": 15,
   "cookMinutes": 10,
   "mealSlots": [],
   "image": "/media/recipes/molten-chocolate-puddings.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 446.175,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 7.39,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 35.489,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 26.715,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.98,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 30.556,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 15.962,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 161.417,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "unsalted butter, plus extra for greasing",
-      "measure": null,
-      "grams": 125
-    },
-    {
-      "text": "dark chocolate, 70% cocoa solids",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "large eggs",
-      "measure": "4 eggs",
-      "grams": 200
-    },
-    {
-      "text": "large egg yolks",
-      "measure": "2 yolks",
-      "grams": 40
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "icing sugar, for dusting",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "unsalted butter, plus extra for greasing",
+    "dark chocolate, 70% cocoa solids",
+    "large eggs",
+    "large egg yolks",
+    "caster sugar",
+    "plain flour",
+    "icing sugar, for dusting"
+  ],
+  "stepCount": 8
 }
