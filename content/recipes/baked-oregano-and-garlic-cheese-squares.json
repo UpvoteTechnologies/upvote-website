@@ -2,14 +2,6 @@
   "slug": "baked-oregano-and-garlic-cheese-squares",
   "title": "Baked Oregano and Garlic Cheese Squares",
   "blurb": "A savoury baked slice with herbs, garlic and melted cheese, cut into squares for a light lunch or snack.",
-  "steps": [
-    "Preheat your oven to 180°C and grease a 20cm square baking tin with a little of the olive oil.",
-    "Whisk the eggs in a large bowl until well combined, then stir in the cheese, flour, baking powder, oregano and black pepper.",
-    "Add the crushed garlic, chopped parsley and remaining olive oil, mixing until you have a thick batter.",
-    "Pour the mixture into the prepared tin and spread it evenly to the edges.",
-    "Bake for 35 minutes until golden on top and set in the centre.",
-    "Leave to cool for 5 minutes in the tin, then turn out and cut into 8 squares."
-  ],
   "servings": 8,
   "prepMinutes": 10,
   "cookMinutes": 35,
@@ -19,93 +11,16 @@
     "snack"
   ],
   "image": "/media/recipes/baked-oregano-and-garlic-cheese-squares.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 245.209,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 12.198,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 13.708,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.297,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.762,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 15.916,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 6.555,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 282.363,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "large eggs",
-      "measure": "6 eggs",
-      "grams": 300
-    },
-    {
-      "text": "shredded Monterey Jack cheese",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "garlic cloves, crushed",
-      "measure": "3 cloves",
-      "grams": 15
-    },
-    {
-      "text": "dried oregano",
-      "measure": "1 tsp",
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": "1 tsp",
-      "grams": 2
-    },
-    {
-      "text": "baking powder",
-      "measure": "1 tsp",
-      "grams": 5
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "fresh parsley, chopped",
-      "measure": null,
-      "grams": 20
-    }
-  ]
+    "large eggs",
+    "shredded Monterey Jack cheese",
+    "plain flour",
+    "garlic cloves, crushed",
+    "dried oregano",
+    "black pepper",
+    "baking powder",
+    "olive oil",
+    "fresh parsley, chopped"
+  ],
+  "stepCount": 6
 }

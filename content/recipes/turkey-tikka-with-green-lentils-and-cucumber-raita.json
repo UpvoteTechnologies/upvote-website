@@ -2,13 +2,6 @@
   "slug": "turkey-tikka-with-green-lentils-and-cucumber-raita",
   "title": "Turkey Tikka with Green Lentils and Cucumber Raita",
   "blurb": "Spiced turkey escalopes served with herbed green lentils and a cooling cucumber and cottage cheese raita.",
-  "steps": [
-    "Peel and grate the ginger and garlic, then mix in a bowl with the yoghurt, garam masala, ground cumin, ground coriander and a pinch of salt. Add the turkey escalopes and turn to coat, then leave to marinate for 20 minutes.",
-    "Rinse the lentils and place in a saucepan with the vegetable stock. Bring to the boil, then reduce the heat and simmer for 20 to 25 minutes until tender and the liquid is absorbed.",
-    "Meanwhile, peel and dice the cucumber into small pieces. Mix with the cottage cheese and half the chopped parsley, then squeeze over half the lemon juice and season with salt.",
-    "Heat the olive oil in a large frying pan over medium-high heat. Shake excess marinade from the turkey and cook for 4 to 5 minutes each side until golden and cooked through.",
-    "Stir the remaining parsley through the cooked lentils and squeeze over the remaining lemon juice. Serve the turkey alongside the lentils with the cucumber raita spooned over."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 25,
@@ -17,123 +10,22 @@
     "dinner"
   ],
   "image": "/media/recipes/turkey-tikka-with-green-lentils-and-cucumber-raita.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 671.75,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 58.883,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 60.526,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.456,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 9.408,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 22.982,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 5.368,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1567.42,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "turkey breast escalopes",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "natural yoghurt",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "garam masala",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "ground cumin",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "ground coriander",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "fresh ginger",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "dried green lentils",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "vegetable stock",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "cucumber",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "cottage cheese",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "flat-leaf parsley",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    }
-  ]
+    "turkey breast escalopes",
+    "natural yoghurt",
+    "garam masala",
+    "ground cumin",
+    "ground coriander",
+    "garlic cloves",
+    "fresh ginger",
+    "dried green lentils",
+    "vegetable stock",
+    "cucumber",
+    "cottage cheese",
+    "flat-leaf parsley",
+    "lemon",
+    "olive oil",
+    "salt"
+  ],
+  "stepCount": 5
 }

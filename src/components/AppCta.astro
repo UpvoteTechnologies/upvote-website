@@ -4,14 +4,17 @@ import { getDict, type Locale } from '../i18n';
 
 interface Props {
   locale: Locale;
+  /** Override the default copy, e.g. to say what the app has beyond this page. */
+  title?: string;
+  body?: string;
 }
 
-const { locale } = Astro.props;
+const { locale, title, body } = Astro.props;
 const t = getDict(locale).appCta;
 ---
 
 <aside class="rounded-[22px] bg-brand-dark px-6 py-8 sm:px-10 sm:py-10">
-  <h2 class="text-[24px] font-extrabold tracking-[-.02em] text-white sm:text-[28px]">{t.title}</h2>
-  <p class="mt-3 max-w-[620px] text-[15px] font-medium leading-[1.6] text-white/[.78]">{t.body}</p>
+  <h2 class="text-[24px] font-extrabold tracking-[-.02em] text-white sm:text-[28px]">{title ?? t.title}</h2>
+  <p class="mt-3 max-w-[620px] text-[15px] font-medium leading-[1.6] text-white/[.78]">{body ?? t.body}</p>
   <StoreButtons locale={locale} className="mt-6" />
 </aside>

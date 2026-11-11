@@ -2,15 +2,6 @@
   "slug": "coconut-and-hazelnut-macaroons",
   "title": "Coconut and Hazelnut Macaroons",
   "blurb": "Chewy coconut biscuits studded with toasted hazelnuts, crisp on the outside and soft within.",
-  "steps": [
-    "Heat your oven to 160°C and lightly spray a baking tray with cooking spray, or line it with baking paper.",
-    "Roughly chop the hazelnuts into halves and quarters, then toast them in a dry pan over medium heat for three to four minutes until fragrant.",
-    "Whisk the egg whites in a bowl until they hold soft peaks.",
-    "Gently fold in the sugar, then add the desiccated coconut, toasted hazelnuts and vanilla extract until combined.",
-    "Spoon twelve mounds of the mixture onto the prepared tray, spacing them apart.",
-    "Bake for 25 to 27 minutes until the macaroons are golden brown at the edges and firm to touch.",
-    "Leave them on the tray for five minutes, then transfer to a wire rack to cool completely."
-  ],
   "servings": 12,
   "prepMinutes": 8,
   "cookMinutes": 27,
@@ -18,78 +9,13 @@
     "snack"
   ],
   "image": "/media/recipes/coconut-and-hazelnut-macaroons.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 150.753,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 2.548,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 13.848,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.329,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.158,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 10.249,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 4.835,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 15.648,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "desiccated coconut",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "hazelnuts",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "egg whites",
-      "measure": null,
-      "grams": 90
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "vanilla extract",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "cooking spray",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "desiccated coconut",
+    "hazelnuts",
+    "egg whites",
+    "caster sugar",
+    "vanilla extract",
+    "cooking spray"
+  ],
+  "stepCount": 7
 }

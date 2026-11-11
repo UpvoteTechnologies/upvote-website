@@ -2,11 +2,6 @@
   "slug": "berry-and-spinach-smoothie",
   "title": "Berry and Spinach Smoothie",
   "blurb": "A quick breakfast smoothie that blends leafy greens with frozen fruit and plant milk for a nutritious start to the day.",
-  "steps": [
-    "Put the spinach, frozen berries, almond milk and banana into a blender.",
-    "Blend on high speed until completely smooth, about one minute.",
-    "Pour into two glasses and serve straight away."
-  ],
   "servings": 2,
   "prepMinutes": 5,
   "cookMinutes": 0,
@@ -15,68 +10,11 @@
     "snack"
   ],
   "image": "/media/recipes/berry-and-spinach-smoothie.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 96.9,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 2.399,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 15.203,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 9.606,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.5,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 2.8,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.294,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 153.3,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "baby spinach",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "frozen mixed berries",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "unsweetened almond milk",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "ripe banana",
-      "measure": null,
-      "grams": 120
-    }
-  ]
+    "baby spinach",
+    "frozen mixed berries",
+    "unsweetened almond milk",
+    "ripe banana"
+  ],
+  "stepCount": 3
 }

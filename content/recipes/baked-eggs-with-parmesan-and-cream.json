@@ -2,14 +2,6 @@
   "slug": "baked-eggs-with-parmesan-and-cream",
   "title": "Baked Eggs with Parmesan and Cream",
   "blurb": "Soft eggs baked in butter and cream with a golden Parmesan crust.",
-  "steps": [
-    "Heat your oven to 190°C (170°C fan).",
-    "Grease a small ovenproof dish or ramekin with the butter, making sure the base and sides are coated.",
-    "Pour the cream into the dish and crack the eggs on top, keeping the yolks intact.",
-    "Scatter the Parmesan over the eggs and grind black pepper over the surface.",
-    "Bake for 10 to 12 minutes until the whites are just set but the yolks remain runny.",
-    "Remove from the oven and let it stand for a minute before serving."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 10,
@@ -18,73 +10,12 @@
     "lunch"
   ],
   "image": "/media/recipes/baked-eggs-with-parmesan-and-cream.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 347.305,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 17.54,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 4.283,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 1.119,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.127,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 28.954,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 13.932,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 424.1,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "unsalted butter",
-      "measure": "tsp",
-      "grams": 5
-    },
-    {
-      "text": "double cream",
-      "measure": "tbsp",
-      "grams": 30
-    },
-    {
-      "text": "large eggs",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "grated Parmesan cheese",
-      "measure": "tbsp",
-      "grams": 15
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 0.5
-    }
-  ]
+    "unsalted butter",
+    "double cream",
+    "large eggs",
+    "grated Parmesan cheese",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

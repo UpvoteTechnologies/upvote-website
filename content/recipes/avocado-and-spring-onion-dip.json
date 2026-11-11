@@ -2,13 +2,6 @@
   "slug": "avocado-and-spring-onion-dip",
   "title": "Avocado and Spring Onion Dip",
   "blurb": "A simple, chunky dip that takes minutes to make. Creamy avocado mixed with fresh spring onion and coriander, seasoned with salt and pepper.",
-  "steps": [
-    "Cut the avocados in half, remove the stones, and scoop the flesh into a bowl.",
-    "Trim and finely slice the spring onions, then add them to the bowl.",
-    "Roughly chop the coriander and add it to the avocado mixture.",
-    "Add the salt and black pepper, then mash everything together with a fork until you reach your preferred texture, keeping it fairly chunky.",
-    "Taste and adjust the seasoning if needed, then serve immediately."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -18,73 +11,12 @@
     "snack"
   ],
   "image": "/media/recipes/avocado-and-spring-onion-dip.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 164.69,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 2.289,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 9.561,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.927,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 7.128,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 14.707,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.133,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 300.625,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "ripe avocados",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "spring onions",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fine sea salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "ripe avocados",
+    "spring onions",
+    "fresh coriander",
+    "fine sea salt",
+    "black pepper"
+  ],
+  "stepCount": 5
 }

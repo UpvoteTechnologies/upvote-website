@@ -2,14 +2,6 @@
   "slug": "coconut-oil-chocolate-mug-cake",
   "title": "Coconut Oil Chocolate Mug Cake",
   "blurb": "A quick single-serving chocolate cake made with coconut oil and chocolate chips, ready in minutes.",
-  "steps": [
-    "Melt the coconut oil in a microwave-safe mug for about 20 seconds.",
-    "Add the chocolate chips to the warm oil and stir until mostly melted.",
-    "Crack in the egg and whisk with a fork until smooth.",
-    "Add the flour, sugar, salt and milk, then mix until no lumps remain.",
-    "Microwave on high for 90 seconds to 2 minutes, until the cake has risen and set in the centre.",
-    "Leave to cool for a minute before eating straight from the mug."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 2,
@@ -17,83 +9,14 @@
     "snack"
   ],
   "image": "/media/recipes/coconut-oil-chocolate-mug-cake.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 581.4,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 9.382,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 67.251,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 41.592,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.285,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 32.254,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 22.9,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 252.15,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "coconut oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "bittersweet chocolate chips",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "white flour",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 0.5
-    },
-    {
-      "text": "milk",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "egg",
-      "measure": null,
-      "grams": 25
-    }
-  ]
+    "coconut oil",
+    "bittersweet chocolate chips",
+    "white flour",
+    "caster sugar",
+    "salt",
+    "milk",
+    "egg"
+  ],
+  "stepCount": 6
 }

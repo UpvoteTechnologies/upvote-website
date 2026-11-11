@@ -2,12 +2,6 @@
   "slug": "peaches-with-lemon-and-sugar",
   "title": "Peaches with lemon and sugar",
   "blurb": "Ripe peaches sliced and tossed with fresh lemon juice and a little sugar to bring out their natural sweetness.",
-  "steps": [
-    "Cut the peaches in half, remove the stones, then slice each half into thin wedges.",
-    "Squeeze the lemon juice over the peach slices in a bowl.",
-    "Sprinkle the sugar over the top and gently toss everything together.",
-    "Let the peaches sit for a minute or two so the sugar dissolves slightly, then serve."
-  ],
   "servings": 2,
   "prepMinutes": 3,
   "cookMinutes": 0,
@@ -16,63 +10,10 @@
     "snack"
   ],
   "image": "/media/recipes/peaches-with-lemon-and-sugar.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 93.4,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 1.53,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 21.528,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 17.95,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.67,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 0.466,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.034,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 19.85,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "ripe peaches",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "ripe peaches",
+    "lemon",
+    "caster sugar"
+  ],
+  "stepCount": 4
 }

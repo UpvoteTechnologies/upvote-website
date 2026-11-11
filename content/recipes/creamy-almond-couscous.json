@@ -2,12 +2,6 @@
   "slug": "creamy-almond-couscous",
   "title": "Creamy Almond Couscous",
   "blurb": "A simple storecupboard couscous enriched with evaporated milk powder and toasted almonds, ready in minutes.",
-  "steps": [
-    "Put the couscous, evaporated milk powder and chicken stock powder in a bowl and stir to combine.",
-    "Boil the water and pour it over the couscous mixture, then cover the bowl with a plate and leave for 5 minutes.",
-    "Meanwhile, toast the slivered almonds in a dry frying pan over medium heat for 2 minutes until golden, shaking the pan occasionally.",
-    "Fluff the couscous with a fork and scatter the toasted almonds over the top."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 2,
@@ -17,73 +11,12 @@
     "snack"
   ],
   "image": "/media/recipes/creamy-almond-couscous.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 199.6,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 8.238,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 9.769,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 6.633,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.16,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 14.225,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.267,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 58.65,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "couscous",
-      "measure": null,
-      "grams": 75
-    },
-    {
-      "text": "evaporated milk powder",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "chicken stock powder",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "slivered almonds",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 150
-    }
-  ]
+    "couscous",
+    "evaporated milk powder",
+    "chicken stock powder",
+    "slivered almonds",
+    "water"
+  ],
+  "stepCount": 4
 }

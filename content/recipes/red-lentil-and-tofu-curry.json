@@ -2,15 +2,6 @@
   "slug": "red-lentil-and-tofu-curry",
   "title": "Red Lentil and Tofu Curry",
   "blurb": "A straightforward curry with soft lentils and firm tofu in a spiced broth, finished with fresh coriander.",
-  "steps": [
-    "Peel and finely chop the onion, then peel and crush the garlic.",
-    "Cut the tofu into cubes about two centimetres across.",
-    "Heat the oil in a large saucepan over medium heat, add the onion and cook for four minutes until softened.",
-    "Stir in the garlic, curry powder and cayenne, cook for one minute, then add the lentils and water.",
-    "Bring to a simmer, cover and cook for fifteen minutes until the lentils are tender.",
-    "Add the tofu and salt, simmer for three more minutes to heat through.",
-    "Roughly chop the coriander and stir it through just before serving."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 20,
@@ -19,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/red-lentil-and-tofu-curry.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 241.983,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 18.38,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 37.047,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.213,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 6.378,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 3.407,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.503,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 597.225,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "dried red lentils",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "firm tofu",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "onion",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "curry powder",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "cayenne pepper",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 6
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 15
-    }
-  ]
+    "dried red lentils",
+    "firm tofu",
+    "onion",
+    "garlic cloves",
+    "vegetable oil",
+    "curry powder",
+    "cayenne pepper",
+    "salt",
+    "water",
+    "fresh coriander"
+  ],
+  "stepCount": 7
 }

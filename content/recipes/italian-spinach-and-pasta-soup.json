@@ -2,13 +2,6 @@
   "slug": "italian-spinach-and-pasta-soup",
   "title": "Italian Spinach and Pasta Soup",
   "blurb": "A simple, warming soup with pasta and spinach in a herb-scented vegetable broth.",
-  "steps": [
-    "Heat the olive oil in a large saucepan over medium heat and add the sliced garlic. Cook for one minute until fragrant but not browned.",
-    "Pour in the vegetable stock and bring to the boil. Add the oregano, basil, black pepper and salt.",
-    "Add the pasta and simmer for 8 to 10 minutes until nearly tender, stirring occasionally.",
-    "Stir in the spinach and cook for 2 to 3 minutes until wilted. Taste and adjust the seasoning if needed.",
-    "Ladle into bowls and serve immediately."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 20,
@@ -17,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/italian-spinach-and-pasta-soup.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 206.33,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 7.28,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 33.238,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 2.906,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.401,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 4.885,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.754,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1236.66,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "vegetable stock",
-      "measure": null,
-      "grams": 1200
-    },
-    {
-      "text": "dried pasta shells",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "fresh spinach",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "dried oregano",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "dried basil",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    }
-  ]
+    "vegetable stock",
+    "dried pasta shells",
+    "fresh spinach",
+    "garlic cloves",
+    "olive oil",
+    "dried oregano",
+    "dried basil",
+    "black pepper",
+    "salt"
+  ],
+  "stepCount": 5
 }

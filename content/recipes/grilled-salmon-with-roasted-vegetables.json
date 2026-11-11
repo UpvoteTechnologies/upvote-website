@@ -2,14 +2,6 @@
   "slug": "grilled-salmon-with-roasted-vegetables",
   "title": "Grilled Salmon with Roasted Vegetables",
   "blurb": "Salmon fillets grilled until the skin crisps, served with roasted courgettes, potatoes and onions seasoned with paprika and herbs.",
-  "steps": [
-    "Heat your oven to 200°C and heat your grill to high.",
-    "Cut the potatoes into 2cm chunks and the courgettes into thick rounds. Peel and cut the onion into wedges.",
-    "Toss the vegetables in a roasting tin with half the olive oil, the paprika, thyme, and half the salt and pepper. Roast for 20 minutes until tender and starting to brown.",
-    "Pat the salmon fillets dry and rub with the remaining oil, salt and pepper.",
-    "Place the salmon skin-side up under the grill for 3 to 4 minutes, then turn and grill for another 3 to 4 minutes until cooked through.",
-    "Serve the salmon on top of the roasted vegetables."
-  ],
   "servings": 2,
   "prepMinutes": 20,
   "cookMinutes": 20,
@@ -18,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/grilled-salmon-with-roasted-vegetables.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 594.705,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 36.281,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 38.307,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.65,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 6.336,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 33.422,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 6.517,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 692.305,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "salmon fillets, skin on",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "yellow onion",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "courgettes",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "potatoes",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "paprika",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "dried thyme",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "salmon fillets, skin on",
+    "yellow onion",
+    "courgettes",
+    "potatoes",
+    "olive oil",
+    "paprika",
+    "dried thyme",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

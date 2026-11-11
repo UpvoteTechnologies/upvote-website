@@ -2,14 +2,6 @@
   "slug": "chicken-and-cheese-quesadillas",
   "title": "Chicken and Cheese Quesadillas",
   "blurb": "Crisp tortillas filled with tender chicken, melted cheese and fresh herbs.",
-  "steps": [
-    "Shred or chop the cooked chicken into small pieces and grate the cheese.",
-    "Trim and finely slice the spring onions, then roughly chop the coriander.",
-    "Lay four tortillas on a work surface and divide the chicken, cheese, spring onions and coriander among them, keeping the filling to one half of each tortilla.",
-    "Fold each tortilla in half to enclose the filling and press down gently.",
-    "Heat half the butter in a large frying pan over medium heat and cook two quesadillas for about two minutes on each side until golden and the cheese has melted.",
-    "Repeat with the remaining butter and quesadillas, then cut each one into wedges and serve."
-  ],
   "servings": 4,
   "prepMinutes": 5,
   "cookMinutes": 5,
@@ -19,78 +11,13 @@
     "snack"
   ],
   "image": "/media/recipes/chicken-and-cheese-quesadillas.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 590.3,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 35.045,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 41.284,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.516,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.13,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 30.869,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 15.785,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 928.25,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "flour tortillas",
-      "measure": "8 tortillas",
-      "grams": 320
-    },
-    {
-      "text": "cooked chicken breast",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "Monterey Jack cheese",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "spring onions",
-      "measure": "4 medium",
-      "grams": 40
-    },
-    {
-      "text": "fresh coriander",
-      "measure": "small handful",
-      "grams": 10
-    },
-    {
-      "text": "unsalted butter",
-      "measure": "2 tablespoons",
-      "grams": 30
-    }
-  ]
+    "flour tortillas",
+    "cooked chicken breast",
+    "Monterey Jack cheese",
+    "spring onions",
+    "fresh coriander",
+    "unsalted butter"
+  ],
+  "stepCount": 6
 }

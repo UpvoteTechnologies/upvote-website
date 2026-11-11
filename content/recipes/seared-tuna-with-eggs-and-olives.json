@@ -2,15 +2,6 @@
   "slug": "seared-tuna-with-eggs-and-olives",
   "title": "Seared Tuna with Eggs and Olives",
   "blurb": "A composed salad of pink-centred tuna steaks with soft-boiled eggs, olives and anchovies over mixed leaves.",
-  "steps": [
-    "Bring a small pan of water to the boil, add the eggs and cook for 7 minutes, then drain and run under cold water until cool enough to handle.",
-    "Pat the tuna steaks dry with kitchen paper and season both sides with salt and pepper.",
-    "Heat half the olive oil in a frying pan over high heat and sear the tuna for 90 seconds on each side so it is browned outside but still pink in the middle, then set aside to rest.",
-    "Whisk the remaining olive oil with the mustard, juice from the lemon and a pinch of salt to make a dressing.",
-    "Peel the eggs and cut each one in half lengthways.",
-    "Divide the salad leaves between four plates and scatter over the tomatoes, olives and anchovies.",
-    "Slice each tuna steak thickly and arrange on the salads with the halved eggs, then drizzle over the dressing."
-  ],
   "servings": 4,
   "prepMinutes": 15,
   "cookMinutes": 15,
@@ -19,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/seared-tuna-with-eggs-and-olives.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 366.153,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 39.767,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 6.229,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 1.847,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.961,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 19.925,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 4.158,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 778.05,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "tuna steaks",
-      "measure": null,
-      "grams": 480
-    },
-    {
-      "text": "large eggs",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "mixed salad leaves",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "anchovy fillets in oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "pitted black olives",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "cherry tomatoes",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "Dijon mustard",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "tuna steaks",
+    "large eggs",
+    "mixed salad leaves",
+    "anchovy fillets in oil",
+    "pitted black olives",
+    "cherry tomatoes",
+    "olive oil",
+    "lemon",
+    "Dijon mustard",
+    "black pepper",
+    "salt"
+  ],
+  "stepCount": 7
 }

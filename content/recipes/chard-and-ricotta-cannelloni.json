@@ -2,14 +2,6 @@
   "slug": "chard-and-ricotta-cannelloni",
   "title": "Chard and Ricotta Cannelloni",
   "blurb": "Pasta tubes filled with wilted chard and creamy ricotta, baked in a simple tomato sauce.",
-  "steps": [
-    "Preheat your oven to 190°C. Finely chop the shallots and garlic, then soften them in half the olive oil in a large pan over medium heat for about 3 minutes.",
-    "Roughly chop the chard, add it to the pan with a pinch of salt, and cook until wilted, about 4 minutes. Drain any excess liquid and let it cool slightly.",
-    "Mix the wilted chard with the ricotta, half the Parmesan, the nutmeg, and black pepper in a bowl.",
-    "Cut the pasta sheets into rectangles roughly 10 by 12 centimetres. Place a generous spoonful of the chard mixture along one short edge of each rectangle and roll up to form tubes.",
-    "Spread half the passata over the base of a baking dish. Arrange the filled cannelloni seam-side down in a single layer, then pour over the remaining passata.",
-    "Drizzle with the remaining olive oil, scatter over the rest of the Parmesan, and bake for 35 minutes until the pasta is tender and the top is lightly golden."
-  ],
   "servings": 4,
   "prepMinutes": 20,
   "cookMinutes": 35,
@@ -18,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/chard-and-ricotta-cannelloni.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 616.478,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 24.611,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 80.074,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 9.448,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 6.608,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 23.01,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 9.903,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1137.63,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "fresh pasta sheets",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "Swiss chard",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "ricotta cheese",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "shallots",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "passata",
-      "measure": null,
-      "grams": 500
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "Parmesan cheese",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "ground nutmeg",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "fresh pasta sheets",
+    "Swiss chard",
+    "ricotta cheese",
+    "shallots",
+    "garlic cloves",
+    "passata",
+    "olive oil",
+    "Parmesan cheese",
+    "black pepper",
+    "salt",
+    "ground nutmeg"
+  ],
+  "stepCount": 6
 }

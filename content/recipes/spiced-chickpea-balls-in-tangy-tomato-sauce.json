@@ -2,16 +2,6 @@
   "slug": "spiced-chickpea-balls-in-tangy-tomato-sauce",
   "title": "Spiced Chickpea Balls in Tangy Tomato Sauce",
   "blurb": "Herb-flecked chickpea balls simmered in a sharp tomato sauce with garlic and a touch of heat.",
-  "steps": [
-    "Mash the drained chickpeas in a large bowl until mostly broken down but still with some texture.",
-    "Stir in half the chopped onion, half the garlic, the oats, parsley, cumin, half the cayenne, and half the salt until the mixture holds together when pressed.",
-    "Shape the mixture into 16 balls, using damp hands to prevent sticking.",
-    "Heat the olive oil in a wide pan over medium heat and fry the chickpea balls for 8 minutes, turning occasionally, until golden on most sides.",
-    "Remove the balls from the pan and set aside, then add the remaining onion and garlic to the same pan and cook for 4 minutes until softened.",
-    "Add the chopped tomatoes, tomato purée, apple cider vinegar, water, remaining cayenne, and remaining salt to the pan and stir to combine.",
-    "Return the chickpea balls to the pan, spooning sauce over them, then cover and simmer gently for 20 minutes until the sauce has thickened.",
-    "Serve the balls with the sauce spooned over, alongside rice or pasta if you like."
-  ],
   "servings": 4,
   "prepMinutes": 20,
   "cookMinutes": 35,
@@ -20,113 +10,20 @@
     "dinner"
   ],
   "image": "/media/recipes/spiced-chickpea-balls-in-tangy-tomato-sauce.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 643.882,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 29.475,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 100.021,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 20.868,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 19.804,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 16.387,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.027,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 436.978,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "tinned chickpeas, drained",
-      "measure": null,
-      "grams": 480
-    },
-    {
-      "text": "rolled oats",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "onion, finely chopped",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "garlic cloves, crushed",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh parsley",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "ground cumin",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "cayenne pepper",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "chopped tomatoes",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "apple cider vinegar",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "tomato purée",
-      "measure": null,
-      "grams": 30
-    }
-  ]
+    "tinned chickpeas, drained",
+    "rolled oats",
+    "onion, finely chopped",
+    "garlic cloves, crushed",
+    "fresh parsley",
+    "ground cumin",
+    "cayenne pepper",
+    "salt",
+    "olive oil",
+    "chopped tomatoes",
+    "apple cider vinegar",
+    "water",
+    "tomato purée"
+  ],
+  "stepCount": 8
 }

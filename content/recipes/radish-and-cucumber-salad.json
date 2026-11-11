@@ -2,14 +2,6 @@
   "slug": "radish-and-cucumber-salad",
   "title": "Radish and Cucumber Salad",
   "blurb": "A crisp, refreshing salad with peppery radishes and cool cucumber, dressed simply with lemon and dill.",
-  "steps": [
-    "Trim the radishes and slice them thinly into rounds.",
-    "Cut the cucumber lengthways into quarters, then slice each quarter into sticks about 5cm long.",
-    "Put the radishes and cucumber into a serving bowl.",
-    "Add the chopped dill, lemon juice, olive oil, salt and a good grinding of black pepper.",
-    "Toss everything together gently with your hands or two spoons until the vegetables are evenly coated.",
-    "Taste and add more salt or pepper if needed, then serve straight away."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -19,83 +11,14 @@
     "snack"
   ],
   "image": "/media/recipes/radish-and-cucumber-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 72.078,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 1.08,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 5.667,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 2.977,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.546,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 5.266,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.753,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 412.625,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "radishes, thinly sliced",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "cucumber, cut into sticks",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "fresh dill, finely chopped",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "lemon juice",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 0.5
-    }
-  ]
+    "radishes, thinly sliced",
+    "cucumber, cut into sticks",
+    "fresh dill, finely chopped",
+    "lemon juice",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

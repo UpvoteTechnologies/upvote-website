@@ -2,13 +2,6 @@
   "slug": "chilled-vanilla-peach-breakfast-bowl",
   "title": "Chilled Vanilla Peach Breakfast Bowl",
   "blurb": "A no-cook breakfast of cold milk poured over fresh peaches and toasted nuts, brightened with lemon and vanilla.",
-  "steps": [
-    "Divide the sliced peaches between four bowls.",
-    "Scatter the chopped walnuts over the fruit in each bowl.",
-    "Pour 200ml of cold milk into each bowl.",
-    "Add a few drops of vanilla extract to each serving and grate the lemon zest over the top.",
-    "Serve immediately while everything is cold and fresh."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -17,73 +10,12 @@
     "snack"
   ],
   "image": "/media/recipes/chilled-vanilla-peach-breakfast-bowl.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 278.225,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 9.662,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 21.23,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 18.464,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.35,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 17.139,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 4.647,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 89.05,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "semi-skimmed milk",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "ripe peaches, pitted and sliced",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "walnuts, roughly chopped",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "pure vanilla extract",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "lemon, zested",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "semi-skimmed milk",
+    "ripe peaches, pitted and sliced",
+    "walnuts, roughly chopped",
+    "pure vanilla extract",
+    "lemon, zested"
+  ],
+  "stepCount": 5
 }

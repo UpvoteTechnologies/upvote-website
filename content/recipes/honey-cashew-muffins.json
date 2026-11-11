@@ -2,16 +2,6 @@
   "slug": "honey-cashew-muffins",
   "title": "Honey Cashew Muffins",
   "blurb": "Tender muffins sweetened with honey and studded with chopped cashews, with a hint of cinnamon warmth.",
-  "steps": [
-    "Heat your oven to 180°C and line a 12-hole muffin tin with paper cases.",
-    "Whisk together the flour, baking powder, cinnamon and salt in a large bowl.",
-    "In another bowl, whisk the egg whites lightly, then stir in the honey, milk and oil until combined.",
-    "Chop the cashews roughly into small pieces.",
-    "Pour the wet ingredients into the dry and fold together gently until just combined, then fold in the cashews.",
-    "Divide the batter evenly among the muffin cases, filling each about two-thirds full.",
-    "Bake for 35 to 40 minutes until golden and a skewer inserted into the centre comes out clean.",
-    "Leave to cool in the tin for 5 minutes, then transfer to a wire rack."
-  ],
   "servings": 12,
   "prepMinutes": 15,
   "cookMinutes": 40,
@@ -20,93 +10,16 @@
     "snack"
   ],
   "image": "/media/recipes/honey-cashew-muffins.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 257.461,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 6.583,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 33.397,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.824,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.16,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 11.597,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.774,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 210.538,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "plain flour",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "baking powder",
-      "measure": null,
-      "grams": 12
-    },
-    {
-      "text": "ground cinnamon",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "egg whites",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "whole milk",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "sunflower oil",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "cashews",
-      "measure": null,
-      "grams": 100
-    }
-  ]
+    "plain flour",
+    "baking powder",
+    "ground cinnamon",
+    "salt",
+    "egg whites",
+    "honey",
+    "whole milk",
+    "sunflower oil",
+    "cashews"
+  ],
+  "stepCount": 8
 }

@@ -2,15 +2,6 @@
   "slug": "foil-baked-salmon-with-white-wine-and-oregano",
   "title": "Foil-Baked Salmon with White Wine and Oregano",
   "blurb": "Salmon steaks baked in foil parcels with white wine, oregano and spring onions. The fish stays moist and picks up the herb flavours as it steams.",
-  "steps": [
-    "Heat your oven to 200°C and tear off two large squares of foil.",
-    "Finely chop the spring onions and divide them between the foil squares, making a small bed in the centre of each.",
-    "Place a salmon steak on each bed of spring onions, then drizzle with the olive oil and white wine.",
-    "Sprinkle the oregano, salt and pepper over the salmon steaks.",
-    "Fold the foil over each salmon steak and crimp the edges to seal the parcels completely.",
-    "Place the parcels on a baking tray and bake for 10 minutes until the salmon is just cooked through.",
-    "Carefully open the parcels and serve the salmon with the cooking juices spooned over."
-  ],
   "servings": 2,
   "prepMinutes": 5,
   "cookMinutes": 10,
@@ -19,83 +10,14 @@
     "dinner"
   ],
   "image": "/media/recipes/foil-baked-salmon-with-white-wine-and-oregano.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 391.105,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 31.159,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 3.257,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.798,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.072,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 25.227,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 5.294,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 480.65,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "salmon steaks",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "white wine",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "dried oregano",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "spring onions",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "salmon steaks",
+    "white wine",
+    "dried oregano",
+    "spring onions",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 7
 }

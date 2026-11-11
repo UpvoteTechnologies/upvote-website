@@ -2,15 +2,6 @@
   "slug": "flax-and-honey-banana-bread",
   "title": "Flax and Honey Banana Bread",
   "blurb": "A moist, naturally sweetened loaf made with flaxseed meal and ripe bananas. Simple to mix and bake, with a gentle sweetness from honey.",
-  "steps": [
-    "Heat your oven to 180°C and grease a 900g loaf tin with a little oil.",
-    "Peel the bananas and mash them thoroughly in a large bowl with a fork until fairly smooth.",
-    "Add the soya milk, honey and oil to the mashed banana and stir until combined.",
-    "Put the flaxseed meal and baking powder into the bowl and mix everything together until you have a thick, even batter.",
-    "Pour the batter into the prepared tin and smooth the top with a spoon.",
-    "Bake for 55 minutes until the loaf is firm to the touch and a skewer inserted into the centre comes out clean.",
-    "Leave the bread to cool in the tin for 10 minutes, then turn out onto a wire rack to cool completely before slicing."
-  ],
   "servings": 8,
   "prepMinutes": 15,
   "cookMinutes": 55,
@@ -19,78 +10,13 @@
     "snack"
   ],
   "image": "/media/recipes/flax-and-honey-banana-bread.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 194.765,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.899,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 24.855,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 14.635,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 5.777,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 8.806,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.818,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 137.72,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "flaxseed meal",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "baking powder",
-      "measure": null,
-      "grams": 12
-    },
-    {
-      "text": "very ripe bananas",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "unsweetened soya milk",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 85
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 30
-    }
-  ]
+    "flaxseed meal",
+    "baking powder",
+    "very ripe bananas",
+    "unsweetened soya milk",
+    "honey",
+    "vegetable oil"
+  ],
+  "stepCount": 7
 }

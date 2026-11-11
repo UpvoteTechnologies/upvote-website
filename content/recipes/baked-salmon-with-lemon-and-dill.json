@@ -2,14 +2,6 @@
   "slug": "baked-salmon-with-lemon-and-dill",
   "title": "Baked Salmon with Lemon and Dill",
   "blurb": "Salmon fillets baked with fresh lemon juice, white wine and cherry tomatoes, finished with chopped dill.",
-  "steps": [
-    "Heat your oven to 180°C and lightly oil a baking dish large enough to hold the salmon fillets in a single layer.",
-    "Place the salmon fillets skin-side down in the dish and season with salt and pepper.",
-    "Halve the cherry tomatoes and scatter them around the salmon.",
-    "Squeeze the lemon juice over the fish and tomatoes, then pour the white wine into the dish.",
-    "Drizzle the olive oil over everything and place in the oven for 35 to 40 minutes until the salmon is cooked through.",
-    "Finely chop the dill and scatter it over the salmon just before serving."
-  ],
   "servings": 4,
   "prepMinutes": 5,
   "cookMinutes": 40,
@@ -18,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/baked-salmon-with-lemon-and-dill.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 406.603,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 31.416,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 6.248,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 2.433,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.936,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 25.592,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 5.294,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 384.55,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "salmon fillets",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "cherry tomatoes",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "fresh dill",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "white wine",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "salmon fillets",
+    "cherry tomatoes",
+    "lemon",
+    "fresh dill",
+    "white wine",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

@@ -2,16 +2,6 @@
   "slug": "beef-and-mushroom-stew-with-pearl-onions",
   "title": "Beef and mushroom stew with pearl onions",
   "blurb": "Tender beef simmered in a rich broth with mushrooms and pearl onions",
-  "steps": [
-    "Cut the beef into 4cm chunks and season with salt and pepper. Toss the beef in the plain flour until evenly coated.",
-    "Heat half the olive oil in a large heavy-based pot over medium-high heat and brown the beef in batches, then set aside.",
-    "Add the remaining oil to the pot and cook the pearl onions until golden, then add the crushed garlic and cook for one minute.",
-    "Pour in the wine and beef broth, scraping up any browned bits from the bottom. Stir in the tomato puree, thyme and bay leaves.",
-    "Return the beef to the pot, bring to a simmer, then reduce the heat to low, cover and cook gently for 90 minutes.",
-    "Quarter the mushrooms and add them to the pot. Continue simmering uncovered for another 30 minutes until the beef is very tender.",
-    "Mix the cornstarch with two tablespoons of cold water to form a paste. Stir this into the stew and simmer for 5 minutes until thickened.",
-    "Remove the thyme sprigs and bay leaves, check the seasoning and serve."
-  ],
   "servings": 4,
   "prepMinutes": 30,
   "cookMinutes": 135,
@@ -20,118 +10,21 @@
     "dinner"
   ],
   "image": "/media/recipes/beef-and-mushroom-stew-with-pearl-onions.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 459.788,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 48.739,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 21.872,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.115,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.25,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 14.698,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.61,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 651.275,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "beef chuck",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "olive oil",
-      "measure": "2 tbsp",
-      "grams": 30
-    },
-    {
-      "text": "plain flour",
-      "measure": "2 tbsp",
-      "grams": 30
-    },
-    {
-      "text": "beef broth",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "red wine",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "tomato puree",
-      "measure": "1 tbsp",
-      "grams": 20
-    },
-    {
-      "text": "button mushrooms",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "pearl onions",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "garlic",
-      "measure": "2 cloves",
-      "grams": 10
-    },
-    {
-      "text": "fresh thyme",
-      "measure": "3 sprigs",
-      "grams": 3
-    },
-    {
-      "text": "bay leaves",
-      "measure": "2 leaves",
-      "grams": 1
-    },
-    {
-      "text": "cornstarch",
-      "measure": "1 tbsp",
-      "grams": 15
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 5
-    }
-  ]
+    "beef chuck",
+    "olive oil",
+    "plain flour",
+    "beef broth",
+    "red wine",
+    "tomato puree",
+    "button mushrooms",
+    "pearl onions",
+    "garlic",
+    "fresh thyme",
+    "bay leaves",
+    "cornstarch",
+    "black pepper",
+    "salt"
+  ],
+  "stepCount": 8
 }

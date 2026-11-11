@@ -2,15 +2,6 @@
   "slug": "pan-fried-sole-with-lemon-lentils-and-spring-vegetables",
   "title": "Pan-fried sole with lemon lentils and spring vegetables",
   "blurb": "Tender sole fillets served over coral lentils cooked with carrots and peas, finished with a bright shallot and lemon sauce.",
-  "steps": [
-    "Peel and dice the carrots into small cubes, then finely chop the shallots and zest half the lemon.",
-    "Rinse the lentils under cold water, then put them in a pan with the vegetable stock and bring to a simmer.",
-    "Add the carrots to the lentils and cook for 12 minutes until both are tender, then stir in the peas and cook for 3 more minutes.",
-    "While the lentils cook, heat the olive oil in a frying pan over medium-high heat and season the sole fillets with salt and pepper.",
-    "Fry the sole for 2 to 3 minutes on each side until golden and cooked through, then remove to a warm plate.",
-    "Add the butter and shallots to the same pan and cook for 2 minutes until softened, then squeeze in the lemon juice and add the zest.",
-    "Divide the lentils and vegetables between two plates, place the sole on top and spoon over the shallot and lemon sauce."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 20,
@@ -19,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/pan-fried-sole-with-lemon-lentils-and-spring-vegetables.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 578.95,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 35.393,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 52.2,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 9.592,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 11.645,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 26.478,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 9.09,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 863.85,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "red lentils",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "carrots",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "frozen peas",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "shallots",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "sole fillets",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "butter",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "vegetable stock",
-      "measure": null,
-      "grams": 400
-    }
-  ]
+    "red lentils",
+    "carrots",
+    "frozen peas",
+    "shallots",
+    "lemon",
+    "sole fillets",
+    "olive oil",
+    "butter",
+    "vegetable stock"
+  ],
+  "stepCount": 7
 }

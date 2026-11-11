@@ -6,101 +6,14 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/what-soy-lecithin-means-for-your-plan.jpg",
-  "blocks": [
-    {
-      "kind": "heading",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "What it is"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "Soy lecithin, an emulsifier of phospholipids extracted from soybeans, used to blend fats with water and smooth texture."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "Why it is in your food"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "Manufacturers use soy lecithin as an emulsifier and it is of plant origin."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b5",
-      "spans": [
-        {
-          "text": "When it matters to you"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b6",
-      "spans": [
-        {
-          "text": "Our scorer looks for soy lecithin when Soy allergy is on for you. If that plan is off, your score does not change. This is how the app reads a label. It is not a claim about health."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b7",
-      "spans": [
-        {
-          "text": "What it may be called"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b8",
-      "spans": [
-        {
-          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
-        }
-      ]
-    },
-    {
-      "kind": "terms",
-      "key": "b9",
-      "source": "kb",
-      "items": [
-        "lecitina de soja",
-        "lécithine de soja",
-        "sojalecithin",
-        "sojalezithin",
-        "soy lecithin",
-        "soylecithin"
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b10",
-      "spans": [
-        {
-          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
-        }
-      ]
-    }
+  "intro": [
+    "Soy lecithin, an emulsifier of phospholipids extracted from soybeans, used to blend fats with water and smooth texture."
   ],
-  "citations": {}
+  "sections": [
+    "What it is",
+    "Why it is in your food",
+    "When it matters to you",
+    "What it may be called"
+  ],
+  "sourceCount": 0
 }

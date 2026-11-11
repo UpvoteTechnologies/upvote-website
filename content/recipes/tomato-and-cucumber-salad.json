@@ -2,12 +2,6 @@
   "slug": "tomato-and-cucumber-salad",
   "title": "Tomato and Cucumber Salad",
   "blurb": "A crisp salad of sliced tomatoes and cucumber with fresh chives, dressed simply with olive oil and seasoning.",
-  "steps": [
-    "Slice the cucumber into thin rounds and arrange them on a serving plate.",
-    "Slice the tomatoes and layer them over the cucumber.",
-    "Snip the chives with scissors and scatter them over the vegetables.",
-    "Drizzle with olive oil, then season with salt and black pepper to taste."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -17,78 +11,13 @@
     "snack"
   ],
   "image": "/media/recipes/tomato-and-cucumber-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 111.305,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 2.074,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 9.214,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.664,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.489,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 8.015,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.125,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 396.825,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "cucumber",
-      "measure": "1 medium",
-      "grams": 200
-    },
-    {
-      "text": "tomatoes",
-      "measure": "3 medium",
-      "grams": 300
-    },
-    {
-      "text": "fresh chives",
-      "measure": "small handful",
-      "grams": 5
-    },
-    {
-      "text": "olive oil",
-      "measure": "1 tablespoon",
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": "pinch",
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": "to taste",
-      "grams": 1
-    }
-  ]
+    "cucumber",
+    "tomatoes",
+    "fresh chives",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 4
 }

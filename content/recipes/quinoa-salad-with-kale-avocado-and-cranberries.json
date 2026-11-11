@@ -2,13 +2,6 @@
   "slug": "quinoa-salad-with-kale-avocado-and-cranberries",
   "title": "Quinoa salad with kale, avocado and cranberries",
   "blurb": "A fresh grain salad with nutty quinoa, tender kale, creamy avocado and sweet-tart cranberries.",
-  "steps": [
-    "Rinse the quinoa under cold water, then place in a small pan with 250ml water and a pinch of salt. Bring to the boil, reduce the heat, cover and simmer for 12 minutes until the water is absorbed and the grains are tender.",
-    "Strip the kale leaves from their tough stems and tear into bite-sized pieces. Place in a large bowl and massage with your hands for a minute or two until the leaves soften and darken.",
-    "Peel and finely slice the shallot. Halve the avocado, remove the stone and scoop the flesh from the skin, then cut into chunks.",
-    "Fluff the cooked quinoa with a fork and leave to cool for a few minutes, then add to the bowl with the kale.",
-    "Add the shallot, avocado and cranberries to the bowl. Drizzle over the olive oil and lemon juice, season with salt and toss everything together gently until combined."
-  ],
   "servings": 2,
   "prepMinutes": 25,
   "cookMinutes": 10,
@@ -17,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/quinoa-salad-with-kale-avocado-and-cranberries.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 242.75,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 3.347,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 11.362,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 1.805,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 8.047,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 21.927,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.086,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 424.625,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "quinoa",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "kale",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "avocado",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "shallot",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "dried cranberries",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "lemon juice",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "sea salt",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "quinoa",
+    "kale",
+    "avocado",
+    "shallot",
+    "dried cranberries",
+    "olive oil",
+    "lemon juice",
+    "sea salt"
+  ],
+  "stepCount": 5
 }

@@ -2,15 +2,6 @@
   "slug": "berry-chia-layered-pudding-tart",
   "title": "Berry Chia Layered Pudding Tart",
   "blurb": "A set chia pudding base with a date crust and fresh berry topping, chilled until firm.",
-  "steps": [
-    "Blend the dates with the water until you have a thick, sticky paste.",
-    "Press the date mixture firmly into the base of a 20cm round tin or dish, spreading it evenly to form a crust layer.",
-    "Stir the chia seeds into the grape juice and leave to stand for 10 minutes, then stir again to break up any clumps.",
-    "Set aside half the berries for the topping, then gently fold the remaining berries and honey through the chia mixture.",
-    "Pour the chia mixture over the date base and smooth the surface.",
-    "Cover and refrigerate for at least 4 hours until the chia has set into a firm pudding layer.",
-    "Scatter the reserved fresh berries over the top just before serving."
-  ],
   "servings": 8,
   "prepMinutes": 240,
   "cookMinutes": 0,
@@ -19,78 +10,13 @@
     "snack"
   ],
   "image": "/media/recipes/berry-chia-layered-pudding-tart.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 202.2,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 3.338,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 40.118,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 30.749,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 7.295,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 4.787,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.523,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 6.45,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "pitted dates",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "chia seeds",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "unsweetened white grape juice",
-      "measure": null,
-      "grams": 480
-    },
-    {
-      "text": "mixed fresh berries",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 100
-    }
-  ]
+    "pitted dates",
+    "chia seeds",
+    "unsweetened white grape juice",
+    "mixed fresh berries",
+    "honey",
+    "water"
+  ],
+  "stepCount": 7
 }

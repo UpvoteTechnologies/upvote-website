@@ -2,12 +2,6 @@
   "slug": "matcha-banana-smoothie",
   "title": "Matcha Banana Smoothie",
   "blurb": "A creamy green tea smoothie with banana and tofu for a quick, refreshing drink.",
-  "steps": [
-    "Peel the banana and break it into chunks.",
-    "Put the banana, matcha powder, tofu, maple syrup and almond milk into a blender.",
-    "Blend until completely smooth.",
-    "Pour into a glass and drink straight away."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 0,
@@ -16,73 +10,12 @@
     "snack"
   ],
   "image": "/media/recipes/matcha-banana-smoothie.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 235.4,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 7.73,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 39.28,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 28.589,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.2,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 5.749,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.77,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 128.2,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "ripe banana",
-      "measure": "1 medium",
-      "grams": 120
-    },
-    {
-      "text": "matcha powder",
-      "measure": "1 tsp",
-      "grams": 2
-    },
-    {
-      "text": "soft tofu",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "maple syrup",
-      "measure": "1 tbsp",
-      "grams": 15
-    },
-    {
-      "text": "unsweetened almond milk",
-      "measure": "200ml",
-      "grams": 200
-    }
-  ]
+    "ripe banana",
+    "matcha powder",
+    "soft tofu",
+    "maple syrup",
+    "unsweetened almond milk"
+  ],
+  "stepCount": 4
 }

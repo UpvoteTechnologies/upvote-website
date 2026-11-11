@@ -2,16 +2,6 @@
   "slug": "foil-baked-tuna-with-mixed-greens",
   "title": "Foil-Baked Tuna with Mixed Greens",
   "blurb": "Fresh tuna steaks baked in foil parcels with a simple seasoning, served over peppery mixed greens",
-  "steps": [
-    "Preheat your oven to 200°C.",
-    "Cut four large squares of aluminum foil and place a tuna steak in the centre of each.",
-    "Drizzle each steak with olive oil, then season with salt and pepper.",
-    "Finely chop the chives and scatter over the tuna, then fold the foil into sealed parcels.",
-    "Place the parcels on a baking tray and bake for 8 to 10 minutes until the tuna is just cooked through.",
-    "Meanwhile, divide the mixed greens between four plates.",
-    "Unwrap the tuna steaks and place one on top of each pile of greens, spooning over any juices from the foil.",
-    "Cut the lemon into wedges and serve alongside for squeezing over."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 10,
@@ -20,83 +10,14 @@
     "dinner"
   ],
   "image": "/media/recipes/foil-baked-tuna-with-mixed-greens.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 215.88,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 36.995,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 2.347,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.573,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.78,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 5.839,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.969,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 455.213,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "fresh tuna steaks",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "fresh chives",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "sea salt",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "mixed salad greens",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 80
-    }
-  ]
+    "fresh tuna steaks",
+    "olive oil",
+    "fresh chives",
+    "sea salt",
+    "black pepper",
+    "mixed salad greens",
+    "lemon"
+  ],
+  "stepCount": 8
 }

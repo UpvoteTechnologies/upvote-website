@@ -2,14 +2,6 @@
   "slug": "braised-carrots-with-ginger-and-garlic",
   "title": "Braised Carrots with Ginger and Garlic",
   "blurb": "Tender carrots simmered in a savoury ginger and garlic sauce, finished with fresh coriander.",
-  "steps": [
-    "Peel the carrots and cut them into thick batons about 5cm long and 1cm wide. Peel and finely chop the ginger and garlic.",
-    "Heat the vegetable oil in a wide pan over medium heat and add the ginger and garlic. Fry for one minute until fragrant.",
-    "Add the carrots to the pan and stir to coat them in the ginger and garlic. Pour in the soy sauce and water, then bring to a simmer.",
-    "Cover the pan and cook for 25 minutes, stirring occasionally, until the carrots are tender when pierced with a knife.",
-    "Mix the cornflour with two tablespoons of cold water to make a smooth paste. Stir this into the pan and simmer for two minutes until the sauce thickens.",
-    "Remove from the heat and stir in the sesame oil. Slice the spring onions and roughly chop the coriander, then scatter both over the carrots before serving."
-  ],
   "servings": 2,
   "prepMinutes": 40,
   "cookMinutes": 30,
@@ -18,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/braised-carrots-with-ginger-and-garlic.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 150.58,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.107,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 26.477,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 10.206,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 7.262,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 3.457,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.466,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1007.795,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "carrots",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "fresh ginger",
-      "measure": null,
-      "grams": 25
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 12
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "soy sauce",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "cornflour",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "sesame oil",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "spring onions",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "carrots",
+    "fresh ginger",
+    "garlic cloves",
+    "vegetable oil",
+    "soy sauce",
+    "water",
+    "cornflour",
+    "sesame oil",
+    "spring onions",
+    "fresh coriander"
+  ],
+  "stepCount": 6
 }

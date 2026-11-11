@@ -2,13 +2,6 @@
   "slug": "roasted-carrots-and-leeks-with-fresh-mint",
   "title": "Roasted Carrots and Leeks with Fresh Mint",
   "blurb": "Sweet roasted carrots and tender leeks finished with fresh mint. A simple side dish that works well with roasted meats or as part of a vegetarian spread.",
-  "steps": [
-    "Heat your oven to 200°C.",
-    "Wash the leeks thoroughly to remove any grit between the layers, then cut into 2 cm pieces. Peel the carrots and slice into 1 cm rounds.",
-    "Put the carrots and leeks in a roasting tin, drizzle with the olive oil, and season with salt and pepper. Toss everything together so the vegetables are evenly coated.",
-    "Roast for 45 to 50 minutes, turning the vegetables once or twice, until they are tender and starting to caramelise at the edges.",
-    "Roughly chop the mint leaves and scatter over the roasted vegetables just before serving."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 50,
@@ -17,78 +10,13 @@
     "dinner"
   ],
   "image": "/media/recipes/roasted-carrots-and-leeks-with-fresh-mint.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 237.905,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 3.337,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 33.412,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.988,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 7.027,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 10.916,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.486,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 736.3,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "carrots, cut into 1 cm rounds",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "leeks, cut into 2 cm pieces",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "olive oil",
-      "measure": "tablespoons",
-      "grams": 20
-    },
-    {
-      "text": "salt",
-      "measure": "teaspoons",
-      "grams": 3
-    },
-    {
-      "text": "ground black pepper",
-      "measure": "teaspoons",
-      "grams": 1
-    },
-    {
-      "text": "fresh mint",
-      "measure": null,
-      "grams": 5
-    }
-  ]
+    "carrots, cut into 1 cm rounds",
+    "leeks, cut into 2 cm pieces",
+    "olive oil",
+    "salt",
+    "ground black pepper",
+    "fresh mint"
+  ],
+  "stepCount": 5
 }

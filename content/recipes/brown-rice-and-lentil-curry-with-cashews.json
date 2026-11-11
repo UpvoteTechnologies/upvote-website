@@ -2,15 +2,6 @@
   "slug": "brown-rice-and-lentil-curry-with-cashews",
   "title": "Brown Rice and Lentil Curry with Cashews",
   "blurb": "A warming one-pot curry where brown rice and lentils cook together in spiced tomato, finished with yogurt and toasted cashews.",
-  "steps": [
-    "Peel and finely chop the onion, peel and crush the garlic, peel and grate the ginger, and roughly chop the tomatoes.",
-    "Heat the oil in a large lidded pan over medium heat, add the onion and cook for 5 minutes until softened. Stir in the garlic, ginger, cumin, ground coriander and turmeric, and cook for 1 minute.",
-    "Add the tomatoes, lentils, rice and salt, then pour in the stock and bring to the boil.",
-    "Reduce the heat to low, cover with the lid and simmer for 50 minutes until the rice and lentils are tender and most of the liquid has been absorbed. Check occasionally and add a splash of water if it looks dry.",
-    "Meanwhile, toast the cashews in a dry frying pan over medium heat for 3 to 4 minutes until golden, then roughly chop them.",
-    "When the rice and lentils are cooked, remove from the heat and stir through half the yogurt.",
-    "Serve in bowls topped with the remaining yogurt, toasted cashews and torn coriander leaves."
-  ],
   "servings": 6,
   "prepMinutes": 15,
   "cookMinutes": 60,
@@ -19,123 +10,22 @@
     "dinner"
   ],
   "image": "/media/recipes/brown-rice-and-lentil-curry-with-cashews.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 432.71,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 16.692,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 74.874,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.721,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 7.202,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 8.693,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.697,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 985.075,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "brown rice",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "dried brown lentils",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "onion",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "plum tomatoes",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh ginger",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "ground cumin",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "ground coriander",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "ground turmeric",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "fine sea salt",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "vegetable stock",
-      "measure": null,
-      "grams": 900
-    },
-    {
-      "text": "unsalted cashew nuts",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "natural yogurt",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 15
-    }
-  ]
+    "brown rice",
+    "dried brown lentils",
+    "onion",
+    "plum tomatoes",
+    "garlic cloves",
+    "fresh ginger",
+    "vegetable oil",
+    "ground cumin",
+    "ground coriander",
+    "ground turmeric",
+    "fine sea salt",
+    "vegetable stock",
+    "unsalted cashew nuts",
+    "natural yogurt",
+    "fresh coriander"
+  ],
+  "stepCount": 7
 }

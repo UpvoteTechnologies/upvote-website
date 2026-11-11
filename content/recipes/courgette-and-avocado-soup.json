@@ -2,16 +2,6 @@
   "slug": "courgette-and-avocado-soup",
   "title": "Courgette and Avocado Soup",
   "blurb": "A light, creamy soup with courgette and avocado, brightened with lemon and ginger.",
-  "steps": [
-    "Peel and chop the onion, peel and crush the garlic, peel and grate the ginger, then trim and chop the courgettes into chunks.",
-    "Heat the olive oil in a large pan over medium heat, add the onion and cook for 3 minutes until softened.",
-    "Add the garlic and ginger, cook for 1 minute, then add the courgettes and stir.",
-    "Dissolve the stock cube in the water, pour into the pan and bring to a simmer.",
-    "Simmer for 10 minutes until the courgettes are tender.",
-    "Halve the avocado, remove the stone and scoop the flesh into the pan.",
-    "Remove from the heat, add the lemon juice, then blend until smooth with a stick blender.",
-    "Season with black pepper and serve warm."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 15,
@@ -20,98 +10,17 @@
     "dinner"
   ],
   "image": "/media/recipes/courgette-and-avocado-soup.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 159.798,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 3.421,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 13.912,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.923,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 5.654,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 11.646,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.735,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 29.115,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "courgettes",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "onion",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "garlic",
-      "measure": "clove",
-      "grams": 6
-    },
-    {
-      "text": "fresh ginger",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "vegetable stock cube",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "avocado",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "fresh lemon juice",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "courgettes",
+    "onion",
+    "garlic",
+    "fresh ginger",
+    "olive oil",
+    "vegetable stock cube",
+    "water",
+    "avocado",
+    "fresh lemon juice",
+    "black pepper"
+  ],
+  "stepCount": 8
 }

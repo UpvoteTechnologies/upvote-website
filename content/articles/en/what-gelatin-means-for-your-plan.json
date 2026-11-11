@@ -6,118 +6,15 @@
   "evidenceTier": "moderate",
   "sourceLabel": "Moderate evidence",
   "image": "/media/articles/what-gelatin-means-for-your-plan.jpg",
-  "blocks": [
-    {
-      "kind": "heading",
-      "key": "b1",
-      "spans": [
-        {
-          "text": "What it is"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b2",
-      "spans": [
-        {
-          "text": "Gelatin is a protein set into a gel, made by boiling animal skin, bones, and connective tissue (usually pork or beef). It gives foods a jelly-like texture."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b3",
-      "spans": [
-        {
-          "text": "Why it is in your food"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b4",
-      "spans": [
-        {
-          "text": "Manufacturers use gelatin as a gelling agent and it is of animal origin."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b5",
-      "spans": [
-        {
-          "text": "How our rules read it"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b6",
-      "spans": [
-        {
-          "text": "Our rules read gelatin as meat or fish."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b7",
-      "spans": [
-        {
-          "text": "When it matters to you"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b8",
-      "spans": [
-        {
-          "text": "Our scorer looks for gelatin when Halal, Kosher, Pregnancy, Vegan or Vegetarian is on for you. If those plans are off, your score does not change. This is how the app reads a label. It is not a claim about health."
-        }
-      ]
-    },
-    {
-      "kind": "heading",
-      "key": "b9",
-      "spans": [
-        {
-          "text": "What it may be called"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "key": "b10",
-      "spans": [
-        {
-          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
-        }
-      ]
-    },
-    {
-      "kind": "terms",
-      "key": "b11",
-      "source": "kb",
-      "items": [
-        "gelatin",
-        "gelatina",
-        "gelatine",
-        "grenetina",
-        "gélatine"
-      ]
-    },
-    {
-      "kind": "uncertainty",
-      "key": "b12",
-      "spans": [
-        {
-          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
-        }
-      ]
-    }
+  "intro": [
+    "Gelatin is a protein set into a gel, made by boiling animal skin, bones, and connective tissue (usually pork or beef). It gives foods a jelly-like texture."
   ],
-  "citations": {}
+  "sections": [
+    "What it is",
+    "Why it is in your food",
+    "How our rules read it",
+    "When it matters to you",
+    "What it may be called"
+  ],
+  "sourceCount": 0
 }

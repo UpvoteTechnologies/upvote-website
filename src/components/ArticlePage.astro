@@ -1,7 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
 import AppCta from './AppCta.astro';
-import ArticleBlocks from './ArticleBlocks.astro';
 import ContentCard from './ContentCard.astro';
 import { LOCALE_TAG, getDict, type Locale } from '../i18n';
 import { articleAlternates, articleIndexPath, articlePath, getArticles, neighbours, type Article } from '../lib/content';
@@ -16,27 +15,19 @@ const { locale, article } = Astro.props;
 const t = getDict(locale).articles;
 const path = articlePath(locale, article.slug);
 const indexPath = articleIndexPath(locale);
-const citations = Object.values(article.citations);
 const related = neighbours(getArticles(locale), article.slug, 3);
 
+// The page is a preview of an in-app guide, so it is described as a web page, not as the article.
 const jsonLd = [
   {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: article.title,
+    '@type': 'WebPage',
+    name: article.title,
     description: article.standfirst,
     inLanguage: LOCALE_TAG[locale],
-    mainEntityOfPage: absoluteUrl(path),
-    ...(article.image ? { image: absoluteUrl(article.image) } : {}),
-    articleSection: article.kicker,
-    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
-    publisher: { '@id': `${SITE_URL}/#organization`, '@type': 'Organization', name: SITE_NAME, logo: absoluteUrl('/icon-512.png') },
-    citation: citations.map((citation) => ({
-      '@type': 'CreativeWork',
-      name: citation.doc ?? citation.authority,
-      publisher: citation.authority,
-      ...(citation.url ? { url: citation.url } : {}),
-    })),
+    url: absoluteUrl(path),
+    ...(article.image ? { primaryImageOfPage: absoluteUrl(article.image) } : {}),
+    publisher: { '@id': `${SITE_URL}/#organization`, '@type': 'Organization', name: SITE_NAME },
   },
   {
     '@context': 'https://schema.org',
@@ -55,8 +46,7 @@ const jsonLd = [
   description={article.standfirst}
   path={path}
   alternates={articleAlternates(article.slug)}
-  ogType="article"
-  ogImage={article.image ?? undefined}
+    ogImage={article.image ?? undefined}
   ogImageSize={article.image ? [1200, 675] : undefined}
   jsonLd={jsonLd}
 >
@@ -81,37 +71,28 @@ const jsonLd = [
     }
 
     <div class="mt-4">
-      <ArticleBlocks locale={locale} blocks={article.blocks} />
+      {article.intro.map((paragraph) => <p class="mt-5 text-pretty text-[17px] font-medium leading-[1.7] text-ink-2">{paragraph}</p>)}
     </div>
 
     {
-      citations.length > 0 && (
-        <section class="mt-12 border-t border-line pt-8">
-          <h2 class="text-[20px] font-extrabold tracking-[-.015em] text-ink">{t.sources}</h2>
-          <ol class="mt-4 flex list-decimal flex-col gap-3 pl-5 text-[14px] font-medium leading-[1.55] text-ink-3">
-            {citations.map((citation) => (
-              <li>
-                <span class="font-extrabold text-ink-2">{citation.authority}</span>
-                {citation.year && ` (${citation.year})`}.{' '}
-                {citation.url ? (
-                  <a href={citation.url} rel="noopener nofollow" class="break-words underline decoration-line-2 underline-offset-2 transition-colors hover:text-brand">
-                    {citation.doc ?? new URL(citation.url).hostname}
-                  </a>
-                ) : (
-                  citation.doc
-                )}
-              </li>
-            ))}
-          </ol>
+      article.sections.length > 0 && (
+        <section class="mt-9 rounded-[18px] border border-line bg-paper-2 px-6 py-5">
+          <h2 class="eyebrow">{t.inThisGuide}</h2>
+          <ul class="mt-3 flex list-disc flex-col gap-[6px] pl-5 text-[16px] font-semibold leading-[1.5] text-ink-2">
+            {article.sections.map((section) => <li>{section}</li>)}
+          </ul>
+          {article.sourceCount > 0 && (
+            <p class="mt-3 text-[13.5px] font-medium text-muted">{t.sourceCount.replace('{n}', String(article.sourceCount))}</p>
+          )}
         </section>
       )
     }
 
-    <p class="mt-10 text-[13px] font-medium italic leading-[1.55] text-muted-2">{t.disclaimer}</p>
-
-    <div class="mt-10">
-      <AppCta locale={locale} />
+    <div class="mt-9">
+      <AppCta locale={locale} title={t.appTitle} body={t.appBody} />
     </div>
+
+    <p class="mt-8 text-[13px] font-medium italic leading-[1.55] text-muted-2">{t.disclaimer}</p>
   </article>
 
   {

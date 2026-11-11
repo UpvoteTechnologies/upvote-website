@@ -2,14 +2,6 @@
   "slug": "grilled-teriyaki-tofu",
   "title": "Grilled Teriyaki Tofu",
   "blurb": "Firm tofu marinated in a sweet soy glaze, then grilled until golden with a sticky coating.",
-  "steps": [
-    "Press the tofu between clean tea towels with a weight on top for 15 minutes to remove excess water, then slice into eight rectangular pieces about 1cm thick.",
-    "Peel and grate the ginger and garlic into a shallow dish, then whisk in the tamari, honey, rice vinegar and sesame oil.",
-    "Add the tofu slices to the marinade, turning to coat all sides, then cover and refrigerate for at least 2 hours, turning once halfway through.",
-    "Heat a griddle pan over medium-high heat and spray lightly with olive oil.",
-    "Remove the tofu from the marinade, reserving the liquid, and grill for 3 to 4 minutes on each side until charred lines appear.",
-    "Pour the reserved marinade into a small pan and simmer for 2 minutes until slightly thickened, then brush over the grilled tofu before serving."
-  ],
   "servings": 4,
   "prepMinutes": 120,
   "cookMinutes": 10,
@@ -18,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/grilled-teriyaki-tofu.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 113.045,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 8.542,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 7.024,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.12,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.411,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 6.546,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.946,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 832.685,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "firm tofu",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "low-sodium tamari",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 21
-    },
-    {
-      "text": "rice vinegar",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "sesame oil",
-      "measure": null,
-      "grams": 9
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 6
-    },
-    {
-      "text": "fresh ginger",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "olive oil spray",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "firm tofu",
+    "low-sodium tamari",
+    "honey",
+    "rice vinegar",
+    "sesame oil",
+    "garlic cloves",
+    "fresh ginger",
+    "olive oil spray"
+  ],
+  "stepCount": 6
 }

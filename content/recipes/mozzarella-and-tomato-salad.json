@@ -2,12 +2,6 @@
   "slug": "mozzarella-and-tomato-salad",
   "title": "Mozzarella and tomato salad",
   "blurb": "Fresh mozzarella and ripe tomato with olive oil and basil",
-  "steps": [
-    "Slice the tomato into rounds about half a centimetre thick and arrange on a plate.",
-    "Tear the mozzarella into pieces and place on top of the tomato slices.",
-    "Tear the basil leaves and scatter over the top.",
-    "Drizzle with olive oil and season with salt and pepper."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 0,
@@ -16,78 +10,13 @@
     "snack"
   ],
   "image": "/media/recipes/mozzarella-and-tomato-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 493.205,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 31.418,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 13.004,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 7.015,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.367,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 35.908,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 16.065,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1270.25,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "mozzarella",
-      "measure": null,
-      "grams": 125
-    },
-    {
-      "text": "large tomato",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "extra virgin olive oil",
-      "measure": "1 tablespoon",
-      "grams": 10
-    },
-    {
-      "text": "fresh basil leaves",
-      "measure": "small handful",
-      "grams": 5
-    },
-    {
-      "text": "sea salt",
-      "measure": "pinch",
-      "grams": 1
-    },
-    {
-      "text": "black pepper",
-      "measure": "pinch",
-      "grams": 0.5
-    }
-  ]
+    "mozzarella",
+    "large tomato",
+    "extra virgin olive oil",
+    "fresh basil leaves",
+    "sea salt",
+    "black pepper"
+  ],
+  "stepCount": 4
 }

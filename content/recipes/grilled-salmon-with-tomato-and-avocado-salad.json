@@ -2,15 +2,6 @@
   "slug": "grilled-salmon-with-tomato-and-avocado-salad",
   "title": "Grilled Salmon with Tomato and Avocado Salad",
   "blurb": "Grilled salmon fillets served with a fresh salad of avocado, tomatoes and red onion",
-  "steps": [
-    "Pat the salmon fillets dry with kitchen paper and season both sides with half the salt and half the black pepper.",
-    "Heat your grill to high and brush the salmon lightly with a little of the olive oil.",
-    "Grill the salmon for 4 to 5 minutes on each side until cooked through and lightly charred.",
-    "While the salmon cooks, halve the avocados, remove the stones and scoop out the flesh, then cut into small dice.",
-    "Halve the grape tomatoes and finely chop the red onion and coriander.",
-    "In a bowl, combine the avocado, tomatoes, red onion and coriander with the lime juice, remaining olive oil, remaining salt and remaining black pepper, then toss gently.",
-    "Divide the salad between four plates and top each with a grilled salmon fillet."
-  ],
   "servings": 4,
   "prepMinutes": 20,
   "cookMinutes": 10,
@@ -19,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/grilled-salmon-with-tomato-and-avocado-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 526.305,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 32.87,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 12.182,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.114,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 6.742,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 38.995,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 7.235,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 388.75,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "salmon fillets, skinless",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "extra-virgin olive oil",
-      "measure": "2 tablespoons",
-      "grams": 30
-    },
-    {
-      "text": "small avocados",
-      "measure": "2 avocados",
-      "grams": 300
-    },
-    {
-      "text": "grape tomatoes",
-      "measure": "1 cup halved",
-      "grams": 200
-    },
-    {
-      "text": "red onion",
-      "measure": "½ cup chopped",
-      "grams": 80
-    },
-    {
-      "text": "fresh coriander",
-      "measure": "small handful",
-      "grams": 10
-    },
-    {
-      "text": "lime",
-      "measure": "juice of 1 lime",
-      "grams": 30
-    },
-    {
-      "text": "ground black pepper",
-      "measure": "1 teaspoon",
-      "grams": 2
-    },
-    {
-      "text": "salt",
-      "measure": "½ teaspoon",
-      "grams": 3
-    }
-  ]
+    "salmon fillets, skinless",
+    "extra-virgin olive oil",
+    "small avocados",
+    "grape tomatoes",
+    "red onion",
+    "fresh coriander",
+    "lime",
+    "ground black pepper",
+    "salt"
+  ],
+  "stepCount": 7
 }

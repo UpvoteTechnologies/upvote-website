@@ -2,14 +2,6 @@
   "slug": "cottage-cheese-pancakes",
   "title": "Cottage Cheese Pancakes",
   "blurb": "Light, protein-rich pancakes with a tender texture and subtle almond crunch.",
-  "steps": [
-    "Crack the eggs into a mixing bowl and beat them lightly with a fork.",
-    "Add the cottage cheese, milk, chopped almonds and salt, then stir everything together until roughly combined.",
-    "Heat the oil in a non-stick frying pan over medium heat.",
-    "Spoon portions of the batter into the pan to form small pancakes, about 8cm wide.",
-    "Cook for 2 to 3 minutes until the undersides are golden, then flip and cook for another 2 minutes.",
-    "Transfer to a plate and serve warm."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 10,
@@ -18,78 +10,13 @@
     "snack"
   ],
   "image": "/media/recipes/cottage-cheese-pancakes.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 389.5,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 29.291,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 10.955,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.183,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.16,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 25.358,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 7.114,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 877.4,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "cottage cheese, 1% milk fat",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "large eggs",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "partly skimmed milk, 2%",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "chopped almonds",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "cottage cheese, 1% milk fat",
+    "large eggs",
+    "partly skimmed milk, 2%",
+    "chopped almonds",
+    "salt",
+    "vegetable oil"
+  ],
+  "stepCount": 6
 }

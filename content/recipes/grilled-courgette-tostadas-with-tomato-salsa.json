@@ -2,14 +2,6 @@
   "slug": "grilled-courgette-tostadas-with-tomato-salsa",
   "title": "Grilled Courgette Tostadas with Tomato Salsa",
   "blurb": "Charred courgette strips on crisp corn tortillas, topped with a fresh tomato and jalapeño salsa.",
-  "steps": [
-    "Mix half the olive oil, chilli powder, half the garlic and half the lime juice in a large bowl, then toss the courgette slices in this mixture until well coated.",
-    "Heat a griddle or grill pan over high heat and cook the courgette slices for 3 to 4 minutes on each side until charred and tender.",
-    "Meanwhile, combine the tomatoes, jalapeño, red onion, remaining garlic, remaining lime juice, coriander and half the salt in a bowl to make the salsa.",
-    "Brush the tortillas lightly with the remaining olive oil and warm them on the griddle for about 30 seconds on each side until crisp.",
-    "Place each tortilla on a plate, top with grilled courgette slices and spoon over the fresh salsa.",
-    "Season with the remaining salt to taste and serve immediately."
-  ],
   "servings": 6,
   "prepMinutes": 30,
   "cookMinutes": 10,
@@ -18,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/grilled-courgette-tostadas-with-tomato-salsa.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 195.582,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 5.103,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 30.943,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 5.757,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 5.792,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 7.066,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.054,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 322.317,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "courgettes, cut lengthwise into 1/4-inch slices",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "olive oil",
-      "measure": "2 tbsp",
-      "grams": 30
-    },
-    {
-      "text": "chilli powder",
-      "measure": "2 tsp",
-      "grams": 6
-    },
-    {
-      "text": "garlic cloves, finely chopped",
-      "measure": "3 cloves",
-      "grams": 9
-    },
-    {
-      "text": "lime juice",
-      "measure": "2 tbsp",
-      "grams": 30
-    },
-    {
-      "text": "corn tortillas",
-      "measure": "6 tortillas",
-      "grams": 300
-    },
-    {
-      "text": "plum tomatoes, diced",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "jalapeño pepper, seeded and finely chopped",
-      "measure": "1 pepper",
-      "grams": 15
-    },
-    {
-      "text": "red onion, finely chopped",
-      "measure": "1 small onion",
-      "grams": 80
-    },
-    {
-      "text": "fresh coriander, chopped",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": "1 tsp",
-      "grams": 4
-    }
-  ]
+    "courgettes, cut lengthwise into 1/4-inch slices",
+    "olive oil",
+    "chilli powder",
+    "garlic cloves, finely chopped",
+    "lime juice",
+    "corn tortillas",
+    "plum tomatoes, diced",
+    "jalapeño pepper, seeded and finely chopped",
+    "red onion, finely chopped",
+    "fresh coriander, chopped",
+    "salt"
+  ],
+  "stepCount": 6
 }

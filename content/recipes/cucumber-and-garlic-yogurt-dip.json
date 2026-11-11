@@ -2,13 +2,6 @@
   "slug": "cucumber-and-garlic-yogurt-dip",
   "title": "Cucumber and Garlic Yogurt Dip",
   "blurb": "A cool, creamy dip with grated cucumber and garlic stirred through thick yogurt, sharpened with vinegar and finished with olive oil.",
-  "steps": [
-    "Peel the cucumber, cut it in half lengthways and scoop out the seeds with a teaspoon.",
-    "Grate the cucumber flesh coarsely, then squeeze it firmly in your hands over the sink to remove as much liquid as possible.",
-    "Peel and crush the garlic cloves to a paste.",
-    "Put the yogurt in a bowl and stir in the grated cucumber, garlic, vinegar, olive oil and salt until evenly combined.",
-    "Taste and adjust the seasoning if needed, then serve straight away or chill until ready to use."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -18,78 +11,13 @@
     "snack"
   ],
   "image": "/media/recipes/cucumber-and-garlic-yogurt-dip.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 122.01,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.262,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 7.609,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 4.945,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.304,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 8.328,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.858,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 333.665,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "plain yogurt, 2% fat",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "cucumber, medium",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "white wine vinegar",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    }
-  ]
+    "plain yogurt, 2% fat",
+    "cucumber, medium",
+    "garlic cloves",
+    "white wine vinegar",
+    "olive oil",
+    "salt"
+  ],
+  "stepCount": 5
 }

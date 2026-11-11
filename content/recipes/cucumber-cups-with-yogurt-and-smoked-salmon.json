@@ -2,14 +2,6 @@
   "slug": "cucumber-cups-with-yogurt-and-smoked-salmon",
   "title": "Cucumber Cups with Yogurt and Smoked Salmon",
   "blurb": "Hollowed cucumber rounds filled with a creamy yogurt and cottage cheese mixture, topped with flaked smoked salmon and fresh chives.",
-  "steps": [
-    "Cut the cucumbers into 3cm thick rounds and use a teaspoon to scoop out the seeds from each round, leaving a base at the bottom to form cups.",
-    "In a bowl, mix together the yogurt, cottage cheese, lemon juice and black pepper until smooth.",
-    "Finely chop most of the chives, reserving a small amount for garnish, and stir them into the yogurt mixture.",
-    "Flake the smoked salmon into small pieces.",
-    "Spoon the yogurt mixture into each cucumber cup, filling them generously.",
-    "Top each cup with a portion of flaked smoked salmon and scatter over the reserved chives before serving."
-  ],
   "servings": 6,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -18,83 +10,14 @@
     "snack"
   ],
   "image": "/media/recipes/cucumber-cups-with-yogurt-and-smoked-salmon.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 110.943,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 10.269,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 7.291,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 4.418,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.612,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 4.448,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.133,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 284.583,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "cucumbers",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "nonfat plain yogurt",
-      "measure": null,
-      "grams": 240
-    },
-    {
-      "text": "lowfat cottage cheese",
-      "measure": null,
-      "grams": 225
-    },
-    {
-      "text": "smoked salmon",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "fresh chives",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "lemon juice",
-      "measure": null,
-      "grams": 15
-    }
-  ]
+    "cucumbers",
+    "nonfat plain yogurt",
+    "lowfat cottage cheese",
+    "smoked salmon",
+    "fresh chives",
+    "black pepper",
+    "lemon juice"
+  ],
+  "stepCount": 6
 }

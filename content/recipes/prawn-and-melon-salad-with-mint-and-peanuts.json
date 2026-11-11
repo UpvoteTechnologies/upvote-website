@@ -2,15 +2,6 @@
   "slug": "prawn-and-melon-salad-with-mint-and-peanuts",
   "title": "Prawn and Melon Salad with Mint and Peanuts",
   "blurb": "A light salad combining sweet melon with garlic prawns, fresh mint and roasted peanuts, dressed with lime and fish sauce.",
-  "steps": [
-    "Peel and devein the prawns if needed, then pat them dry.",
-    "Peel and finely chop the garlic, and thinly slice the chilli.",
-    "Cut the melon into bite-sized cubes and place in a serving bowl.",
-    "Heat the oil in a frying pan over high heat, add the garlic and prawns, and cook for 2 to 3 minutes until the prawns turn pink and are cooked through.",
-    "Squeeze the lime juice into a small bowl, add the fish sauce and mix together.",
-    "Add the cooked prawns to the melon, tear in the mint leaves, and scatter over the peanuts and chilli.",
-    "Pour the dressing over the salad, toss gently, and serve immediately."
-  ],
   "servings": 2,
   "prepMinutes": 15,
   "cookMinutes": 5,
@@ -19,93 +10,16 @@
     "dinner"
   ],
   "image": null,
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 244.645,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 22.909,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 18.999,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 13.227,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.041,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 8.975,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.353,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 786.48,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "raw king prawns",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "cantaloupe melon",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "roasted peanuts",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "fresh mint",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "lime",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "fish sauce",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "vegetable oil",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "red chilli",
-      "measure": null,
-      "grams": 5
-    }
-  ]
+    "raw king prawns",
+    "cantaloupe melon",
+    "garlic cloves",
+    "roasted peanuts",
+    "fresh mint",
+    "lime",
+    "fish sauce",
+    "vegetable oil",
+    "red chilli"
+  ],
+  "stepCount": 7
 }

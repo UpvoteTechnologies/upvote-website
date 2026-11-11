@@ -39,11 +39,12 @@ Every page must reach the browser as finished HTML (title, description, text, JS
 - Store links are per language (`src/links.ts`)
 
 ### App content (`content/`)
-- Articles and recipes come from the app's catalog API, but the build never calls it. `npm run sync-content` (`scripts/sync-content.mjs`) copies them into `content/articles/en/`, `content/recipes/` and `public/media/`, and the result is committed
+- Articles and recipes are an **app feature**. The site shows only a preview of each (title, summary, cover, opening lines and outline for an article; times and ingredient names for a recipe) and sends the reader to the app for the rest. Do not render full articles, sources, quantities or methods on the site
+- The previews come from the app's catalog API, but the build never calls it. `npm run sync-content` (`scripts/sync-content.mjs`) writes them into `content/articles/en/`, `content/recipes/` and `public/media/`, and the result is committed. The full text is never written to this repo
 - `content/articles/published.json` is the list of article slugs on the site. Articles are opened in batches on purpose (most are generated families, and publishing all at once risks being read as scaled content). Add slugs there and re-run the sync to open the next batch
 - `content/articles/pt-br/<slug>.json` are hand-reviewed translations with the same shape as the English file. An article has a pt-BR page and an `hreflang` pair only when that file exists. The sync never touches this folder
 - `content/diets/<id>.json` holds one diet from the app's picker with its text in both languages (`id` is the ruleset id in the app). The text is written for the site and says what the app's rules do, not health advice; any change to it needs a human review. Routes: `/diets`, `/diets/<slug>`, `/pt-br/dietas`, `/pt-br/dietas/<slug>`
-- `src/lib/content.ts` loads the files; `ArticleBlocks.astro` renders the app's typed blocks
+- `src/lib/content.ts` loads the files
 - Routes: `/a/<slug>`, `/articles`, `/pt-br/a/<slug>`, `/pt-br/artigos`, `/recipes/<slug>`, `/recipes` (recipes are English only for now)
 
 ### SEO files

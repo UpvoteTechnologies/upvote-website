@@ -2,14 +2,6 @@
   "slug": "crab-and-avocado-salad",
   "title": "Crab and Avocado Salad",
   "blurb": "A light salad of crab meat tossed with avocado, lime and warm spices, served on crisp lettuce leaves.",
-  "steps": [
-    "Drain the crab meat well and pick through to remove any shell fragments.",
-    "Halve the avocados, remove the stones and scoop the flesh into a bowl, then cut into small chunks.",
-    "Add the crab, lime juice, cumin, paprika and olive oil to the bowl and gently fold everything together.",
-    "Finely chop the red onion and roughly chop the coriander, then stir both through the crab mixture.",
-    "Separate the lettuce leaves, wash and pat dry, then arrange on serving plates.",
-    "Spoon the crab and avocado mixture onto the lettuce leaves and serve straight away."
-  ],
   "servings": 4,
   "prepMinutes": 20,
   "cookMinutes": 0,
@@ -18,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/crab-and-avocado-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "canned crab meat",
-      "measure": null,
-      "grams": 340
-    },
-    {
-      "text": "avocados",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "fresh lime juice",
-      "measure": "tbsp",
-      "grams": 30
-    },
-    {
-      "text": "ground cumin",
-      "measure": "tsp",
-      "grams": 2
-    },
-    {
-      "text": "paprika",
-      "measure": "tsp",
-      "grams": 2
-    },
-    {
-      "text": "red onion",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "little gem lettuce",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "olive oil",
-      "measure": "tbsp",
-      "grams": 15
-    }
-  ]
+    "canned crab meat",
+    "avocados",
+    "fresh lime juice",
+    "ground cumin",
+    "paprika",
+    "red onion",
+    "fresh coriander",
+    "little gem lettuce",
+    "olive oil"
+  ],
+  "stepCount": 6
 }

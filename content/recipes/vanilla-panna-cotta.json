@@ -2,14 +2,6 @@
   "slug": "vanilla-panna-cotta",
   "title": "Vanilla Panna Cotta",
   "blurb": "A silky Italian set cream dessert with a gentle vanilla flavour, chilled until just firm enough to wobble on the plate.",
-  "steps": [
-    "Pour three tablespoons of the milk into a small bowl, sprinkle the gelatine over the surface and leave to soften for five minutes.",
-    "Put the cream, remaining milk and sweetener in a saucepan and warm gently over a low heat, stirring occasionally, until it just begins to steam but does not boil.",
-    "Remove from the heat and add the softened gelatine, stirring until it dissolves completely into the warm cream.",
-    "Stir in the vanilla extract, then pour the mixture through a fine sieve into a jug.",
-    "Divide the mixture between six small ramekins or moulds, then cover each with cling film and refrigerate for at least three hours until set.",
-    "To serve, dip the base of each mould briefly in warm water and turn out onto a plate, or serve directly in the ramekins."
-  ],
   "servings": 6,
   "prepMinutes": 195,
   "cookMinutes": 5,
@@ -17,73 +9,12 @@
     "snack"
   ],
   "image": "/media/recipes/vanilla-panna-cotta.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 368.307,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.835,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 5.565,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 4.658,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 36.362,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 20.867,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 35.073,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "heavy cream",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "whole milk",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "unflavoured gelatine powder",
-      "measure": null,
-      "grams": 14
-    },
-    {
-      "text": "vanilla extract",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "sucralose sweetener",
-      "measure": null,
-      "grams": 4
-    }
-  ]
+    "heavy cream",
+    "whole milk",
+    "unflavoured gelatine powder",
+    "vanilla extract",
+    "sucralose sweetener"
+  ],
+  "stepCount": 6
 }

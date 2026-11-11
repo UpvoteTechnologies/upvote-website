@@ -2,16 +2,6 @@
   "slug": "fried-eggs-with-sausage-avocado-and-tomato",
   "title": "Fried Eggs with Sausage, Avocado and Tomato",
   "blurb": "A simple breakfast plate of fried eggs and sausages with fresh avocado and tomato on the side.",
-  "steps": [
-    "Heat half the olive oil in a frying pan over medium heat and add the sausages.",
-    "Cook the sausages for 6 to 7 minutes, turning occasionally, until browned and cooked through.",
-    "While the sausages cook, halve the avocado, remove the stone and scoop the flesh onto a plate.",
-    "Cut the tomato into quarters and arrange on the plate with the avocado.",
-    "When the sausages are done, transfer them to the plate and return the pan to the heat.",
-    "Add the remaining oil to the pan and crack in the eggs.",
-    "Fry the eggs for 2 to 3 minutes until the whites are set but the yolks remain runny.",
-    "Slide the eggs onto the plate alongside the sausages and serve."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 8,
@@ -20,73 +10,12 @@
     "lunch"
   ],
   "image": "/media/recipes/fried-eggs-with-sausage-avocado-and-tomato.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 377.4,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 14.88,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 11.674,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.358,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 6.56,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 31.888,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 6.31,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 139.8,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "pork sausages",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "eggs",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "avocado",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "tomato",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "pork sausages",
+    "eggs",
+    "avocado",
+    "tomato",
+    "olive oil"
+  ],
+  "stepCount": 8
 }

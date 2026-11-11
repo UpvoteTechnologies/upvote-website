@@ -2,13 +2,6 @@
   "slug": "coconut-quinoa-porridge",
   "title": "Coconut Quinoa Porridge",
   "blurb": "A gently sweetened breakfast porridge made with quinoa, coconut water and almond milk, finished with honey and vanilla.",
-  "steps": [
-    "Rinse the quinoa thoroughly under cold running water in a fine mesh sieve until the water runs clear.",
-    "Put the quinoa, coconut water, almond milk and salt in a large saucepan and bring to the boil over a medium-high heat.",
-    "Reduce the heat to low, cover with a lid and simmer gently for 25 minutes, stirring occasionally, until the quinoa is tender and has absorbed most of the liquid.",
-    "Remove from the heat and stir in the honey and vanilla extract.",
-    "Let the porridge stand for 5 minutes to thicken slightly before serving."
-  ],
   "servings": 12,
   "prepMinutes": 10,
   "cookMinutes": 30,
@@ -16,78 +9,13 @@
     "breakfast"
   ],
   "image": "/media/recipes/coconut-quinoa-porridge.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 49.9,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 0.452,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 11.237,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 10.825,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 0.02,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 0.61,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.052,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 112.233,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "white quinoa",
-      "measure": null,
-      "grams": 480
-    },
-    {
-      "text": "coconut water",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "unsweetened almond milk",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "pure vanilla extract",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "white quinoa",
+    "coconut water",
+    "unsweetened almond milk",
+    "honey",
+    "pure vanilla extract",
+    "salt"
+  ],
+  "stepCount": 5
 }

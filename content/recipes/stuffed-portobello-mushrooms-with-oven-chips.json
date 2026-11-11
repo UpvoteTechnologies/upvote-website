@@ -2,14 +2,6 @@
   "slug": "stuffed-portobello-mushrooms-with-oven-chips",
   "title": "Stuffed Portobello Mushrooms with Oven Chips",
   "blurb": "Large mushrooms filled with tomato, herbs and cheese, baked until tender and served with golden oven chips and a simple salad.",
-  "steps": [
-    "Heat your oven to 200°C. Peel the potatoes and cut them into chunky chips, then toss with half the olive oil and a pinch of salt on a baking tray.",
-    "Remove the stalks from the mushrooms and place them gill-side up in a small baking dish. Brush with a little olive oil and season with salt and pepper.",
-    "Chop the tomatoes into small pieces and crush the garlic, then mix together with the oregano, basil and remaining olive oil.",
-    "Spoon the tomato mixture into the mushroom caps, spreading it evenly, then tear the mozzarella over the top.",
-    "Put the chips on the top shelf of the oven and the mushrooms on the middle shelf. Bake for 30 minutes until the chips are golden and the mushrooms are tender.",
-    "Wash the lamb's lettuce and toss with the mayonnaise in a small bowl. Serve the stuffed mushrooms with the chips and dressed leaves on the side."
-  ],
   "servings": 1,
   "prepMinutes": 45,
   "cookMinutes": 30,
@@ -18,108 +10,19 @@
     "dinner"
   ],
   "image": "/media/recipes/stuffed-portobello-mushrooms-with-oven-chips.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 763.225,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 25.066,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 71.737,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 11.433,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 12.249,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 43.024,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 10.61,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1248.05,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "portobello mushrooms",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "floury potatoes",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "plum tomatoes",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "garlic clove",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "dried oregano",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "dried basil",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "mozzarella",
-      "measure": null,
-      "grams": 50
-    },
-    {
-      "text": "lamb's lettuce",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "mayonnaise",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 0.5
-    }
-  ]
+    "portobello mushrooms",
+    "floury potatoes",
+    "olive oil",
+    "plum tomatoes",
+    "garlic clove",
+    "dried oregano",
+    "dried basil",
+    "mozzarella",
+    "lamb's lettuce",
+    "mayonnaise",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

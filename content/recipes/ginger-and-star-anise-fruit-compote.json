@@ -2,12 +2,6 @@
   "slug": "ginger-and-star-anise-fruit-compote",
   "title": "Ginger and Star Anise Fruit Compote",
   "blurb": "Soft cherries and peaches warmed with fresh ginger and star anise in a light syrup.",
-  "steps": [
-    "Put the water, sugar, grated ginger and star anise in a small saucepan and bring to a simmer over medium heat, stirring until the sugar dissolves.",
-    "Add the peach slices and simmer gently for 2 minutes.",
-    "Add the cherries and simmer for another 2 to 3 minutes until the fruit has softened slightly but still holds its shape.",
-    "Remove from the heat and fish out the star anise if you prefer. Serve warm or leave to cool."
-  ],
   "servings": 2,
   "prepMinutes": 5,
   "cookMinutes": 5,
@@ -16,78 +10,13 @@
     "snack"
   ],
   "image": "/media/recipes/ginger-and-star-anise-fruit-compote.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 162.6,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 1.763,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 37.871,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 33.831,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.155,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 0.491,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.056,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 15.17,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "fresh ginger root, grated",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "star anise",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "firm-ripe peaches, stoned and sliced",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "cherries, halved and stoned",
-      "measure": null,
-      "grams": 150
-    }
-  ]
+    "water",
+    "caster sugar",
+    "fresh ginger root, grated",
+    "star anise",
+    "firm-ripe peaches, stoned and sliced",
+    "cherries, halved and stoned"
+  ],
+  "stepCount": 4
 }

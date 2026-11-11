@@ -2,13 +2,6 @@
   "slug": "no-bake-chocolate-peanut-butter-oat-bars",
   "title": "No-Bake Chocolate Peanut Butter Oat Bars",
   "blurb": "Quick energy bars made by mixing oats, cocoa and peanut butter, then pressing into a tin and chilling until firm.",
-  "steps": [
-    "Line a 20cm square tin with baking paper.",
-    "Put the peanut butter and honey in a large bowl and stir together until smooth.",
-    "Add the oats, cocoa powder, vanilla extract, pumpkin seeds and salt, then mix everything together until well combined.",
-    "Tip the mixture into the prepared tin and press down firmly with the back of a spoon to create an even layer.",
-    "Refrigerate for at least two hours until set, then cut into 12 bars."
-  ],
   "servings": 12,
   "prepMinutes": 10,
   "cookMinutes": 0,
@@ -16,83 +9,14 @@
     "snack"
   ],
   "image": "/media/recipes/no-bake-chocolate-peanut-butter-oat-bars.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 217.9,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 7.535,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 25.113,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 10.119,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 3.703,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 11.586,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.363,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 69.888,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "rolled oats",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "natural peanut butter",
-      "measure": null,
-      "grams": 180
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "cocoa powder",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "vanilla extract",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "pumpkin seeds",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "rolled oats",
+    "natural peanut butter",
+    "honey",
+    "cocoa powder",
+    "vanilla extract",
+    "pumpkin seeds",
+    "salt"
+  ],
+  "stepCount": 5
 }

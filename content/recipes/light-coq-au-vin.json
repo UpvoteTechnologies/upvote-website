@@ -2,14 +2,6 @@
   "slug": "light-coq-au-vin",
   "title": "Light Coq au Vin",
   "blurb": "Tender chicken legs braised with mushrooms, olives and red wine in a simplified take on the French classic.",
-  "steps": [
-    "Heat the olive oil in a large, deep pan over medium heat and brown the chicken legs on all sides, then remove and set aside.",
-    "Add the onions to the pan and cook until softened, about 5 minutes, then stir in the mushrooms and garlic and cook for another 3 minutes.",
-    "Stir in the tomato purée and cook for 1 minute, then pour in the wine and let it bubble for 2 minutes.",
-    "Add the stock, bay leaf and thyme, then return the chicken to the pan and bring to a simmer.",
-    "Cover and cook gently for 35 minutes until the chicken is tender and cooked through.",
-    "Stir in the olives and season with black pepper before serving."
-  ],
   "servings": 4,
   "prepMinutes": 15,
   "cookMinutes": 45,
@@ -18,108 +10,19 @@
     "dinner"
   ],
   "image": null,
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 601.85,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 36.11,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 13.009,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 4.395,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.909,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 39.536,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 10.109,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 321.213,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "chicken legs, skin removed",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "onions, finely chopped",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "button mushrooms, thinly sliced",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "garlic cloves, crushed",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "tomato purée",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "red wine",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "chicken stock",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "bay leaf",
-      "measure": null,
-      "grams": 1
-    },
-    {
-      "text": "fresh thyme",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black olives, pitted",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "chicken legs, skin removed",
+    "olive oil",
+    "onions, finely chopped",
+    "button mushrooms, thinly sliced",
+    "garlic cloves, crushed",
+    "tomato purée",
+    "red wine",
+    "chicken stock",
+    "bay leaf",
+    "fresh thyme",
+    "black olives, pitted",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

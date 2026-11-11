@@ -2,15 +2,6 @@
   "slug": "roasted-white-fish-with-tomato-and-olive-sauce",
   "title": "Roasted White Fish with Tomato and Olive Sauce",
   "blurb": "Flaky white fish baked with a Mediterranean sauce of tomatoes, Kalamata olives and garlic",
-  "steps": [
-    "Heat the oven to 200°C. Peel and slice the onion into thin half-moons, then peel and finely chop the garlic.",
-    "Heat half the olive oil in an ovenproof dish on the hob over medium heat. Add the onion and cook for 8 minutes until softened, then add the garlic and cook for 1 minute.",
-    "Chop the tomatoes into rough chunks and add them to the dish with half the salt and some pepper. Simmer for 10 minutes until the tomatoes break down into a sauce.",
-    "Pit the olives if needed and stir them into the sauce. Chop most of the parsley, keeping some leaves whole for garnish.",
-    "Pat the fish dry and season both sides with the remaining salt and pepper. Nestle the fillets into the sauce.",
-    "Drizzle the remaining olive oil over the fish and transfer the dish to the oven. Bake for 12 to 15 minutes until the fish is cooked through and flakes easily.",
-    "Scatter the chopped and whole parsley over the top before serving."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 25,
@@ -19,93 +10,16 @@
     "dinner"
   ],
   "image": "/media/recipes/roasted-white-fish-with-tomato-and-olive-sauce.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "white fish fillets",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "plum tomatoes",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "Kalamata olives",
-      "measure": null,
-      "grams": 125
-    },
-    {
-      "text": "yellow onion",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "flat leaf parsley",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "white fish fillets",
+    "plum tomatoes",
+    "Kalamata olives",
+    "yellow onion",
+    "garlic cloves",
+    "flat leaf parsley",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 7
 }

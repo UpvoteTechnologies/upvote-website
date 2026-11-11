@@ -2,14 +2,6 @@
   "slug": "gruyere-and-egg-bistro-salad",
   "title": "Gruyère and Egg Bistro Salad",
   "blurb": "A simple French-style salad with soft-boiled eggs, nutty Gruyère and peppery leaves.",
-  "steps": [
-    "Bring a pan of water to the boil, lower in the eggs and cook for 6 minutes for soft yolks.",
-    "While the eggs cook, whisk together the mustard, vinegar, olive oil, half the salt and half the pepper in a large bowl.",
-    "Drain the eggs and run them under cold water, then peel carefully and cut each in half.",
-    "Add the salad leaves to the bowl with the dressing and toss gently to coat.",
-    "Divide the dressed leaves between four plates and scatter over the shredded Gruyère.",
-    "Place two egg halves on each salad, season with the remaining salt and pepper, and serve straight away."
-  ],
   "servings": 4,
   "prepMinutes": 20,
   "cookMinutes": 5,
@@ -18,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/gruyere-and-egg-bistro-salad.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "spring mix salad leaves",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "Gruyère cheese",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "large eggs",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "Dijon mustard",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "white wine vinegar",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "spring mix salad leaves",
+    "Gruyère cheese",
+    "large eggs",
+    "Dijon mustard",
+    "white wine vinegar",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

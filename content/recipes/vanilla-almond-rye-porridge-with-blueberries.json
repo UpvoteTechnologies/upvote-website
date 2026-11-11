@@ -2,13 +2,6 @@
   "slug": "vanilla-almond-rye-porridge-with-blueberries",
   "title": "Vanilla Almond Rye Porridge with Blueberries",
   "blurb": "Nutty rye flakes simmered in vanilla almondmilk until creamy, topped with honey, toasted almonds and fresh blueberries.",
-  "steps": [
-    "Put the rye flakes, almondmilk, water and salt in a medium saucepan and bring to a gentle simmer over medium heat, stirring occasionally.",
-    "Reduce the heat to low and cook for 15 to 20 minutes, stirring every few minutes, until the flakes are tender and the mixture is thick and creamy.",
-    "While the porridge cooks, toast the sliced almonds in a dry frying pan over medium heat for 3 to 4 minutes, tossing frequently, until golden and fragrant.",
-    "Divide the porridge between four bowls and drizzle each with honey.",
-    "Top each bowl with toasted almonds and blueberries, then serve warm."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 20,
@@ -16,83 +9,14 @@
     "breakfast"
   ],
   "image": "/media/recipes/vanilla-almond-rye-porridge-with-blueberries.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 201.5,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.712,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 23.33,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 17.651,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.85,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 10.259,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 0.789,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 315.1,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "rye flakes",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "unsweetened vanilla almondmilk",
-      "measure": null,
-      "grams": 800
-    },
-    {
-      "text": "water",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "sliced almonds",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "honey",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "blueberries",
-      "measure": null,
-      "grams": 200
-    }
-  ]
+    "rye flakes",
+    "unsweetened vanilla almondmilk",
+    "water",
+    "salt",
+    "sliced almonds",
+    "honey",
+    "blueberries"
+  ],
+  "stepCount": 5
 }

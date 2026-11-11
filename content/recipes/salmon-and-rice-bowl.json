@@ -2,14 +2,6 @@
   "slug": "salmon-and-rice-bowl",
   "title": "Salmon and Rice Bowl",
   "blurb": "A quick, nourishing bowl with flaked salmon, fluffy rice and peppery greens.",
-  "steps": [
-    "Rinse the rice under cold water, then cook according to packet instructions until tender and the water is absorbed.",
-    "Drain the canned salmon and flake it into chunks with a fork, removing any skin or bones.",
-    "Wash and roughly chop the coriander.",
-    "Juice the lemon into a small bowl and whisk in the olive oil with a pinch of salt.",
-    "Divide the cooked rice between four bowls and top each with flaked salmon and baby arugula.",
-    "Scatter over the chopped coriander, drizzle with the lemon dressing and season with black pepper to taste."
-  ],
   "servings": 4,
   "prepMinutes": 15,
   "cookMinutes": 10,
@@ -18,88 +10,15 @@
     "dinner"
   ],
   "image": "/media/recipes/salmon-and-rice-bowl.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 540.928,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 26.224,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 58.436,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 0.914,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 1.853,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 21.593,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 4.239,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 360.95,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "white rice",
-      "measure": null,
-      "grams": 280
-    },
-    {
-      "text": "canned salmon",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "baby arugula",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "fresh coriander",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "white rice",
+    "canned salmon",
+    "baby arugula",
+    "fresh coriander",
+    "olive oil",
+    "lemon",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

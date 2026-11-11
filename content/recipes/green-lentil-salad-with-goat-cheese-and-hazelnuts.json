@@ -2,16 +2,6 @@
   "slug": "green-lentil-salad-with-goat-cheese-and-hazelnuts",
   "title": "Green lentil salad with goat cheese and hazelnuts",
   "blurb": "Earthy lentils with creamy goat cheese, toasted hazelnuts and fresh herbs",
-  "steps": [
-    "Rinse the lentils and place them in a pan with plenty of cold water. Bring to the boil, then reduce the heat and simmer for 25 to 30 minutes until tender but still holding their shape.",
-    "Meanwhile, peel and finely dice the carrot, and finely slice the red onion.",
-    "Toast the hazelnuts in a dry frying pan over medium heat until golden, then roughly chop them.",
-    "Chop the parsley and strip the thyme leaves from their stems.",
-    "Drain the lentils well and tip them into a serving bowl while still warm.",
-    "Add the carrot, red onion, olive oil, red wine vinegar, salt and pepper to the lentils and mix well.",
-    "Stir through most of the parsley, thyme and hazelnuts, reserving some for the top.",
-    "Crumble the goat cheese over the salad and scatter with the remaining herbs and hazelnuts."
-  ],
   "servings": 2,
   "prepMinutes": 30,
   "cookMinutes": 30,
@@ -20,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/green-lentil-salad-with-goat-cheese-and-hazelnuts.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 715.895,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 31.416,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 61.525,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 6.597,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 13.124,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 40.283,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 11.426,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 801.525,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "dried green lentils",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "carrot",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "red onion",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "hazelnuts",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "fresh parsley",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh thyme",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "red wine vinegar",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "fresh goat cheese",
-      "measure": null,
-      "grams": 80
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 3
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "dried green lentils",
+    "carrot",
+    "red onion",
+    "hazelnuts",
+    "fresh parsley",
+    "fresh thyme",
+    "olive oil",
+    "red wine vinegar",
+    "fresh goat cheese",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 8
 }

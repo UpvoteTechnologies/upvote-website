@@ -2,15 +2,6 @@
   "slug": "curried-mushroom-and-goat-cheese-crostini-with-watercress",
   "title": "Curried Mushroom and Goat Cheese Crostini with Watercress",
   "blurb": "Toasted bread topped with buttery curried mushrooms, tangy goat cheese and peppery watercress.",
-  "steps": [
-    "Slice the baguette into rounds about 1cm thick and brush both sides lightly with olive oil.",
-    "Toast the bread slices under a hot grill or in a griddle pan until golden on both sides, then set aside.",
-    "Mix half the softened butter with the curry powder until well combined.",
-    "Heat the remaining butter in a large frying pan over medium-high heat and cook the mushrooms for 4 to 5 minutes until softened and any liquid has evaporated. Season with salt and pepper.",
-    "Spread each crostini with a little of the curried butter.",
-    "Spoon the cooked mushrooms onto the crostini and crumble the goat cheese over the top.",
-    "Finish with a small handful of watercress on each crostini and serve straight away."
-  ],
   "servings": 4,
   "prepMinutes": 15,
   "cookMinutes": 5,
@@ -19,93 +10,16 @@
     "snack"
   ],
   "image": "/media/recipes/curried-mushroom-and-goat-cheese-crostini-with-watercress.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 410.903,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 14.039,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 28.824,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.692,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.276,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 26.491,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 13.851,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 705.575,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "baguette",
-      "measure": null,
-      "grams": 200
-    },
-    {
-      "text": "unsalted butter, softened",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "curry powder",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "button mushrooms, thinly sliced",
-      "measure": null,
-      "grams": 250
-    },
-    {
-      "text": "fresh goat cheese",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "watercress",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "baguette",
+    "unsalted butter, softened",
+    "curry powder",
+    "button mushrooms, thinly sliced",
+    "fresh goat cheese",
+    "watercress",
+    "olive oil",
+    "salt",
+    "black pepper"
+  ],
+  "stepCount": 7
 }

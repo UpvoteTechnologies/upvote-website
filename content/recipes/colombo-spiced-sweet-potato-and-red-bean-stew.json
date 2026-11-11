@@ -2,15 +2,6 @@
   "slug": "colombo-spiced-sweet-potato-and-red-bean-stew",
   "title": "Colombo spiced sweet potato and red bean stew",
   "blurb": "A warmly spiced Caribbean-style stew with tender sweet potatoes and red beans in a fragrant Colombo curry sauce.",
-  "steps": [
-    "Peel and dice the onion, then peel the sweet potatoes and cut them into chunks about two centimetres across.",
-    "Peel and finely chop the garlic and ginger, then drain and rinse the kidney beans.",
-    "Heat the olive oil in a large pan over medium heat and cook the onion for five minutes until softened.",
-    "Add the garlic, ginger and Colombo curry powder and stir for one minute until fragrant.",
-    "Roughly chop the tomatoes and add them to the pan with the sweet potato chunks, kidney beans and vegetable stock.",
-    "Bring to a simmer, then reduce the heat and cook gently for twenty-five minutes until the sweet potatoes are tender.",
-    "Season with salt, then tear the basil leaves and stir them through just before serving."
-  ],
   "servings": 2,
   "prepMinutes": 35,
   "cookMinutes": 30,
@@ -19,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/colombo-spiced-sweet-potato-and-red-bean-stew.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 593.775,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 23.689,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 103.017,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 17.15,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 22.28,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 11.703,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 1.701,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 1342.825,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "yellow onion",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "sweet potatoes",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "red kidney beans",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "garlic cloves",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "fresh ginger",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "Colombo curry powder",
-      "measure": null,
-      "grams": 12
-    },
-    {
-      "text": "plum tomatoes",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "vegetable stock",
-      "measure": null,
-      "grams": 300
-    },
-    {
-      "text": "fresh basil",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 4
-    }
-  ]
+    "yellow onion",
+    "sweet potatoes",
+    "red kidney beans",
+    "garlic cloves",
+    "fresh ginger",
+    "Colombo curry powder",
+    "plum tomatoes",
+    "vegetable stock",
+    "fresh basil",
+    "olive oil",
+    "salt"
+  ],
+  "stepCount": 7
 }

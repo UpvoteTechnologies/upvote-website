@@ -2,16 +2,6 @@
   "slug": "baked-oat-and-mushroom-loaf-with-peas",
   "title": "Baked Oat and Mushroom Loaf with Peas",
   "blurb": "A hearty vegetarian loaf combining oats, mushrooms and peas with herbs, baked until firm and golden.",
-  "steps": [
-    "Heat the oven to 180°C and line a loaf tin with baking paper.",
-    "Heat the olive oil in a large frying pan over medium heat and cook the onion for five minutes until softened.",
-    "Add the mushrooms and garlic to the pan and cook for eight minutes until the mushrooms release their liquid and it evaporates.",
-    "Stir the frozen peas and thyme into the mushroom mixture and cook for two minutes, then remove from the heat.",
-    "In a large bowl, beat the eggs and mix in the oats, grated cheddar, salt and pepper.",
-    "Add the mushroom and pea mixture to the bowl and stir everything together until well combined.",
-    "Spoon the mixture into the prepared loaf tin, press down firmly and smooth the top.",
-    "Bake for 60 minutes until the loaf is firm and golden on top, then leave to cool in the tin for ten minutes before slicing."
-  ],
   "servings": 8,
   "prepMinutes": 15,
   "cookMinutes": 60,
@@ -20,103 +10,18 @@
     "dinner"
   ],
   "image": "/media/recipes/baked-oat-and-mushroom-loaf-with-peas.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 245.84,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 11.141,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 24.517,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 3.051,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 4.963,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 11.808,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 3.859,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 354.231,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "rolled oats",
-      "measure": "cup",
-      "grams": 200
-    },
-    {
-      "text": "white button mushrooms, sliced",
-      "measure": "ounces",
-      "grams": 340
-    },
-    {
-      "text": "frozen green peas",
-      "measure": "cup",
-      "grams": 150
-    },
-    {
-      "text": "onion, finely chopped",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "eggs",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "mature cheddar, grated",
-      "measure": null,
-      "grams": 100
-    },
-    {
-      "text": "fresh thyme leaves",
-      "measure": null,
-      "grams": 5
-    },
-    {
-      "text": "garlic cloves, crushed",
-      "measure": null,
-      "grams": 10
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "fine sea salt",
-      "measure": "teaspoon",
-      "grams": 5
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    }
-  ]
+    "rolled oats",
+    "white button mushrooms, sliced",
+    "frozen green peas",
+    "onion, finely chopped",
+    "eggs",
+    "mature cheddar, grated",
+    "fresh thyme leaves",
+    "garlic cloves, crushed",
+    "olive oil",
+    "fine sea salt",
+    "black pepper"
+  ],
+  "stepCount": 8
 }

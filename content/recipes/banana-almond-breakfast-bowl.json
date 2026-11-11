@@ -2,13 +2,6 @@
   "slug": "banana-almond-breakfast-bowl",
   "title": "Banana Almond Breakfast Bowl",
   "blurb": "A simple no-cook bowl with creamy yogurt, banana, almond butter and chia seeds for a quick morning start.",
-  "steps": [
-    "Spoon the Greek yogurt into a serving bowl.",
-    "Peel the banana and slice it into rounds, then scatter over the yogurt.",
-    "Add a dollop of almond butter on top.",
-    "Pour over the milk to loosen the mixture slightly.",
-    "Sprinkle the chia seeds over everything and serve straightaway."
-  ],
   "servings": 1,
   "prepMinutes": 5,
   "cookMinutes": 0,
@@ -17,73 +10,12 @@
     "snack"
   ],
   "image": "/media/recipes/banana-almond-breakfast-bowl.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "Greek yogurt",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "banana",
-      "measure": null,
-      "grams": 120
-    },
-    {
-      "text": "almond butter",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "semi-skimmed milk",
-      "measure": null,
-      "grams": 30
-    },
-    {
-      "text": "chia seeds",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "Greek yogurt",
+    "banana",
+    "almond butter",
+    "semi-skimmed milk",
+    "chia seeds"
+  ],
+  "stepCount": 5
 }

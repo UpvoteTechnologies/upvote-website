@@ -2,13 +2,6 @@
   "slug": "paprika-and-lime-chicken-wings",
   "title": "Paprika and Lime Chicken Wings",
   "blurb": "Tender chicken wings rubbed with paprika and finished with a squeeze of fresh lime.",
-  "steps": [
-    "Pat the chicken wings dry with kitchen paper and place them in a bowl.",
-    "Drizzle the wings with olive oil, then sprinkle over the paprika, salt and black pepper. Toss everything together until the wings are evenly coated.",
-    "Heat your grill to medium-high.",
-    "Place the wings on the grill and cook for 15 minutes, turning every few minutes, until the skin is golden and the meat is cooked through.",
-    "Transfer the wings to a serving plate and squeeze the lime over them while they are still hot."
-  ],
   "servings": 2,
   "prepMinutes": 10,
   "cookMinutes": 15,
@@ -18,78 +11,13 @@
     "snack"
   ],
   "image": "/media/recipes/paprika-and-lime-chicken-wings.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "chicken wings",
-      "measure": null,
-      "grams": 500
-    },
-    {
-      "text": "paprika",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "lime",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "ground black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 10
-    }
-  ]
+    "chicken wings",
+    "paprika",
+    "salt",
+    "lime",
+    "ground black pepper",
+    "olive oil"
+  ],
+  "stepCount": 5
 }

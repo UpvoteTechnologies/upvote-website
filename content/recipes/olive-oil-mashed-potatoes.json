@@ -2,14 +2,6 @@
   "slug": "olive-oil-mashed-potatoes",
   "title": "Olive Oil Mashed Potatoes",
   "blurb": "Smooth mashed potatoes enriched with olive oil and brightened with a touch of lemon juice.",
-  "steps": [
-    "Peel the potatoes and cut them into even chunks, roughly 4cm across.",
-    "Put the potatoes in a large pan, cover with cold water and add half the salt. Bring to the boil, then reduce the heat and simmer for 18 to 20 minutes until completely tender when pierced with a knife.",
-    "Drain the potatoes thoroughly in a colander and let them steam for a minute.",
-    "Return the potatoes to the warm pan and mash them until smooth.",
-    "Add the olive oil, lemon juice and remaining salt, then beat with a wooden spoon until creamy.",
-    "Season with black pepper and serve warm."
-  ],
   "servings": 4,
   "prepMinutes": 5,
   "cookMinutes": 25,
@@ -18,73 +10,12 @@
     "dinner"
   ],
   "image": "/media/recipes/olive-oil-mashed-potatoes.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 307.303,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 4.652,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 39.771,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 1.941,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 4.8,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 15.22,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.132,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 787.887,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "floury potatoes",
-      "measure": null,
-      "grams": 900
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 8
-    },
-    {
-      "text": "extra virgin olive oil",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "lemon juice",
-      "measure": null,
-      "grams": 15
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 1
-    }
-  ]
+    "floury potatoes",
+    "salt",
+    "extra virgin olive oil",
+    "lemon juice",
+    "black pepper"
+  ],
+  "stepCount": 6
 }

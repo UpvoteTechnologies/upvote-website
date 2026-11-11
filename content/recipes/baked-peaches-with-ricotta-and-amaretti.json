@@ -2,15 +2,6 @@
   "slug": "baked-peaches-with-ricotta-and-amaretti",
   "title": "Baked Peaches with Ricotta and Amaretti",
   "blurb": "Halved peaches filled with sweetened ricotta, topped with crumbled amaretti biscuits and a nugget of marzipan, then baked until soft and golden.",
-  "steps": [
-    "Heat your oven to 200°C.",
-    "Halve the peaches and remove the stones, then arrange them cut side up in a baking dish.",
-    "Mix the ricotta with the sugar in a small bowl.",
-    "Spoon the ricotta mixture into the hollow of each peach half.",
-    "Break the marzipan into small pieces and press one piece into the ricotta on each peach.",
-    "Crush the amaretti biscuits lightly and scatter them over the peaches along with the flaked almonds.",
-    "Bake for 5 minutes until the peaches are softened and the topping is lightly golden."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 5,
@@ -19,78 +10,13 @@
     "breakfast"
   ],
   "image": "/media/recipes/baked-peaches-with-ricotta-and-amaretti.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 179.6,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 5.366,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 23.704,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 17.894,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 2.79,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 7.101,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 2.831,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 58.925,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "ripe peaches",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "ricotta cheese",
-      "measure": null,
-      "grams": 150
-    },
-    {
-      "text": "caster sugar",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "marzipan",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "amaretti biscuits",
-      "measure": null,
-      "grams": 40
-    },
-    {
-      "text": "flaked almonds",
-      "measure": null,
-      "grams": 20
-    }
-  ]
+    "ripe peaches",
+    "ricotta cheese",
+    "caster sugar",
+    "marzipan",
+    "amaretti biscuits",
+    "flaked almonds"
+  ],
+  "stepCount": 7
 }

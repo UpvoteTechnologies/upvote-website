@@ -2,13 +2,6 @@
   "slug": "greek-style-chicken-skewers",
   "title": "Greek-Style Chicken Skewers",
   "blurb": "Tender chicken and summer squash threaded onto skewers, seasoned with oregano and grilled until lightly charred.",
-  "steps": [
-    "Cut the chicken cutlets into 2 cm chunks and place in a bowl with the oregano, black pepper, half the olive oil and half the salt, then toss to coat.",
-    "Cut the pattypan squash into quarters and toss with the remaining olive oil and salt.",
-    "Thread the chicken and squash pieces alternately onto metal or soaked wooden skewers.",
-    "Heat a grill pan or barbecue to medium-high heat and cook the skewers for 8 to 10 minutes, turning occasionally, until the chicken is cooked through and both chicken and squash have char marks.",
-    "Squeeze the lemon over the skewers and serve immediately."
-  ],
   "servings": 4,
   "prepMinutes": 10,
   "cookMinutes": 10,
@@ -17,83 +10,14 @@
     "dinner"
   ],
   "image": "/media/recipes/greek-style-chicken-skewers.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "proteins_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sugars_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fiber_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": null,
-      "status": "insufficient"
-    },
-    {
-      "key": "sodium_mg",
-      "value": null,
-      "status": "insufficient"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "chicken breast cutlets",
-      "measure": null,
-      "grams": 600
-    },
-    {
-      "text": "dried oregano",
-      "measure": null,
-      "grams": 4
-    },
-    {
-      "text": "black pepper",
-      "measure": null,
-      "grams": 2
-    },
-    {
-      "text": "pattypan squash",
-      "measure": null,
-      "grams": 400
-    },
-    {
-      "text": "olive oil",
-      "measure": null,
-      "grams": 20
-    },
-    {
-      "text": "lemon",
-      "measure": null,
-      "grams": 60
-    },
-    {
-      "text": "salt",
-      "measure": null,
-      "grams": 4
-    }
-  ]
+    "chicken breast cutlets",
+    "dried oregano",
+    "black pepper",
+    "pattypan squash",
+    "olive oil",
+    "lemon",
+    "salt"
+  ],
+  "stepCount": 5
 }

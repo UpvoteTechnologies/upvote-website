@@ -2,14 +2,6 @@
   "slug": "raspberry-cream-yogurt-pots",
   "title": "Raspberry Cream Yogurt Pots",
   "blurb": "Layers of tangy Greek yogurt, lightly sweetened whipped cream and fresh raspberries make a simple breakfast or snack that feels a bit special.",
-  "steps": [
-    "Pour the cream into a bowl, add half the vanilla extract and half the coconut sugar, then whisk until it holds soft peaks.",
-    "In another bowl, stir together the yogurt with the remaining vanilla and coconut sugar until smooth.",
-    "Lightly crush about half the raspberries with a fork, leaving the rest whole.",
-    "Divide half the yogurt mixture between four glasses or bowls, then add a layer of crushed raspberries.",
-    "Spoon the whipped cream over the raspberries, then top with the remaining yogurt.",
-    "Finish each pot with the whole raspberries arranged on top and serve straight away, or chill until needed."
-  ],
   "servings": 4,
   "prepMinutes": 15,
   "cookMinutes": 0,
@@ -18,73 +10,12 @@
     "snack"
   ],
   "image": "/media/recipes/raspberry-cream-yogurt-pots.jpg",
-  "perServing": [
-    {
-      "key": "energy_kcal",
-      "value": 339.8,
-      "status": "estimated"
-    },
-    {
-      "key": "proteins_g",
-      "value": 14.407,
-      "status": "estimated"
-    },
-    {
-      "key": "carbohydrates_g",
-      "value": 16.88,
-      "status": "estimated"
-    },
-    {
-      "key": "sugars_g",
-      "value": 8.212,
-      "status": "estimated"
-    },
-    {
-      "key": "fiber_g",
-      "value": 4.875,
-      "status": "estimated"
-    },
-    {
-      "key": "fat_g",
-      "value": 23.879,
-      "status": "estimated"
-    },
-    {
-      "key": "saturated_fat_g",
-      "value": 13.792,
-      "status": "estimated"
-    },
-    {
-      "key": "sodium_mg",
-      "value": 55.1,
-      "status": "estimated"
-    }
-  ],
   "ingredients": [
-    {
-      "text": "double cream",
-      "measure": "240ml",
-      "grams": 240
-    },
-    {
-      "text": "vanilla extract",
-      "measure": "1 tbsp",
-      "grams": 8
-    },
-    {
-      "text": "coconut sugar",
-      "measure": "2 tbsp",
-      "grams": 20
-    },
-    {
-      "text": "Greek yogurt",
-      "measure": "500g",
-      "grams": 500
-    },
-    {
-      "text": "fresh raspberries",
-      "measure": "300g",
-      "grams": 300
-    }
-  ]
+    "double cream",
+    "vanilla extract",
+    "coconut sugar",
+    "Greek yogurt",
+    "fresh raspberries"
+  ],
+  "stepCount": 6
 }
