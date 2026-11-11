@@ -1,0 +1,219 @@
+{
+  "slug": "what-is-usually-in-iced-tea",
+  "kicker": "CATEGORIES",
+  "title": "Iced Tea: what is usually in it",
+  "standfirst": "The names most often on these labels, and how much the packs differ.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-is-usually-in-iced-tea.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What is usually in it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "These are the names that come up most often on labels in this group. Not every pack has them. A pack can also name things this list does not."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b3",
+      "source": "kb",
+      "items": [
+        "water",
+        "E330",
+        "sugar",
+        "citric acid",
+        "natural flavor",
+        "tea",
+        "black tea",
+        "E300",
+        "lemon",
+        "sucralose (E955)"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "The ones our plans read"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Some of these turn a plan on. Each one has its own page saying which plan, and what we look for. This is how the app reads a label, not advice."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b6",
+      "source": "kb",
+      "items": [
+        "natural flavor",
+        "tea",
+        "black tea"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "How much they differ"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b8",
+      "label": "Sugar in the lowest tenth",
+      "basis": {
+        "q": "catalog.category_spread",
+        "slug": "iced-tea",
+        "nutrient": "sugars_g",
+        "at": 10
+      },
+      "resolved": {
+        "value": "0.0 g",
+        "method": "Per 100 g, across the packs in this group that print a sugar figure, sorted low to high. This is the pack 10 per cent of the way from lowest to highest.",
+        "n": 14744,
+        "scope": "catalog",
+        "excluded": 995,
+        "excludedNote": "Packs here that print no sugar figure are not counted — a missing number is not a zero.",
+        "sources": [],
+        "limit": "A group can hold very different foods, and this says nothing about the pack in your hand. It describes what we hold, not everything on sale."
+      }
+    },
+    {
+      "kind": "figure",
+      "key": "b9",
+      "label": "Sugar in the middle pack",
+      "basis": {
+        "q": "catalog.category_spread",
+        "slug": "iced-tea",
+        "nutrient": "sugars_g",
+        "at": 50
+      },
+      "resolved": {
+        "value": "4.6 g",
+        "method": "Per 100 g, across the packs in this group that print a sugar figure, sorted low to high. This is the middle pack.",
+        "n": 14744,
+        "scope": "catalog",
+        "excluded": 995,
+        "excludedNote": "Packs here that print no sugar figure are not counted — a missing number is not a zero.",
+        "sources": [],
+        "limit": "A group can hold very different foods, and this says nothing about the pack in your hand. It describes what we hold, not everything on sale."
+      }
+    },
+    {
+      "kind": "figure",
+      "key": "b10",
+      "label": "Sugar in the highest tenth",
+      "basis": {
+        "q": "catalog.category_spread",
+        "slug": "iced-tea",
+        "nutrient": "sugars_g",
+        "at": 90
+      },
+      "resolved": {
+        "value": "10.0 g",
+        "method": "Per 100 g, across the packs in this group that print a sugar figure, sorted low to high. This is the pack 90 per cent of the way from lowest to highest.",
+        "n": 14744,
+        "scope": "catalog",
+        "excluded": 995,
+        "excludedNote": "Packs here that print no sugar figure are not counted — a missing number is not a zero.",
+        "sources": [],
+        "limit": "A group can hold very different foods, and this says nothing about the pack in your hand. It describes what we hold, not everything on sale."
+      }
+    },
+    {
+      "kind": "figure",
+      "key": "b11",
+      "label": "Salt (as sodium) in the lowest tenth",
+      "basis": {
+        "q": "catalog.category_spread",
+        "slug": "iced-tea",
+        "nutrient": "sodium_mg",
+        "at": 10
+      },
+      "resolved": {
+        "value": "0 mg",
+        "method": "Per 100 g, across the packs in this group that print a sodium figure, sorted low to high. This is the pack 10 per cent of the way from lowest to highest.",
+        "n": 14734,
+        "scope": "catalog",
+        "excluded": 1005,
+        "excludedNote": "Packs here that print no sodium figure are not counted — a missing number is not a zero.",
+        "sources": [],
+        "limit": "A group can hold very different foods, and this says nothing about the pack in your hand. It describes what we hold, not everything on sale."
+      }
+    },
+    {
+      "kind": "figure",
+      "key": "b12",
+      "label": "Salt (as sodium) in the middle pack",
+      "basis": {
+        "q": "catalog.category_spread",
+        "slug": "iced-tea",
+        "nutrient": "sodium_mg",
+        "at": 50
+      },
+      "resolved": {
+        "value": "4 mg",
+        "method": "Per 100 g, across the packs in this group that print a sodium figure, sorted low to high. This is the middle pack.",
+        "n": 14734,
+        "scope": "catalog",
+        "excluded": 1005,
+        "excludedNote": "Packs here that print no sodium figure are not counted — a missing number is not a zero.",
+        "sources": [],
+        "limit": "A group can hold very different foods, and this says nothing about the pack in your hand. It describes what we hold, not everything on sale."
+      }
+    },
+    {
+      "kind": "figure",
+      "key": "b13",
+      "label": "Salt (as sodium) in the highest tenth",
+      "basis": {
+        "q": "catalog.category_spread",
+        "slug": "iced-tea",
+        "nutrient": "sodium_mg",
+        "at": 90
+      },
+      "resolved": {
+        "value": "32 mg",
+        "method": "Per 100 g, across the packs in this group that print a sodium figure, sorted low to high. This is the pack 90 per cent of the way from lowest to highest.",
+        "n": 14734,
+        "scope": "catalog",
+        "excluded": 1005,
+        "excludedNote": "Packs here that print no sodium figure are not counted — a missing number is not a zero.",
+        "sources": [],
+        "limit": "A group can hold very different foods, and this says nothing about the pack in your hand. It describes what we hold, not everything on sale."
+      }
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b14",
+      "spans": [
+        {
+          "text": "This describes the packs we hold, not every pack on sale. A group can hold very different foods, and the one in your hand may be nothing like the middle of it. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}
