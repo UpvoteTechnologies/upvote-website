@@ -1,0 +1,88 @@
+{
+  "slug": "raspberry-almond-smoothie",
+  "title": "Raspberry Almond Smoothie",
+  "blurb": "A creamy pink smoothie with the nutty richness of almonds and the tartness of fresh raspberries.",
+  "steps": [
+    "Put the raspberries, yogurt, almond milk and almonds into a blender.",
+    "Add the honey and blend on high speed until completely smooth.",
+    "Taste and add a little more honey if you prefer it sweeter, then blend again briefly.",
+    "Pour into a glass and serve straight away."
+  ],
+  "servings": 1,
+  "prepMinutes": 5,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/raspberry-almond-smoothie.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 500.45,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 23.989,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 43.385,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 22.498,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 11.395,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 25.956,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 5.47,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 202.4,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "fresh raspberries",
+      "measure": null,
+      "grams": 125
+    },
+    {
+      "text": "plain Greek yogurt",
+      "measure": null,
+      "grams": 170
+    },
+    {
+      "text": "unsweetened almond milk",
+      "measure": null,
+      "grams": 240
+    },
+    {
+      "text": "blanched slivered almonds",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "honey",
+      "measure": null,
+      "grams": 15
+    }
+  ]
+}

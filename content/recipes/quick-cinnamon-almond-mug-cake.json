@@ -1,0 +1,87 @@
+{
+  "slug": "quick-cinnamon-almond-mug-cake",
+  "title": "Quick Cinnamon Almond Mug Cake",
+  "blurb": "A single-serving cake you can make in a mug in the microwave when you want something sweet and warm straight away.",
+  "steps": [
+    "Put the almond flour, coconut sugar and cinnamon in a microwave-safe mug and stir together.",
+    "Crack in the egg and add the oil, then beat everything together with a fork until smooth.",
+    "Microwave on high for 60 to 75 seconds until the cake has risen and set in the centre.",
+    "Let it cool for a minute before eating straight from the mug."
+  ],
+  "servings": 1,
+  "prepMinutes": 3,
+  "cookMinutes": 1,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/quick-cinnamon-almond-mug-cake.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "almond flour",
+      "measure": null,
+      "grams": 28
+    },
+    {
+      "text": "large egg",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "canola oil",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "coconut sugar",
+      "measure": null,
+      "grams": 4
+    },
+    {
+      "text": "ground cinnamon",
+      "measure": null,
+      "grams": 2
+    }
+  ]
+}

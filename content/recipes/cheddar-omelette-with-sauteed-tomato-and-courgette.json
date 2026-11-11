@@ -1,0 +1,92 @@
+{
+  "slug": "cheddar-omelette-with-sauteed-tomato-and-courgette",
+  "title": "Cheddar Omelette with Sautéed Tomato and Courgette",
+  "blurb": "A fluffy omelette filled with melted cheddar and topped with softened courgette and tomato",
+  "steps": [
+    "Heat half the olive oil in a frying pan over medium heat and add the courgette and tomato.",
+    "Cook for 5 to 6 minutes, stirring occasionally, until softened, then transfer to a plate.",
+    "Beat the eggs in a bowl with a fork until combined.",
+    "Heat the remaining oil in the same pan over medium heat and pour in the eggs.",
+    "Let the eggs cook undisturbed for about 1 minute until the base starts to set, then tilt the pan and use a spatula to draw the cooked egg towards the centre, letting raw egg flow to the edges.",
+    "When the omelette is mostly set but still slightly wet on top, scatter the cheese over one half.",
+    "Spoon the courgette and tomato over the cheese, then fold the other half of the omelette over the filling and slide onto a plate."
+  ],
+  "servings": 1,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/cheddar-omelette-with-sauteed-tomato-and-courgette.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 508.5,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 30.428,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 10.816,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 6.588,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.64,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 39.164,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 13.995,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 470.9,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "courgette, chopped",
+      "measure": "1 cup",
+      "grams": 120
+    },
+    {
+      "text": "red tomato, chopped",
+      "measure": "1 medium",
+      "grams": 120
+    },
+    {
+      "text": "olive oil",
+      "measure": "2 tsp",
+      "grams": 10
+    },
+    {
+      "text": "large eggs",
+      "measure": "3 eggs",
+      "grams": 150
+    },
+    {
+      "text": "cheddar cheese, grated",
+      "measure": "1/3 cup",
+      "grams": 40
+    }
+  ]
+}

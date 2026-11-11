@@ -1,0 +1,99 @@
+{
+  "slug": "tomato-and-onion-salad-with-oregano",
+  "title": "Tomato and Onion Salad with Oregano",
+  "blurb": "A simple salad of ripe tomatoes and Spanish onions dressed with wine vinegar and oregano.",
+  "steps": [
+    "Place the diced tomatoes and chopped onions in a large serving bowl.",
+    "Drizzle over the olive oil and red wine vinegar.",
+    "Sprinkle the oregano, salt and pepper over the top.",
+    "Toss everything together gently and serve immediately, or leave for 10 minutes to let the flavours mingle."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "image": "/media/recipes/tomato-and-onion-salad-with-oregano.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 137.353,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.941,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 11.009,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 6.087,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.926,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 10.38,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.455,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 300.125,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "ripe tomatoes, deseeded and diced",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "Spanish onions, coarsely chopped",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "red wine vinegar",
+      "measure": "2 tbsp",
+      "grams": 30
+    },
+    {
+      "text": "extra virgin olive oil",
+      "measure": "3 tbsp",
+      "grams": 40
+    },
+    {
+      "text": "dried oregano",
+      "measure": "1 tsp",
+      "grams": 2
+    },
+    {
+      "text": "sea salt",
+      "measure": "½ tsp",
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": "¼ tsp",
+      "grams": 1
+    }
+  ]
+}

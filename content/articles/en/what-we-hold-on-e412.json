@@ -1,0 +1,212 @@
+{
+  "slug": "what-we-hold-on-e412",
+  "kicker": "ADDITIVES",
+  "title": "Guar gum (E412): what we hold",
+  "standfirst": "The published sources behind what we say, and what counting them cannot tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "INSERM · 2024",
+  "image": "/media/articles/what-we-hold-on-e412.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "E412 Guar gum is a polysaccharide extracted from the seeds of the guar bean (Cyamopsis tetragonoloba). It thickens and stabilises foods."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use it as thickener/stabiliser."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "What we hold on it"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "This page is about the record we hold on this additive: who has written about it, and where you can read them."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b7",
+      "label": "Published sources we hold on Guar gum (E412)",
+      "caption": "Tap to see how we counted, and what the count leaves out.",
+      "basis": {
+        "q": "kb.count",
+        "of": "additive_citations",
+        "subject": "e412"
+      },
+      "resolved": {
+        "value": "3",
+        "method": "Published sources behind what we say about E412.",
+        "n": 3,
+        "scope": "kb",
+        "excluded": 0,
+        "excludedNote": null,
+        "sources": [
+          {
+            "authority": "INSERM",
+            "year": 2024,
+            "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004338"
+          },
+          {
+            "authority": "EFSA",
+            "year": 2017,
+            "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4669"
+          },
+          {
+            "authority": null,
+            "year": 2015,
+            "url": "https://doi.org/10.1038/nature14232"
+          }
+        ],
+        "limit": "A source count is a measure of how much has been written, not of how risky a thing is."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Names it goes by"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "A label may name this additive in any of these ways, or by its code alone."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "cas 9000 30 0",
+        "cyamopsis gummi",
+        "cyamopsisgom",
+        "farina di guar",
+        "farina di semi di guar",
+        "farine de graine de guar",
+        "farine de graines de guar",
+        "farine de guar",
+        "farine galligum de guar",
+        "galligum g",
+        "goma de cyamopsis",
+        "goma de guar",
+        "goma de jaguar",
+        "goma guar",
+        "gomma cyamopsis",
+        "gomma di guar",
+        "gomme cyamopsis",
+        "gomme de guar",
+        "gomme de jaguar",
+        "gomme guar",
+        "gommes de guar",
+        "guakernmehl",
+        "guar",
+        "guar flour",
+        "guar gum",
+        "guar gums",
+        "guaran",
+        "guarano",
+        "guargom",
+        "guargum",
+        "guarkernmehl",
+        "guarpitmeel",
+        "gum cyamopsis",
+        "gyamopsis tetragonolobus",
+        "harina de guar"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "The sources"
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b12",
+      "citationId": "additive-e412-inserm-2024"
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "additive-e412-efsa-2017"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "additive-e412-source-2015"
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b15",
+      "spans": [
+        {
+          "text": "A count of sources says how much has been written, not how risky a thing is. A well studied additive can be well studied because it is common, and a quiet one can be quiet because nobody has looked. What matters for you is the amount in the food in front of you, which this page cannot tell you."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "additive-e412-inserm-2024": {
+      "authority": "INSERM",
+      "year": 2024,
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004338"
+    },
+    "additive-e412-efsa-2017": {
+      "authority": "EFSA",
+      "year": 2017,
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4669"
+    },
+    "additive-e412-source-2015": {
+      "authority": "",
+      "year": 2015,
+      "url": "https://doi.org/10.1038/nature14232"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "saffron-rice-with-saithe",
+  "title": "Saffron Rice with Saithe",
+  "blurb": "Fragrant saffron rice cooked with garlic and onion, topped with pan-fried saithe fillets.",
+  "steps": [
+    "Soak the saffron threads in two tablespoons of warm water and set aside. Peel and finely chop the onion and garlic.",
+    "Heat half the olive oil in a wide pan over medium heat, add the onion and garlic, and cook for five minutes until softened.",
+    "Stir in the rice and cook for one minute, then add the saffron with its soaking water, the vegetable stock, and half the salt. Bring to a simmer, cover, and cook for fifteen minutes until the rice is tender and the liquid absorbed.",
+    "Meanwhile, pat the saithe fillets dry and season with the remaining salt and black pepper. Heat the remaining olive oil in a frying pan over medium-high heat and cook the fillets for three to four minutes on each side until golden and cooked through.",
+    "Fluff the rice with a fork and divide between two plates. Top with the saithe fillets and serve with lemon wedges."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/saffron-rice-with-saithe.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 544.425,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 26.604,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 82.963,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 4.433,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.985,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.518,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.841,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1493.28,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "long grain rice",
+      "measure": null,
+      "grams": 180
+    },
+    {
+      "text": "saffron threads",
+      "measure": null,
+      "grams": 0.3
+    },
+    {
+      "text": "yellow onion",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "vegetable stock",
+      "measure": null,
+      "grams": 450
+    },
+    {
+      "text": "saithe fillets",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

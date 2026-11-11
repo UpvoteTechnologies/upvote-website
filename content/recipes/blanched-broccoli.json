@@ -1,0 +1,73 @@
+{
+  "slug": "blanched-broccoli",
+  "title": "Blanched Broccoli",
+  "blurb": "Tender broccoli florets cooked briefly in boiling salted water until just done, then drained and ready to serve.",
+  "steps": [
+    "Cut the broccoli into even-sized florets, each about 3cm across, and trim the stalks.",
+    "Bring a large pan of water to a rolling boil and add the salt.",
+    "Add the broccoli florets to the boiling water and cook for 3 to 4 minutes until the stems are just tender when pierced with a knife.",
+    "Drain the broccoli in a colander and serve immediately."
+  ],
+  "servings": 3,
+  "prepMinutes": 5,
+  "cookMinutes": 5,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/blanched-broccoli.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 58.5,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 3.855,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 9.405,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 2.1,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.6,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 0.51,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.059,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1344,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "broccoli",
+      "measure": null,
+      "grams": 450
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 10
+    }
+  ]
+}

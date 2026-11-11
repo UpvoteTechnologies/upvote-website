@@ -1,0 +1,131 @@
+---
+import Base from '../layouts/Base.astro';
+import AppCta from './AppCta.astro';
+import ArticleBlocks from './ArticleBlocks.astro';
+import ContentCard from './ContentCard.astro';
+import { LOCALE_TAG, getDict, type Locale } from '../i18n';
+import { articleAlternates, articleIndexPath, articlePath, getArticles, neighbours, type Article } from '../lib/content';
+import { SITE_NAME, SITE_URL, absoluteUrl } from '../site';
+
+interface Props {
+  locale: Locale;
+  article: Article;
+}
+
+const { locale, article } = Astro.props;
+const t = getDict(locale).articles;
+const path = articlePath(locale, article.slug);
+const indexPath = articleIndexPath(locale);
+const citations = Object.values(article.citations);
+const related = neighbours(getArticles(locale), article.slug, 3);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.standfirst,
+    inLanguage: LOCALE_TAG[locale],
+    mainEntityOfPage: absoluteUrl(path),
+    ...(article.image ? { image: absoluteUrl(article.image) } : {}),
+    articleSection: article.kicker,
+    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    publisher: { '@id': `${SITE_URL}/#organization`, '@type': 'Organization', name: SITE_NAME, logo: absoluteUrl('/icon-512.png') },
+    citation: citations.map((citation) => ({
+      '@type': 'CreativeWork',
+      name: citation.doc ?? citation.authority,
+      publisher: citation.authority,
+      ...(citation.url ? { url: citation.url } : {}),
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.breadcrumb, item: absoluteUrl(indexPath) },
+      { '@type': 'ListItem', position: 2, name: article.title, item: absoluteUrl(path) },
+    ],
+  },
+];
+---
+
+<Base
+  locale={locale}
+  title={`${article.title}${t.titleSuffix}`}
+  description={article.standfirst}
+  path={path}
+  alternates={articleAlternates(article.slug)}
+  ogType="article"
+  ogImage={article.image ?? undefined}
+  ogImageSize={article.image ? [1200, 675] : undefined}
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-[760px] px-5 pb-16 pt-10 sm:px-8 lg:pt-14">
+    <nav class="text-[13px] font-bold text-muted">
+      <a href={indexPath} class="transition-colors hover:text-brand">{t.breadcrumb}</a>
+    </nav>
+    <p class="eyebrow mt-6">{article.kicker}</p>
+    <h1 class="mt-3 text-balance text-[34px] font-extrabold leading-[1.1] tracking-[-.03em] text-ink sm:text-[44px]">
+      {article.title}
+    </h1>
+    <p class="mt-4 text-pretty text-[19px] font-semibold leading-[1.5] text-ink-3">{article.standfirst}</p>
+    <p class="mt-4 font-mono text-[12px] font-bold text-muted-2">
+      {t.tiers[article.evidenceTier] ?? article.evidenceTier}
+      {article.sourceLabel && article.sourceLabel !== t.tiers[article.evidenceTier] && ` · ${article.sourceLabel}`}
+    </p>
+
+    {
+      article.image && (
+        <img src={article.image} alt="" width="1200" height="675" fetchpriority="high" class="mt-8 aspect-[16/9] w-full rounded-[20px] object-cover" />
+      )
+    }
+
+    <div class="mt-4">
+      <ArticleBlocks locale={locale} blocks={article.blocks} />
+    </div>
+
+    {
+      citations.length > 0 && (
+        <section class="mt-12 border-t border-line pt-8">
+          <h2 class="text-[20px] font-extrabold tracking-[-.015em] text-ink">{t.sources}</h2>
+          <ol class="mt-4 flex list-decimal flex-col gap-3 pl-5 text-[14px] font-medium leading-[1.55] text-ink-3">
+            {citations.map((citation) => (
+              <li>
+                <span class="font-extrabold text-ink-2">{citation.authority}</span>
+                {citation.year && ` (${citation.year})`}.{' '}
+                {citation.url ? (
+                  <a href={citation.url} rel="noopener nofollow" class="break-words underline decoration-line-2 underline-offset-2 transition-colors hover:text-brand">
+                    {citation.doc ?? new URL(citation.url).hostname}
+                  </a>
+                ) : (
+                  citation.doc
+                )}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )
+    }
+
+    <p class="mt-10 text-[13px] font-medium italic leading-[1.55] text-muted-2">{t.disclaimer}</p>
+
+    <div class="mt-10">
+      <AppCta locale={locale} />
+    </div>
+  </article>
+
+  {
+    related.length > 0 && (
+      <section class="border-t border-line bg-paper">
+        <div class="site-container py-14">
+          <h2 class="text-[24px] font-extrabold tracking-[-.02em] text-ink">{t.more}</h2>
+          <div class="mt-6 grid grid-cols-1 gap-[18px] md:grid-cols-3">
+            {related.map((item) => (
+              <ContentCard href={articlePath(locale, item.slug)} title={item.title} text={item.standfirst} eyebrow={item.kicker} image={item.image} ratio={[1200, 675]} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+</Base>

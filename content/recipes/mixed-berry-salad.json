@@ -1,0 +1,84 @@
+{
+  "slug": "mixed-berry-salad",
+  "title": "Mixed Berry Salad",
+  "blurb": "A simple bowl of fresh berries with a squeeze of lemon juice to brighten the flavours.",
+  "steps": [
+    "Rinse all the berries gently under cold water and drain them well.",
+    "Place the raspberries, blackberries and blueberries in a mixing bowl.",
+    "Squeeze the lemon half over the berries.",
+    "Toss everything together gently with your hands or a spoon, taking care not to crush the fruit.",
+    "Divide between two bowls and serve straight away."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/mixed-berry-salad.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 86.35,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.715,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 19.938,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 8.835,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 7.52,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 0.54,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.036,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 0.8,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "raspberries",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "blackberries",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "blueberries",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "lemon",
+      "measure": "half",
+      "grams": 30
+    }
+  ]
+}

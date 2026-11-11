@@ -1,0 +1,141 @@
+{
+  "slug": "where-the-salt-actually-is",
+  "kicker": "VALE SABER",
+  "title": "Onde o sal realmente está",
+  "standfirst": "A maior parte não vem do saleiro. A maior parte não tem gosto salgado.",
+  "evidenceTier": "strong",
+  "sourceLabel": "US FDA · 2021",
+  "image": "/media/articles/where-the-salt-actually-is.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "Pergunte a alguém de onde vem o sal que consome e a pessoa vai apontar para o salgadinho ou para o saleiro na mesa. Os dois são partes pequenas da resposta."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "A parte que surpreende"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "A maior parte do sódio da alimentação chega em alimentos embalados e preparados, antes de alguém pegar o saleiro."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b4",
+      "citationId": "fda-sodium-reduction-2021"
+    },
+    {
+      "kind": "paragraph",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "E a maior fonte isolada não é um salgadinho. Nos dados dos Estados Unidos, os pães lideram a lista, à frente de qualquer coisa que você consideraria salgada."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b6",
+      "citationId": "cdc-sodium-vital-signs"
+    },
+    {
+      "kind": "heading",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "Por que o pão"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "O sal faz mais do que temperar o pão. Ele desacelera o fermento, firma a massa e faz o pão demorar mais para ficar velho. Um pão pode ter muito sal e não ter gosto de sal."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "Essa é a armadilha: o paladar é um guia ruim aqui. Queijos, frios, sopas e sanduíches ficam perto do topo da lista pelo mesmo motivo."
+        }
+      ]
+    },
+    {
+      "kind": "callout",
+      "key": "b10",
+      "tone": "neutral",
+      "spans": [
+        {
+          "text": "A atitude útil não é comer menos pão. É perceber que o pão é um produto em que as marcas variam muito, e que a diferença fica invisível até você olhar."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "O que fazer com isso"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "As categorias que valem a conferida são as sem graça. O salgadinho você já confere."
+        }
+      ]
+    },
+    {
+      "kind": "plan",
+      "key": "b13",
+      "cue": "Quando eu for comprar pão",
+      "action": "Vou comparar o sódio antes de escolher"
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b14",
+      "spans": [
+        {
+          "text": "O teor de sódio varia muito entre marcas da mesma categoria, então uma regra geral sobre um grupo inteiro de alimentos erra tanto quanto acerta. O número na embalagem é a única versão confiável."
+        }
+      ]
+    }
+  ],
+  "citations": {
+    "fda-sodium-reduction-2021": {
+      "authority": "US FDA",
+      "doc": "Sodium Reduction — most sodium in the American diet comes from packaged and prepared food, not the salt shaker",
+      "year": 2021,
+      "url": "https://www.fda.gov/food/food-additives-petitions/sodium-reduction"
+    },
+    "cdc-sodium-vital-signs": {
+      "authority": "US CDC",
+      "doc": "Vital Signs: Food Categories Contributing the Most to Sodium Consumption — bread and rolls lead, ahead of any snack food",
+      "year": 2012,
+      "url": "https://archive.cdc.gov/www_cdc_gov/vitalsigns/sodium/index.html"
+    }
+  }
+}

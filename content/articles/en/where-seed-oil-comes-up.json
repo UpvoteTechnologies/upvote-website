@@ -1,0 +1,91 @@
+{
+  "slug": "where-seed-oil-comes-up",
+  "kicker": "DIETS",
+  "title": "Seed-oil free: where it comes up",
+  "standfirst": "The things this plan reads most often, and the foods they turn up in.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/where-seed-oil-comes-up.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "The ones you will meet most"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "Of the things this plan reads, these are the ones on the most products we hold. That is how common they are, not how much they matter. Each one has its own page."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b3",
+      "source": "kb",
+      "items": [
+        "canola oil",
+        "vegetable oil",
+        "sunflower oil",
+        "soybean oil",
+        "cottonseed oil",
+        "peanut oil",
+        "corn oil",
+        "safflower oil",
+        "rapeseed oil",
+        "hydrogenated vegetable oil",
+        "partially hydrogenated vegetable oil",
+        "soy oil"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Where they turn up"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "These are the kinds of food whose labels name those things most often. It is where this plan comes up, not a ruling on what belongs in it."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b6",
+      "source": "kb",
+      "items": [
+        "Salt Snack And Aperitif",
+        "Nuts",
+        "Mix Dry Fruits And Oleaginous",
+        "Chips",
+        "Corn Chips",
+        "Olive Oil",
+        "Chocolate Biscuit",
+        "Cashew Nut"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "This is what our scorer reads, counted across the products we hold. It does not tell you what to eat, and we say nothing here about whether any of it changes your health. A pack can name something no list here holds. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

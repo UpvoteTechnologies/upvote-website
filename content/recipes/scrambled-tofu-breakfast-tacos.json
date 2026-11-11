@@ -1,0 +1,110 @@
+{
+  "slug": "scrambled-tofu-breakfast-tacos",
+  "title": "Scrambled Tofu Breakfast Tacos",
+  "blurb": "Soft corn tortillas filled with seasoned scrambled tofu and salsa for a simple savoury breakfast.",
+  "steps": [
+    "Drain the tofu and press it between kitchen paper for 10 minutes to remove excess water, then crumble it into small pieces with your hands.",
+    "Heat the olive oil in a large frying pan over medium heat and add the crumbled tofu.",
+    "Sprinkle in the onion powder, garlic powder, turmeric and salt, then stir well to coat the tofu evenly.",
+    "Cook for 8 minutes, stirring occasionally, until the tofu is heated through and starting to turn golden at the edges.",
+    "Stir in the salsa and cook for another 2 minutes until warmed through.",
+    "Warm the tortillas in a dry pan or microwave according to packet instructions.",
+    "Slice the spring onions thinly and scatter them over the scrambled tofu, then spoon the mixture into the warm tortillas to serve."
+  ],
+  "servings": 4,
+  "prepMinutes": 30,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "breakfast"
+  ],
+  "image": "/media/recipes/scrambled-tofu-breakfast-tacos.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 232.575,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 11.256,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 29.585,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.695,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.936,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 9.024,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.305,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 716.79,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "firm tofu",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "olive oil",
+      "measure": "1 tablespoon",
+      "grams": 15
+    },
+    {
+      "text": "onion powder",
+      "measure": "2 teaspoons",
+      "grams": 4
+    },
+    {
+      "text": "garlic powder",
+      "measure": "1 teaspoon",
+      "grams": 2
+    },
+    {
+      "text": "ground turmeric",
+      "measure": "1 teaspoon",
+      "grams": 2
+    },
+    {
+      "text": "salt",
+      "measure": "½ teaspoon",
+      "grams": 3
+    },
+    {
+      "text": "prepared salsa",
+      "measure": "1 cup",
+      "grams": 240
+    },
+    {
+      "text": "corn tortillas",
+      "measure": "8 tortillas",
+      "grams": 200
+    },
+    {
+      "text": "spring onions",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

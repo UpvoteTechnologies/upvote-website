@@ -1,0 +1,110 @@
+{
+  "slug": "mussels-with-cream-celery-and-fennel",
+  "title": "Mussels with cream, celery and fennel",
+  "blurb": "Fresh mussels steamed in white wine with aromatic celery and fennel seeds, finished with cream and parsley.",
+  "steps": [
+    "Rinse the mussels under cold water, scrub the shells and pull away any beards. Discard any mussels that are open and do not close when tapped.",
+    "Finely dice the celery and peel and slice the garlic. Coarsely grind the fennel seeds in a pestle and mortar.",
+    "Melt the butter in a large pot over medium heat and add the celery, garlic and fennel seeds. Cook for 3 minutes until softened.",
+    "Add the mussels and wine to the pot, cover with a tight lid and turn the heat to high. Steam for 5 minutes, shaking the pan occasionally.",
+    "Remove the lid and discard any mussels that have not opened. Pour in the cream and let it warm through for 1 minute.",
+    "Roughly chop the parsley and stir it through the mussels with a grinding of black pepper. Serve immediately in bowls with the cooking liquor."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": null,
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 613.78,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 50.04,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 22.08,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.28,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.149,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 28.944,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 12.526,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1228.95,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "fresh mussels",
+      "measure": null,
+      "grams": 800
+    },
+    {
+      "text": "celery",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "fennel seeds",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "butter",
+      "measure": null,
+      "grams": 25
+    },
+    {
+      "text": "dry white wine",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "single cream",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "fresh parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

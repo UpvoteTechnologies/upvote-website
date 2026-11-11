@@ -1,0 +1,106 @@
+{
+  "slug": "spinach-and-onion-tortilla-bake",
+  "title": "Spinach and Onion Tortilla Bake",
+  "blurb": "A simple egg bake with spinach and onions layered between wheat tortillas, lightly spiced with nutmeg.",
+  "steps": [
+    "Heat the oven to 180°C. Peel and slice the onion into thin rounds.",
+    "Heat the olive oil in a frying pan over medium heat and cook the onion rounds for 5 minutes until softened. Add the spinach and cook for 2 minutes until wilted, then remove from the heat.",
+    "Beat the eggs in a bowl with the nutmeg, salt and pepper.",
+    "Place one tortilla in the base of a greased 20cm round baking dish or cake tin. Spread half the spinach mixture over it, then pour over half the beaten egg.",
+    "Lay the second tortilla on top, add the remaining spinach mixture, then pour over the rest of the egg.",
+    "Bake for 20 minutes until the egg is set and the top is lightly golden. Leave to stand for 2 minutes, then cut into rounds to serve."
+  ],
+  "servings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/spinach-and-onion-tortilla-bake.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 388.39,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 20.118,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 31.6,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 4.288,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 7.235,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 20.464,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 6.47,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 910.34,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "large eggs",
+      "measure": "4 eggs",
+      "grams": 200
+    },
+    {
+      "text": "fresh spinach",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "onion",
+      "measure": "1 medium onion",
+      "grams": 120
+    },
+    {
+      "text": "large wheat tortillas",
+      "measure": "2 tortillas",
+      "grams": 100
+    },
+    {
+      "text": "ground nutmeg",
+      "measure": "¼ tsp",
+      "grams": 0.5
+    },
+    {
+      "text": "olive oil",
+      "measure": "2 tsp",
+      "grams": 10
+    },
+    {
+      "text": "salt",
+      "measure": "pinch",
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": "pinch",
+      "grams": 0.5
+    }
+  ]
+}

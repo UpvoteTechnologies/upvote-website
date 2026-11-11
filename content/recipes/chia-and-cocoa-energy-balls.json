@@ -1,0 +1,88 @@
+{
+  "slug": "chia-and-cocoa-energy-balls",
+  "title": "Chia and Cocoa Energy Balls",
+  "blurb": "No-bake energy balls with dates, cashews and chia seeds, rolled in cocoa powder.",
+  "steps": [
+    "Put the dates, cashews, chia seeds and half the cocoa powder into a food processor and pulse until the mixture starts to clump together.",
+    "Add the water and blend until the mixture forms a sticky dough that holds together when pressed.",
+    "Scoop out portions and roll into eight balls with damp hands.",
+    "Put the remaining cocoa powder on a plate and roll each ball in it to coat.",
+    "Chill in the fridge for at least 30 minutes before eating."
+  ],
+  "servings": 8,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/chia-and-cocoa-energy-balls.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 134.2,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 3.101,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 20.364,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 12.481,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.015,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 6.203,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.248,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 3.175,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "medjool dates, pits removed",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "cashews",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "chia seeds",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "cocoa powder",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

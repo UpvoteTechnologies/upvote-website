@@ -1,0 +1,89 @@
+{
+  "slug": "lemon-berry-tofu-mousse",
+  "title": "Lemon Berry Tofu Mousse",
+  "blurb": "A light, creamy mousse made by blending silken tofu with honey, lemon and frozen berries. Chill before serving for the best texture.",
+  "steps": [
+    "Drain the silken tofu and pat it gently with kitchen paper to remove excess moisture.",
+    "Put the tofu, frozen berries, lemon juice, honey and vanilla extract into a food processor or blender.",
+    "Blend on high speed for about two minutes until completely smooth and creamy, scraping down the sides once if needed.",
+    "Divide the mousse between two serving bowls or glasses.",
+    "Cover and refrigerate for at least an hour before serving to let the mousse firm up and the flavours develop."
+  ],
+  "servings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/lemon-berry-tofu-mousse.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 156.44,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 10.868,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 19.501,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 18.068,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.385,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 5.571,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.806,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 12.995,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "silken tofu",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "frozen mixed berries",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "lemon, freshly squeezed",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "honey",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "vanilla extract",
+      "measure": null,
+      "grams": 3
+    }
+  ]
+}

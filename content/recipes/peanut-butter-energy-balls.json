@@ -1,0 +1,90 @@
+{
+  "slug": "peanut-butter-energy-balls",
+  "title": "Peanut Butter Energy Balls",
+  "blurb": "No-bake bites packed with peanut butter, honey and dried fruit, rolled in toasted coconut and sesame seeds.",
+  "steps": [
+    "Mix the peanut butter and honey together in a large bowl until smooth and combined.",
+    "Stir in the raisins and half the sesame seeds until evenly distributed through the mixture.",
+    "Cover the bowl and chill in the fridge for at least two hours until firm enough to shape.",
+    "Mix the remaining sesame seeds with the desiccated coconut on a plate.",
+    "Scoop tablespoon-sized portions of the chilled mixture and roll into balls with your hands.",
+    "Roll each ball in the coconut and sesame coating until covered, then arrange on a tray.",
+    "Chill the coated balls for another 30 minutes before serving or storing in an airtight container in the fridge."
+  ],
+  "servings": 10,
+  "prepMinutes": 180,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/peanut-butter-energy-balls.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 415.399,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 9.344,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 48.002,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 40.562,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.361,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 24.37,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 6.275,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 17.748,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "smooth peanut butter",
+      "measure": "cup",
+      "grams": 250
+    },
+    {
+      "text": "honey",
+      "measure": "cup",
+      "grams": 340
+    },
+    {
+      "text": "raisins",
+      "measure": "cup",
+      "grams": 145
+    },
+    {
+      "text": "sesame seeds",
+      "measure": "cup",
+      "grams": 144
+    },
+    {
+      "text": "unsweetened desiccated coconut",
+      "measure": "cup",
+      "grams": 80
+    }
+  ]
+}

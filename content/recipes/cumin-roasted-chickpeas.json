@@ -1,0 +1,89 @@
+{
+  "slug": "cumin-roasted-chickpeas",
+  "title": "Cumin Roasted Chickpeas",
+  "blurb": "Crispy roasted chickpeas with cumin and a touch of salt, perfect for snacking or scattering over salads.",
+  "steps": [
+    "Heat your oven to 200°C (180°C fan) and lightly spray a large baking sheet with vegetable oil.",
+    "Drain the chickpeas thoroughly and pat them dry with kitchen paper to remove as much moisture as possible.",
+    "Tip the chickpeas into a bowl and toss with the olive oil, cumin and salt until evenly coated.",
+    "Spread the chickpeas in a single layer on the prepared baking sheet.",
+    "Roast for 50 minutes, shaking the tray every 15 minutes, until the chickpeas are golden and crisp.",
+    "Let them cool completely on the tray before serving or storing in an airtight container."
+  ],
+  "servings": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 50,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/cumin-roasted-chickpeas.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 327,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 16.495,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 50.655,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 8.575,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 9.83,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 7.48,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.838,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 213.87,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "vegetable oil spray",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "canned chickpeas",
+      "measure": "drained weight",
+      "grams": 960
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 6
+    }
+  ]
+}

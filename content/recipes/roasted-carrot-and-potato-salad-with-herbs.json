@@ -1,0 +1,119 @@
+{
+  "slug": "roasted-carrot-and-potato-salad-with-herbs",
+  "title": "Roasted carrot and potato salad with herbs",
+  "blurb": "A warm salad of roasted root vegetables and courgette, tossed with fresh parsley and a light dressing.",
+  "steps": [
+    "Heat your oven to 200°C. Peel the carrots and cut them into batons about 1cm thick, then halve the potatoes if they are larger than a walnut.",
+    "Cut the courgette into rounds about 1cm thick and peel and quarter the shallot. Toss all the vegetables in a roasting tin with half the olive oil, the cumin, oregano, salt and pepper.",
+    "Roast for 20 minutes until the potatoes are tender and the edges of the vegetables are starting to brown.",
+    "Roughly chop the parsley. Mix the remaining olive oil with the lemon juice in a large bowl.",
+    "Add the hot roasted vegetables to the bowl and toss everything together with the parsley. Taste and adjust the seasoning if needed before serving warm."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/roasted-carrot-and-potato-salad-with-herbs.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 309.43,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 5.682,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 43.504,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 9.329,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 8.489,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 13.65,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.909,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 710.68,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "carrots",
+      "measure": null,
+      "grams": 250
+    },
+    {
+      "text": "new potatoes",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "courgette",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "shallot",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 25
+    },
+    {
+      "text": "fresh parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "dried oregano",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "lemon juice",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "vanilla-protein-shake",
+  "title": "Vanilla Protein Shake",
+  "blurb": "A quick blended shake with vanilla whey protein, flaxseed and milk over ice.",
+  "steps": [
+    "Put the ice cubes into a blender jug.",
+    "Add the flaxseed meal, whey protein powder and milk.",
+    "Add the honey if you want a sweeter shake.",
+    "Blend on high speed until smooth and frothy.",
+    "Pour into a glass and drink straight away."
+  ],
+  "servings": 1,
+  "prepMinutes": 5,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/vanilla-protein-shake.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 327.35,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 28.628,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 35.065,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 21.193,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.485,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 8.315,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.086,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 215.05,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "ice cubes",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "flaxseed meal",
+      "measure": "1 tbsp",
+      "grams": 15
+    },
+    {
+      "text": "vanilla whey protein powder",
+      "measure": "1 scoop",
+      "grams": 30
+    },
+    {
+      "text": "low-fat milk",
+      "measure": "250ml",
+      "grams": 250
+    },
+    {
+      "text": "honey",
+      "measure": "1 tsp",
+      "grams": 10
+    }
+  ]
+}

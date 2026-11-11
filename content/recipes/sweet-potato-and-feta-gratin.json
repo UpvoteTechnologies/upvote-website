@@ -1,0 +1,112 @@
+{
+  "slug": "sweet-potato-and-feta-gratin",
+  "title": "Sweet potato and feta gratin",
+  "blurb": "Layers of sweet potato with peppers, spinach and feta, topped with breadcrumbs",
+  "steps": [
+    "Heat the oven to 190°C. Peel the sweet potatoes and slice them into rounds about 3mm thick.",
+    "Deseed the pepper and cut it into thin strips. Peel and finely slice the garlic.",
+    "Heat half the olive oil in a frying pan over medium heat and cook the pepper strips for 5 minutes until softened. Add the spinach and cook for 2 minutes until wilted, then remove from the heat.",
+    "Arrange half the sweet potato slices in a small baking dish, slightly overlapping. Season with black pepper.",
+    "Spread the pepper and spinach mixture over the sweet potatoes, scatter over the garlic, then crumble half the feta on top.",
+    "Layer the remaining sweet potato slices over the filling and pour the cream evenly over the top.",
+    "Mix the breadcrumbs with the remaining olive oil and scatter over the surface. Crumble the remaining feta on top.",
+    "Bake for 35 minutes until the sweet potatoes are tender when pierced with a knife and the top is golden."
+  ],
+  "servings": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 35,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/sweet-potato-and-feta-gratin.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 636.645,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 19.352,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 72.926,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 17.381,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 9.923,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 30.375,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 12.373,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 843.91,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "sweet potatoes",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "green pepper",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "baby spinach",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "feta cheese",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 6
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "dried breadcrumbs",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "single cream",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

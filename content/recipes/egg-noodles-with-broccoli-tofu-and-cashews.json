@@ -1,0 +1,111 @@
+{
+  "slug": "egg-noodles-with-broccoli-tofu-and-cashews",
+  "title": "Egg Noodles with Broccoli, Tofu and Cashews",
+  "blurb": "Tender egg noodles tossed with pan-fried tofu, steamed broccoli florets and roasted cashews in a ginger soy dressing.",
+  "steps": [
+    "Drain the tofu and pat dry with kitchen paper, then cut into bite-sized cubes.",
+    "Peel and finely grate the ginger, then whisk together with the soy sauce, rice vinegar and sesame oil in a small bowl.",
+    "Bring a large pan of water to the boil, add the egg noodles and cook according to packet instructions until tender, then drain well.",
+    "Meanwhile, heat the vegetable oil in a large frying pan or wok over medium-high heat and fry the tofu cubes for 8 to 10 minutes, turning occasionally, until golden on all sides.",
+    "Steam the broccoli florets in a steamer basket or colander set over simmering water for 4 to 5 minutes until just tender.",
+    "Return the drained noodles to their pan and add the tofu, broccoli, cashews and ginger dressing.",
+    "Toss everything together gently over low heat for a minute until well combined and warmed through, then serve."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/egg-noodles-with-broccoli-tofu-and-cashews.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 566.738,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 21.934,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 67.524,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 4.236,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 5.48,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 24.323,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 4.417,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 674.5,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "dried egg noodles",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "firm tofu",
+      "measure": null,
+      "grams": 280
+    },
+    {
+      "text": "broccoli florets",
+      "measure": null,
+      "grams": 350
+    },
+    {
+      "text": "roasted unsalted cashews",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "fresh ginger",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "soy sauce",
+      "measure": "3 tablespoons",
+      "grams": 45
+    },
+    {
+      "text": "rice vinegar",
+      "measure": "2 tablespoons",
+      "grams": 30
+    },
+    {
+      "text": "sesame oil",
+      "measure": "1 tablespoon",
+      "grams": 15
+    },
+    {
+      "text": "vegetable oil",
+      "measure": "2 tablespoons",
+      "grams": 20
+    }
+  ]
+}

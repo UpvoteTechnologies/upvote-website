@@ -1,0 +1,117 @@
+{
+  "slug": "turkey-and-cumin-quesadillas",
+  "title": "Turkey and Cumin Quesadillas",
+  "blurb": "Spiced turkey with fresh cilantro and red onion in crisp tortillas, served with avocado and a squeeze of lemon.",
+  "steps": [
+    "Finely chop the red onion and coriander, slice the turkey breast thinly, and cut the red pepper into thin strips.",
+    "Grate the cheese and set aside with the turkey, onion, pepper and half the coriander.",
+    "Lay the tortillas flat and divide the cheese, turkey, onion and pepper over one half of each tortilla, then sprinkle with the cumin.",
+    "Fold each tortilla in half to enclose the filling and press down gently.",
+    "Heat the olive oil in a large frying pan over medium heat and cook the quesadillas for two to three minutes each side until golden and the cheese has melted.",
+    "Halve and stone the avocado, scoop out the flesh and slice it.",
+    "Cut each quesadilla into wedges and serve topped with avocado slices, the remaining coriander and a squeeze of lemon juice."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 5,
+  "mealSlots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "image": "/media/recipes/turkey-and-cumin-quesadillas.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 443.81,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 14.831,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 39.295,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 4.617,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 8.508,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 27.002,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 9.628,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 297.435,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "wheat tortillas",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "cooked turkey breast",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "red onion",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "fresh coriander",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "cheddar cheese",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "red pepper",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "avocado",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 8
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "kale-and-herb-crunch-salad",
+  "title": "Kale and Herb Crunch Salad",
+  "blurb": "A fresh, crunchy salad with kale, red onion, herbs and a simple lemon dressing",
+  "steps": [
+    "Wash and dry the kale, then slice it very finely into thin ribbons and place in a large bowl.",
+    "Peel and finely chop the red onion, mince the garlic, and chop the parsley and thyme.",
+    "Dice the cucumber into small cubes and halve the cherry tomatoes.",
+    "Add the onion, cucumber, tomatoes, herbs and garlic to the kale.",
+    "Squeeze the lemon juice into a small bowl, add the olive oil, salt and pepper, and whisk together.",
+    "Pour the dressing over the salad and massage it into the kale with your hands for two minutes to soften the leaves.",
+    "Cover and refrigerate for at least 45 minutes to let the flavours develop.",
+    "Scatter the pumpkin seeds over the top just before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 60,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/kale-and-herb-crunch-salad.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 205.895,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 5.635,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 11.702,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.978,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 5.171,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 16.176,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.393,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 228.19,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "kale, tough stems removed",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "red onion",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "cucumber",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "cherry tomatoes",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "fresh parsley",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "fresh thyme",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "garlic",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "pumpkin seeds",
+      "measure": null,
+      "grams": 40
+    }
+  ]
+}

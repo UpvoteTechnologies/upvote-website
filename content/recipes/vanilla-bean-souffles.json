@@ -1,0 +1,111 @@
+{
+  "slug": "vanilla-bean-souffles",
+  "title": "Vanilla Bean Soufflés",
+  "blurb": "Light, airy soufflés with a delicate vanilla flavour and a golden crown. They need careful timing but the technique becomes easier with practice.",
+  "steps": [
+    "Heat your oven to 190°C. Brush three ramekins thoroughly with the softened butter, working upwards from the base, then coat with the dusting sugar and tap out any excess.",
+    "Split the vanilla pod lengthways and scrape out the seeds. Pour the milk into a small pan, add the vanilla seeds and pod, and warm gently until steaming.",
+    "Melt the butter in a medium saucepan over low heat. Stir in the cornflour and cook for one minute, then gradually whisk in the warm milk, discarding the vanilla pod. Cook, whisking constantly, until the mixture thickens to a smooth paste.",
+    "Remove from the heat and beat in half the sugar and the egg yolks until well combined. Transfer to a large bowl and let it cool slightly.",
+    "Whisk the egg whites with the salt in a clean bowl until they form soft peaks. Add the remaining sugar and whisk until the peaks are firm and glossy.",
+    "Fold a spoonful of the egg whites into the custard base to loosen it, then gently fold in the rest with a large metal spoon, working carefully to keep the mixture light.",
+    "Divide between the prepared ramekins, filling them to the rim, and run your thumb around the inside edge of each to help them rise evenly. Place on a baking tray and bake for 18 to 20 minutes until well risen and golden."
+  ],
+  "servings": 3,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/vanilla-bean-souffles.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 323.593,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 8.291,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 31.982,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 26.35,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.054,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 17.938,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 8.797,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 218.407,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "unsalted butter, for the ramekins",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "caster sugar, for dusting",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "whole milk",
+      "measure": "ml",
+      "grams": 180
+    },
+    {
+      "text": "vanilla pod",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "unsalted butter",
+      "measure": null,
+      "grams": 25
+    },
+    {
+      "text": "cornflour",
+      "measure": null,
+      "grams": 18
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "large eggs, separated",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "fine salt",
+      "measure": "pinch",
+      "grams": 1
+    }
+  ]
+}

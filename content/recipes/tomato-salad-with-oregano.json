@@ -1,0 +1,87 @@
+{
+  "slug": "tomato-salad-with-oregano",
+  "title": "Tomato Salad with Oregano",
+  "blurb": "Ripe tomatoes dressed with olive oil and dried oregano make a simple side dish that needs nothing more than good ingredients and a light hand.",
+  "steps": [
+    "Cut the tomatoes into wedges or thick slices and arrange them on a serving plate.",
+    "Sprinkle the oregano evenly over the tomatoes, then season with salt and a few grinds of black pepper.",
+    "Drizzle the olive oil over everything and serve straight away, or leave for a few minutes to let the flavours settle."
+  ],
+  "servings": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/tomato-salad-with-oregano.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 104.253,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.831,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 8.284,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 5.282,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.676,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 7.93,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.103,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 397.325,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "ripe tomatoes",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "extra virgin olive oil",
+      "measure": "tablespoon",
+      "grams": 15
+    },
+    {
+      "text": "dried oregano",
+      "measure": "teaspoon",
+      "grams": 1
+    },
+    {
+      "text": "sea salt",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 0.5
+    }
+  ]
+}

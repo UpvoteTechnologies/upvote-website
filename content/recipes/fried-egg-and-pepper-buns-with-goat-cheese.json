@@ -1,0 +1,102 @@
+{
+  "slug": "fried-egg-and-pepper-buns-with-goat-cheese",
+  "title": "Fried Egg and Pepper Buns with Goat Cheese",
+  "blurb": "Toasted buns filled with fried eggs, sweet peppers and melted goat cheese",
+  "steps": [
+    "Heat half the olive oil in a large frying pan over medium heat and add the pepper strips.",
+    "Cook the peppers for 8 to 10 minutes, stirring occasionally, until softened and lightly charred at the edges.",
+    "Meanwhile, split the buns and toast them cut-side down in a dry pan or under the grill until golden.",
+    "Push the peppers to the sides of the pan, add the remaining oil to the centre and crack in the eggs.",
+    "Fry the eggs for 3 to 4 minutes until the whites are set but the yolks remain runny.",
+    "Place a fried egg on the bottom half of each bun, top with the peppers and slices of goat cheese.",
+    "Season with black pepper, close with the bun tops and serve immediately."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/fried-egg-and-pepper-buns-with-goat-cheese.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 408.428,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 19.012,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 34.073,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 6.606,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.743,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 21.351,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 9.02,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 485.55,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "hamburger buns",
+      "measure": "4 buns",
+      "grams": 240
+    },
+    {
+      "text": "large eggs",
+      "measure": "4 eggs",
+      "grams": 200
+    },
+    {
+      "text": "red pepper",
+      "measure": "1 pepper",
+      "grams": 200
+    },
+    {
+      "text": "yellow pepper",
+      "measure": "1 pepper",
+      "grams": 200
+    },
+    {
+      "text": "goat cheese",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "black pepper",
+      "measure": "to taste",
+      "grams": 1
+    }
+  ]
+}

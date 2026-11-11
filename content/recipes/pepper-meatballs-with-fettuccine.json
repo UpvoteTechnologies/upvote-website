@@ -1,0 +1,114 @@
+{
+  "slug": "pepper-meatballs-with-fettuccine",
+  "title": "Pepper Meatballs with Fettuccine",
+  "blurb": "Simple beef meatballs with a good crack of black pepper, served over ribbon pasta.",
+  "steps": [
+    "Put the beef mince, eggs, breadcrumbs, half the black pepper and half the salt in a bowl and mix with your hands until combined. Roll the mixture into 16 meatballs, each about the size of a golf ball.",
+    "Heat the canola oil in a large frying pan over medium-high heat. Add the meatballs and cook for 8 to 10 minutes, turning occasionally, until browned all over and cooked through. Remove to a plate.",
+    "Meanwhile, bring a large pot of salted water to the boil and cook the fettuccine according to the packet instructions. Drain and set aside.",
+    "Peel and finely chop the garlic. Add it to the same frying pan you used for the meatballs and cook for 30 seconds, then add the tinned tomatoes, oregano and remaining salt and pepper.",
+    "Simmer the sauce for 5 minutes, then return the meatballs to the pan and turn them in the sauce. Serve the meatballs and sauce over the fettuccine."
+  ],
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/pepper-meatballs-with-fettuccine.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 407.282,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 31.271,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 16.456,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.66,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.345,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 23.54,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 6.433,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 810.75,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "beef mince",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "eggs",
+      "measure": "2 eggs",
+      "grams": 100
+    },
+    {
+      "text": "dried breadcrumbs",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "ground black pepper",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 6
+    },
+    {
+      "text": "canola oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "dried fettuccine",
+      "measure": null,
+      "grams": 320
+    },
+    {
+      "text": "garlic cloves",
+      "measure": "2 cloves",
+      "grams": 10
+    },
+    {
+      "text": "tinned chopped tomatoes",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "dried oregano",
+      "measure": null,
+      "grams": 2
+    }
+  ]
+}

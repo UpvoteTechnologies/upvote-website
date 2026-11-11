@@ -1,0 +1,116 @@
+{
+  "slug": "pan-fried-chicken-with-marsala-and-fennel",
+  "title": "Pan-Fried Chicken with Marsala and Fennel",
+  "blurb": "Tender chicken breasts cooked in a rich Marsala sauce with aromatic fennel and crushed fennel seeds.",
+  "steps": [
+    "Season the chicken breasts with salt and pepper, then dust them lightly with flour on both sides.",
+    "Heat the olive oil in a large frying pan over medium-high heat and cook the chicken for 4 minutes on each side until golden. Remove and set aside.",
+    "Add the chopped fennel to the same pan and cook for 5 minutes until it begins to soften, stirring occasionally.",
+    "Add the garlic and crushed fennel seeds and cook for 1 minute until fragrant.",
+    "Pour in the Marsala wine and let it bubble for 2 minutes to reduce slightly.",
+    "Add the chicken stock and return the chicken to the pan. Simmer gently for 10 minutes until the chicken is cooked through and the sauce has thickened.",
+    "Adjust the seasoning with salt and pepper to taste before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/pan-fried-chicken-with-marsala-and-fennel.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 361.83,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 35.79,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 17.431,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 5.913,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.722,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.717,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.968,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 497.7,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "chicken breast fillets, skinless",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "fennel bulb, coarsely chopped",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "garlic cloves, sliced",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "fennel seeds, crushed",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "Marsala wine",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "chicken stock",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 4
+    }
+  ]
+}

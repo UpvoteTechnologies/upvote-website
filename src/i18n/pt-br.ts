@@ -262,6 +262,78 @@ export const ptBr: Dict = {
   download: {
     redirecting: 'Redirecionando para {store}...',
   },
+  pages: {
+    links: [{ href: '/pt-br/artigos', label: 'Artigos' }],
+    footerHeading: 'Aprenda',
+  },
+  articles: {
+    indexTitle: 'Guias para Ler Rótulos de Alimentos | Upvote',
+    indexDescription:
+      'Guias simples para ler rótulos de alimentos: alergênicos, aditivos, dietas e o que as palavras da embalagem querem dizer.',
+    indexHeading: 'Guias para ler o rótulo',
+    indexLead:
+      'O que as palavras da embalagem querem dizer e o que costuma estar dentro dos produtos que você compra. Cada guia lista as suas fontes.',
+    pageLabel: 'Página',
+    titleSuffix: ' | Upvote',
+    breadcrumb: 'Artigos',
+    sources: 'Fontes',
+    whatWeDoNotKnow: 'O que isto não diz',
+    planCue: 'Quando',
+    planAction: 'Então',
+    figureCount: 'Com base em {n} itens.',
+    figureExcluded: '{n} ficaram de fora.',
+    more: 'Mais guias',
+    disclaimer:
+      'Este texto descreve como o Upvote lê um rótulo. Ele não é orientação médica ou nutricional. Confira o rótulo físico e converse com um profissional de saúde sobre a sua dieta.',
+    tiers: {
+      regulatory_fact: 'Fato regulatório',
+      strong: 'Evidência forte',
+      moderate: 'Evidência moderada',
+      weak_observational: 'Evidência inicial',
+      contested: 'Evidência contestada',
+      experience: 'Experiência pessoal',
+    },
+  },
+  recipes: {
+    indexTitle: 'Receitas com Informação Nutricional por Porção | Upvote',
+    indexDescription:
+      'Receitas simples com ingredientes por peso e informação nutricional estimada por porção. Veja no app Upvote como cada uma combina com a sua dieta.',
+    indexHeading: 'Receitas',
+    indexLead:
+      'Receitas simples com ingredientes por peso e informação nutricional estimada por porção. Abra uma no app para ver como ela combina com a sua dieta.',
+    titleSuffix: ' | Receita | Upvote',
+    breadcrumb: 'Receitas',
+    ingredients: 'Ingredientes',
+    method: 'Modo de preparo',
+    nutrition: 'Informação nutricional por porção',
+    nutritionNote: 'Estimada a partir dos ingredientes. As marcas variam, então use como referência.',
+    servings: 'Rende',
+    prep: 'Preparo',
+    cook: 'Cozimento',
+    total: 'Total',
+    minutes: 'min',
+    more: 'Mais receitas',
+    slots: { breakfast: 'Café da manhã', lunch: 'Almoço', dinner: 'Jantar', snack: 'Lanche' },
+    nutrients: {
+      energy_kcal: 'Calorias',
+      proteins_g: 'Proteína',
+      carbohydrates_g: 'Carboidratos',
+      sugars_g: 'Açúcares',
+      fiber_g: 'Fibra',
+      fat_g: 'Gordura',
+      saturated_fat_g: 'Gordura saturada',
+      sodium_mg: 'Sódio',
+    },
+  },
+  appCta: {
+    title: 'Veja o quanto combina com a sua dieta',
+    body: 'Configure a sua dieta uma vez e escaneie qualquer produto. O Upvote lê o rótulo e dá uma nota de 0 a 100 para você. Grátis para iPhone e Android.',
+  },
+  pagination: {
+    previous: 'Anterior',
+    next: 'Próxima',
+    label: 'Páginas',
+  },
   notFound: {
     title: 'Página não encontrada',
     body: 'A página que você procura não existe ou mudou de endereço.',

@@ -1,0 +1,101 @@
+{
+  "slug": "caramelised-onion-and-tofu-dip",
+  "title": "Caramelised Onion and Tofu Dip",
+  "blurb": "Slowly cooked onions blended with silken tofu make a smooth, savoury dip with a gentle heat.",
+  "steps": [
+    "Heat the olive oil in a wide frying pan over medium heat and add the sliced onions with a pinch of salt.",
+    "Cook the onions for 20 to 25 minutes, stirring occasionally, until they are soft and deeply golden brown.",
+    "Transfer the caramelised onions to a food processor and add the drained tofu, hot pepper sauce, remaining salt, onion granules and black pepper.",
+    "Blend until completely smooth, scraping down the sides as needed.",
+    "Taste and adjust the seasoning, then transfer to a serving bowl.",
+    "Serve at room temperature with vegetable sticks or crackers."
+  ],
+  "servings": 8,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "mealSlots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "image": "/media/recipes/caramelised-onion-and-tofu-dip.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "large onions, halved and sliced",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "silken tofu, drained",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "hot pepper sauce",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "fine sea salt",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "onion granules",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 2
+    }
+  ]
+}

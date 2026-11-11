@@ -1,0 +1,79 @@
+{
+  "slug": "what-we-read-for-seed-oil",
+  "kicker": "DIETS",
+  "title": "What we read for Seed-oil free",
+  "standfirst": "The names this plan looks for on a label, and where the list stops.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-we-read-for-seed-oil.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "When you turn this plan on, we read the ingredient list on a label and look for a set of names. This is that set, in full."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "We show it because a plan that marks a food off-plan should be able to say which word did it."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "The names we read"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "canola oil",
+        "colza oil",
+        "corn oil",
+        "cottonseed oil",
+        "fully hydrogenated vegetable oils",
+        "grape seed oil",
+        "grapeseed oil",
+        "groundnut oil",
+        "hydrogenated vegetable oil",
+        "maize oil",
+        "partially hydrogenated vegetable oil",
+        "peanut oil",
+        "pumpkin seed oil",
+        "rapeseed oil",
+        "rice bran oil",
+        "safflower oil",
+        "soy oil",
+        "soya bean oil",
+        "soya oil",
+        "soybean oil",
+        "sunflower oil",
+        "vegetable oil",
+        "vegetable oil blend",
+        "vegetable oils"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "This is the list we read, not a ruling on what belongs in the plan. Bodies that certify foods, and clinicians who advise on them, do not all draw the line in the same place, and a label can name an ingredient in a form no list holds."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "soy-chicken-rice-bowl-with-lentils",
+  "title": "Soy Chicken Rice Bowl with Lentils",
+  "blurb": "Tender grilled chicken on a bed of rice and lentils, dressed with soy sauce and scattered with fresh parsley and spring onions.",
+  "steps": [
+    "Put the rice in a pan with 400ml water and bring to the boil, then reduce the heat, cover and simmer for 12 minutes until the water is absorbed.",
+    "Meanwhile, cook the lentils in boiling water for 12 minutes until tender, then drain well.",
+    "Brush the chicken breasts with half the olive oil and season with black pepper.",
+    "Heat a griddle pan over high heat and cook the chicken for 6 to 7 minutes each side until cooked through and charred, then slice into strips.",
+    "Finely slice the spring onions and chop the parsley.",
+    "Mix the cooked rice and lentils together in a large bowl with the remaining olive oil and the soy sauce.",
+    "Divide the rice mixture between four bowls, top with the sliced chicken and scatter over the spring onions and parsley."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/soy-chicken-rice-bowl-with-lentils.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 465.555,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 39.054,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 57.78,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 0.934,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 3.98,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 7.747,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.373,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 613.825,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "white rice",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "dried green lentils",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "chicken breast",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "low sodium soy sauce",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "spring onions",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "fresh parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    }
+  ]
+}

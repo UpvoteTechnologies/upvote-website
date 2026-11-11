@@ -1,0 +1,96 @@
+{
+  "slug": "apple-and-oat-crisp",
+  "title": "Apple and Oat Crisp",
+  "blurb": "Warm baked apples with a golden oat topping, best served with vanilla ice cream.",
+  "steps": [
+    "Heat your oven to 180°C.",
+    "Peel and core the apples, then cut them into roughly 2cm chunks and spread them in a baking dish.",
+    "Sprinkle half the cinnamon over the apples.",
+    "In a bowl, rub the butter into the oats and sugar with your fingers until the mixture looks like rough breadcrumbs, then stir through the remaining cinnamon.",
+    "Scatter the oat mixture evenly over the apples.",
+    "Bake for 30 minutes until the topping is golden and the apples are soft when you press them with a spoon.",
+    "Serve warm with scoops of vanilla ice cream."
+  ],
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/apple-and-oat-crisp.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 408.41,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 4.914,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 61.179,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 41.029,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 6.235,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 17.34,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 9.361,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 112.45,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "eating apples",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "rolled oats",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "light brown soft sugar",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "unsalted butter",
+      "measure": null,
+      "grams": 50
+    },
+    {
+      "text": "ground cinnamon",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "vanilla ice cream",
+      "measure": null,
+      "grams": 200
+    }
+  ]
+}

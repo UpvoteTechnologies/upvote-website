@@ -1,0 +1,15 @@
+---
+import type { Span } from '../lib/content';
+
+interface Props {
+  spans: Span[];
+}
+
+const { spans } = Astro.props;
+---
+
+{
+  spans.map((span) =>
+    span.strong ? <strong class="font-extrabold text-ink">{span.text}</strong> : span.em ? <em>{span.text}</em> : span.text,
+  )
+}

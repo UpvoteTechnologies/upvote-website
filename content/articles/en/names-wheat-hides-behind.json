@@ -1,0 +1,378 @@
+{
+  "slug": "names-wheat-hides-behind",
+  "kicker": "ALLERGENS",
+  "title": "The names wheat hides behind",
+  "standfirst": "Wheat goes by many names on a label. Here is the list we read for you.",
+  "evidenceTier": "regulatory_fact",
+  "sourceLabel": "US FDA · 2004",
+  "image": "/media/articles/names-wheat-hides-behind.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "The law makes a maker name wheat when they put it in on purpose. It does not make them use the word you are looking for."
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "b2",
+      "label": "names we watch for on a label",
+      "caption": "Counted only where the link to wheat is settled. Names that depend on the product are listed further down, and are not in this count.",
+      "basis": {
+        "q": "kb.count",
+        "of": "allergen_forms",
+        "subject": "wheat"
+      },
+      "resolved": {
+        "value": "52",
+        "method": "Names whose link to wheat is settled, counted from our allergen registry.",
+        "n": 80,
+        "scope": "kb",
+        "excluded": 28,
+        "excludedNote": "28 more depend on the product or are shared with something else, so they are listed separately rather than counted here.",
+        "sources": [
+          {
+            "authority": "US FDA",
+            "doc": "Food Allergen Labeling and Consumer Protection Act (FALCPA), Pub. L. 108-282, Title II — wheat named as a major food allergen",
+            "year": 2004,
+            "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-questions-and-answers"
+          },
+          {
+            "authority": "US FDA",
+            "doc": "FASTER Act of 2021, Pub. L. 117-11 — confirms the Big-9 major allergens (wheat retained)",
+            "year": 2021
+          },
+          {
+            "authority": "European Parliament & Council",
+            "doc": "Regulation (EU) No 1169/2011, Annex II point 1 — 'Cereals containing gluten, namely: wheat (such as spelt and khorasan wheat), rye, barley, oats or their hybridised strains'; plus Annex II exemptions for wheat-based glucose syrups incl. dextrose, wheat-based maltodextrins, glucose syrups based on barley, and cereals used for distillates",
+            "year": 2011,
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011R1169-20180101"
+          },
+          {
+            "authority": "US FDA",
+            "doc": "21 CFR Part 137 — Cereal Flours and Related Products (standards of identity for wheat flour, bromated flour, self-rising/enriched flour, durum, semolina, farina)",
+            "year": 2023
+          },
+          {
+            "authority": "US FDA",
+            "doc": "21 CFR 101.91 — 'Gluten-Free' Labeling of Foods Final Rule (defines wheat, barley, rye, crossbred hybrids as gluten-containing grains)",
+            "year": 2013
+          },
+          {
+            "authority": "FARE (Food Allergy Research & Education)",
+            "doc": "Wheat Allergy — allergen fact sheet and hidden-source list (semolina, durum, farina, kamut, spelt, seitan, HVP, surimi)",
+            "year": 2023,
+            "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/wheat"
+          },
+          {
+            "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies",
+            "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes (EFSA Journal 2014;12(11):3894) — cereals containing gluten",
+            "year": 2014
+          },
+          {
+            "authority": "Codex Alimentarius (FAO/WHO)",
+            "doc": "CXS 118-1979 (rev. 2015) — Standard for Foods for Special Dietary Use for Persons Intolerant to Gluten; defines gluten-source grains",
+            "year": 2015
+          }
+        ],
+        "limit": "We read what a label says. We cannot see what a maker left off it."
+      }
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Always means wheat"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "wheat",
+        "whole wheat",
+        "wheat flour",
+        "wheatflour",
+        "durum",
+        "durum wheat",
+        "semolina",
+        "farina",
+        "spelt",
+        "dinkel",
+        "kamut",
+        "khorasan wheat",
+        "einkorn",
+        "emmer",
+        "farro",
+        "triticale",
+        "triticum",
+        "bulgur",
+        "freekeh",
+        "graham flour",
+        "cracked wheat",
+        "wheat berries",
+        "wheat bran",
+        "wheat germ",
+        "wheat germ oil",
+        "wheat flakes",
+        "puffed wheat",
+        "sprouted wheat",
+        "wheat starch",
+        "modified wheat starch",
+        "wheat gluten",
+        "vital wheat gluten",
+        "seitan",
+        "wheat protein",
+        "wheat protein isolate",
+        "textured wheat protein",
+        "hydrolyzed wheat protein",
+        "hydrolyzed wheat gluten",
+        "gliadin",
+        "glutenin",
+        "atta",
+        "maida",
+        "orzo",
+        "udon",
+        "matzo",
+        "panko",
+        "graham crackers",
+        "enriched flour",
+        "bleached flour",
+        "malted wheat",
+        "wheat malt",
+        "wheat dextrin"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "Sometimes means wheat"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "These depend on the product. We treat them with care, and we say so on the label reading rather than guessing."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b7",
+      "source": "kb",
+      "items": [
+        "couscous",
+        "fu",
+        "gluten",
+        "breadcrumbs",
+        "croutons",
+        "malt",
+        "malt extract",
+        "malt syrup",
+        "malt flavoring",
+        "malted milk",
+        "brewer's yeast",
+        "beer",
+        "malt vinegar",
+        "soy sauce",
+        "tamari",
+        "teriyaki sauce",
+        "hoisin sauce",
+        "surimi",
+        "hydrolyzed vegetable protein",
+        "modified food starch",
+        "food starch",
+        "starch",
+        "dextrin",
+        "natural flavoring",
+        "natural flavor",
+        "yeast extract",
+        "caramel color",
+        "enzymes"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "And these do not"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b9",
+      "spans": [
+        {
+          "text": "Names that look close but are not wheat. These are the ones you can stop worrying about."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b10",
+      "source": "kb",
+      "items": [
+        "amaranth",
+        "avena",
+        "barley",
+        "barley malt",
+        "buckwheat",
+        "buckwheat flour",
+        "chia",
+        "corn flour",
+        "corn gluten",
+        "corn semolina",
+        "dextrimaltose",
+        "dextrose",
+        "distilled vinegar",
+        "ethyl alcohol of agricultural origin",
+        "glucose syrup",
+        "glucose syrup based on barley",
+        "harissa",
+        "hordein",
+        "hordeum",
+        "kasha",
+        "maltodextrin",
+        "maltose",
+        "milk thistle",
+        "millet",
+        "oat",
+        "oat bran",
+        "oat flour",
+        "oatmeal",
+        "oats",
+        "pearl barley",
+        "pumpernickel",
+        "quinoa",
+        "rice flour",
+        "rice gluten",
+        "rice semolina",
+        "rolled oats",
+        "rye",
+        "rye flour",
+        "secale",
+        "secalin",
+        "sorghum",
+        "teff",
+        "water chestnut",
+        "wheatgrass"
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b11",
+      "spans": [
+        {
+          "text": "What we do when the label is unclear"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b12",
+      "spans": [
+        {
+          "text": "If we cannot tell, we warn you. On this one thing we would rather be wrong in the direction of caution than quiet."
+        }
+      ]
+    },
+    {
+      "kind": "citation",
+      "key": "b13",
+      "citationId": "allergen-wheat-us-fda-2004"
+    },
+    {
+      "kind": "citation",
+      "key": "b14",
+      "citationId": "allergen-wheat-us-fda-2021"
+    },
+    {
+      "kind": "citation",
+      "key": "b15",
+      "citationId": "allergen-wheat-european-parliament-council-2011"
+    },
+    {
+      "kind": "citation",
+      "key": "b16",
+      "citationId": "allergen-wheat-us-fda-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b17",
+      "citationId": "allergen-wheat-us-fda-2013"
+    },
+    {
+      "kind": "citation",
+      "key": "b18",
+      "citationId": "allergen-wheat-fare-food-allergy-research-education-2023"
+    },
+    {
+      "kind": "citation",
+      "key": "b19",
+      "citationId": "allergen-wheat-efsa-panel-on-dietetic-products-nutritio-2014"
+    },
+    {
+      "kind": "citation",
+      "key": "b20",
+      "citationId": "allergen-wheat-codex-alimentarius-fao-who-2015"
+    }
+  ],
+  "citations": {
+    "allergen-wheat-us-fda-2004": {
+      "authority": "US FDA",
+      "doc": "Food Allergen Labeling and Consumer Protection Act (FALCPA), Pub. L. 108-282, Title II — wheat named as a major food allergen",
+      "year": 2004,
+      "url": "https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-questions-and-answers"
+    },
+    "allergen-wheat-us-fda-2021": {
+      "authority": "US FDA",
+      "doc": "FASTER Act of 2021, Pub. L. 117-11 — confirms the Big-9 major allergens (wheat retained)",
+      "year": 2021
+    },
+    "allergen-wheat-european-parliament-council-2011": {
+      "authority": "European Parliament & Council",
+      "doc": "Regulation (EU) No 1169/2011, Annex II point 1 — 'Cereals containing gluten, namely: wheat (such as spelt and khorasan wheat), rye, barley, oats or their hybridised strains'; plus Annex II exemptions for wheat-based glucose syrups incl. dextrose, wheat-based maltodextrins, glucose syrups based on barley, and cereals used for distillates",
+      "year": 2011,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011R1169-20180101"
+    },
+    "allergen-wheat-us-fda-2023": {
+      "authority": "US FDA",
+      "doc": "21 CFR Part 137 — Cereal Flours and Related Products (standards of identity for wheat flour, bromated flour, self-rising/enriched flour, durum, semolina, farina)",
+      "year": 2023
+    },
+    "allergen-wheat-us-fda-2013": {
+      "authority": "US FDA",
+      "doc": "21 CFR 101.91 — 'Gluten-Free' Labeling of Foods Final Rule (defines wheat, barley, rye, crossbred hybrids as gluten-containing grains)",
+      "year": 2013
+    },
+    "allergen-wheat-fare-food-allergy-research-education-2023": {
+      "authority": "FARE (Food Allergy Research & Education)",
+      "doc": "Wheat Allergy — allergen fact sheet and hidden-source list (semolina, durum, farina, kamut, spelt, seitan, HVP, surimi)",
+      "year": 2023,
+      "url": "https://www.foodallergy.org/living-food-allergies/food-allergy-essentials/common-allergens/wheat"
+    },
+    "allergen-wheat-efsa-panel-on-dietetic-products-nutritio-2014": {
+      "authority": "EFSA Panel on Dietetic Products, Nutrition and Allergies",
+      "doc": "Scientific Opinion on the evaluation of allergenic foods and food ingredients for labelling purposes (EFSA Journal 2014;12(11):3894) — cereals containing gluten",
+      "year": 2014
+    },
+    "allergen-wheat-codex-alimentarius-fao-who-2015": {
+      "authority": "Codex Alimentarius (FAO/WHO)",
+      "doc": "CXS 118-1979 (rev. 2015) — Standard for Foods for Special Dietary Use for Persons Intolerant to Gluten; defines gluten-source grains",
+      "year": 2015
+    }
+  }
+}

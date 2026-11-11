@@ -1,0 +1,92 @@
+{
+  "slug": "sweet-potato-wedges-with-crispy-egg-white-coating",
+  "title": "Sweet Potato Wedges with Crispy Egg White Coating",
+  "blurb": "Oven-baked sweet potato wedges tossed in olive oil and coated with whisked egg white for an extra-crispy finish.",
+  "steps": [
+    "Heat your oven to 220°C (200°C fan). Line a large baking tray with baking paper.",
+    "Scrub the sweet potatoes and cut them into wedges about 2cm thick at the widest part.",
+    "Toss the wedges in a bowl with the olive oil, salt and plenty of black pepper until evenly coated.",
+    "In a separate small bowl, whisk the egg whites until they become frothy and loose.",
+    "Pour the egg whites over the seasoned wedges and toss again so each piece gets a light coating.",
+    "Spread the wedges out on the prepared tray in a single layer, leaving space between them.",
+    "Bake for 30 minutes, turning them once halfway through, until golden and crisp at the edges."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "image": "/media/recipes/sweet-potato-wedges-with-crispy-egg-white-coating.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 255.155,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 6.402,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 41.268,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 8.576,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 6.127,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 7.616,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.079,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 740.55,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "sweet potatoes",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "olive oil",
+      "measure": "tablespoon",
+      "grams": 15
+    },
+    {
+      "text": "egg whites",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "salt",
+      "measure": "teaspoon",
+      "grams": 3
+    },
+    {
+      "text": "ground black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

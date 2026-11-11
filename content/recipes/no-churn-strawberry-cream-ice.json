@@ -1,0 +1,89 @@
+{
+  "slug": "no-churn-strawberry-cream-ice",
+  "title": "No-Churn Strawberry Cream Ice",
+  "blurb": "A simple frozen dessert made by folding whipped cream through strawberry jam and fresh fruit. No ice cream maker needed.",
+  "steps": [
+    "Hull and chop the strawberries into small pieces, then set aside.",
+    "Pour the cream into a large bowl and whip with an electric whisk until it holds soft peaks.",
+    "Sift in the icing sugar and add the vanilla extract, then whip briefly until the cream holds firm peaks.",
+    "Add the strawberry jam and chopped strawberries to the cream, then fold everything together gently with a spatula until just combined with visible streaks of jam.",
+    "Scrape the mixture into a freezer-proof container, smooth the top, and cover with a lid or cling film.",
+    "Freeze for at least 6 hours or overnight until firm enough to scoop."
+  ],
+  "servings": 10,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/no-churn-strawberry-cream-ice.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 291.65,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 1.478,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 23.428,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 17.801,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.76,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 21.416,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 12.242,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 19.1,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "whipping cream 35%",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "strawberry jam",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "fresh strawberries",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "vanilla extract",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "icing sugar",
+      "measure": null,
+      "grams": 50
+    }
+  ]
+}

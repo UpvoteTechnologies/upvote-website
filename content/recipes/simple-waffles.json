@@ -1,0 +1,91 @@
+{
+  "slug": "simple-waffles",
+  "title": "Simple Waffles",
+  "blurb": "Light, golden waffles with a crisp outside and soft middle. Serve with your choice of toppings.",
+  "steps": [
+    "Put the flour and sugar in a large mixing bowl.",
+    "Crack the eggs into the bowl and pour in the milk, then whisk everything together until you have a smooth batter.",
+    "Pour in the melted butter and whisk again until combined.",
+    "Heat your waffle iron according to its instructions.",
+    "Pour enough batter into the iron to cover the grid, close the lid, and cook until golden and crisp.",
+    "Remove the waffle and keep it warm while you cook the remaining batter.",
+    "Serve the waffles warm with your preferred toppings."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/simple-waffles.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 500.275,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 17.098,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 59.214,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 12.651,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.875,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 21.597,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 10.397,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 182.425,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 250
+    },
+    {
+      "text": "caster sugar",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "large eggs",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "semi-skimmed milk",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "unsalted butter, melted",
+      "measure": null,
+      "grams": 60
+    }
+  ]
+}

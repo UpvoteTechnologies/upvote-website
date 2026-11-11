@@ -1,0 +1,95 @@
+{
+  "slug": "mango-and-honey-parfaits-with-cashew-cream",
+  "title": "Mango and honey parfaits with cashew cream",
+  "blurb": "Layers of fresh mango, toasted almonds and smooth cashew cream sweetened with honey. A simple make-ahead dessert that needs no cooking.",
+  "steps": [
+    "Soak the cashews in cold water for at least 2 hours, then drain well.",
+    "Toast the flaked almonds in a dry pan over medium heat until golden, shaking often, then set aside to cool.",
+    "Put the drained cashews, measured water and honey in a blender and blend until completely smooth and creamy.",
+    "Peel the mango and cut the flesh into small chunks.",
+    "Divide half the mango between four glasses, then spoon over half the cashew cream.",
+    "Scatter over half the raspberries and half the toasted almonds, then repeat the layers with the remaining ingredients.",
+    "Chill in the fridge for at least 30 minutes before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 120,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/mango-and-honey-parfaits-with-cashew-cream.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 492.675,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 12.101,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 47.407,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 26.035,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 7.178,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 31.29,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 5.245,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 10,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "raw cashews",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "honey",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "fresh mango",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "flaked almonds",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "fresh raspberries",
+      "measure": null,
+      "grams": 150
+    }
+  ]
+}

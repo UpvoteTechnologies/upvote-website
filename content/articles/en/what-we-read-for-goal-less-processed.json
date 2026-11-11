@@ -1,0 +1,75 @@
+{
+  "slug": "what-we-read-for-goal-less-processed",
+  "kicker": "GOALS",
+  "title": "What we read for Less processed",
+  "standfirst": "The names this plan looks for on a label, and where the list stops.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-we-read-for-goal-less-processed.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "When you turn this plan on, we read the ingredient list on a label and look for a set of names. This is that set, in full."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "We show it because a plan that marks a food off-plan should be able to say which word did it."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "The names we read"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "E950",
+        "E951",
+        "E952",
+        "E953",
+        "E954",
+        "E955",
+        "E956",
+        "E957",
+        "E958",
+        "E959",
+        "E960",
+        "E961",
+        "E962",
+        "E963",
+        "E964",
+        "E965",
+        "E966",
+        "E967",
+        "E968",
+        "E969"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "This is the list we read, not a ruling on what belongs in the plan. Bodies that certify foods, and clinicians who advise on them, do not all draw the line in the same place, and a label can name an ingredient in a form no list holds."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

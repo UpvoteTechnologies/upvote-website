@@ -1,0 +1,130 @@
+{
+  "slug": "quick-vegetable-and-chickpea-ratatouille",
+  "title": "Quick Vegetable and Chickpea Ratatouille",
+  "blurb": "A speedy take on the Provençal classic with chickpeas for protein, simmered until the vegetables soften into a light sauce.",
+  "steps": [
+    "Heat the olive oil in a large pan over medium heat and cook the onions for 3 minutes until softened.",
+    "Stir in the garlic and dried chilli and cook for 30 seconds.",
+    "Add the aubergine, courgette and red pepper, then cook for 3 minutes, stirring occasionally.",
+    "Tip in the chopped tomatoes, chickpeas, tomato purée and oregano, then bring to a simmer.",
+    "Cook for 5 minutes until the vegetables are tender and the sauce has thickened slightly.",
+    "Season with salt and pepper, then serve warm."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/quick-vegetable-and-chickpea-ratatouille.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 381.883,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 15.998,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 57.366,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 17.632,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 13.249,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.821,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.565,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 612.1,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "onions, finely chopped",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "garlic, pressed",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "dried chilli peppers, minced",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "aubergine, diced",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "courgette, diced",
+      "measure": null,
+      "grams": 250
+    },
+    {
+      "text": "red pepper, diced",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "plum tomatoes, chopped",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "cooked chickpeas",
+      "measure": null,
+      "grams": 240
+    },
+    {
+      "text": "tomato purée",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "dried oregano",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 6
+    },
+    {
+      "text": "ground black pepper",
+      "measure": null,
+      "grams": 1
+    }
+  ]
+}

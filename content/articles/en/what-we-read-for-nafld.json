@@ -1,0 +1,100 @@
+{
+  "slug": "what-we-read-for-nafld",
+  "kicker": "CONDITIONS",
+  "title": "What we read for Fatty liver (NAFLD)",
+  "standfirst": "The names this plan looks for on a label, and where the list stops.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-we-read-for-nafld.jpg",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "When you turn this plan on, we read the ingredient list on a label and look for a set of names. This is that set, in full."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "We show it because a plan that marks a food off-plan should be able to say which word did it."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "The names we read"
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b4",
+      "source": "kb",
+      "items": [
+        "cane juice",
+        "cane syrup",
+        "cane syrups",
+        "com syrup",
+        "corn syrup",
+        "crystalline fructose",
+        "dried cane syrup",
+        "evaporated cane juice",
+        "evaporated cane syrup",
+        "fructose glucose syrup",
+        "fruktose glukose sirup",
+        "glicose",
+        "glucose fructose syrup",
+        "glucose syrup",
+        "glucosefructose",
+        "glucosesirup",
+        "glucosestroop",
+        "glukose fruktose sirup",
+        "glukose fruktosesirup",
+        "glukosesirup",
+        "hfcs",
+        "high fructose corn syrup",
+        "invert sugar",
+        "invert sugar syrup",
+        "invert syrup",
+        "inverted sugar syrup",
+        "inverted syrup",
+        "invertsuikerstroop",
+        "invertzucker",
+        "invertzuckersirup",
+        "isoglucose",
+        "jarabe de glucosa",
+        "jarabe de maiz",
+        "jarabe de maiz de alta fructosa",
+        "maissirup",
+        "melado",
+        "refiner s syrup",
+        "refiners syrup",
+        "refinery syrup",
+        "reissirup",
+        "rice syrup",
+        "sciroppo di fruttosio glucosio",
+        "sciroppo di glucosio",
+        "sirop de glucose",
+        "xarope de glucose"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "This is the list we read, not a ruling on what belongs in the plan. Bodies that certify foods, and clinicians who advise on them, do not all draw the line in the same place, and a label can name an ingredient in a form no list holds."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

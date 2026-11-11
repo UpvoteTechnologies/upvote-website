@@ -1,0 +1,89 @@
+{
+  "slug": "gluten-free-peanut-butter-cookies",
+  "title": "Gluten-Free Peanut Butter Cookies",
+  "blurb": "Simple cookies with a soft centre and crisp edges, made with just five ingredients.",
+  "steps": [
+    "Heat your oven to 180°C and line a baking tray with parchment.",
+    "Put the peanut butter, sugar, egg, bicarbonate of soda and vanilla extract in a bowl and stir until completely combined.",
+    "Scoop tablespoons of the mixture and roll into twelve balls, then place them on the tray with space between each.",
+    "Press each ball gently with a fork to flatten slightly, making a criss-cross pattern on top.",
+    "Bake for 10 minutes until the edges are lightly golden but the centres still look soft.",
+    "Leave the cookies on the tray for 5 minutes to firm up, then transfer to a wire rack to cool completely."
+  ],
+  "servings": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/gluten-free-peanut-butter-cookies.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 197.375,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 5.144,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 21.288,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 18.827,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 1.042,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.168,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 2.284,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 123.083,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "creamy unsweetened peanut butter",
+      "measure": "1 cup",
+      "grams": 250
+    },
+    {
+      "text": "caster sugar",
+      "measure": "1 cup",
+      "grams": 200
+    },
+    {
+      "text": "large egg",
+      "measure": "1",
+      "grams": 50
+    },
+    {
+      "text": "bicarbonate of soda",
+      "measure": "1 tsp",
+      "grams": 5
+    },
+    {
+      "text": "vanilla extract",
+      "measure": "1 tsp",
+      "grams": 5
+    }
+  ]
+}

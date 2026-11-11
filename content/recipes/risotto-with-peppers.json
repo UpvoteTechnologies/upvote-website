@@ -1,0 +1,95 @@
+{
+  "slug": "risotto-with-peppers",
+  "title": "Risotto with Peppers",
+  "blurb": "A simple risotto with sweet peppers that soften into the creamy rice. The peppers add colour and a gentle sweetness.",
+  "steps": [
+    "Cut the pepper in half, remove the seeds and white membrane, then cut the flesh into 1 cm squares.",
+    "Warm the stock in a small pan and keep it at a gentle simmer.",
+    "Heat the olive oil in a wide pan over medium heat, add the rice and stir for a minute until the grains look glossy.",
+    "Add the pepper pieces and stir them through the rice.",
+    "Add a ladleful of hot stock and stir until it is absorbed, then continue adding stock a ladleful at a time, stirring frequently, until the rice is tender and creamy.",
+    "Remove from the heat, stir in the Parmesan and season with salt to taste."
+  ],
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/risotto-with-peppers.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 170.05,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 5.955,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 10.103,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 5.086,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.9,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 12.043,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.503,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1685.65,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "arborio rice",
+      "measure": null,
+      "grams": 160
+    },
+    {
+      "text": "red pepper",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "vegetable stock, low-sodium",
+      "measure": null,
+      "grams": 700
+    },
+    {
+      "text": "Parmesan cheese, grated",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 2
+    }
+  ]
+}

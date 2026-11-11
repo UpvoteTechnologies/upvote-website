@@ -1,0 +1,90 @@
+{
+  "slug": "roasted-garlic-and-onion-with-rosemary",
+  "title": "Roasted Garlic and Onion with Rosemary",
+  "blurb": "Soft, sweet onions and whole garlic cloves roasted until caramelised with fresh rosemary",
+  "steps": [
+    "Heat your oven to 200°C.",
+    "Put the onion pieces into a roasting tin with the crushed garlic cloves.",
+    "Drizzle over the olive oil, scatter the rosemary sprigs on top, and season with salt.",
+    "Toss everything together with your hands so the vegetables are well coated.",
+    "Roast for 40 minutes, stirring halfway through, until the onions are soft and golden at the edges.",
+    "Squeeze the soft garlic from the skins before serving if you like."
+  ],
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/roasted-garlic-and-onion-with-rosemary.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 140.6,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 2.312,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 16.83,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 6.46,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.82,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 7.688,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.108,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 394.85,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "onions, cut into 1.5cm pieces",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "garlic cloves, unpeeled and crushed",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "fresh rosemary",
+      "measure": null,
+      "grams": 8
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 4
+    }
+  ]
+}

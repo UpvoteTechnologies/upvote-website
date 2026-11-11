@@ -264,6 +264,82 @@ export const en = {
     // `{store}` is replaced with the store's name.
     redirecting: 'Redirecting to {store}...',
   },
+  pages: {
+    // Header and footer links to the content sections. `href` is a full site path.
+    links: [
+      { href: '/articles', label: 'Articles' },
+      { href: '/recipes', label: 'Recipes' },
+    ],
+    footerHeading: 'Learn',
+  },
+  articles: {
+    indexTitle: 'Food Label Guides and Ingredient Explainers | Upvote',
+    indexDescription:
+      'Plain guides to reading food labels: allergens and the names they hide behind, additives, diets, and what is usually inside common products.',
+    indexHeading: 'Guides to reading the label',
+    indexLead:
+      'What the words on a pack mean, which names an allergen hides behind, and what is usually inside the products you buy. Each guide lists its sources.',
+    pageLabel: 'Page',
+    titleSuffix: ' | Upvote',
+    breadcrumb: 'Articles',
+    sources: 'Sources',
+    whatWeDoNotKnow: 'What this does not tell you',
+    planCue: 'When',
+    planAction: 'Then',
+    figureCount: 'Based on {n} items.',
+    figureExcluded: '{n} left out.',
+    more: 'More guides',
+    disclaimer:
+      'This describes how Upvote reads a label. It is not medical or dietary advice. Check the physical label and talk to a healthcare professional about your diet.',
+    tiers: {
+      regulatory_fact: 'Regulatory fact',
+      strong: 'Strong evidence',
+      moderate: 'Moderate evidence',
+      weak_observational: 'Early evidence',
+      contested: 'Contested evidence',
+      experience: 'Personal experience',
+    } as Record<string, string>,
+  },
+  recipes: {
+    indexTitle: 'Recipes with Nutrition per Serving | Upvote',
+    indexDescription:
+      'Simple recipes with ingredients by weight and estimated nutrition per serving. See how each one fits your diet in the Upvote app.',
+    indexHeading: 'Recipes',
+    indexLead:
+      'Simple recipes with ingredients by weight and estimated nutrition per serving. Open one in the app to see how it fits your diet.',
+    titleSuffix: ' Recipe | Upvote',
+    breadcrumb: 'Recipes',
+    ingredients: 'Ingredients',
+    method: 'Method',
+    nutrition: 'Nutrition per serving',
+    nutritionNote: 'Estimated from the ingredients. Brands differ, so treat these as a guide.',
+    servings: 'Serves',
+    prep: 'Prep',
+    cook: 'Cook',
+    total: 'Total',
+    minutes: 'min',
+    more: 'More recipes',
+    slots: { breakfast: 'Breakfast', lunch: 'Lunch', dinner: 'Dinner', snack: 'Snack' } as Record<string, string>,
+    nutrients: {
+      energy_kcal: 'Calories',
+      proteins_g: 'Protein',
+      carbohydrates_g: 'Carbohydrates',
+      sugars_g: 'Sugars',
+      fiber_g: 'Fiber',
+      fat_g: 'Fat',
+      saturated_fat_g: 'Saturated fat',
+      sodium_mg: 'Sodium',
+    } as Record<string, string>,
+  },
+  appCta: {
+    title: 'See how it fits your diet',
+    body: 'Set your diet once and scan any product. Upvote reads the label and scores it from 0 to 100 for you. Free on iPhone and Android.',
+  },
+  pagination: {
+    previous: 'Previous',
+    next: 'Next',
+    label: 'Pages',
+  },
   notFound: {
     title: 'Page not found',
     body: 'The page you are looking for does not exist or has moved.',

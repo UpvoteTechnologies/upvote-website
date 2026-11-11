@@ -1,0 +1,95 @@
+{
+  "slug": "chilled-chocolate-cashew-mousse",
+  "title": "Chilled Chocolate Cashew Mousse",
+  "blurb": "A rich, creamy mousse made from soaked cashews, dates and butternut squash, set in the fridge for a smooth chocolate dessert.",
+  "steps": [
+    "Place the cashews in a bowl, cover with cold water and leave to soak for at least 2 hours or overnight, then drain well.",
+    "Put the dates in a small bowl, cover with warm water and soak for 15 minutes to soften, then drain.",
+    "Place the drained cashews, dates, butternut squash purée, cocoa powder, vanilla extract and water in a food processor or high-speed blender.",
+    "Blend on high speed for 2 to 3 minutes, stopping to scrape down the sides, until completely smooth and creamy.",
+    "Divide the mixture between six small glasses or ramekins.",
+    "Cover and refrigerate for at least 2 hours until firm and chilled before serving."
+  ],
+  "servings": 6,
+  "prepMinutes": 180,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "snack",
+    "dinner"
+  ],
+  "image": "/media/recipes/chilled-chocolate-cashew-mousse.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "raw cashews",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "pitted dates",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "butternut squash purée",
+      "measure": null,
+      "grams": 240
+    },
+    {
+      "text": "unsweetened cocoa powder",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "vanilla extract",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "water",
+      "measure": null,
+      "grams": 60
+    }
+  ]
+}

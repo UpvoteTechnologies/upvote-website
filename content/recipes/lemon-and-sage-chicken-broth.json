@@ -1,0 +1,104 @@
+{
+  "slug": "lemon-and-sage-chicken-broth",
+  "title": "Lemon and Sage Chicken Broth",
+  "blurb": "A light, aromatic soup with shredded chicken, fresh lemon and sage in a clear broth",
+  "steps": [
+    "Heat the olive oil in a large saucepan over medium heat and cook the chopped shallots for 2 minutes until softened.",
+    "Pour in the chicken stock and add the sage and black pepper, then bring to a simmer.",
+    "Add the chicken breast whole and poach gently for 8 minutes until cooked through.",
+    "Remove the chicken, shred it with two forks, then return it to the pan along with the chopped ham.",
+    "Squeeze in the lemon juice and simmer for 1 minute, then taste and adjust the seasoning before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/lemon-and-sage-chicken-broth.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "chicken breast",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "chicken stock",
+      "measure": null,
+      "grams": 1000
+    },
+    {
+      "text": "shallots",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "extra virgin olive oil",
+      "measure": "tablespoon",
+      "grams": 15
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "ground sage",
+      "measure": "teaspoon",
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": "teaspoon",
+      "grams": 2
+    },
+    {
+      "text": "cooked ham",
+      "measure": null,
+      "grams": 80
+    }
+  ]
+}

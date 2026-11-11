@@ -1,0 +1,121 @@
+{
+  "slug": "couscous-with-pink-shrimp-and-vegetables",
+  "title": "Couscous with pink shrimp and vegetables",
+  "blurb": "Fluffy couscous tossed with tender shrimp, sweet carrots and courgettes in a light herby broth.",
+  "steps": [
+    "Peel and dice the carrot into small cubes, then dice the courgette to match. Peel and finely chop the onion and garlic.",
+    "Heat the olive oil in a wide pan over medium heat and cook the onion and carrot for 8 minutes until softening. Add the garlic and cumin and cook for 1 minute.",
+    "Pour in the vegetable stock and bring to a simmer, then add the courgette and cook for 5 minutes.",
+    "Stir in the couscous, cover the pan tightly and remove from the heat. Leave to stand for 10 minutes so the couscous absorbs the liquid.",
+    "Meanwhile, rinse the shrimp and pat dry. Roughly chop the parsley.",
+    "Fluff the couscous with a fork, then stir through the shrimp. Cover and leave for 5 minutes until the shrimp are cooked through.",
+    "Squeeze over the lemon juice, scatter with parsley and serve."
+  ],
+  "servings": 2,
+  "prepMinutes": 35,
+  "cookMinutes": 35,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/couscous-with-pink-shrimp-and-vegetables.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 245.325,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 16.843,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 18.955,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 8.425,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 4.3,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 11.986,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 1.834,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 778.005,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "couscous",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "pink shrimp",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "carrot",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "courgette",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "yellow onion",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "flat-leaf parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "vegetable stock",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "garlic clove",
+      "measure": null,
+      "grams": 5
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "lemon",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

@@ -10,7 +10,13 @@ interface HeaderProps {
 }
 
 export default function Header({ locale, switchHref }: HeaderProps) {
-  const t = getDict(locale).nav;
+  const dict = getDict(locale);
+  const t = dict.nav;
+  // Content sections first, then the landing page anchors.
+  const links = [
+    ...dict.pages.links,
+    ...t.items.map((item) => ({ href: sectionHref(locale, item.id), label: item.label })),
+  ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -26,11 +32,11 @@ export default function Header({ locale, switchHref }: HeaderProps) {
             <AnimatedLockup height={34} className="h-7 w-auto sm:h-[34px]" />
           </a>
 
-          <div className="hidden flex-1 items-center gap-6 md:flex lg:gap-[26px]">
-            {t.items.map((item) => (
+          <div className="hidden flex-1 items-center gap-6 lg:flex lg:gap-[26px]">
+            {links.map((item) => (
               <a
-                key={item.id}
-                href={sectionHref(locale, item.id)}
+                key={item.href}
+                href={item.href}
                 className="text-[13.5px] font-bold text-ink-3 transition-colors hover:text-brand"
               >
                 {item.label}
@@ -57,7 +63,7 @@ export default function Header({ locale, switchHref }: HeaderProps) {
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="rounded-lg p-2 text-ink-3 transition-colors hover:bg-paper-2 md:hidden"
+              className="rounded-lg p-2 text-ink-3 transition-colors hover:bg-paper-2 lg:hidden"
               aria-label={t.toggleMenu}
               aria-expanded={isMenuOpen}
             >
@@ -67,12 +73,12 @@ export default function Header({ locale, switchHref }: HeaderProps) {
         </div>
 
         {isMenuOpen && (
-          <div className="border-t border-line py-3 md:hidden">
+          <div className="border-t border-line py-3 lg:hidden">
             <div className="flex flex-col">
-              {t.items.map((item) => (
+              {links.map((item) => (
                 <a
-                  key={item.id}
-                  href={sectionHref(locale, item.id)}
+                  key={item.href}
+                  href={item.href}
                   onClick={() => setIsMenuOpen(false)}
                   className="rounded-xl px-3 py-3 text-left text-[15px] font-bold text-ink-3 transition-colors hover:bg-paper-2 hover:text-brand"
                 >

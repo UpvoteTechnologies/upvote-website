@@ -1,0 +1,115 @@
+{
+  "slug": "grilled-chicken-bowl-with-cauliflower-rice-and-roasted-sweet",
+  "title": "Grilled Chicken Bowl with Cauliflower Rice and Roasted Sweet Potato",
+  "blurb": "A nourishing bowl with marinated chicken breast, golden roasted sweet potato, wilted kale and lightly spiced cauliflower rice.",
+  "steps": [
+    "Preheat your oven to 200°C and cut the sweet potato into small cubes, toss with half the olive oil and a pinch of salt, then spread on a baking tray and roast for 15 minutes until tender and golden.",
+    "Meanwhile, mix the lemon juice, crushed garlic, a pinch of salt and pepper in a shallow dish, add the chicken breast and turn to coat, then leave to marinate while the sweet potato cooks.",
+    "Heat a griddle pan or frying pan over medium-high heat, remove the chicken from the marinade and cook for 6 to 7 minutes each side until cooked through with no pink meat remaining, then set aside to rest.",
+    "In the same pan, add the riced cauliflower and cumin with a splash of water, season with salt and cook for 3 to 4 minutes, stirring often, until just tender.",
+    "Add the chopped kale to the cauliflower for the final minute of cooking, stirring until wilted.",
+    "Slice the chicken breast and arrange in a bowl with the cauliflower rice, kale and roasted sweet potato cubes."
+  ],
+  "servings": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/grilled-chicken-bowl-with-cauliflower-rice-and-roasted-sweet.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 473.595,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 40.158,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 32.317,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 10.765,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 8.583,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 20.676,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 3.232,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 910.39,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "boneless skinless chicken breast",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "olive oil",
+      "measure": "1 tbsp",
+      "grams": 15
+    },
+    {
+      "text": "lemon juice",
+      "measure": "2 tsp",
+      "grams": 10
+    },
+    {
+      "text": "garlic clove, crushed",
+      "measure": "1 clove",
+      "grams": 3
+    },
+    {
+      "text": "sweet potato",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "cauliflower, riced",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "kale, chopped",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "ground cumin",
+      "measure": "1/4 tsp",
+      "grams": 1
+    },
+    {
+      "text": "fine sea salt",
+      "measure": "1/2 tsp",
+      "grams": 2
+    },
+    {
+      "text": "black pepper",
+      "measure": "pinch",
+      "grams": 0.5
+    }
+  ]
+}

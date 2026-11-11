@@ -1,0 +1,116 @@
+{
+  "slug": "smoked-mackerel-and-shallot-rillettes",
+  "title": "Smoked Mackerel and Shallot Rillettes",
+  "blurb": "Flaked smoked mackerel mixed with cream cheese, caramelised shallots and fresh herbs makes a rich spread for toasted bread, served with a simple carrot and spinach salad.",
+  "steps": [
+    "Peel and finely slice the shallots, then cook them gently in the olive oil in a small pan over low heat for about 15 minutes until soft and golden, stirring occasionally.",
+    "While the shallots cook, remove the skin from the mackerel fillets and flake the flesh into a mixing bowl, discarding any bones.",
+    "Peel the carrot and cut it into thin ribbons with a vegetable peeler, then toss with the baby spinach and set aside.",
+    "When the shallots are done, let them cool for a few minutes, then add them to the mackerel along with the cream cheese, chopped chives, lemon juice and black pepper.",
+    "Mix everything together with a fork, breaking up the mackerel and cream cheese to create a rough, spreadable texture.",
+    "Toast the bread, then serve the rillettes spread on the warm toast with the carrot and spinach salad on the side."
+  ],
+  "servings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "image": "/media/recipes/smoked-mackerel-and-shallot-rillettes.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "shallots",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "smoked mackerel fillets",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "cream cheese",
+      "measure": null,
+      "grams": 180
+    },
+    {
+      "text": "fresh chives",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "lemon juice",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 1
+    },
+    {
+      "text": "carrot",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "baby spinach",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "wholemeal bread",
+      "measure": null,
+      "grams": 120
+    }
+  ]
+}

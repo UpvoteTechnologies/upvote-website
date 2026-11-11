@@ -1,0 +1,96 @@
+{
+  "slug": "coconut-flour-loaf",
+  "title": "Coconut Flour Loaf",
+  "blurb": "A light, grain-free loaf made with coconut flour and eggs. Slice and toast for breakfast or serve alongside soup.",
+  "steps": [
+    "Heat your oven to 180°C and grease a 900g loaf tin with a little butter.",
+    "Beat the softened butter and xylitol together in a large bowl until smooth and creamy.",
+    "Add the eggs one at a time, beating well after each addition until fully combined.",
+    "Sift in the coconut flour, baking powder and salt, then fold gently until you have a thick, smooth batter.",
+    "Pour the batter into the prepared tin and smooth the top with a spatula.",
+    "Bake for 35 to 40 minutes until golden on top and a skewer inserted into the centre comes out clean.",
+    "Leave to cool in the tin for 10 minutes, then turn out onto a wire rack to cool completely before slicing."
+  ],
+  "servings": 16,
+  "prepMinutes": 10,
+  "cookMinutes": 37,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/coconut-flour-loaf.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 132.623,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 2.446,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 0.396,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 0.12,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.002,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 13.53,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 7.07,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 177.669,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "coconut flour",
+      "measure": "cup",
+      "grams": 120
+    },
+    {
+      "text": "unsalted butter, softened",
+      "measure": "cup",
+      "grams": 227
+    },
+    {
+      "text": "eggs",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "xylitol",
+      "measure": "tsp",
+      "grams": 50
+    },
+    {
+      "text": "baking powder",
+      "measure": "tsp",
+      "grams": 12
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    }
+  ]
+}

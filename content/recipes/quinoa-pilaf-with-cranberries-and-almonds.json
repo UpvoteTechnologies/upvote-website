@@ -1,0 +1,106 @@
+{
+  "slug": "quinoa-pilaf-with-cranberries-and-almonds",
+  "title": "Quinoa Pilaf with Cranberries and Almonds",
+  "blurb": "Fluffy quinoa cooked with onions and finished with toasted almonds and sweet cranberries. A light side dish or simple main.",
+  "steps": [
+    "Rinse the quinoa thoroughly in a fine sieve under cold running water and drain well.",
+    "Heat the olive oil in a large saucepan over medium heat and cook the chopped onion for about 5 minutes until softened.",
+    "Add the quinoa to the pan and stir for 1 minute to coat in the oil.",
+    "Pour in the vegetable stock and add the salt, then bring to the boil.",
+    "Reduce the heat to low, cover with a lid and simmer for 15 minutes until the quinoa has absorbed the liquid and is tender.",
+    "Remove from the heat and stir through the dried cranberries, then cover and leave to stand for 5 minutes.",
+    "Fluff the quinoa with a fork, stir through the toasted almonds and season with black pepper before serving."
+  ],
+  "servings": 6,
+  "prepMinutes": 25,
+  "cookMinutes": 25,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/quinoa-pilaf-with-cranberries-and-almonds.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 138.937,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 2.599,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 15.841,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 11.622,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.238,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 7.852,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.775,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 683.95,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "quinoa",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "extra-virgin olive oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "red onion, chopped",
+      "measure": null,
+      "grams": 100
+    },
+    {
+      "text": "fine sea salt",
+      "measure": null,
+      "grams": 6
+    },
+    {
+      "text": "vegetable stock",
+      "measure": null,
+      "grams": 600
+    },
+    {
+      "text": "dried cranberries",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "flaked almonds, toasted",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 2
+    }
+  ]
+}

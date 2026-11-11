@@ -1,0 +1,94 @@
+{
+  "slug": "berry-and-granola-yogurt-pots",
+  "title": "Berry and Granola Yogurt Pots",
+  "blurb": "Layers of thick yogurt, mixed berries, honey and toasted oats make a simple breakfast or snack that feels more special than the sum of its parts.",
+  "steps": [
+    "Hull and quarter the strawberries, then mix them with the blueberries in a bowl.",
+    "Spoon a layer of Greek yogurt into the bottom of four glasses or jars.",
+    "Add a layer of mixed berries, then sprinkle over some granola.",
+    "Repeat with another layer of yogurt, berries and granola.",
+    "Drizzle honey over the top of each pot and scatter with flaked almonds before serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/berry-and-granola-yogurt-pots.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "proteins_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sugars_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fiber_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": null,
+      "status": "insufficient"
+    },
+    {
+      "key": "sodium_mg",
+      "value": null,
+      "status": "insufficient"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "Greek yogurt",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "strawberries",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "blueberries",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "granola",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "honey",
+      "measure": null,
+      "grams": 40
+    },
+    {
+      "text": "flaked almonds",
+      "measure": null,
+      "grams": 30
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "poached-eggs-with-ham-in-orange-cream-sauce",
+  "title": "Poached Eggs with Ham in Orange Cream Sauce",
+  "blurb": "Soft poached eggs and sliced ham in a silky orange sauce, sharpened with vinegar and black pepper.",
+  "steps": [
+    "Zest two of the oranges finely, then juice all of them to give about 300ml of juice.",
+    "Pour the juice into a wide saucepan with the vinegar and bring to a simmer over medium heat. Let it bubble gently for 20 minutes until reduced by half.",
+    "Stir in the cream and orange zest, then season with salt and pepper. Simmer for another 10 minutes until the sauce thickens slightly and coats the back of a spoon.",
+    "Slice the ham into thick pieces and lay them in the sauce to warm through for 3 minutes.",
+    "Bring a separate pan of water to a gentle simmer with a pinch of salt. Crack each egg into the water and poach for 3 to 4 minutes until the whites are set but the yolks remain runny.",
+    "Lift the eggs out with a slotted spoon and drain briefly on kitchen paper.",
+    "Divide the ham between four plates, spoon over the orange sauce, and place a poached egg on top of each serving."
+  ],
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "mealSlots": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/poached-eggs-with-ham-in-orange-cream-sauce.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 342.855,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 28.712,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 14.38,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 11.288,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.527,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 19.066,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 8.182,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1549.2,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "oranges",
+      "measure": null,
+      "grams": 400
+    },
+    {
+      "text": "white wine vinegar",
+      "measure": null,
+      "grams": 30
+    },
+    {
+      "text": "single cream",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "smoked ham",
+      "measure": null,
+      "grams": 320
+    },
+    {
+      "text": "eggs",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 4
+    },
+    {
+      "text": "black pepper",
+      "measure": null,
+      "grams": 2
+    }
+  ]
+}

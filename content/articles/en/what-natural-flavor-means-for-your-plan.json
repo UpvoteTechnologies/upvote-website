@@ -1,0 +1,115 @@
+{
+  "slug": "what-natural-flavor-means-for-your-plan",
+  "kicker": "INGREDIENTS",
+  "title": "Natural flavor: what it means for your plan",
+  "standfirst": "Which of our plan rules this ingredient turns on, and what that does not tell you.",
+  "evidenceTier": "moderate",
+  "sourceLabel": "Moderate evidence",
+  "image": "/media/articles/what-natural-flavor-means-for-your-plan.jpg",
+  "blocks": [
+    {
+      "kind": "heading",
+      "key": "b1",
+      "spans": [
+        {
+          "text": "What it is"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b2",
+      "spans": [
+        {
+          "text": "Natural flavouring, a blend of aromatic substances extracted from plant or animal sources to give food a specific taste."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b3",
+      "spans": [
+        {
+          "text": "Why it is in your food"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b4",
+      "spans": [
+        {
+          "text": "Manufacturers use natural flavor as a flavouring and it is of mixed origin."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b5",
+      "spans": [
+        {
+          "text": "When it matters to you"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b6",
+      "spans": [
+        {
+          "text": "Our scorer looks for natural flavor when Vegan is on for you. If that plan is off, your score does not change. This is how the app reads a label. It is not a claim about health."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "key": "b7",
+      "spans": [
+        {
+          "text": "What it may be called"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "key": "b8",
+      "spans": [
+        {
+          "text": "Labels do not all use the same word for this. Below is every spelling we watch for. Some come from other languages, because a pack made for another country prints its own."
+        }
+      ]
+    },
+    {
+      "kind": "terms",
+      "key": "b9",
+      "source": "kb",
+      "items": [
+        "aroma natural",
+        "artifical flavor",
+        "artifical flavors",
+        "arôme naturel",
+        "arômes naturels",
+        "natural and artificial flavors",
+        "natural and artificial flavour",
+        "natural and artificial flavours",
+        "natural flavor",
+        "natural flavors",
+        "natural flavour",
+        "natural flavourings",
+        "natural flavours",
+        "natürliche aromen",
+        "natürliches aroma"
+      ]
+    },
+    {
+      "kind": "uncertainty",
+      "key": "b10",
+      "spans": [
+        {
+          "text": "One word on a label can cover more than one thing. A plan may also turn on how much is in the food, which this page cannot see. Read the pack when it matters."
+        }
+      ]
+    }
+  ],
+  "citations": {}
+}

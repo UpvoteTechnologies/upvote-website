@@ -1,0 +1,112 @@
+{
+  "slug": "blackberry-clafoutis",
+  "title": "Blackberry Clafoutis",
+  "blurb": "A French baked pudding with blackberries suspended in a custard batter, soft in the centre with golden edges.",
+  "steps": [
+    "Heat your oven to 180°C and butter a shallow baking dish about 25cm across.",
+    "Whisk the eggs and coconut sugar together in a large bowl until smooth.",
+    "Add the flour and whisk until no lumps remain, then pour in the cream and milk and whisk to combine.",
+    "Stir in the vanilla and almond extracts.",
+    "Scatter the blackberries evenly over the base of the buttered dish.",
+    "Pour the batter over the blackberries and transfer to the oven.",
+    "Bake for 45 minutes until puffed and golden on top, with just a slight wobble in the centre when you shake the dish.",
+    "Let it cool for 10 minutes before serving warm or at room temperature."
+  ],
+  "servings": 8,
+  "prepMinutes": 10,
+  "cookMinutes": 45,
+  "mealSlots": [
+    "breakfast",
+    "snack"
+  ],
+  "image": "/media/recipes/blackberry-clafoutis.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 205.306,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 5.551,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 11.477,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 3.509,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 2.19,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 15.474,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 8.071,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 54.6,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "blackberries",
+      "measure": null,
+      "grams": 300
+    },
+    {
+      "text": "large eggs",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "heavy cream",
+      "measure": "cup",
+      "grams": 240
+    },
+    {
+      "text": "whole milk",
+      "measure": null,
+      "grams": 120
+    },
+    {
+      "text": "coconut sugar",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "plain flour",
+      "measure": null,
+      "grams": 60
+    },
+    {
+      "text": "vanilla extract",
+      "measure": "tsp",
+      "grams": 5
+    },
+    {
+      "text": "almond extract",
+      "measure": "tsp",
+      "grams": 3
+    },
+    {
+      "text": "unsalted butter",
+      "measure": null,
+      "grams": 15
+    }
+  ]
+}

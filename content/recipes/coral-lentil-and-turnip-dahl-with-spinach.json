@@ -1,0 +1,127 @@
+{
+  "slug": "coral-lentil-and-turnip-dahl-with-spinach",
+  "title": "Coral Lentil and Turnip Dahl with Spinach",
+  "blurb": "A warming dahl where sweet turnips soften into red lentils, finished with fresh spinach and parsley.",
+  "steps": [
+    "Peel and finely chop the onion, then peel and grate the ginger and garlic.",
+    "Peel the turnips and cut them into small cubes about one centimetre across.",
+    "Heat the oil in a large saucepan over medium heat and cook the onion for five minutes until soft.",
+    "Add the ginger, garlic, cumin and turmeric, and cook for one minute until fragrant.",
+    "Rinse the lentils under cold water, then add them to the pan with the turnips and stock.",
+    "Bring to the boil, reduce to a simmer and cook for twenty minutes until the lentils and turnips are tender.",
+    "Roughly chop the parsley and stir it through with the spinach until the leaves wilt.",
+    "Season with salt and serve warm."
+  ],
+  "servings": 2,
+  "prepMinutes": 35,
+  "cookMinutes": 20,
+  "mealSlots": [
+    "lunch",
+    "dinner"
+  ],
+  "image": "/media/recipes/coral-lentil-and-turnip-dahl-with-spinach.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 439.395,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 23.037,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 69.233,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 10.395,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 12.707,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 9.413,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 0.825,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 1448.54,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "coral lentils",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "turnips",
+      "measure": null,
+      "grams": 200
+    },
+    {
+      "text": "baby spinach",
+      "measure": null,
+      "grams": 80
+    },
+    {
+      "text": "flat leaf parsley",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "fresh ginger",
+      "measure": null,
+      "grams": 20
+    },
+    {
+      "text": "onion",
+      "measure": null,
+      "grams": 150
+    },
+    {
+      "text": "garlic cloves",
+      "measure": null,
+      "grams": 10
+    },
+    {
+      "text": "ground cumin",
+      "measure": null,
+      "grams": 3
+    },
+    {
+      "text": "ground turmeric",
+      "measure": null,
+      "grams": 2
+    },
+    {
+      "text": "vegetable stock",
+      "measure": null,
+      "grams": 500
+    },
+    {
+      "text": "rapeseed oil",
+      "measure": null,
+      "grams": 15
+    },
+    {
+      "text": "salt",
+      "measure": null,
+      "grams": 3
+    }
+  ]
+}

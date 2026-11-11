@@ -1,0 +1,94 @@
+{
+  "slug": "coffee-cream-pots",
+  "title": "Coffee Cream Pots",
+  "blurb": "Light, creamy coffee-flavoured desserts that set into smooth individual portions with just a hint of sweetness.",
+  "steps": [
+    "Dissolve the instant coffee in the boiling water in a small bowl, then sprinkle the gelatin powder over and stir until completely dissolved.",
+    "Warm the soy beverage in a small pan over low heat, then add the sugar and stir until dissolved.",
+    "Put the cream cheese in a mixing bowl and whisk until smooth, then gradually pour in the warm soy mixture, whisking constantly until fully combined.",
+    "Add the coffee and gelatin mixture to the cream cheese mixture and whisk until smooth and even.",
+    "Pour the mixture into six small glasses or ramekins and refrigerate for at least two hours until set.",
+    "Serve chilled directly from the fridge."
+  ],
+  "servings": 6,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "mealSlots": [
+    "snack"
+  ],
+  "image": "/media/recipes/coffee-cream-pots.jpg",
+  "perServing": [
+    {
+      "key": "energy_kcal",
+      "value": 162.102,
+      "status": "estimated"
+    },
+    {
+      "key": "proteins_g",
+      "value": 4.28,
+      "status": "estimated"
+    },
+    {
+      "key": "carbohydrates_g",
+      "value": 11.976,
+      "status": "estimated"
+    },
+    {
+      "key": "sugars_g",
+      "value": 9.606,
+      "status": "estimated"
+    },
+    {
+      "key": "fiber_g",
+      "value": 0.1,
+      "status": "estimated"
+    },
+    {
+      "key": "fat_g",
+      "value": 10.815,
+      "status": "estimated"
+    },
+    {
+      "key": "saturated_fat_g",
+      "value": 6.017,
+      "status": "estimated"
+    },
+    {
+      "key": "sodium_mg",
+      "value": 137.327,
+      "status": "estimated"
+    }
+  ],
+  "ingredients": [
+    {
+      "text": "instant coffee",
+      "measure": "2 tbsp",
+      "grams": 12
+    },
+    {
+      "text": "boiling water",
+      "measure": "100ml",
+      "grams": 100
+    },
+    {
+      "text": "gelatin powder",
+      "measure": "1 sachet",
+      "grams": 7
+    },
+    {
+      "text": "unsweetened soy beverage",
+      "measure": "300ml",
+      "grams": 300
+    },
+    {
+      "text": "caster sugar",
+      "measure": "3 tbsp",
+      "grams": 40
+    },
+    {
+      "text": "cream cheese",
+      "measure": "180g",
+      "grams": 180
+    }
+  ]
+}
