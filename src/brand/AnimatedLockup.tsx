@@ -112,11 +112,18 @@ export default function AnimatedLockup({
     onSettledRef.current = onSettled;
   }, [onSettled]);
 
+  // True once the finished lockup is what is on screen and nothing is playing.
+  const [done, setDone] = useState(false);
+
   useEffect(() => {
     if (!animate || prefersReducedMotion()) {
-      onSettledRef.current?.();
+      // Also the way out of a piece cut short: `animate` turned off mid-flight must not leave an
+      // intermediate frame on screen.
+      setMs(Number.POSITIVE_INFINITY);
+      setDone(true);
       return;
     }
+    setDone(false);
     const startAt = performance.now();
     let raf = 0;
     const end = MOTION_END_MS + HANDOFF_MS;
@@ -124,11 +131,16 @@ export default function AnimatedLockup({
       const t = now - startAt;
       setMs(t);
       if (t < end) raf = requestAnimationFrame(tick);
-      else onSettledRef.current?.();
+      else setDone(true);
     };
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
   }, [animate]);
+
+  // After the render that shows the finished lockup, never before it.
+  useEffect(() => {
+    if (done) onSettledRef.current?.();
+  }, [done]);
 
   const settled = ms >= MOTION_END_MS + HANDOFF_MS;
 

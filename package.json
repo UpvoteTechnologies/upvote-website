@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "lint": "eslint .",
     "typecheck": "astro check",
+    "sync-privacy": "node scripts/sync-privacy.mjs",
     "brand-assets": "node scripts/brand-assets.mjs"
   },
   "dependencies": {
