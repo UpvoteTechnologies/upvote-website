@@ -1,9 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getDict } from '../i18n';
-import { CONTACT_EMAIL } from '../site';
+import policy from '../../content/privacy/policy.html?raw';
 
-// The policy itself is a Termly embed, published in English only, so this page has one language.
+// The policy itself is written in Termly, in English only, so this page has one language.
+// `policy` is a copy of it (`npm run sync-privacy`): it is what the prerendered page shows, and
+// it stays on screen when Termly's script cannot run. Once the live embed loads, it takes over.
 const t = getDict('en');
 
 // Termly finds its mount point by a `name` attribute, which is not a typed attribute on a div.
@@ -38,17 +40,25 @@ const termlyEmbed = { name: 'termly-embed', 'data-id': 'babeea2f-52c8-4655-b2ec-
 
         <div class="rounded-[22px] border border-line bg-white p-6 sm:p-8 md:p-12">
           <div {...termlyEmbed}></div>
-          {/* The embed is filled in by Termly's script, so without JavaScript the box is empty. */}
-          <noscript>
-            <p class="text-[15px] font-medium leading-[1.6] text-ink-3">
-              {t.privacy.noScript}
-              <a class="font-bold text-brand underline" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
-            </p>
-          </noscript>
+          <div id="policy-copy" set:html={policy} />
         </div>
       </div>
     </div>
   </section>
 
+  {/* Before Termly's script, so the observer is watching when the embed is filled in. */}
+  <script is:inline>
+    (function () {
+      var embed = document.querySelector('[name="termly-embed"]');
+      var copy = document.getElementById('policy-copy');
+      if (!embed || !copy) return;
+      var observer = new MutationObserver(function () {
+        if (embed.childElementCount === 0) return;
+        copy.hidden = true;
+        observer.disconnect();
+      });
+      observer.observe(embed, { childList: true });
+    })();
+  </script>
   <script is:inline id="termly-jssdk" src="https://app.termly.io/embed-policy.min.js"></script>
 </Base>

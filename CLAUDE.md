@@ -9,6 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run lint` - ESLint (`.ts` / `.tsx`)
 - `npm run typecheck` - `astro check` (TypeScript in `.astro`, `.ts` and `.tsx`)
 - `npm run preview` - Preview the production build locally
+- `npm run sync-privacy` - Copy the published privacy policy from Termly into `content/privacy/policy.html` (the prerendered fallback of `/privacy`); commit the result
 - `npm run brand-assets` - Regenerate the social cards (`public/og.png`, `public/og-pt-br.png`) and the PNG icons from the SVG logos
 
 Needs Node >= 22.23 (see `.nvmrc`).

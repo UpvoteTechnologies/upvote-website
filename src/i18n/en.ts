@@ -259,8 +259,6 @@ export const en = {
   privacy: {
     back: 'Back',
     title: 'Privacy Policy',
-    // Shown only when JavaScript is off; the address follows the sentence.
-    noScript: 'This policy needs JavaScript to load. To receive a copy by email, write to',
   },
   download: {
     // `{store}` is replaced with the store's name.
