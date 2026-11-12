@@ -5,7 +5,8 @@ import policy from '../../content/privacy/policy.html?raw';
 
 // The policy itself is written in Termly, in English only, so this page has one language.
 // `policy` is a copy of it (`npm run sync-privacy`): it is what the prerendered page shows, and
-// it stays on screen when Termly's script cannot run. Once the live embed loads, it takes over.
+// it stays on screen when Termly's script cannot run. Once the live embed has rendered the policy,
+// it takes over.
 const t = getDict('en');
 
 // Termly finds its mount point by a `name` attribute, which is not a typed attribute on a div.
@@ -46,18 +47,27 @@ const termlyEmbed = { name: 'termly-embed', 'data-id': 'babeea2f-52c8-4655-b2ec-
     </div>
   </section>
 
-  {/* Before Termly's script, so the observer is watching when the embed is filled in. */}
+  {/*
+    Before Termly's script, so the listener is in place when the embed starts talking.
+
+    The embed is a cross-origin iframe, and an iframe exists (and fires `load`) whether or not a
+    policy rendered inside it: a blocked frame or an unpublished document would leave an empty box.
+    The one thing only a rendered policy does is report its height to the page (the embed resizes
+    its frame that way, with iframe-resizer's `[iFrameSizer]id:height:...` message). So the copy
+    stays until the frame reports a height no error page reaches, and stays for good otherwise.
+  */}
   <script is:inline>
     (function () {
-      var embed = document.querySelector('[name="termly-embed"]');
       var copy = document.getElementById('policy-copy');
-      if (!embed || !copy) return;
-      var observer = new MutationObserver(function () {
-        if (embed.childElementCount === 0) return;
+      if (!copy) return;
+      function onMessage(event) {
+        if (event.origin !== 'https://app.termly.io' || typeof event.data !== 'string') return;
+        if (event.data.indexOf('[iFrameSizer]') !== 0) return;
+        if (!(Number(event.data.split(':')[1]) > 2000)) return;
         copy.hidden = true;
-        observer.disconnect();
-      });
-      observer.observe(embed, { childList: true });
+        window.removeEventListener('message', onMessage);
+      }
+      window.addEventListener('message', onMessage);
     })();
   </script>
   <script is:inline id="termly-jssdk" src="https://app.termly.io/embed-policy.min.js"></script>
