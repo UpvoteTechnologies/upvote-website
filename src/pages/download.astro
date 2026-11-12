@@ -4,7 +4,8 @@ import Download from '../components/Download';
 import { getDict } from '../i18n';
 
 // QR codes and every "Get the app" button land here. The component reads the device in the
-// browser and forwards to the right store, so there is nothing to prerender or index.
+// browser and forwards to the right store. The two store links are in the prerendered HTML, so
+// a visitor without JavaScript (or with the bundle blocked) can still get the app.
 const t = getDict('en');
 ---
 
@@ -16,5 +17,5 @@ const t = getDict('en');
   noindex
   chrome={false}
 >
-  <Download client:only="react" />
+  <Download client:load />
 </Base>

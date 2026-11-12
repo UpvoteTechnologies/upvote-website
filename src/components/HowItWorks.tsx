@@ -1,4 +1,4 @@
-import { getDict, type Locale } from '../i18n';
+import { downloadHref, getDict, type Locale } from '../i18n';
 
 export default function HowItWorks({ locale }: { locale: Locale }) {
   const t = getDict(locale).how;
@@ -30,7 +30,7 @@ export default function HowItWorks({ locale }: { locale: Locale }) {
 
         <div className="mt-11 text-center">
           <a
-            href="/download"
+            href={downloadHref(locale)}
             className="inline-block rounded-full bg-paper px-[38px] py-4 text-[16px] font-extrabold text-brand-dark shadow-[0_10px_26px_rgba(0,0,0,.25)] transition-transform hover:scale-[1.03]"
           >
             {t.cta}

@@ -258,6 +258,10 @@ export const ptBr: Dict = {
   privacy: {
     back: 'Voltar',
     title: 'Política de Privacidade',
+    noScript: 'Esta política precisa de JavaScript para carregar. Para receber uma cópia por e-mail, escreva para',
+  },
+  download: {
+    redirecting: 'Redirecionando para {store}...',
   },
   notFound: {
     title: 'Página não encontrada',
