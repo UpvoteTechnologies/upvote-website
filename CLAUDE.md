@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run lint` - ESLint (`.ts` / `.tsx`)
 - `npm run typecheck` - `astro check` (TypeScript in `.astro`, `.ts` and `.tsx`)
 - `npm run preview` - Preview the production build locally
-- `npm run brand-assets` - Regenerate `public/og.png` and the PNG icons from the SVG logos
+- `npm run brand-assets` - Regenerate the social cards (`public/og.png`, `public/og-pt-br.png`) and the PNG icons from the SVG logos
 
 Needs Node >= 22.23 (see `.nvmrc`).
 
@@ -25,13 +25,13 @@ Every page must reach the browser as finished HTML (title, description, text, JS
 - `src/components/Seo.astro` - title, description, canonical, `hreflang`, Open Graph, JSON-LD. Pages pass their own values through `Base`
 - `src/components/Landing.astro` - the landing page, shared by both languages
 - All page sections are React components in `src/components/`; no nested component directories
-- Components render on the server by default. Only the ones that need state hydrate (`client:load` on `Header`, `client:visible` on `Features` and `Contact`, `client:only` on `Download`)
+- Components render on the server by default. Only the ones that need state hydrate (`client:load` on `Header`, `client:visible` on `Features` and `Contact`, `client:load` on `Download`, which still prerenders the two store links)
 - Internal links are plain `<a href>`; there is no client router
 - Styling: **Tailwind CSS 3** (PostCSS + autoprefixer), tokens in `tailwind.config.js`
 - Icons: `lucide-react`
 
 ### Languages
-- English at the root, Brazilian Portuguese under `/pt-br`. Helpers in `src/i18n/index.ts` (`getDict`, `localePath`, `sectionHref`)
+- English at the root, Brazilian Portuguese under `/pt-br`. Helpers in `src/i18n/index.ts` (`getDict`, `localePath`, `sectionHref`, `downloadHref`)
 - All copy lives in `src/i18n/en.ts` and `src/i18n/pt-br.ts`; never hard-code visible text in a component. The two files must keep the same shape (`pt-br.ts` is typed against `en.ts`)
 - A page that exists in both languages passes `alternates` to `Base` so the `hreflang` pairs and the language switch are correct
 - Store links are per language (`src/links.ts`)

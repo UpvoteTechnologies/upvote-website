@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
-import { localePath, type Locale } from '../i18n';
+import { DEFAULT_LOCALE, LOCALES, getDict, localePath, type Locale } from '../i18n';
 import { appStoreUrl, playStoreUrl } from '../links';
+import StoreButtons from './StoreButtons';
 
 const APP_STORE_PROVIDER_TOKEN = '127358169';
 
@@ -24,8 +25,14 @@ function getRedirectTarget(device: DeviceType): RedirectTarget {
   return 'fallback';
 }
 
-/** `/download` is one URL for every language (QR codes point at it), so the visitor's browser picks. */
-function detectLocale(): Locale {
+/**
+ * `/download` is one URL for every language. A link from the site says which language the visitor
+ * was reading (`?lang=`, see `downloadHref`); a QR code says nothing, so the browser picks.
+ */
+function detectLocale(params: URLSearchParams): Locale {
+  const lang = params.get('lang');
+  const chosen = LOCALES.find((code) => code === lang);
+  if (chosen) return chosen;
   return navigator.language.toLowerCase().startsWith('pt') ? 'pt-br' : 'en';
 }
 
@@ -60,10 +67,13 @@ function getSessionId(): string {
   return id;
 }
 
+/**
+ * Rendered on the server with the two store links and nothing else, so the page works with no
+ * JavaScript. In the browser it reads the device and the language, then forwards to the store.
+ */
 function Download() {
-  const [device] = useState<DeviceType>(detectDevice);
-  const [locale] = useState<Locale>(detectLocale);
-  const redirectTarget = getRedirectTarget(device);
+  // Unknown until the browser has been read; the server render and the first paint agree on that.
+  const [redirect, setRedirect] = useState<{ locale: Locale; target: RedirectTarget } | null>(null);
   const tracked = useRef(false);
 
   useEffect(() => {
@@ -71,6 +81,10 @@ function Download() {
     tracked.current = true;
 
     const params = new URLSearchParams(window.location.search);
+    const device = detectDevice();
+    const locale = detectLocale(params);
+    const redirectTarget = getRedirectTarget(device);
+    setRedirect({ locale, target: redirectTarget });
 
     const payload = {
       device_type: device,
@@ -111,17 +125,24 @@ function Download() {
       document.removeEventListener('visibilitychange', onVisibilityChange);
       window.clearTimeout(fallback);
     };
-  }, [device, redirectTarget, locale]);
+  }, []);
+
+  const locale = redirect?.locale ?? DEFAULT_LOCALE;
+  const store = redirect?.target === 'app_store' ? 'App Store' : 'Google Play';
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-paper px-6">
       <div className="flex flex-col items-center gap-5 text-center">
         <img src="/brand/logo-default.svg" alt="Upvote" className="h-10 w-auto" />
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-line-2 border-t-brand" />
-        <p className="text-[15px] font-semibold text-muted">
-          {locale === 'pt-br' ? 'Redirecionando para' : 'Redirecting to the'}{' '}
-          {redirectTarget === 'app_store' ? 'App Store' : 'Google Play'}...
-        </p>
+        {redirect && redirect.target !== 'fallback' && (
+          <>
+            <div className="h-8 w-8 animate-spin rounded-full border-4 border-line-2 border-t-brand" />
+            <p className="text-[15px] font-semibold text-muted">
+              {getDict(locale).download.redirecting.replace('{store}', store)}
+            </p>
+          </>
+        )}
+        <StoreButtons locale={locale} className="justify-center" />
       </div>
     </div>
   );

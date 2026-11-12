@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getDict } from '../i18n';
+import { CONTACT_EMAIL } from '../site';
 
 // The policy itself is a Termly embed, published in English only, so this page has one language.
 const t = getDict('en');
@@ -37,6 +38,13 @@ const termlyEmbed = { name: 'termly-embed', 'data-id': 'babeea2f-52c8-4655-b2ec-
 
         <div class="rounded-[22px] border border-line bg-white p-6 sm:p-8 md:p-12">
           <div {...termlyEmbed}></div>
+          {/* The embed is filled in by Termly's script, so without JavaScript the box is empty. */}
+          <noscript>
+            <p class="text-[15px] font-medium leading-[1.6] text-ink-3">
+              {t.privacy.noScript}
+              <a class="font-bold text-brand underline" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+            </p>
+          </noscript>
         </div>
       </div>
     </div>

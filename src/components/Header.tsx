@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import AnimatedLockup from '../brand/AnimatedLockup';
-import { getDict, localePath, sectionHref, type Locale } from '../i18n';
+import { downloadHref, getDict, localePath, sectionHref, type Locale } from '../i18n';
 
 interface HeaderProps {
   locale: Locale;
@@ -49,7 +49,7 @@ export default function Header({ locale, switchHref }: HeaderProps) {
             </a>
 
             <a
-              href="/download"
+              href={downloadHref(locale)}
               className="rounded-full bg-brand px-5 py-[11px] text-[13.5px] font-extrabold text-white shadow-btn-inset transition-colors hover:bg-brand-deep"
             >
               {t.getApp}

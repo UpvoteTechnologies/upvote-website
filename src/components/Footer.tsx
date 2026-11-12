@@ -1,4 +1,4 @@
-import { getDict, sectionHref, type Locale } from '../i18n';
+import { downloadHref, getDict, sectionHref, type Locale } from '../i18n';
 import { CONTACT_EMAIL } from '../site';
 
 interface FooterProps {
@@ -39,7 +39,7 @@ export default function Footer({ locale, switchHref }: FooterProps) {
                 </a>
               </li>
               <li>
-                <a href="/download" className={linkClass}>
+                <a href={downloadHref(locale)} className={linkClass}>
                   {t.download}
                 </a>
               </li>

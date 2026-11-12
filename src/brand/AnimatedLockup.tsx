@@ -1,4 +1,4 @@
-import { useEffect, useId, useMemo, useState } from 'react';
+import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import {
   ART_CX,
   ART_CY,
@@ -103,11 +103,20 @@ export default function AnimatedLockup({
     [rawId]
   );
 
-  const playing = animate && !prefersReducedMotion();
-  const [ms, setMs] = useState(() => (playing ? 0 : Number.POSITIVE_INFINITY));
+  // The server render and the first paint are the FINISHED lockup: the prerendered HTML must show
+  // the logo with no JavaScript, and it stays there if hydration never happens. The piece only
+  // starts once the component is live in the browser.
+  const [ms, setMs] = useState(Number.POSITIVE_INFINITY);
+  const onSettledRef = useRef(onSettled);
+  useEffect(() => {
+    onSettledRef.current = onSettled;
+  }, [onSettled]);
 
   useEffect(() => {
-    if (!playing) return;
+    if (!animate || prefersReducedMotion()) {
+      onSettledRef.current?.();
+      return;
+    }
     const startAt = performance.now();
     let raf = 0;
     const end = MOTION_END_MS + HANDOFF_MS;
@@ -115,15 +124,13 @@ export default function AnimatedLockup({
       const t = now - startAt;
       setMs(t);
       if (t < end) raf = requestAnimationFrame(tick);
+      else onSettledRef.current?.();
     };
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
-  }, [playing]);
+  }, [animate]);
 
   const settled = ms >= MOTION_END_MS + HANDOFF_MS;
-  useEffect(() => {
-    if (settled) onSettled?.();
-  }, [settled, onSettled]);
 
   const draw = useMemo(() => {
     const walk = walkCentreline(MARK_PARAMS, 320);
