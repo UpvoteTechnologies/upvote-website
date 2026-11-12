@@ -29,11 +29,12 @@ export function localePath(locale: Locale, path = '/'): string {
 
 /**
  * Link to `/download`, the device redirect. It is one URL for every language, so a link from the
- * site carries the language the visitor is reading in; a bare `/download` (QR codes) lets the
- * browser's language decide.
+ * site always carries the language the visitor is reading in, English included: a Portuguese
+ * browser on the English page must still get the English listing. Only a bare `/download` (QR
+ * codes) lets the browser's language decide.
  */
 export function downloadHref(locale: Locale): string {
-  return locale === DEFAULT_LOCALE ? '/download' : `/download?lang=${locale}`;
+  return `/download?lang=${locale}`;
 }
 
 /** Link to a section of the landing page, e.g. `/#features` or `/pt-br#features`. */
