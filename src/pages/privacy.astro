@@ -53,17 +53,20 @@ const termlyEmbed = { name: 'termly-embed', 'data-id': 'babeea2f-52c8-4655-b2ec-
     The embed is a cross-origin iframe, and an iframe exists (and fires `load`) whether or not a
     policy rendered inside it: a blocked frame or an unpublished document would leave an empty box.
     The one thing only a rendered policy does is report its height to the page (the embed resizes
-    its frame that way, with iframe-resizer's `[iFrameSizer]id:height:...` message). So the copy
-    stays until the frame reports a height no error page reaches, and stays for good otherwise.
+    its frame that way, with iframe-resizer's `[iFrameSizer]<policy id>:<height>:...` message).
+    Measured 2026-11-12: the published policy reports about 17,700px, and a document id that is
+    not published reports nothing at all. So the copy stays until THIS policy's frame reports a
+    height no error page reaches, and stays for good otherwise.
   */}
-  <script is:inline>
+  <script is:inline define:vars={{ policyId: termlyEmbed['data-id'] }}>
     (function () {
       var copy = document.getElementById('policy-copy');
       if (!copy) return;
       function onMessage(event) {
         if (event.origin !== 'https://app.termly.io' || typeof event.data !== 'string') return;
-        if (event.data.indexOf('[iFrameSizer]') !== 0) return;
-        if (!(Number(event.data.split(':')[1]) > 2000)) return;
+        var prefix = '[iFrameSizer]' + policyId + ':';
+        if (event.data.indexOf(prefix) !== 0) return;
+        if (!(Number(event.data.slice(prefix.length).split(':')[0]) > 2000)) return;
         copy.hidden = true;
         window.removeEventListener('message', onMessage);
       }
