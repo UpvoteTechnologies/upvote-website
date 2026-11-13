@@ -15,16 +15,37 @@
     background: #9FE3BE;
     color: #22301F;
   }
+
+  /* One focus ring for every control, in the brand green. */
+  :focus-visible {
+    outline: 2px solid #1F7A4E;
+    outline-offset: 3px;
+  }
+
+  input,
+  textarea {
+    caret-color: #1F7A4E;
+  }
+
+  a {
+    text-underline-offset: 0.18em;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
 }
 
 @layer components {
-  /* Section eyebrow — Space Mono, tracked, muted. */
-  .eyebrow {
-    @apply font-mono font-bold text-[11px] tracking-[.16em] uppercase text-muted-2;
+  /* Small label over a title or a value: a category, a meal, a unit. */
+  .label {
+    @apply text-[13px] font-bold text-muted;
   }
 
   .section-title {
-    @apply font-extrabold text-ink tracking-[-.025em] text-3xl sm:text-4xl lg:text-[44px] lg:leading-[1.08];
+    @apply font-extrabold text-ink tracking-[-.025em] text-[32px] leading-[1.1] sm:text-[40px] lg:text-[46px] lg:leading-[1.06];
   }
 
   .section-lead {
@@ -41,53 +62,28 @@
 }
 
 @layer utilities {
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-
-  .animate-fade-in-up {
-    animation: fadeInUp 0.8s ease-out forwards;
-  }
-
-  .scrollbar-hide {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-
   .text-pretty {
     text-wrap: pretty;
   }
-}
 
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-14px);
+  /* The one moving part of the page: the score marker travels up the track to its value. */
+  .score-marker {
+    animation: scoreIn 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
   }
 }
 
-@keyframes fadeInUp {
+@keyframes scoreIn {
   from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+    left: 4%;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-float,
-  .animate-fade-in-up {
+  .score-marker {
     animation: none;
-    opacity: 1;
-    transform: none;
+  }
+
+  html {
+    scroll-behavior: auto !important;
   }
 }

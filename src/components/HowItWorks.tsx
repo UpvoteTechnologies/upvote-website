@@ -5,37 +5,36 @@ export default function HowItWorks({ locale }: { locale: Locale }) {
 
   return (
     <section id="how-it-works" className="bg-brand-dark">
-      <div className="mx-auto max-w-[900px] px-5 py-16 sm:px-8 lg:px-10 lg:py-[88px]">
-        <div className="mb-10 text-center lg:mb-[52px]">
+      <div className="site-container grid gap-x-16 gap-y-10 py-16 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:py-24">
+        <div className="lg:sticky lg:top-28 lg:self-start">
           <h2 className="section-title !text-white">{t.title}</h2>
-          <p className="mx-auto mt-[14px] text-base font-medium text-white/[.72] sm:text-[17px]">{t.lead}</p>
-        </div>
-
-        <ol className="flex flex-col gap-[14px]">
-          {t.steps.map((step, index) => (
-            <li
-              key={step.title}
-              className="flex items-start gap-4 rounded-[20px] border border-white/[.14] bg-white/[.07] px-5 py-5 transition-colors hover:bg-white/[.11] sm:items-center sm:gap-5 sm:px-[26px] sm:py-[22px]"
-            >
-              <span className="w-9 flex-none font-mono text-[20px] font-bold leading-none text-brand-mint sm:w-11 sm:text-[22px]">
-                {String(index + 1).padStart(2, '0')}
-              </span>
-              <div className="min-w-0 flex-1">
-                <h3 className="text-[17px] font-extrabold tracking-[-.015em] text-white sm:text-[19px]">{step.title}</h3>
-                <p className="mt-1 text-[14px] font-medium leading-[1.5] text-white/[.72]">{step.description}</p>
-              </div>
-            </li>
-          ))}
-        </ol>
-
-        <div className="mt-11 text-center">
+          <p className="mt-5 max-w-[400px] text-pretty text-base font-medium leading-[1.55] text-white/[.78] sm:text-[17px]">
+            {t.lead}
+          </p>
           <a
             href={downloadHref(locale)}
-            className="inline-block rounded-full bg-paper px-[38px] py-4 text-[16px] font-extrabold text-brand-dark shadow-[0_10px_26px_rgba(0,0,0,.25)] transition-transform hover:scale-[1.03]"
+            className="mt-8 inline-block rounded-full bg-paper px-8 py-[15px] text-[15px] font-extrabold text-brand-dark transition-colors hover:bg-white active:translate-y-px"
           >
             {t.cta}
           </a>
         </div>
+
+        {/* The numbers stay: the order of the steps is the content. */}
+        <ol className="border-b border-white/[.16]">
+          {t.steps.map((step, index) => (
+            <li key={step.title} className="flex gap-5 border-t border-white/[.16] py-6 sm:gap-8">
+              <span className="w-6 flex-none text-[26px] font-extrabold leading-[1.05] tabular-nums text-brand-mint" aria-hidden="true">
+                {index + 1}
+              </span>
+              <div className="min-w-0">
+                <h3 className="text-[18px] font-extrabold tracking-[-.015em] text-white sm:text-[20px]">{step.title}</h3>
+                <p className="mt-[6px] max-w-[520px] text-pretty text-[14.5px] font-medium leading-[1.55] text-white/[.78]">
+                  {step.description}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ol>
       </div>
     </section>
   );

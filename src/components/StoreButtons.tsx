@@ -33,7 +33,7 @@ function StoreButton({ href, eyebrow, label, icon }: StoreButtonProps) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-[9px] rounded-[14px] bg-ink px-5 py-[13px] transition-transform hover:scale-[1.03] hover:bg-black"
+      className="flex items-center gap-[9px] rounded-[14px] bg-ink px-5 py-[13px] transition-colors hover:bg-black active:translate-y-px"
       aria-label={`${eyebrow} ${label}`}
     >
       {icon}

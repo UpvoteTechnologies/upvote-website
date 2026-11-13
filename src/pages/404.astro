@@ -9,7 +9,7 @@ const en = getDict('en');
 <Base locale="en" title={en.meta.notFoundTitle} description={en.notFound.body} path="/404" noindex>
   <section class="bg-paper">
     <div class="site-container flex min-h-[60vh] flex-col items-center justify-center py-20 text-center">
-      <p class="eyebrow">404</p>
+      <p class="label tabular-nums">404</p>
       {
         LOCALES.map((code, index) => {
           const t = getDict(code).notFound;

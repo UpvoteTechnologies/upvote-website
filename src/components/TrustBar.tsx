@@ -10,17 +10,17 @@ export default function TrustBar({ locale }: { locale: Locale }) {
   const t = getDict(locale).trust;
 
   return (
-    <section className="border-y border-line bg-paper-2">
-      <div className="site-container flex flex-col items-center gap-[10px] py-[34px] text-center">
-        <p className="font-mono text-[10px] font-bold uppercase tracking-[.2em] text-muted-3">{t.eyebrow}</p>
-
+    <section className="relative border-y border-line bg-paper-2">
+      <div className="site-container flex flex-col items-start gap-x-8 gap-y-3 py-7 sm:flex-row sm:items-center">
         {partner.logo ? (
-          <img src={partner.logo} alt={partner.name} loading="lazy" className="h-14 w-auto sm:h-16" />
+          <img src={partner.logo} alt={partner.name} loading="lazy" className="h-12 w-auto flex-none sm:h-14" />
         ) : (
-          <p className="text-[21px] font-extrabold tracking-[-.01em] text-ink-2">{partner.name}</p>
+          <p className="flex-none text-[21px] font-extrabold tracking-[-.01em] text-ink-2">{partner.name}</p>
         )}
 
-        <p className="max-w-[520px] text-[13.5px] font-medium text-muted-2">{t.body}</p>
+        <p className="max-w-[460px] text-[13.5px] font-medium leading-[1.5] text-muted">
+          <span className="font-extrabold text-ink-2">{t.eyebrow}.</span> {t.body}
+        </p>
       </div>
     </section>
   );

@@ -46,7 +46,7 @@ export default function PhoneMockup({ locale, className = '' }: { locale: Locale
             style={{ background: 'linear-gradient(90deg,#E03A22 0%,#F05A1E 25%,#E69100 50%,#5BB98C 74%,#1B9E57 100%)' }}
           >
             <div className="absolute left-[58%] top-[-3px] h-[15px] w-[3px] rounded-[2px] bg-[#9296A0]" />
-            <div className="absolute left-[88%] top-[-6px] -ml-[10px] h-[21px] w-[21px] rounded-full border-[3px] border-brand-score bg-white shadow-[0_1px_4px_rgba(34,48,31,.28)]" />
+            <div className="score-marker absolute left-[88%] top-[-6px] -ml-[10px] h-[21px] w-[21px] rounded-full border-[3px] border-brand-score bg-white shadow-[0_1px_4px_rgba(34,48,31,.28)]" />
           </div>
           <div className="mt-[6px] flex text-[9px] font-bold text-[#B5B8C0]">
             <span className="flex-1">{t.scale[0]}</span>
