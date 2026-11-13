@@ -4,7 +4,7 @@ import { getDict, type Locale } from '../i18n';
 import { CONTACT_EMAIL } from '../site';
 
 const fieldClass =
-  'w-full rounded-[13px] border border-line-2 bg-white px-4 py-[14px] text-[14px] font-semibold text-ink placeholder:text-muted-4 outline-none transition-shadow focus:border-brand focus:ring-2 focus:ring-brand/25';
+  'w-full rounded-[13px] border border-line-2 bg-white px-4 py-[14px] text-[14px] font-semibold text-ink placeholder:text-muted-2 outline-none transition-[border-color,box-shadow] focus:border-brand focus:ring-2 focus:ring-brand/25 focus-visible:outline-none';
 const labelClass = 'mb-[6px] block text-[12.5px] font-extrabold text-ink';
 
 export default function Contact({ locale }: { locale: Locale }) {
@@ -63,47 +63,36 @@ export default function Contact({ locale }: { locale: Locale }) {
 
   return (
     <section id="contact" className="border-t border-line bg-paper">
-      <div className="site-container py-16 lg:py-[88px]">
-        <div className="mb-10 text-center lg:mb-11">
-          <h2 className="section-title">{t.title}</h2>
-          <p className="section-lead mx-auto mt-[14px] max-w-[560px]">
-            {t.lead}
-          </p>
-        </div>
+      <div className="site-container py-16 lg:py-24">
+        <div className="grid gap-x-16 gap-y-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+          <div>
+            <h2 className="section-title">{t.title}</h2>
+            <p className="section-lead mt-5 max-w-[420px] text-pretty">{t.lead}</p>
 
-        <div className="mx-auto grid max-w-[980px] grid-cols-1 gap-[18px] lg:grid-cols-5">
-          <div className="rounded-[22px] bg-brand-dark p-7 sm:p-8 lg:col-span-2">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z" stroke="#9FE3BE" strokeWidth="1.8" />
-              <path d="m3.5 7 8.5 6 8.5-6" stroke="#9FE3BE" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            <h3 className="mt-4 text-[21px] font-extrabold text-white">{t.infoTitle}</h3>
-            <p className="mt-2 text-[13.5px] font-medium leading-[1.5] text-white/[.72]">
-              {t.infoLead}
-            </p>
-
-            <div className="mt-7 flex flex-col gap-[18px]">
-              <div>
-                <h4 className="text-[13.5px] font-extrabold text-white">{t.email}</h4>
-                <a
-                  href={`mailto:${CONTACT_EMAIL}`}
-                  className="mt-[2px] block text-[13px] font-semibold text-brand-mint transition-colors hover:text-white"
-                >
-                  {CONTACT_EMAIL}
-                </a>
+            <dl className="mt-9 max-w-[420px] border-b border-line-2 text-[14.5px]">
+              <div className="flex flex-wrap justify-between gap-x-6 gap-y-1 border-t border-line-2 py-[14px]">
+                <dt className="font-extrabold text-ink">{t.email}</dt>
+                <dd>
+                  <a
+                    href={`mailto:${CONTACT_EMAIL}`}
+                    className="font-bold text-brand underline decoration-brand/30 transition-colors hover:text-brand-deep hover:decoration-brand-deep"
+                  >
+                    {CONTACT_EMAIL}
+                  </a>
+                </dd>
               </div>
-              <div>
-                <h4 className="text-[13.5px] font-extrabold text-white">{t.responseTitle}</h4>
-                <p className="mt-[2px] text-[12.5px] font-medium text-white/[.72]">{t.responseBody}</p>
+              <div className="flex flex-wrap justify-between gap-x-6 gap-y-1 border-t border-line-2 py-[14px]">
+                <dt className="font-extrabold text-ink">{t.responseTitle}</dt>
+                <dd className="font-medium text-ink-3">{t.responseBody}</dd>
               </div>
-              <div>
-                <h4 className="text-[13.5px] font-extrabold text-white">{t.supportTitle}</h4>
-                <p className="mt-[2px] text-[12.5px] font-medium text-white/[.72]">{t.supportBody}</p>
+              <div className="flex flex-wrap justify-between gap-x-6 gap-y-1 border-t border-line-2 py-[14px]">
+                <dt className="font-extrabold text-ink">{t.supportTitle}</dt>
+                <dd className="font-medium text-ink-3">{t.supportBody}</dd>
               </div>
-            </div>
+            </dl>
           </div>
 
-          <div className="rounded-[22px] border border-line bg-paper-2 p-6 sm:p-8 lg:col-span-3">
+          <div className="rounded-[22px] border border-line bg-paper-2 p-6 sm:p-8">
             {status === 'success' ? (
               <div className="py-10 text-center">
                 <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-brand-tint">
@@ -205,7 +194,7 @@ export default function Contact({ locale }: { locale: Locale }) {
                   ) : (
                     <>
                       <span>{t.send}</span>
-                      <Send className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                      <Send className="h-4 w-4" aria-hidden="true" />
                     </>
                   )}
                 </button>

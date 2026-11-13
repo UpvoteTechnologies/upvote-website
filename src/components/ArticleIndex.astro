@@ -30,7 +30,7 @@ const title = first ? t.indexTitle : `${t.indexTitle.replace(' | Upvote', '')} Â
     <h1 class="section-title">{t.indexHeading}</h1>
     <p class="section-lead mt-[14px] max-w-[720px]">{t.indexLead}</p>
 
-    <div class="mt-10 grid grid-cols-1 gap-[18px] sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-10 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
       {
         page.data.map((article) => (
           <ContentCard href={articlePath(locale, article.slug)} title={article.title} text={article.standfirst} eyebrow={article.kicker} image={article.image} ratio={[1200, 675]} />

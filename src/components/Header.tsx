@@ -20,7 +20,7 @@ export default function Header({ locale, switchHref }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-paper/[.82] backdrop-blur-xl backdrop-saturate-150">
+    <header className="sticky top-0 z-50 border-b border-line bg-paper/95 backdrop-blur-md">
       <nav className="site-container">
         <div className="flex h-[68px] items-center gap-6 lg:h-[76px] lg:gap-9">
           {/* The lockup plays the app's splash once on load, then stays as the static logo. */}
@@ -49,7 +49,7 @@ export default function Header({ locale, switchHref }: HeaderProps) {
               href={switchHref}
               hrefLang={locale === 'en' ? 'pt-BR' : 'en'}
               aria-label={t.switchLanguage}
-              className="rounded-full px-3 py-[9px] font-mono text-[12px] font-bold text-muted transition-colors hover:bg-paper-2 hover:text-brand"
+              className="rounded-full px-3 py-[9px] text-[13px] font-extrabold text-muted transition-colors hover:bg-paper-2 hover:text-brand"
             >
               {t.switchLanguageShort}
             </a>

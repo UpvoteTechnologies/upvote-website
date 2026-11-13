@@ -33,72 +33,67 @@ export default function Team({ locale }: { locale: Locale }) {
 
   return (
     <section id="team" className="border-t border-line bg-paper-2">
-      <div className="site-container py-16 lg:py-[88px]">
-        <div className="mb-10 text-center lg:mb-[52px]">
+      <div className="site-container py-16 lg:py-24">
+        <div className="max-w-[720px]">
           <h2 className="section-title">{t.title}</h2>
-          <p className="section-lead mx-auto mt-4 max-w-[660px] text-pretty">{t.lead}</p>
+          <p className="section-lead mt-5 text-pretty">{t.lead}</p>
         </div>
 
-        <div className="grid grid-cols-1 gap-[18px] md:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {leadership.map((person, index) => (
-            <div key={person.name} className="card group overflow-hidden bg-paper">
-              <div className="h-[280px] overflow-hidden bg-[#EDEAE0]">
-                <img
-                  src={person.photo}
-                  alt={person.name}
-                  loading="lazy"
-                  className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
-                />
-              </div>
+            <div key={person.name}>
+              <img
+                src={person.photo}
+                alt={person.name}
+                loading="lazy"
+                className="aspect-[4/5] w-full rounded-[20px] bg-line object-cover object-top"
+              />
 
-              <div className="px-[26px] pb-7 pt-6">
-                <h3 className="text-[20px] font-extrabold tracking-[-.015em] text-ink">{person.name}</h3>
-                <p className="mt-1 font-mono text-[10px] font-bold uppercase tracking-[.12em] text-brand">{t.leadership[index].role}</p>
+              <h3 className="mt-5 text-[21px] font-extrabold tracking-[-.015em] text-ink">{person.name}</h3>
+              <p className="mt-[2px] text-[14px] font-bold text-brand">{t.leadership[index].role}</p>
 
-                <ul className="mt-4 flex flex-col gap-[7px]">
-                  {t.leadership[index].highlights.map((item) => (
-                    <li key={item} className="flex gap-2 text-[12.5px] font-medium leading-[1.45] text-muted">
-                      <span className="font-extrabold text-brand">•</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
+              <ul className="mt-4 border-b border-line-2 text-[13.5px] font-medium leading-[1.45] text-ink-3">
+                {t.leadership[index].highlights.map((item) => (
+                  <li key={item} className="border-t border-line-2 py-[9px]">
+                    {item}
+                  </li>
+                ))}
+              </ul>
 
-                {person.linkedin && (
-                  <a
-                    href={person.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-muted-2 transition-colors hover:text-brand"
-                  >
-                    <Linkedin className="h-4 w-4" />
-                    <span>LinkedIn</span>
-                  </a>
-                )}
-              </div>
+              {person.linkedin && (
+                <a
+                  href={person.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-muted transition-colors hover:text-brand"
+                >
+                  <Linkedin className="h-4 w-4" />
+                  <span>LinkedIn</span>
+                </a>
+              )}
             </div>
           ))}
         </div>
 
-        <div className="mt-6 rounded-[22px] border border-line bg-paper px-6 py-8 sm:px-10">
-          <h3 className="text-center text-[20px] font-extrabold text-ink">{t.engineering}</h3>
+        <div className="mt-14 flex flex-col gap-x-12 gap-y-5 border-t border-line-2 pt-8 sm:flex-row sm:items-center">
+          <h3 className="text-[17px] font-extrabold text-ink">{t.engineering}</h3>
 
-          <div className="mt-[26px] flex flex-wrap justify-center gap-x-[52px] gap-y-8">
+          <ul className="flex flex-wrap gap-x-10 gap-y-5">
             {engineers.map((person) => (
-              <div key={person.name} className="w-[120px] text-center">
-                <div className="mx-auto h-[88px] w-[88px] overflow-hidden rounded-[18px] bg-[#EDEAE0]">
-                  <img
-                    src={person.photo}
-                    alt={person.name}
-                    loading="lazy"
-                    className="h-full w-full object-cover object-top"
-                  />
+              <li key={person.name} className="flex items-center gap-3">
+                <img
+                  src={person.photo}
+                  alt={person.name}
+                  loading="lazy"
+                  className="h-14 w-14 flex-none rounded-full bg-line object-cover object-top"
+                />
+                <div>
+                  <p className="text-[14.5px] font-extrabold text-ink">{person.name}</p>
+                  <p className="text-[13px] font-semibold text-muted">{person.background}</p>
                 </div>
-                <h4 className="mt-[11px] text-[14px] font-extrabold text-ink">{person.name}</h4>
-                <p className="mt-[2px] text-[12px] font-semibold text-muted-2">{person.background}</p>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@ export const en = {
     items: [
       { id: 'diets', label: 'Diets' },
       { id: 'features', label: 'Features' },
-      { id: 'how-it-works', label: 'How It Works' },
+      { id: 'how-it-works', label: 'How it works' },
       { id: 'about', label: 'About' },
       { id: 'team', label: 'Team' },
       { id: 'contact', label: 'Contact' },
@@ -30,16 +30,11 @@ export const en = {
     switchLanguageShort: 'PT',
   },
   hero: {
-    eyebrow: 'Scan · Score · Eat better',
-    titleLine1: 'Know What Fits',
-    titleLine2: 'Your Diet',
+    titleLine1: 'Know what fits',
+    titleLine2: 'your diet',
     lead: 'Keto, diabetic, gluten-free, low-sodium. Set your diet once, then scan any product. Upvote reads the label and scores how well it fits, from 0 to 100.',
     // Figures come from the retailer one-pager. Anything left empty is dropped at render time.
-    stats: [
-      { value: '8M+', label: 'Products in catalog' },
-      { value: '< 2s', label: 'Scan to match score' },
-      { value: '0', label: 'Barcodes needed' },
-    ],
+    facts: ['8M+ products in the catalog', 'A match score in under 2 seconds', 'No barcode needed'],
   },
   store: {
     appStoreEyebrow: 'DOWNLOAD ON THE',
@@ -61,7 +56,7 @@ export const en = {
     body: 'Working with Upvote on commercial intelligence and consumer sentiment research.',
   },
   diets: {
-    title: 'Built Around Your Diet',
+    title: 'Built around your diet',
     lead: "Tell Upvote how you eat and what you avoid. Every scan is scored against your profile, not against an average shopper who doesn't exist. Over 8 million products, matched in under two seconds.",
     // IMPORTANT: this list must mirror the diets the app actually ships. Anything listed here
     // that Upvote cannot score is a false claim to a shopper who downloads on the strength of it.
@@ -83,41 +78,41 @@ export const en = {
       'Upvote matches products against the preferences you set. It is not a medical device and does not provide medical or dietary advice. Always check the physical label and talk to a healthcare professional about your diet, especially if you have an allergy or a medical condition.',
   },
   features: {
-    title: 'How Upvote Helps',
+    title: 'How Upvote helps',
     lead: "Reading a label shouldn't take a nutrition degree. Upvote does it for you, against the diet you actually follow.",
     items: [
       {
-        title: 'Set Your Diet',
+        title: 'Set your diet',
         description:
           'Keto, diabetic-friendly, gluten-free and more, plus your allergies and anything else you steer clear of',
       },
       {
-        title: 'No Barcode Needed',
+        title: 'No barcode needed',
         description:
           'Point your camera at the product itself. It works on produce, meats, and anything with no barcode to find',
       },
       {
-        title: 'Match Score 0-100',
+        title: 'A match score from 0 to 100',
         description:
           'Every product is scored against your diet, so you know in a second whether it belongs in your cart',
       },
       {
-        title: 'Ingredient Flags',
+        title: 'Ingredient flags',
         description:
           'Upvote highlights the ingredients you asked it to watch for, right when you scan the label',
       },
       {
-        title: 'Reviews From Your Diet',
+        title: 'Reviews from your diet',
         description: 'See what people eating the way you eat thought of a product, before you buy it',
       },
       {
-        title: 'Earn Rewards',
+        title: 'Earn rewards',
         description: 'Get Upcoins for every helpful review and redeem them for real rewards',
       },
     ],
   },
   how: {
-    title: 'How It Works',
+    title: 'How it works',
     lead: 'Five steps between you and knowing exactly what fits your diet',
     steps: [
       {
@@ -125,23 +120,23 @@ export const en = {
         description: 'Get started in seconds. Download from the App Store or Google Play and open the app',
       },
       {
-        title: 'Set Your Diet',
+        title: 'Set your diet',
         description: 'Pick your diet, add your allergies and anything you avoid. It takes under a minute',
       },
       {
-        title: 'Scan Any Product',
+        title: 'Scan any product',
         description: 'Point your camera at the label and Upvote reads the ingredients and nutrition facts',
       },
       {
-        title: 'Get Your Match Score',
+        title: 'Get your match score',
         description: 'A 0-100 score showing how well the product fits the diet you set, plus what to watch for',
       },
       {
-        title: 'Help Others Like You',
+        title: 'Help others like you',
         description: 'Review what you tried, help the next person on your diet, and earn rewards for it',
       },
     ],
-    cta: 'Start Your Journey',
+    cta: 'Get the app',
   },
   about: {
     title: 'About Upvote',
@@ -149,19 +144,19 @@ export const en = {
     body: "Nutrition labels are written for an average shopper who doesn't exist. If you're keto, diabetic, gluten-free, or managing an allergy, the label makes you do the work every aisle, every time. Upvote does it for you. Set your diet once, scan any product, and get a 0–100 score for how well it fits you specifically. The more you scan, the sharper it gets.",
     cards: [
       {
-        title: 'Built For Your Diet',
+        title: 'Built for your diet',
         body: "Keto, diabetic-friendly, gluten-free, low-sodium, or an allergy you can't take chances on",
       },
       {
-        title: 'Free to Use',
+        title: 'Free to use',
         body: 'No hidden fees, no subscriptions, no paywall. The full app, for everyone',
       },
       {
-        title: 'People Who Eat Like You',
+        title: 'People who eat like you',
         body: 'Reviews from people managing the same diet, not from the average shopper',
       },
     ],
-    privacyTitle: 'Privacy & How Upvote Stays Free',
+    privacyTitle: 'Privacy and how Upvote stays free',
     privacyParagraphs: [
       'You are in control of your profile. Update it or delete it at any time.',
       'Upvote is free, with no subscription and no paywall. We fund it by turning what the community scans and reviews into consumer insights and research that we license to business partners.',
@@ -169,10 +164,10 @@ export const en = {
     privacyLinkBefore: 'Our ',
     privacyLink: 'Privacy Policy',
     privacyLinkAfter: ' sets out exactly what we collect, how it is used, and the choices you have.',
-    rewardsTitle: 'Rewards Program',
+    rewardsTitle: 'Rewards program',
     rewardsBody:
       'Earn Upcoins for contributing genuine reviews and redeem them for rewards. Your honest feedback helps the next person on your diet, and gets you closer to great rewards.',
-    rewardsHow: 'How it works:',
+    rewardsHow: 'How it works',
     rewardSteps: [
       'Write helpful product reviews',
       'Earn Upcoins for each contribution',
@@ -183,7 +178,7 @@ export const en = {
       'Availability and amounts may vary by region and over time. Terms apply. Amazon is a trademark of Amazon.com, Inc. or its affiliates. Amazon does not sponsor or endorse Upvote.',
   },
   team: {
-    title: 'Meet the Team',
+    title: 'Meet the team',
     lead: "Built by people who spent their careers inside the food industry, in pricing, analytics and eCommerce, and saw how little of what's on the label ever reaches the shopper.",
     leadership: [
       {
@@ -217,14 +212,12 @@ export const en = {
     engineering: 'Engineering',
   },
   contact: {
-    title: 'Get In Touch',
+    title: 'Get in touch',
     lead: "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
-    infoTitle: 'Contact Information',
-    infoLead: "Reach out and we'll get back to you as soon as possible",
     email: 'Email',
-    responseTitle: 'Response Time',
+    responseTitle: 'Response time',
     responseBody: 'We typically respond within 24-48 hours',
-    supportTitle: 'App Support',
+    supportTitle: 'App support',
     supportBody: 'For app issues, open Settings → Help',
     name: 'Name',
     namePlaceholder: 'John Doe',
@@ -233,25 +226,25 @@ export const en = {
     subjectPlaceholder: 'How can we help?',
     message: 'Message',
     messagePlaceholder: 'Tell us more about your inquiry...',
-    send: 'Send Message',
+    send: 'Send message',
     sending: 'Sending...',
-    sentTitle: 'Message Sent!',
+    sentTitle: 'Message sent',
     sentBody: "Thank you for reaching out. We'll get back to you soon.",
-    sendAnother: 'Send Another Message',
+    sendAnother: 'Send another message',
     error: 'Failed to send message. Please try again or email us directly.',
   },
   footer: {
     tagline: 'Know what fits your diet. Scan any product and see how well it matches the way you eat.',
     product: 'Product',
     features: 'Features',
-    howItWorks: 'How It Works',
-    download: 'Download App',
+    howItWorks: 'How it works',
+    download: 'Download app',
     company: 'Company',
-    about: 'About Us',
+    about: 'About us',
     privacy: 'Privacy',
-    rewards: 'Rewards Terms',
+    rewards: 'Rewards terms',
     contact: 'Contact',
-    contactForm: 'Contact Form',
+    contactForm: 'Contact form',
     support: 'For app support, open Settings → Help in the app',
     rights: 'Upvote. All rights reserved.',
     trademark: 'Amazon is a trademark of Amazon.com, Inc. or its affiliates. Amazon does not sponsor or endorse Upvote.',

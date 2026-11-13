@@ -29,15 +29,10 @@ export const ptBr: Dict = {
     switchLanguageShort: 'EN',
   },
   hero: {
-    eyebrow: 'Escaneie · Avalie · Coma melhor',
     titleLine1: 'Saiba o que cabe',
     titleLine2: 'na sua dieta',
     lead: 'Keto, diabetes, sem glúten, baixo sódio. Configure a sua dieta uma vez e escaneie qualquer produto. O Upvote lê o rótulo e dá uma nota de 0 a 100 para o quanto ele combina com você.',
-    stats: [
-      { value: '8M+', label: 'Produtos no catálogo' },
-      { value: '< 2s', label: 'Do scan até a nota' },
-      { value: '0', label: 'Códigos de barras necessários' },
-    ],
+    facts: ['Mais de 8 milhões de produtos no catálogo', 'Nota em menos de 2 segundos', 'Não precisa de código de barras'],
   },
   store: {
     appStoreEyebrow: 'BAIXAR NA',
@@ -139,7 +134,7 @@ export const ptBr: Dict = {
           'Avalie o que você provou, ajude a próxima pessoa que segue a sua dieta e ganhe recompensas por isso',
       },
     ],
-    cta: 'Comece agora',
+    cta: 'Baixar o app',
   },
   about: {
     title: 'Sobre o Upvote',
@@ -170,7 +165,7 @@ export const ptBr: Dict = {
     rewardsTitle: 'Programa de recompensas',
     rewardsBody:
       'Ganhe Upcoins ao contribuir com avaliações genuínas e troque por recompensas. A sua opinião sincera ajuda a próxima pessoa que segue a sua dieta e aproxima você de ótimas recompensas.',
-    rewardsHow: 'Como funciona:',
+    rewardsHow: 'Como funciona',
     rewardSteps: [
       'Escreva avaliações úteis de produtos',
       'Ganhe Upcoins a cada contribuição',
@@ -217,8 +212,6 @@ export const ptBr: Dict = {
   contact: {
     title: 'Fale com a gente',
     lead: 'Tem alguma dúvida? Envie uma mensagem e responderemos o mais rápido possível.',
-    infoTitle: 'Informações de contato',
-    infoLead: 'Escreva para nós e retornaremos o mais rápido possível',
     email: 'E-mail',
     responseTitle: 'Tempo de resposta',
     responseBody: 'Costumamos responder em 24 a 48 horas',
