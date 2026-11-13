@@ -15,7 +15,7 @@ const { href, title, text, eyebrow, image, ratio } = Astro.props;
 <a href={href} class="group flex flex-col">
   {
     image && (
-      <img src={image} alt="" width={ratio[0]} height={ratio[1]} loading="lazy" decoding="async" class="aspect-[16/9] w-full rounded-[16px] border border-line bg-paper-2 object-cover" />
+      <img src={image} alt="" width={ratio[0]} height={ratio[1]} loading="lazy" decoding="async" class="aspect-[16/9] w-full rounded-[24px] bg-paper-2 object-cover" />
     )
   }
   <div class={`flex flex-1 flex-col ${image ? 'pt-4' : 'border-t border-line-2 pt-4'}`}>

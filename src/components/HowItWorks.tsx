@@ -7,13 +7,13 @@ export default function HowItWorks({ locale }: { locale: Locale }) {
     <section id="how-it-works" className="bg-brand-dark">
       <div className="site-container grid gap-x-16 gap-y-10 py-16 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:py-24">
         <div className="lg:sticky lg:top-28 lg:self-start">
-          <h2 className="section-title !text-white">{t.title}</h2>
+          <h2 className="section-title !text-brand-mint">{t.title}</h2>
           <p className="mt-5 max-w-[400px] text-pretty text-base font-medium leading-[1.55] text-white/[.78] sm:text-[17px]">
             {t.lead}
           </p>
           <a
             href={downloadHref(locale)}
-            className="mt-8 inline-block rounded-full bg-paper px-8 py-[15px] text-[15px] font-extrabold text-brand-dark transition-colors hover:bg-white active:translate-y-px"
+            className="mt-8 inline-block rounded-[24px] bg-brand-mint px-7 py-[13px] text-[16px] font-bold text-brand-dark transition-colors hover:bg-white active:translate-y-px"
           >
             {t.cta}
           </a>

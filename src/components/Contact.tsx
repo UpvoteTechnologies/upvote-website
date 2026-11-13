@@ -4,7 +4,7 @@ import { getDict, type Locale } from '../i18n';
 import { CONTACT_EMAIL } from '../site';
 
 const fieldClass =
-  'w-full rounded-[13px] border border-line-2 bg-white px-4 py-[14px] text-[14px] font-semibold text-ink placeholder:text-muted-2 outline-none transition-[border-color,box-shadow] focus:border-brand focus:ring-2 focus:ring-brand/25 focus-visible:outline-none';
+  'w-full rounded-[12px] border border-muted-4 bg-white px-4 py-[14px] text-[14px] font-semibold text-ink placeholder:text-muted-2 outline-none transition-[border-color,box-shadow] focus:border-brand focus:ring-2 focus:ring-brand/25 focus-visible:outline-none';
 const labelClass = 'mb-[6px] block text-[12.5px] font-extrabold text-ink';
 
 export default function Contact({ locale }: { locale: Locale }) {
@@ -92,7 +92,7 @@ export default function Contact({ locale }: { locale: Locale }) {
             </dl>
           </div>
 
-          <div className="rounded-[22px] border border-line bg-paper-2 p-6 sm:p-8">
+          <div className="rounded-[24px] bg-paper-2 p-6 sm:p-8">
             {status === 'success' ? (
               <div className="py-10 text-center">
                 <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-brand-tint">
@@ -187,7 +187,7 @@ export default function Contact({ locale }: { locale: Locale }) {
                 <button
                   type="submit"
                   disabled={status === 'loading'}
-                  className="group mt-1 flex w-full items-center justify-center gap-2 rounded-[13px] bg-brand px-6 py-[15px] text-[15px] font-extrabold text-white shadow-btn-inset-lg transition-colors hover:bg-brand-deep disabled:cursor-not-allowed disabled:opacity-60"
+                  className="group mt-1 flex w-full items-center justify-center gap-2 rounded-[24px] bg-brand px-6 py-[14px] text-[16px] font-bold text-white shadow-btn-inset-lg transition-colors hover:bg-brand-deep disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   {status === 'loading' ? (
                     <span>{t.sending}</span>

@@ -37,7 +37,7 @@ export default function Header({ locale, switchHref }: HeaderProps) {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-[13.5px] font-bold text-ink-3 transition-colors hover:text-brand"
+                className="text-[14px] font-bold text-ink transition-colors hover:text-brand"
               >
                 {item.label}
               </a>
@@ -56,7 +56,7 @@ export default function Header({ locale, switchHref }: HeaderProps) {
 
             <a
               href={downloadHref(locale)}
-              className="rounded-full bg-brand px-5 py-[11px] text-[13.5px] font-extrabold text-white shadow-btn-inset transition-colors hover:bg-brand-deep"
+              className="rounded-[24px] bg-brand px-5 py-[11px] text-[14px] font-bold text-white shadow-btn-inset transition-colors hover:bg-brand-deep"
             >
               {t.getApp}
             </a>

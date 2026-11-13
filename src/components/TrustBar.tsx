@@ -10,7 +10,7 @@ export default function TrustBar({ locale }: { locale: Locale }) {
   const t = getDict(locale).trust;
 
   return (
-    <section className="relative border-y border-line bg-paper-2">
+    <section className="relative border-b border-line bg-paper">
       <div className="site-container flex flex-col items-start gap-x-8 gap-y-3 py-7 sm:flex-row sm:items-center">
         {partner.logo ? (
           <img src={partner.logo} alt={partner.name} loading="lazy" className="h-12 w-auto flex-none sm:h-14" />

@@ -23,8 +23,8 @@ export default function About({ locale }: { locale: Locale }) {
           ))}
         </div>
 
-        <div className="mt-10 grid gap-x-16 gap-y-12 rounded-[22px] bg-paper-2 px-6 py-9 sm:px-10 lg:grid-cols-2 lg:py-12">
-          <div id="privacy">
+        <div className="mt-10 grid gap-5 lg:grid-cols-2">
+          <div id="privacy" className="rounded-[24px] bg-paper-2 px-6 py-8 sm:p-10">
             <h3 className="text-[22px] font-extrabold tracking-[-.02em] text-ink sm:text-[24px]">{t.privacyTitle}</h3>
             {/*
               LEGAL REVIEW REQUIRED before this ships. This copy must match the
@@ -50,7 +50,7 @@ export default function About({ locale }: { locale: Locale }) {
             </div>
           </div>
 
-          <div id="rewards">
+          <div id="rewards" className="rounded-[24px] bg-brand-tint px-6 py-8 sm:p-10">
             <h3 className="text-[22px] font-extrabold tracking-[-.02em] text-ink sm:text-[24px]">{t.rewardsTitle}</h3>
             <p className="mt-4 text-[15px] font-medium leading-[1.6] text-ink-3">{t.rewardsBody}</p>
 
@@ -60,7 +60,7 @@ export default function About({ locale }: { locale: Locale }) {
             </div>
             <ol className="mt-2 text-[14.5px] font-medium leading-[1.5] text-ink-3">
               {t.rewardSteps.map((step, index) => (
-                <li key={step} className="flex gap-3 border-b border-line-2 py-[10px] last:border-b-0">
+                <li key={step} className="flex gap-3 border-b border-brand/15 py-[10px] last:border-b-0">
                   <span className="w-4 flex-none font-extrabold tabular-nums text-brand" aria-hidden="true">
                     {index + 1}
                   </span>
@@ -69,7 +69,7 @@ export default function About({ locale }: { locale: Locale }) {
               ))}
             </ol>
 
-            <p className="mt-5 text-[12px] font-medium leading-[1.55] text-muted">{t.rewardsFinePrint}</p>
+            <p className="mt-5 text-[12px] font-medium leading-[1.55] text-ink-3">{t.rewardsFinePrint}</p>
           </div>
         </div>
       </div>
