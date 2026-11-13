@@ -45,7 +45,7 @@
   }
 
   .section-title {
-    @apply font-extrabold text-ink tracking-[-.025em] text-[32px] leading-[1.1] sm:text-[40px] lg:text-[46px] lg:leading-[1.06];
+    @apply font-extrabold text-ink tracking-[-.035em] text-[34px] leading-[1.02] sm:text-[44px] lg:text-[54px] lg:leading-[.98];
   }
 
   .section-lead {
@@ -57,7 +57,7 @@
   }
 
   .card {
-    @apply rounded-[20px] border border-line;
+    @apply rounded-[24px];
   }
 }
 

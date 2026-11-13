@@ -46,7 +46,7 @@ export default function Team({ locale }: { locale: Locale }) {
                 src={person.photo}
                 alt={person.name}
                 loading="lazy"
-                className="aspect-[4/5] w-full rounded-[20px] bg-line object-cover object-top"
+                className="aspect-[4/5] w-full rounded-[24px] bg-line object-cover object-top"
               />
 
               <h3 className="mt-5 text-[21px] font-extrabold tracking-[-.015em] text-ink">{person.name}</h3>

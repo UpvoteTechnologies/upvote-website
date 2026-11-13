@@ -8,16 +8,16 @@ export default function Hero({ locale }: { locale: Locale }) {
   const facts = t.facts.filter((fact) => fact.trim() !== '');
 
   return (
-    <section id="home" className="overflow-hidden bg-paper">
-      <div className="site-container grid items-end gap-x-16 gap-y-12 pt-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:pt-20">
+    <section id="home" className="overflow-hidden bg-paper-2">
+      <div className="site-container grid items-end gap-x-16 gap-y-12 pt-12 lg:grid-cols-[minmax(0,1fr)_auto] lg:pt-20">
         <div className="min-w-0 lg:pb-24">
-          <h1 className="text-[44px] font-extrabold leading-[1] tracking-[-.035em] text-ink sm:text-[58px] lg:text-[72px]">
+          <h1 className="text-[46px] font-extrabold leading-[.95] tracking-[-.04em] text-ink sm:text-[64px] lg:text-[80px]">
             {t.titleLine1}
             <br />
             <span className="text-brand">{t.titleLine2}</span>
           </h1>
 
-          <p className="mt-6 max-w-[520px] text-pretty text-[17px] font-medium leading-[1.55] text-ink-3 sm:text-[19px]">
+          <p className="mt-6 max-w-[540px] text-pretty text-[18px] font-medium leading-[1.5] text-ink-2 sm:text-[20px]">
             {t.lead}
           </p>
 
